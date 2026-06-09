@@ -2,7 +2,8 @@ import { useState, useEffect, useCallback } from "preact/hooks";
 import { WidgetBase } from "./widget-base";
 import { preferences, dataCache } from "../store";
 import { ttcApi, gtfsRtApi } from "../api";
-import type { FavoriteStop } from "../store";
+import { getNextScheduled } from "../api/schedule";
+import type { FavoriteStop, TrackedStop, TrackedStopRoute } from "../store";
 import type { ServiceAlert, VehicleArrival, Route } from "../types";
 
 interface DashboardWidgetProps {
@@ -50,26 +51,46 @@ type GpsStatus = "idle" | "locating" | "ready" | "denied" | "unavailable";
 
 export function DashboardWidget({ onAddStop }: DashboardWidgetProps) {
   const [favorites, setFavorites] = useState<FavoriteStop[]>([]);
+  const [trackedStops, setTrackedStops] = useState<TrackedStop[]>([]);
   const [alerts, setAlerts] = useState<ServiceAlert[]>([]);
   const [predictions, setPredictions] = useState<Record<string, VehicleArrival[]>>({});
   const [errors, setErrors] = useState<Record<string, string>>({});
+  const [scheduled, setScheduled] = useState<Record<string, { time: string; minutes: number } | null>>({});
   const [lastFetch, setLastFetch] = useState(Date.now());
   const [now, setNow] = useState(Date.now());
   const [alertsOpen, setAlertsOpen] = useState(true);
   const [nearbyStops, setNearbyStops] = useState<NearbyStop[]>([]);
   const [gpsStatus, setGpsStatus] = useState<GpsStatus>("idle");
-  const [addedStops, setAddedStops] = useState<Set<string>>(new Set());
+  const [addedStops, setAddedStops] = useState<Set<string>>(new Set);
+  const [trackingLoading, setTrackingLoading] = useState<Record<string, boolean>>({});
 
   const fetchPredictions = useCallback(async () => {
-    const favs = preferences.get().favoriteStops;
+    const prefs = preferences.get();
+    const favs = prefs.favoriteStops;
+    const tracks = prefs.trackedStops;
     setFavorites(favs);
+    setTrackedStops(tracks);
+
+    const pairs: { routeId: number; stopCode: string; routeName: string; routeColour: string | null }[] = [];
+    const seen = new Set<string>();
+    for (const f of favs) {
+      const k = `${f.routeId}:${f.stopCode}`;
+      if (!seen.has(k)) { seen.add(k); pairs.push({ routeId: f.routeId, stopCode: f.stopCode, routeName: f.routeName, routeColour: f.routeColour }); }
+    }
+    for (const t of tracks) {
+      for (const r of t.routes) {
+        const k = `${r.id}:${t.stopCode}`;
+        if (!seen.has(k)) { seen.add(k); pairs.push({ routeId: r.id, stopCode: t.stopCode, routeName: r.shortName, routeColour: r.colour }); }
+      }
+    }
+
     const results = await Promise.allSettled(
-      favs.map(async (fav) => {
-        const key = `${fav.routeId}:${fav.stopCode}`;
+      pairs.map(async ({ routeId, stopCode }) => {
+        const key = `${routeId}:${stopCode}`;
         try {
-          const cached = dataCache.getPredictions(fav.routeId, fav.stopCode);
+          const cached = dataCache.getPredictions(routeId, stopCode);
           if (cached) return { key, vehicles: cached.vehicles, error: null };
-          const data = await ttcApi.getNextBuses(fav.routeId, fav.stopCode);
+          const data = await ttcApi.getNextBuses(routeId, stopCode);
           dataCache.setPredictions(data);
           return { key, vehicles: data.vehicles, error: null };
         } catch (err) {
@@ -77,17 +98,41 @@ export function DashboardWidget({ onAddStop }: DashboardWidgetProps) {
         }
       }),
     );
+
+    const newPredictions: Record<string, VehicleArrival[]> = {};
+    const newErrors: Record<string, string> = {};
+    const scheduledPromises: Promise<{ key: string; result: { time: string; minutes: number } | null }>[] = [];
+
     for (const result of results) {
       if (result.status === "fulfilled") {
         const { key, vehicles, error } = result.value;
         if (error) {
-          setErrors((prev) => ({ ...prev, [key]: error }));
+          newErrors[key] = error;
         } else {
-          setPredictions((prev) => ({ ...prev, [key]: vehicles }));
-          setErrors((prev) => { const n = { ...prev }; delete n[key]; return n; });
+          newPredictions[key] = vehicles;
+          if (vehicles.length === 0) {
+            const [routeIdStr, stopCode] = key.split(":");
+            scheduledPromises.push(
+              getNextScheduled(parseInt(routeIdStr, 10), stopCode).then((r) => ({ key, result: r })),
+            );
+          }
         }
       }
     }
+
+    setPredictions((prev) => ({ ...prev, ...newPredictions }));
+    setErrors((prev) => ({ ...prev, ...newErrors }));
+    for (const key of Object.keys(newPredictions)) {
+      setErrors((prev) => { const n = { ...prev }; delete n[key]; return n; });
+    }
+
+    const scheduledResults = await Promise.all(scheduledPromises);
+    const newScheduled: Record<string, { time: string; minutes: number } | null> = {};
+    for (const { key, result } of scheduledResults) {
+      newScheduled[key] = result;
+    }
+    setScheduled((prev) => ({ ...prev, ...newScheduled }));
+
     setLastFetch(Date.now());
   }, []);
 
@@ -102,6 +147,7 @@ export function DashboardWidget({ onAddStop }: DashboardWidgetProps) {
   }, []);
 
   useEffect(() => {
+    setTrackedStops(preferences.get().trackedStops);
     fetchPredictions();
     fetchAlerts();
     const pi = setInterval(fetchPredictions, 30000);
@@ -150,6 +196,7 @@ export function DashboardWidget({ onAddStop }: DashboardWidgetProps) {
     const key = `${routeId}:${stopCode}`;
     setPredictions((prev) => { const n = { ...prev }; delete n[key]; return n; });
     setErrors((prev) => { const n = { ...prev }; delete n[key]; return n; });
+    setScheduled((prev) => { const n = { ...prev }; delete n[key]; return n; });
   };
 
   const handleAddNearby = async (stop: NearbyStop) => {
@@ -169,6 +216,28 @@ export function DashboardWidget({ onAddStop }: DashboardWidgetProps) {
     setTimeout(() => setAddedStops((prev) => { const n = new Set(prev); n.delete(stop.code); return n; }), 2000);
   };
 
+  const handleTrack = async (stopCode: string, stopName: string, existingRoutes?: TrackedStopRoute[]) => {
+    setTrackingLoading((prev) => ({ ...prev, [stopCode]: true }));
+    let routes = existingRoutes;
+    if (!routes || routes.length === 0) {
+      try {
+        const apiRoutes = await ttcApi.getRoutesByStop(stopCode);
+        routes = apiRoutes.map((r) => ({ id: parseInt(r.shortName, 10) || r.id, shortName: r.shortName, colour: r.colour }));
+      } catch { routes = []; }
+    }
+    if (routes.length === 0) { setTrackingLoading((prev) => ({ ...prev, [stopCode]: false })); return; }
+    const tracked: TrackedStop = { stopCode, stopName, routes };
+    preferences.toggleTracked(tracked);
+    setTrackedStops(preferences.get().trackedStops);
+    setTrackingLoading((prev) => ({ ...prev, [stopCode]: false }));
+    fetchPredictions();
+  };
+
+  const handleUntrack = (stopCode: string) => {
+    preferences.removeTrackedStop(stopCode);
+    setTrackedStops(preferences.get().trackedStops);
+  };
+
   const severe = alerts.filter((a) => a.severity === "SEVERE");
   const warnings = alerts.filter((a) => a.severity === "WARNING");
   const topAlerts = [...severe, ...warnings].slice(0, 3);
@@ -178,116 +247,239 @@ export function DashboardWidget({ onAddStop }: DashboardWidgetProps) {
   const sinceSec = Math.floor((now - lastFetch) / 1000);
   const label = sinceSec < 60 ? `${sinceSec}s ago` : `${Math.floor(sinceSec / 60)}m ago`;
 
-  return (
-    <WidgetBase size="large">
-      <div class="dw">
-        <div class="dw__header">
-          <span class="dw__title">TTC Tracker</span>
-          <div class="dw__header-right">
-            <span class="dw__updated">Updated {label}</span>
-            <button class="dw__add" onClick={onAddStop} aria-label="Add stop">+</button>
-          </div>
-        </div>
+  function renderArrival(vehicles: VehicleArrival[], err: string | undefined, sched: { time: string; minutes: number } | null | undefined) {
+    if (err) return <span class="dw__row-error">{err}</span>;
+    if (vehicles.length === 0 && sched) return <span class="dw__row-sched">📍 {sched.time}</span>;
+    if (vehicles.length === 0) return <span class="dw__row-none">—</span>;
+    return (
+      <>
+        {vehicles.slice(0, 3).map((v, i) => (
+          <span key={i} class="dw__row-time">{v.minutes}<small>m</small></span>
+        ))}
+        {vehicles.length > 3 && <span class="dw__row-more">+{vehicles.length - 3}</span>}
+      </>
+    );
+  }
 
-        <div class="dw__alerts">
-          <button class="dw__alerts-header" onClick={() => hasAlerts && setAlertsOpen((o) => !o)}>
-            <span class="dw__alerts-title">
-              Service Alerts
-              {alerts.length > 0 && <span class="dw__alerts-count">{alerts.length}</span>}
-            </span>
-            {hasAlerts && (
-              <span class={`dw__alerts-toggle${alertsOpen ? "" : " dw__alerts-toggle--closed"}`}>▾</span>
+  return (
+    <>
+      <WidgetBase size="large">
+        <div class="dw">
+          <div class="dw__header">
+            <span class="dw__title">TTC Tracker</span>
+            <div class="dw__header-right">
+              <span class="dw__updated">Updated {label}</span>
+              <button class="dw__add" onClick={onAddStop} aria-label="Add stop">+</button>
+            </div>
+          </div>
+
+          <div class="dw__alerts">
+            <button class="dw__alerts-header" onClick={() => hasAlerts && setAlertsOpen((o) => !o)}>
+              <span class="dw__alerts-title">
+                Service Alerts
+                {alerts.length > 0 && <span class="dw__alerts-count">{alerts.length}</span>}
+              </span>
+              {hasAlerts && (
+                <span class={`dw__alerts-toggle${alertsOpen ? "" : " dw__alerts-toggle--closed"}`}>▾</span>
+              )}
+            </button>
+            {(!hasAlerts || alertsOpen) && (
+              <div class="dw__alerts-list">
+                {!hasAlerts && <span class="dw__alerts-none">No active alerts</span>}
+                {hasAlerts && topAlerts.map((a) => (
+                  <div key={a.id} class="dw__alert-item">
+                    <span class={["badge", a.severity === "SEVERE" ? "badge--severe" : "badge--warning"].join(" ")}>
+                      {a.severity === "SEVERE" ? "Severe" : "Warning"}
+                    </span>
+                    <span class="dw__alert-text">{a.header}</span>
+                  </div>
+                ))}
+              </div>
             )}
-          </button>
-          {(!hasAlerts || alertsOpen) && (
-            <div class="dw__alerts-list">
-              {!hasAlerts && <span class="dw__alerts-none">No active alerts</span>}
-              {hasAlerts && topAlerts.map((a) => (
-                <div key={a.id} class="dw__alert-item">
-                  <span class={["badge", a.severity === "SEVERE" ? "badge--severe" : "badge--warning"].join(" ")}>
-                    {a.severity === "SEVERE" ? "Severe" : "Warning"}
-                  </span>
-                  <span class="dw__alert-text">{a.header}</span>
-                </div>
-              ))}
+          </div>
+
+          <div class="dw__divider" />
+
+          {!hasFavorites ? (
+            <div class="dw__empty">
+              <p>Tap <strong>+</strong> to add a stop</p>
+              {gpsStatus === "idle" || gpsStatus === "denied" || gpsStatus === "unavailable" ? (
+                <button class="dw__find-btn" onClick={handleFindNearby}>📍 Find nearby stops</button>
+              ) : gpsStatus === "locating" ? (
+                <span class="dw__nearby-locating">📡 Locating...</span>
+              ) : null}
+            </div>
+          ) : (
+            <>
+              <div class="dw__stops">
+                {favorites.map((fav) => {
+                  const key = `${fav.routeId}:${fav.stopCode}`;
+                  const vehicles = predictions[key] ?? [];
+                  const err = errors[key];
+                  const sched = scheduled[key];
+                  const tracked = trackedStops.find((t) => t.stopCode === fav.stopCode);
+                  const isTracked = !!tracked;
+                  return (
+                    <div key={key} class="dw__row" style={fav.routeColour ? { "--accent": fav.routeColour } as any : undefined}>
+                      {fav.routeColour && <div class="dw__row-accent" />}
+                      <div class="dw__row-info">
+                        <span class="dw__row-route" style={fav.routeColour ? { color: fav.routeColour } : undefined}>{fav.routeName}</span>
+                        <span class="dw__row-stop">{fav.stopName}</span>
+                      </div>
+                      {!err && vehicles.length > 0 && <span class="dw__row-dir">{dirBadge(vehicles[0].destination)}</span>}
+                      <div class="dw__row-times">
+                        {!err && renderArrival(vehicles, err, sched)}
+                        {err && <span class="dw__row-error">{err}</span>}
+                      </div>
+                      <button
+                        class={`dw__row-track${isTracked ? " dw__row-track--active" : ""}`}
+                        onClick={() => {
+                          if (tracked) { handleUntrack(fav.stopCode); return; }
+                          handleTrack(fav.stopCode, fav.stopName);
+                        }}
+                        aria-label={isTracked ? "Stop tracking" : "Track stop"}
+                        disabled={trackingLoading[fav.stopCode]}
+                      >
+                        {trackingLoading[fav.stopCode] ? "…" : isTracked ? "♫" : "♪"}
+                      </button>
+                      <button class="dw__row-delete" onClick={() => handleDelete(fav.routeId, fav.stopCode)} aria-label="Remove stop">✕</button>
+                    </div>
+                  );
+                })}
+              </div>
+              {gpsStatus === "idle" || gpsStatus === "denied" || gpsStatus === "unavailable" ? (
+                <button class="dw__find-btn" onClick={handleFindNearby}>📍 Find nearby stops</button>
+              ) : null}
+            </>
+          )}
+
+          {gpsStatus === "locating" && hasFavorites && (
+            <div class="dw__nearby-locating">📡 Locating nearby stops...</div>
+          )}
+
+          {gpsStatus === "ready" && hasNearby && (
+            <div class="dw__nearby">
+              <div class="dw__nearby-header">📍 Nearby Stops</div>
+              <div class="dw__nearby-list">
+                {nearbyStops.map((s) => {
+                  const tracked = trackedStops.find((t) => t.stopCode === s.code);
+                  const isTracked = !!tracked;
+                  return (
+                    <div key={s.code} class="dw__nearby-row">
+                      <button class="dw__nearby-stop" onClick={() => handleAddNearby(s)}>
+                        <div class="dw__nearby-info">
+                          <span class="dw__nearby-name">{s.name}</span>
+                          <span class="dw__nearby-routes">
+                            {s.routes.slice(0, 4).map((r) => (
+                              <span key={r.shortName} class="dw__nearby-badge" style={r.colour ? { color: r.colour } : undefined}>{r.shortName}</span>
+                            ))}
+                          </span>
+                        </div>
+                        {addedStops.has(s.code) ? (
+                          <span class="dw__nearby-added">✓ Added</span>
+                        ) : (
+                          <span class="dw__nearby-dist">{s.distance < 1000 ? `${Math.round(s.distance)}m` : `${(s.distance / 1000).toFixed(1)}km`}</span>
+                        )}
+                      </button>
+                      <button
+                        class={`dw__nr-track${isTracked ? " dw__nr-track--active" : ""}`}
+                        onClick={() => {
+                          if (tracked) { handleUntrack(s.code); return; }
+                          const routes = s.routes.map((r) => ({ id: parseInt(r.shortName, 10) || r.id, shortName: r.shortName, colour: r.colour }));
+                          handleTrack(s.code, s.name, routes);
+                        }}
+                        disabled={trackingLoading[s.code]}
+                        aria-label={isTracked ? "Stop tracking" : "Track stop"}
+                      >
+                        {trackingLoading[s.code] ? "…" : isTracked ? "♫" : "♪"}
+                      </button>
+                    </div>
+                  );
+                })}
+              </div>
             </div>
           )}
         </div>
+      </WidgetBase>
 
-        <div class="dw__divider" />
+      {trackedStops.map((ts) => {
+        const allArrivals: { minutes: number; destination: string | null; routeName: string; routeColour: string | null; key: string }[] = [];
+        for (const r of ts.routes) {
+          const key = `${r.id}:${ts.stopCode}`;
+          const vehicles = predictions[key] ?? [];
+          for (const v of vehicles) {
+            allArrivals.push({ minutes: v.minutes, destination: v.destination, routeName: r.shortName, routeColour: r.colour, key });
+          }
+        }
+        allArrivals.sort((a, b) => a.minutes - b.minutes);
+        const best = allArrivals[0];
 
-        {!hasFavorites ? (
-          <div class="dw__empty">
-            <p>Tap <strong>+</strong> to add a stop</p>
-            {gpsStatus === "idle" || gpsStatus === "denied" || gpsStatus === "unavailable" ? (
-              <button class="dw__find-btn" onClick={handleFindNearby}>📍 Find nearby stops</button>
-            ) : gpsStatus === "locating" ? (
-              <span class="dw__nearby-locating">📡 Locating...</span>
-            ) : null}
-          </div>
-        ) : (
-          <>
-            <div class="dw__stops">
-              {favorites.map((fav) => {
-                const key = `${fav.routeId}:${fav.stopCode}`;
-                const vehicles = predictions[key] ?? [];
-                const err = errors[key];
-                return (
-                  <div key={key} class="dw__row" style={fav.routeColour ? { "--accent": fav.routeColour } as any : undefined}>
-                    {fav.routeColour && <div class="dw__row-accent" />}
-                    <div class="dw__row-info">
-                      <span class="dw__row-route" style={fav.routeColour ? { color: fav.routeColour } : undefined}>{fav.routeName}</span>
-                      <span class="dw__row-stop">{fav.stopName}</span>
-                    </div>
-                    {!err && vehicles.length > 0 && <span class="dw__row-dir">{dirBadge(vehicles[0].destination)}</span>}
-                    <div class="dw__row-times">
-                      {err && <span class="dw__row-error">{err}</span>}
-                      {!err && vehicles.length === 0 && <span class="dw__row-none">—</span>}
-                      {!err && vehicles.slice(0, 3).map((v, i) => (
-                        <span key={i} class="dw__row-time">{v.minutes}<small>m</small></span>
-                      ))}
-                      {!err && vehicles.length > 3 && <span class="dw__row-more">+{vehicles.length - 3}</span>}
-                    </div>
-                    <button class="dw__row-delete" onClick={() => handleDelete(fav.routeId, fav.stopCode)} aria-label="Remove stop">✕</button>
-                  </div>
-                );
-              })}
-            </div>
-            {gpsStatus === "idle" || gpsStatus === "denied" || gpsStatus === "unavailable" ? (
-              <button class="dw__find-btn" onClick={handleFindNearby}>📍 Find nearby stops</button>
-            ) : null}
-          </>
-        )}
+        let schedFallback: { time: string; minutes: number } | null = null;
+        if (!best) {
+          for (const r of ts.routes) {
+            const key = `${r.id}:${ts.stopCode}`;
+            const s = scheduled[key];
+            if (s) { schedFallback = s; break; }
+          }
+        }
 
-        {gpsStatus === "locating" && hasFavorites && (
-          <div class="dw__nearby-locating">📡 Locating nearby stops...</div>
-        )}
+        const bestColour = best?.routeColour ?? null;
 
-        {gpsStatus === "ready" && hasNearby && (
-          <div class="dw__nearby">
-            <div class="dw__nearby-header">📍 Nearby Stops</div>
-            <div class="dw__nearby-list">
-              {nearbyStops.map((s) => (
-                <button key={s.code} class="dw__nearby-stop" onClick={() => handleAddNearby(s)}>
-                  <div class="dw__nearby-info">
-                    <span class="dw__nearby-name">{s.name}</span>
-                    <span class="dw__nearby-routes">
-                      {s.routes.slice(0, 4).map((r) => (
-                        <span key={r.shortName} class="dw__nearby-badge" style={r.colour ? { color: r.colour } : undefined}>{r.shortName}</span>
-                      ))}
-                    </span>
-                  </div>
-                  {addedStops.has(s.code) ? (
-                    <span class="dw__nearby-added">✓ Added</span>
-                  ) : (
-                    <span class="dw__nearby-dist">{s.distance < 1000 ? `${Math.round(s.distance)}m` : `${(s.distance / 1000).toFixed(1)}km`}</span>
+        return (
+          <WidgetBase key={ts.stopCode} size="large">
+            <div class="live" style={bestColour ? { "--live-accent": bestColour } as any : undefined}>
+              <div class="live__header">
+                <div class="live__header-left">
+                  <span class="live__route" style={bestColour ? { color: bestColour } : undefined}>
+                    {best?.routeName ?? ts.routes[0]?.shortName ?? "?"}
+                  </span>
+                  {best && <span class="live__dir">{dirBadge(best.destination)}</span>}
+                  {ts.routes.length > 1 && (
+                    <span class="live__routes-more">+{ts.routes.length - 1}</span>
                   )}
-                </button>
-              ))}
+                </div>
+                <button class="live__stop" onClick={() => handleUntrack(ts.stopCode)} aria-label="Stop tracking">Stop</button>
+              </div>
+              <div class="live__stop-name">{ts.stopName}</div>
+
+              {best ? (
+                <div class="live__hero">
+                  <span class="live__hero-num">{best.minutes}</span>
+                  <span class="live__hero-unit">min</span>
+                </div>
+              ) : schedFallback ? (
+                <div class="live__hero live__hero--sched">
+                  <span class="live__hero-num">{schedFallback.minutes}</span>
+                  <span class="live__hero-unit">min</span>
+                  <span class="live__hero-sub">📍 Scheduled {schedFallback.time}</span>
+                </div>
+              ) : (
+                <div class="live__hero live__hero--none">
+                  <span class="live__hero-num">—</span>
+                  <span class="live__hero-unit">min</span>
+                </div>
+              )}
+
+              {best && (
+                <div class="live__dest">{best.destination}</div>
+              )}
+
+              {allArrivals.length > 1 && (
+                <div class="live__routes">
+                  {allArrivals.slice(0, 3).map((a, i) => (
+                    <div key={i} class="live__route-row">
+                      <span class="live__rr-name" style={a.routeColour ? { color: a.routeColour } : undefined}>{a.routeName}</span>
+                      <span class="live__rr-time">{a.minutes}<small>m</small></span>
+                      <span class="live__rr-dir">{dirBadge(a.destination)}</span>
+                      <span class="live__rr-dest">{a.destination}</span>
+                    </div>
+                  ))}
+                </div>
+              )}
             </div>
-          </div>
-        )}
-      </div>
-    </WidgetBase>
+          </WidgetBase>
+        );
+      })}
+    </>
   );
 }

@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "generate:stops": "node scripts/generate-stops-json.mjs",
+    "generate:schedule": "node scripts/generate-schedule-lookup.mjs",
     "build": "tsc && vite build",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist",

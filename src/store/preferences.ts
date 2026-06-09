@@ -6,8 +6,21 @@ export interface FavoriteStop {
   stopName: string;
 }
 
+export interface TrackedStopRoute {
+  id: number;
+  shortName: string;
+  colour: string | null;
+}
+
+export interface TrackedStop {
+  stopCode: string;
+  stopName: string;
+  routes: TrackedStopRoute[];
+}
+
 export interface UserPreferences {
   favoriteStops: FavoriteStop[];
+  trackedStops: TrackedStop[];
   theme: "system" | "light" | "dark";
   iconStyle: "default" | "tinted" | "clear";
   refreshInterval: number;
@@ -17,6 +30,7 @@ const STORAGE_KEY = "ttc:preferences";
 
 const DEFAULTS: UserPreferences = {
   favoriteStops: [],
+  trackedStops: [],
   theme: "system",
   iconStyle: "default",
   refreshInterval: 30,
@@ -60,6 +74,36 @@ export class PreferencesStore {
     return this.prefs.favoriteStops.some(
       (f) => f.routeId === routeId && f.stopCode === stopCode,
     );
+  }
+
+  addTrackedStop(stop: TrackedStop): void {
+    const exists = this.prefs.trackedStops.some((t) => t.stopCode === stop.stopCode);
+    if (!exists) {
+      this.prefs.trackedStops.push(stop);
+      this.save();
+    }
+  }
+
+  removeTrackedStop(stopCode: string): void {
+    this.prefs.trackedStops = this.prefs.trackedStops.filter(
+      (t) => t.stopCode !== stopCode,
+    );
+    this.save();
+  }
+
+  isTracked(stopCode: string): boolean {
+    return this.prefs.trackedStops.some((t) => t.stopCode === stopCode);
+  }
+
+  toggleTracked(stop: TrackedStop): boolean {
+    const exists = this.prefs.trackedStops.some((t) => t.stopCode === stop.stopCode);
+    if (exists) {
+      this.removeTrackedStop(stop.stopCode);
+      return false;
+    } else {
+      this.addTrackedStop(stop);
+      return true;
+    }
   }
 
   getEffectiveTheme(): "light" | "dark" {
