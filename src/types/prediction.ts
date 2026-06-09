@@ -16,6 +16,7 @@ export interface VehicleArrival {
   tripId: string | null;
   destination: string | null;
   delay: number | null;
+  vehicleType: string;
 }
 
 export interface VehiclePosition {

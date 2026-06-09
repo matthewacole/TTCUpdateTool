@@ -71,8 +71,8 @@ export function ArrivalWidget({ routeId, routeName, routeColour, stopCode, stopN
           {!error && prediction && prediction.vehicles.length === 0 && (
             <span class="arrival-widget__empty">No vehicles</span>
           )}
-          {!error && prediction?.vehicles.map((v) => (
-            <span key={v.vehicleId} class="arrival-widget__time">
+          {!error && prediction?.vehicles.map((v, i) => (
+            <span key={`${v.vehicleType}-${v.minutes}-${i}`} class="arrival-widget__time">
               {v.minutes}
               <small>min</small>
             </span>

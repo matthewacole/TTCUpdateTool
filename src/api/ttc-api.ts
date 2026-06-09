@@ -11,34 +11,39 @@ export class TtcApi {
   }
 
   async getRoute(routeId: number): Promise<RouteWithDirections> {
-    const data = await this.client.get<TtcRouteResponse>(`${TTC_API_BASE}/get`, {
+    const data = await this.client.get<TtcRouteWrapper>(`${TTC_API_BASE}/get`, {
       id: String(routeId),
     });
     return mapRoute(data);
   }
 
   async getRoutesByStop(stopCode: string): Promise<Route[]> {
-    const data = await this.client.get<TtcRouteResponse[]>(`${TTC_API_BASE}/bystopcode`, {
+    const data = await this.client.get<TtcRouteWrapper[]>(`${TTC_API_BASE}/bystopcode`, {
       stopcode: stopCode,
     });
     return data.map(mapRoute);
   }
 
   async getNextBuses(routeId: number, stopCode: string): Promise<ArrivalPrediction> {
-    const data = await this.client.get<TtcNextBusesResponse>(
+    const vehicles = await this.client.get<TtcVehicleArrivalRaw[]>(
       `${TTC_API_BASE}/GetNextBuses`,
       { routeId: String(routeId), stopCode },
     );
     return {
       routeId,
-      routeName: data.routeName ?? "",
-      routeColour: data.routeColour ?? null,
+      routeName: "",
+      routeColour: null,
       stopCode,
-      stopName: data.stopName ?? "",
-      vehicles: (data.vehicles ?? []).map(mapVehicle),
+      stopName: "",
+      vehicles: (vehicles ?? []).map(mapVehicle),
       lastUpdated: Date.now(),
     };
   }
+}
+
+interface TtcRouteWrapper {
+  route: TtcRouteResponse;
+  routeBranchesWithStops: TtcBranch[];
 }
 
 interface TtcRouteResponse {
@@ -59,20 +64,20 @@ interface TtcRouteResponse {
   is10MinutesNetwork: boolean;
   frequency: string | null;
   serviceLevel: TtcServiceLevel | null;
-  directions?: TtcDirection[];
+  trips: unknown[];
 }
 
-interface TtcDirection {
+interface TtcBranch {
   id: string;
-  name: string;
-  stops?: TtcStop[];
+  routeBranch: { id?: string; name?: string };
+  routeBranchStops: TtcStopRaw[];
 }
 
-interface TtcStop {
+interface TtcStopRaw {
   code: string;
   name: string;
-  lat: number;
-  lon: number;
+  latitude: number;
+  longitude: number;
 }
 
 interface TtcServiceLevel {
@@ -83,76 +88,71 @@ interface TtcServiceLevel {
   cssClassConnectingBus: string;
 }
 
-interface TtcNextBusesResponse {
-  routeName?: string;
-  routeColour?: string;
-  stopName?: string;
-  vehicles?: TtcVehicleArrival[];
+interface TtcVehicleArrivalRaw {
+  vehicleType: string;
+  nextBusMinutes: string;
+  crowdingIndex: string;
+  destinationSign: string;
+  scheduledTime: string;
+  isNextDay: boolean;
 }
 
-interface TtcVehicleArrival {
-  vehicleId?: string;
-  minutes?: number;
-  seconds?: number;
-  isDeparture?: boolean;
-  tripId?: string;
-  destination?: string;
-  delay?: number;
-}
-
-function mapRoute(data: TtcRouteResponse): RouteWithDirections {
+function mapRoute(data: TtcRouteWrapper): RouteWithDirections {
+  const r = data.route;
   return {
-    id: data.id,
-    gtfsId: data.gtfsId,
-    agencyId: data.agencyId,
-    agency: data.agency,
-    shortName: data.shortName,
-    longName: data.longName,
-    description: data.description,
-    type: data.type as Route["type"],
-    colour: data.colour,
-    textColour: data.textColour,
-    active: data.active,
-    inService: data.inService,
-    direction: data.direction,
-    message: data.message,
-    is10MinutesNetwork: data.is10MinutesNetwork,
-    frequency: data.frequency,
-    serviceLevel: data.serviceLevel
+    id: r.id,
+    gtfsId: r.gtfsId,
+    agencyId: r.agencyId,
+    agency: r.agency,
+    shortName: r.shortName,
+    longName: r.longName,
+    description: r.description,
+    type: r.type as Route["type"],
+    colour: r.colour,
+    textColour: r.textColour,
+    active: r.active,
+    inService: r.inService,
+    direction: r.direction,
+    message: r.message,
+    is10MinutesNetwork: r.is10MinutesNetwork,
+    frequency: r.frequency,
+    serviceLevel: r.serviceLevel
       ? {
-          name: data.serviceLevel.name,
-          description: data.serviceLevel.description,
-          color: data.serviceLevel.color,
-          cssClassDashboard: data.serviceLevel.cssClassDashboard,
-          cssClassConnectingBus: data.serviceLevel.cssClassConnectingBus,
+          name: r.serviceLevel.name,
+          description: r.serviceLevel.description,
+          color: r.serviceLevel.color,
+          cssClassDashboard: r.serviceLevel.cssClassDashboard,
+          cssClassConnectingBus: r.serviceLevel.cssClassConnectingBus,
         }
       : null,
-    directions: (data.directions ?? []).map(mapDirection),
+    directions: (data.routeBranchesWithStops ?? []).map(mapDirection),
   };
 }
 
-function mapDirection(d: TtcDirection): Direction {
+function mapDirection(b: TtcBranch): Direction {
   return {
-    id: d.id,
-    name: d.name,
-    stops: (d.stops ?? []).map((s) => ({
+    id: b.id,
+    name: b.routeBranch?.name ?? "",
+    stops: (b.routeBranchStops ?? []).map((s) => ({
       code: s.code,
       name: s.name,
-      lat: s.lat,
-      lon: s.lon,
+      lat: s.latitude,
+      lon: s.longitude,
     })),
   };
 }
 
-function mapVehicle(v: TtcVehicleArrival): VehicleArrival {
+function mapVehicle(v: TtcVehicleArrivalRaw): VehicleArrival {
+  const mins = parseInt(v.nextBusMinutes ?? "0", 10);
   return {
-    vehicleId: v.vehicleId ?? "",
-    minutes: v.minutes ?? 0,
-    seconds: v.seconds ?? 0,
-    isDeparture: v.isDeparture ?? false,
-    tripId: v.tripId ?? null,
-    destination: v.destination ?? null,
-    delay: v.delay ?? null,
+    vehicleId: `${v.destinationSign}-${v.scheduledTime}`,
+    minutes: mins,
+    seconds: 0,
+    isDeparture: false,
+    tripId: null,
+    destination: v.destinationSign ?? null,
+    delay: null,
+    vehicleType: v.vehicleType ?? "",
   };
 }
 

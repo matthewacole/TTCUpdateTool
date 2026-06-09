@@ -1,4 +1,3 @@
-import { h } from "preact";
 import { useState, useCallback } from "preact/hooks";
 import { ttcApi } from "../api";
 import type { RouteWithDirections } from "../types";
@@ -28,7 +27,7 @@ export function RoutePicker({ onSelect, onClose }: RoutePickerProps) {
     }
   }, []);
 
-  const handleSubmit = (e: h.JSX.TargetedEvent<HTMLFormElement>) => {
+  const handleSubmit = (e: Event) => {
     e.preventDefault();
     const id = parseInt(routeIdInput, 10);
     if (!isNaN(id)) {

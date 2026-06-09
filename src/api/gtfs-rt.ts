@@ -24,21 +24,29 @@ export class GtfsRtApi {
   }
 
   async getAlerts(): Promise<ServiceAlert[]> {
-    const data = await this.client.get<{ entity: GtfsRtAlertEntity[] }>(
-      `${this.baseUrl}/alerts.json`,
-    );
-    return (data.entity ?? []).map(mapAlert);
+    try {
+      const data = await this.client.get<{ entity: GtfsRtAlertEntity[] }>(
+        `${this.baseUrl}/alerts.json`,
+      );
+      return (data.entity ?? []).map(mapAlert);
+    } catch {
+      return [];
+    }
   }
 
   async getVehicles(routeId?: string): Promise<VehiclePosition[]> {
-    const data = await this.client.get<{ entity: GtfsRtVehicleEntity[] }>(
-      `${this.baseUrl}/vehicles.json`,
-    );
-    const vehicles = (data.entity ?? []).map(mapVehicle);
-    if (routeId) {
-      return vehicles.filter((v) => v.routeId === routeId);
+    try {
+      const data = await this.client.get<{ entity: GtfsRtVehicleEntity[] }>(
+        `${this.baseUrl}/vehicles.json`,
+      );
+      const vehicles = (data.entity ?? []).map(mapVehicle);
+      if (routeId) {
+        return vehicles.filter((v) => v.routeId === routeId);
+      }
+      return vehicles;
+    } catch {
+      return [];
     }
-    return vehicles;
   }
 }
 
