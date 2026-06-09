@@ -230,15 +230,25 @@ export function DashboardWidget({ onAddStop }: DashboardWidgetProps) {
 
   const handleTrack = async (stopCode: string, stopName: string, existingRoutes?: TrackedStopRoute[]) => {
     setTrackingLoading((prev) => ({ ...prev, [stopCode]: true }));
-    let routes = existingRoutes;
-    if (!routes || routes.length === 0) {
-      try {
-        const apiRoutes = await ttcApi.getRoutesByStop(stopCode);
-        routes = apiRoutes.map((r) => ({ id: parseInt(r.shortName, 10) || r.id, shortName: r.shortName, colour: r.colour }));
-      } catch { routes = []; }
-    }
-    if (routes.length === 0) { setTrackingLoading((prev) => ({ ...prev, [stopCode]: false })); return; }
-    const tracked: TrackedStop = { stopCode, stopName, routes };
+    let base = existingRoutes ?? [];
+    try {
+      const apiRoutes = await ttcApi.getRoutesByStop(stopCode);
+      const apiMapped: TrackedStopRoute[] = apiRoutes.map((r) => ({
+        id: parseInt(r.shortName, 10) || r.id,
+        shortName: r.shortName,
+        colour: r.colour,
+      }));
+      const seen = new Set(apiMapped.map((r) => r.id));
+      for (const r of base) {
+        if (!seen.has(r.id)) {
+          apiMapped.push(r);
+          seen.add(r.id);
+        }
+      }
+      base = apiMapped;
+    } catch {}
+    if (base.length === 0) { setTrackingLoading((prev) => ({ ...prev, [stopCode]: false })); return; }
+    const tracked: TrackedStop = { stopCode, stopName, routes: base };
     preferences.toggleTracked(tracked);
     setTrackedStops(preferences.get().trackedStops);
     setTrackingLoading((prev) => ({ ...prev, [stopCode]: false }));
@@ -347,7 +357,7 @@ export function DashboardWidget({ onAddStop }: DashboardWidgetProps) {
                         class={`dw__row-track${isTracked ? " dw__row-track--active" : ""}`}
                         onClick={() => {
                           if (tracked) { handleUntrack(fav.stopCode); return; }
-                          handleTrack(fav.stopCode, fav.stopName);
+                          handleTrack(fav.stopCode, fav.stopName, [{ id: fav.routeId, shortName: fav.routeName, colour: fav.routeColour }]);
                         }}
                         aria-label={isTracked ? "Stop tracking" : "Track stop"}
                         disabled={trackingLoading[fav.stopCode]}
