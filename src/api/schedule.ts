@@ -37,6 +37,22 @@ function minToMs(m: number): number {
   return m * 60000;
 }
 
+export async function getRouteIdsForStop(stopCode: string): Promise<string[]> {
+  const data = await loadSchedule();
+  const seen = new Set<string>();
+  const results: string[] = [];
+  for (const key of Object.keys(data)) {
+    if (key.endsWith(`:${stopCode}`)) {
+      const routeId = key.split(":")[0];
+      if (!seen.has(routeId)) {
+        seen.add(routeId);
+        results.push(routeId);
+      }
+    }
+  }
+  return results;
+}
+
 export interface ScheduledDeparture {
   time: string;
   minutes: number;

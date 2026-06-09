@@ -2,9 +2,10 @@ import { useState, useEffect, useCallback } from "preact/hooks";
 import { WidgetBase } from "./widget-base";
 import { preferences, dataCache } from "../store";
 import { ttcApi, gtfsRtApi } from "../api";
-import { getNextScheduled } from "../api/schedule";
+import { getNextScheduled, getRouteIdsForStop } from "../api/schedule";
+import { ALL_ROUTES } from "../data/routes-list";
 import type { FavoriteStop, TrackedStop, TrackedStopRoute } from "../store";
-import type { ServiceAlert, VehicleArrival, Route } from "../types";
+import type { ServiceAlert, VehicleArrival, Route, RouteType } from "../types";
 
 interface DashboardWidgetProps {
   onAddStop: () => void;
@@ -60,6 +61,29 @@ async function loadStops(): Promise<RawStop[]> {
 }
 
 type GpsStatus = "idle" | "locating" | "ready" | "denied" | "unavailable";
+
+function routeFromShortName(shortName: string): Route {
+  const info = ALL_ROUTES.find((r) => r.shortName === shortName);
+  const numericId = parseInt(shortName, 10) || 0;
+  const typeMap: Record<string, RouteType> = { subway: 1, streetcar: 0, bus: 3, express: 3, night: 3 };
+  return {
+    id: numericId, gtfsId: shortName, agencyId: 0, agency: null,
+    shortName, longName: info?.longName ?? shortName, description: "",
+    type: info ? (typeMap[info.type] ?? 3) : 3,
+    colour: info ? `#${info.color}` : null,
+    textColour: info ? `#${info.textColor}` : null,
+    active: true, inService: true, direction: 0,
+    serviceLevel: null, frequency: null, message: null, is10MinutesNetwork: false,
+  };
+}
+
+async function loadRoutesForStop(stopCode: string): Promise<Route[]> {
+  try {
+    return await ttcApi.getRoutesByStop(stopCode);
+  } catch {}
+  const routeIds = await getRouteIdsForStop(stopCode);
+  return routeIds.map(routeFromShortName);
+}
 
 export function DashboardWidget({ onAddStop }: DashboardWidgetProps) {
   const [favorites, setFavorites] = useState<FavoriteStop[]>([]);
@@ -185,10 +209,7 @@ export function DashboardWidget({ onAddStop }: DashboardWidgetProps) {
           distances.sort((a, b) => a.distance - b.distance);
           const top = distances.slice(0, 8);
           for (let i = 0; i < top.length; i++) {
-            try {
-              const routes = await ttcApi.getRoutesByStop(top[i].code);
-              top[i].routes = routes;
-            } catch {}
+            top[i].routes = await loadRoutesForStop(top[i].code);
           }
           setNearbyStops(top);
           setGpsStatus("ready");
@@ -216,10 +237,8 @@ export function DashboardWidget({ onAddStop }: DashboardWidgetProps) {
     setNearbyErrors((prev) => { const n = { ...prev }; delete n[stop.code]; return n; });
     let routes = stop.routes;
     if (routes.length === 0) {
-      try {
-        routes = await ttcApi.getRoutesByStop(stop.code);
-        stop.routes = routes;
-      } catch {}
+      routes = await loadRoutesForStop(stop.code);
+      stop.routes = routes;
     }
     const route = routes[0];
     if (!route) {
