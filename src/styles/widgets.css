@@ -403,25 +403,36 @@
 }
 
 .route-picker__dir-name {
-  font-size: 13px;
-  font-weight: 600;
-  color: var(--text-secondary);
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text-primary);
   text-transform: uppercase;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.04em;
   margin-bottom: var(--space-sm);
+  padding: var(--space-sm) var(--space-md);
+  background: var(--glass-bg);
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.route-picker__dir-arrow {
+  font-size: 16px;
+  line-height: 1;
 }
 
 .route-picker__stops {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-  gap: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
 }
 
 .route-picker__stop {
   display: flex;
   align-items: center;
   gap: var(--space-sm);
-  padding: var(--space-sm) var(--space-md);
+  padding: var(--space-md) var(--space-md);
   background: var(--glass-bg);
   backdrop-filter: var(--glass-blur);
   border: 0.5px solid var(--glass-border);
@@ -431,6 +442,7 @@
   text-align: left;
   font-size: 14px;
   color: var(--text-primary);
+  width: 100%;
 }
 
 .route-picker__stop:hover {
@@ -441,13 +453,25 @@
   font-weight: 600;
   color: var(--text-secondary);
   font-size: 12px;
-  min-width: 32px;
+  min-width: 36px;
+  flex-shrink: 0;
 }
 
 .route-picker__stop-name {
+  flex: 1;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+.route-picker__stop-dir {
+  font-size: 14px;
+  color: var(--text-tertiary);
+  flex-shrink: 0;
+  margin-left: auto;
+  padding: 2px 6px;
+  background: var(--glass-bg-heavy);
+  border-radius: 4px;
 }
 
 /* Route Picker Tabs */

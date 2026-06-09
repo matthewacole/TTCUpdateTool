@@ -21,6 +21,15 @@ const ROUTE_TYPE_LABELS: Record<RouteInfo["type"], string> = {
 
 const ROUTE_TYPE_ORDER: RouteInfo["type"][] = ["subway", "streetcar", "bus", "express", "night"];
 
+function dirArrow(name: string): string {
+  const n = name.toLowerCase();
+  if (/north/i.test(n)) return "\u2191";
+  if (/south/i.test(n)) return "\u2193";
+  if (/east/i.test(n)) return "\u2192";
+  if (/west/i.test(n)) return "\u2190";
+  return "";
+}
+
 export function RoutePicker({ onSelect, onClose }: RoutePickerProps) {
   const [tab, setTab] = useState<Tab>("search");
   const [routeIdInput, setRouteIdInput] = useState("");
@@ -122,23 +131,30 @@ export function RoutePicker({ onSelect, onClose }: RoutePickerProps) {
                   </span>
                   <span class="route-picker__route-long">{route.longName}</span>
                 </div>
-                {route.directions.map((dir) => (
-                  <div key={dir.id} class="route-picker__direction">
-                    <h3 class="route-picker__dir-name">{dir.name}</h3>
-                    <div class="route-picker__stops">
-                      {dir.stops.map((stop) => (
-                        <button
-                          key={stop.code}
-                          class="route-picker__stop"
-                          onClick={() => onSelect(route.id, stop.code, stop.name)}
-                        >
-                          <span class="route-picker__stop-code">{stop.code}</span>
-                          <span class="route-picker__stop-name">{stop.name}</span>
-                        </button>
-                      ))}
+                {route.directions.map((dir) => {
+                  const arrow = dirArrow(dir.name);
+                  return (
+                    <div key={dir.id} class="route-picker__direction">
+                      <h3 class="route-picker__dir-name">
+                        {arrow && <span class="route-picker__dir-arrow">{arrow}</span>}
+                        {dir.name}
+                      </h3>
+                      <div class="route-picker__stops">
+                        {dir.stops.map((stop) => (
+                          <button
+                            key={stop.code}
+                            class="route-picker__stop"
+                            onClick={() => onSelect(route.id, stop.code, stop.name)}
+                          >
+                            <span class="route-picker__stop-code">{stop.code}</span>
+                            <span class="route-picker__stop-name">{stop.name}</span>
+                            {arrow && <span class="route-picker__stop-dir">{arrow}</span>}
+                          </button>
+                        ))}
+                      </div>
                     </div>
-                  </div>
-                ))}
+                  );
+                })}
               </div>
             )}
           </>
