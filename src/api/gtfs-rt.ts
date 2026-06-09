@@ -60,7 +60,7 @@ export class GtfsRtApi {
   }
 }
 
-interface GtfsRtAlertEntity {
+export interface GtfsRtAlertEntity {
   id: string;
   alert?: {
     headerText?: { translation?: { text: string }[] };
@@ -83,7 +83,7 @@ interface GtfsRtVehicleEntity {
   };
 }
 
-function mapAlert(entity: GtfsRtAlertEntity): ServiceAlert {
+export function mapAlert(entity: GtfsRtAlertEntity): ServiceAlert {
   const a = entity.alert ?? {};
   const now = Date.now() / 1000;
   const activePeriod = (a.activePeriod ?? []).find(

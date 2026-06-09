@@ -1,7 +1,8 @@
 import { useState, useEffect, useCallback } from "preact/hooks";
 import { WidgetBase } from "./widget-base";
 import { preferences, dataCache } from "../store";
-import { ttcApi, gtfsRtApi } from "../api";
+import { ttcApi, gtfsRtApi, mapAlert } from "../api";
+import type { GtfsRtAlertEntity } from "../api";
 import { getNextScheduled, getRouteIdsForStop } from "../api/schedule";
 import { ALL_ROUTES } from "../data/routes-list";
 import { SettingsPanel } from "./settings-panel";
@@ -223,6 +224,15 @@ export function DashboardWidget({ onAddStop }: DashboardWidgetProps) {
     const ti = setInterval(() => setNow(Date.now()), 1000);
     return () => { clearInterval(pi); clearInterval(ti); };
   }, [fetchPredictions, fetchAlerts]);
+
+  useEffect(() => {
+    const handler = (e: CustomEvent) => {
+      const raw = e.detail as GtfsRtAlertEntity[];
+      setAlerts(raw.map(mapAlert));
+    };
+    window.addEventListener("alerts:updated", handler as EventListener);
+    return () => window.removeEventListener("alerts:updated", handler as EventListener);
+  }, []);
 
   const handleFindNearby = () => {
     if (gpsStatus === "locating") return;
