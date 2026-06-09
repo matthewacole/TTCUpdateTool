@@ -4,6 +4,7 @@ import { preferences, dataCache } from "../store";
 import { ttcApi, gtfsRtApi } from "../api";
 import { getNextScheduled, getRouteIdsForStop } from "../api/schedule";
 import { ALL_ROUTES } from "../data/routes-list";
+import { SettingsPanel } from "./settings-panel";
 import type { FavoriteStop, TrackedStop, TrackedStopRoute } from "../store";
 import type { ServiceAlert, VehicleArrival, Route, RouteType } from "../types";
 
@@ -130,6 +131,7 @@ export function DashboardWidget({ onAddStop }: DashboardWidgetProps) {
   const [nearbyErrors, setNearbyErrors] = useState<Record<string, string>>({});
   const [trackingLoading, setTrackingLoading] = useState<Record<string, boolean>>({});
   const [expandedAlerts, setExpandedAlerts] = useState<Set<string>>(new Set);
+  const [showSettings, setShowSettings] = useState(false);
 
   const fetchPredictions = useCallback(async () => {
     const prefs = preferences.get();
@@ -313,8 +315,19 @@ export function DashboardWidget({ onAddStop }: DashboardWidgetProps) {
     setTrackedStops(preferences.get().trackedStops);
   };
 
-  const severe = alerts.filter((a) => a.severity === "SEVERE");
-  const warnings = alerts.filter((a) => a.severity === "WARNING");
+  const alertFilter = preferences.get().alertFilter;
+  const userRouteIds = new Set([
+    ...favorites.map((f) => String(f.routeId)),
+    ...trackedStops.flatMap((t) => t.routes.map((r) => String(r.id))),
+  ]);
+  const subwayRouteIds = new Set(ALL_ROUTES.filter((r) => r.type === "subway").map((r) => r.shortName));
+  const filteredAlerts = alertFilter === "priority"
+    ? alerts.filter(
+        (a) => a.severity !== "INFO" || a.routes.some((rid) => subwayRouteIds.has(rid) || userRouteIds.has(rid)),
+      )
+    : alerts;
+  const severe = filteredAlerts.filter((a) => a.severity === "SEVERE");
+  const warnings = filteredAlerts.filter((a) => a.severity === "WARNING");
   const topAlerts = [...severe, ...warnings].slice(0, 3);
   const hasAlerts = topAlerts.length > 0;
   const hasFavorites = favorites.length > 0;
@@ -344,6 +357,7 @@ export function DashboardWidget({ onAddStop }: DashboardWidgetProps) {
             <span class="dw__title">TTC Tracker</span>
             <div class="dw__header-right">
               <span class="dw__updated">Updated {label}</span>
+              <button class="dw__settings" onClick={() => setShowSettings(true)} aria-label="Settings">⚙️</button>
               <button class="dw__add" onClick={onAddStop} aria-label="Add stop">+</button>
             </div>
           </div>
@@ -352,7 +366,7 @@ export function DashboardWidget({ onAddStop }: DashboardWidgetProps) {
             <button class="dw__alerts-header" onClick={() => hasAlerts && setAlertsOpen((o) => !o)}>
               <span class="dw__alerts-title">
                 Service Alerts
-                {alerts.length > 0 && <span class="dw__alerts-count">{alerts.length}</span>}
+                {filteredAlerts.length > 0 && <span class="dw__alerts-count">{filteredAlerts.length}</span>}
               </span>
               {hasAlerts && (
                 <span class={`dw__alerts-toggle${alertsOpen ? "" : " dw__alerts-toggle--closed"}`}>▾</span>
@@ -360,7 +374,7 @@ export function DashboardWidget({ onAddStop }: DashboardWidgetProps) {
             </button>
             {(!hasAlerts || alertsOpen) && (
               <div class="dw__alerts-list">
-                {!hasAlerts && <span class="dw__alerts-none">No active alerts</span>}
+                {!hasAlerts && <span class="dw__alerts-none">{alertFilter === "priority" ? "No priority alerts" : "No active alerts"}</span>}
                 {hasAlerts && topAlerts.map((a) => (
                   <div key={a.id} class="dw__alert-item">
                     <span class={["badge", a.severity === "SEVERE" ? "badge--severe" : "badge--warning"].join(" ")}>
@@ -504,11 +518,11 @@ export function DashboardWidget({ onAddStop }: DashboardWidgetProps) {
         </div>
       </WidgetBase>
 
-      {alerts.length === 0 ? (
+      {filteredAlerts.length === 0 ? (
         <WidgetBase size="large">
           <div class="at at--empty">
             <span class="at__check">✓</span>
-            <span class="at__empty-text">No active alerts</span>
+            <span class="at__empty-text">{alertFilter === "priority" ? "No priority alerts" : "No active alerts"}</span>
           </div>
         </WidgetBase>
       ) : (
@@ -516,10 +530,10 @@ export function DashboardWidget({ onAddStop }: DashboardWidgetProps) {
           <div class="at">
             <div class="at__header">
               <span>🚨 Service Alerts</span>
-              <span class="at__count">{alerts.length}</span>
+              <span class="at__count">{filteredAlerts.length}</span>
             </div>
             <div class="at__list">
-              {alerts.map((a) => {
+              {filteredAlerts.map((a) => {
                 const isExpanded = expandedAlerts.has(a.id);
                 const cause = formatCause(a.cause);
                 const severityClass = a.severity.toLowerCase();
@@ -646,6 +660,8 @@ export function DashboardWidget({ onAddStop }: DashboardWidgetProps) {
         );
       })}
       <div class="dw__footer">TTC Tracker v0.2.0-beta.1</div>
+
+      {showSettings && <SettingsPanel onClose={() => setShowSettings(false)} />}
     </>
   );
 }

@@ -24,6 +24,7 @@ export interface UserPreferences {
   theme: "system" | "light" | "dark";
   iconStyle: "default" | "tinted" | "clear";
   refreshInterval: number;
+  alertFilter: "all" | "priority";
 }
 
 const STORAGE_KEY = "ttc:preferences";
@@ -34,6 +35,7 @@ const DEFAULTS: UserPreferences = {
   theme: "system",
   iconStyle: "default",
   refreshInterval: 30,
+  alertFilter: "all",
 };
 
 export class PreferencesStore {
