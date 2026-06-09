@@ -74,6 +74,7 @@ export function DashboardWidget({ onAddStop }: DashboardWidgetProps) {
   const [nearbyStops, setNearbyStops] = useState<NearbyStop[]>([]);
   const [gpsStatus, setGpsStatus] = useState<GpsStatus>("idle");
   const [addedStops, setAddedStops] = useState<Set<string>>(new Set);
+  const [nearbyErrors, setNearbyErrors] = useState<Record<string, string>>({});
   const [trackingLoading, setTrackingLoading] = useState<Record<string, boolean>>({});
 
   const fetchPredictions = useCallback(async () => {
@@ -212,6 +213,7 @@ export function DashboardWidget({ onAddStop }: DashboardWidgetProps) {
   };
 
   const handleAddNearby = async (stop: NearbyStop) => {
+    setNearbyErrors((prev) => { const n = { ...prev }; delete n[stop.code]; return n; });
     let routes = stop.routes;
     if (routes.length === 0) {
       try {
@@ -220,10 +222,13 @@ export function DashboardWidget({ onAddStop }: DashboardWidgetProps) {
       } catch {}
     }
     const route = routes[0];
-    if (!route) return;
+    if (!route) {
+      setNearbyErrors((prev) => ({ ...prev, [stop.code]: "Could not load routes for this stop" }));
+      return;
+    }
     const routeId = parseInt(route.shortName, 10) || route.id;
     preferences.addFavorite({ routeId, routeName: route.shortName, routeColour: route.colour, stopCode: stop.code, stopName: stop.name });
-    fetchPredictions();
+    await fetchPredictions();
     setAddedStops((prev) => new Set(prev).add(stop.code));
     setTimeout(() => setAddedStops((prev) => { const n = new Set(prev); n.delete(stop.code); return n; }), 2000);
   };
@@ -399,9 +404,13 @@ export function DashboardWidget({ onAddStop }: DashboardWidgetProps) {
                         <div class="dw__nearby-info">
                           <span class="dw__nearby-name">{s.name}</span>
                           <span class="dw__nearby-routes">
-                            {s.routes.slice(0, 4).map((r) => (
-                              <span key={r.shortName} class="dw__nearby-badge" style={r.colour ? { color: r.colour } : undefined}>{r.shortName}</span>
-                            ))}
+                            {nearbyErrors[s.code] ? (
+                              <span class="dw__nearby-error">{nearbyErrors[s.code]}</span>
+                            ) : (
+                              s.routes.slice(0, 4).map((r) => (
+                                <span key={r.shortName} class="dw__nearby-badge" style={r.colour ? { color: r.colour } : undefined}>{r.shortName}</span>
+                              ))
+                            )}
                           </span>
                         </div>
                         {addedStops.has(s.code) ? (

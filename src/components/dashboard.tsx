@@ -10,16 +10,8 @@ export function Dashboard() {
     preferences.get();
   }, []);
 
-  const handleAddStop = (routeId: number, stopCode: string, stopName: string) => {
-    const favs = preferences.get().favoriteStops;
-    const route = favs.find((f) => f.routeId === routeId);
-    preferences.addFavorite({
-      routeId,
-      routeName: route?.routeName ?? String(routeId),
-      routeColour: route?.routeColour ?? null,
-      stopCode,
-      stopName,
-    });
+  const handleAddStop = (routeId: number, routeName: string, routeColour: string | null, stopCode: string, stopName: string) => {
+    preferences.addFavorite({ routeId, routeName, routeColour, stopCode, stopName });
     setShowPicker(false);
   };
 
@@ -28,7 +20,7 @@ export function Dashboard() {
       <DashboardWidget onAddStop={() => setShowPicker(true)} />
       {showPicker && (
         <RoutePicker
-          onSelect={(routeId, stopCode, stopName) => handleAddStop(routeId, stopCode, stopName)}
+          onSelect={(routeId, routeName, routeColour, stopCode, stopName) => handleAddStop(routeId, routeName, routeColour, stopCode, stopName)}
           onClose={() => setShowPicker(false)}
         />
       )}

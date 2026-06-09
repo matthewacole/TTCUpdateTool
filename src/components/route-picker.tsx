@@ -5,7 +5,7 @@ import type { RouteInfo } from "../data/routes-list";
 import type { RouteWithDirections } from "../types";
 
 interface RoutePickerProps {
-  onSelect: (routeId: number, stopCode: string, stopName: string) => void;
+  onSelect: (routeId: number, routeName: string, routeColour: string | null, stopCode: string, stopName: string) => void;
   onClose: () => void;
 }
 
@@ -144,7 +144,7 @@ export function RoutePicker({ onSelect, onClose }: RoutePickerProps) {
                           <button
                             key={stop.code}
                             class="route-picker__stop"
-                            onClick={() => onSelect(route.id, stop.code, stop.name)}
+                            onClick={() => onSelect(route.id, route.shortName, route.colour, stop.code, stop.name)}
                           >
                             <span class="route-picker__stop-code">{stop.code}</span>
                             <span class="route-picker__stop-name">{stop.name}</span>
