@@ -23,12 +23,21 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Checkout cached GTFS-RT data
-        uses: actions/checkout@v4
-        with:
-          ref: gh-pages
-          path: cache-data
-          persist-credentials: false
+      - name: Pull cached GTFS-RT data from gh-pages
+        run: |
+          if git ls-remote --exit-code origin refs/heads/gh-pages 2>/dev/null; then
+            git fetch origin gh-pages --depth=1
+            mkdir -p cache-data
+            git -C cache-data init
+            git -C cache-data remote add origin "${{ github.server_url }}/${{ github.repository }}"
+            git -C cache-data fetch origin gh-pages --depth=1
+            git -C cache-data checkout FETCH_HEAD
+            echo "cache_available=true" >> "$GITHUB_ENV"
+            echo "Cache data found, will merge into dist"
+          else
+            echo "gh-pages branch not yet created — will deploy without cache"
+            echo "cache_available=false" >> "$GITHUB_ENV"
+          fi
 
       - uses: actions/setup-node@v4
         with:
@@ -40,14 +49,11 @@ jobs:
       - run: npm run build
 
       - name: Merge cached data into dist
+        if: env.cache_available == 'true'
         run: |
-          if [ -d cache-data/cache ]; then
-            mkdir -p dist/cache
-            cp -r cache-data/cache/* dist/cache/
-            echo "Merged $(find cache-data/cache -type f | wc -l) cache files"
-          else
-            echo "No cache data found yet — site will fetch live from ttc.ca"
-          fi
+          mkdir -p dist/cache
+          cp -r cache-data/cache/* dist/cache/
+          echo "Merged $(find cache-data/cache -type f | wc -l) cache files"
 
       - uses: actions/configure-pages@v4
 
