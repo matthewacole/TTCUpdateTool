@@ -276,7 +276,7 @@ export function DashboardWidget({ onAddStop }: DashboardWidgetProps) {
     return (
       <>
         {vehicles.slice(0, 3).map((v, i) => (
-          <span key={i} class="dw__row-time">{v.minutes}<small>m</small></span>
+          <span key={i} class="dw__row-time"><span class="dw__live-dot" />{v.minutes}<small>m</small></span>
         ))}
         {vehicles.length > 3 && <span class="dw__row-more">+{vehicles.length - 3}</span>}
       </>
@@ -497,6 +497,7 @@ export function DashboardWidget({ onAddStop }: DashboardWidgetProps) {
                   <span class="live__route" style={bestColour ? { color: bestColour } : undefined}>
                     {best?.routeName ?? ts.routes[0]?.shortName ?? "?"}
                   </span>
+                  {best && <span class="live__live-badge">LIVE</span>}
                   {best && <span class="live__dir">{dirBadge(best.destination)}</span>}
                   {ts.routes.length > 1 && (
                     <span class="live__routes-more">+{ts.routes.length - 1}</span>
