@@ -20,9 +20,6 @@ jobs:
         shell: bash
     steps:
       - uses: actions/checkout@v4
-        with:
-          ref: gh-pages
-          persist-credentials: false
 
       - uses: actions/setup-node@v4
         with:
@@ -32,7 +29,6 @@ jobs:
       - run: npm ci
 
       - run: npm run fetch:data
-        working-directory: ${{ github.workspace }}
 
       - name: Deploy cache to gh-pages
         uses: peaceiris/actions-gh-pages@v3

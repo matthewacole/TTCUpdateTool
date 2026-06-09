@@ -52,14 +52,20 @@ export class ApiClient {
   }
 
   private buildUrl(path: string, params?: Record<string, string>): string {
-    const base = this.config.baseUrl.replace(/\/+$/, "");
-    const url = new URL(`${base}/${path.replace(/^\/+/, "")}`, window.location.origin);
-    if (params) {
-      for (const [key, value] of Object.entries(params)) {
-        url.searchParams.set(key, value);
+    if (path.startsWith("http://") || path.startsWith("https://")) {
+      const url = new URL(path);
+      if (params) {
+        for (const [key, value] of Object.entries(params)) {
+          url.searchParams.set(key, value);
+        }
       }
+      return url.toString();
     }
-    return url.toString();
+    if (params && Object.keys(params).length > 0) {
+      const sep = path.includes("?") ? "&" : "?";
+      return `${path}${sep}${new URLSearchParams(params).toString()}`;
+    }
+    return path;
   }
 
   private async fetchWithRetry<T>(url: string, attempt = 0): Promise<T> {

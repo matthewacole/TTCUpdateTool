@@ -25,7 +25,7 @@ async function main() {
 
       let json;
       try {
-        const gtfsRealtimeBindings = await import("gtfs-realtime-bindings");
+        const { default: gtfsRealtimeBindings } = await import("gtfs-realtime-bindings");
         const feed = gtfsRealtimeBindings.transit_realtime.FeedMessage.decode(
           new Uint8Array(buffer),
         );
