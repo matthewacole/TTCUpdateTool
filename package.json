@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "generate:stops": "node scripts/generate-stops-json.mjs",
-    "build": "npm run generate:stops && tsc && vite build",
+    "build": "tsc && vite build",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist",
     "fetch:data": "node scripts/fetch-ttc-data.mjs"

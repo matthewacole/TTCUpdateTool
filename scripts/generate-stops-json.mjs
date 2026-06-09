@@ -23,7 +23,7 @@ function main() {
     });
   }
 
-  const outPath = join(__dirname, "..", "src", "data", "stops.json");
+  const outPath = join(__dirname, "..", "public", "data", "stops.json");
   writeFileSync(outPath, JSON.stringify(stops));
   console.log(`✓ stops.json written (${stops.length} stops, ${(Buffer.byteLength(JSON.stringify(stops)) / 1024).toFixed(0)} KB)`);
 }
