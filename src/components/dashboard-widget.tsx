@@ -32,6 +32,18 @@ function relativeTime(epoch: number): string {
   return `${d}d ago`;
 }
 
+function formatDate(epoch: number): string {
+  if (!epoch) return "";
+  const d = new Date(epoch);
+  const now = new Date();
+  const fmt: Intl.DateTimeFormatOptions = {
+    month: "short", day: "numeric",
+    hour: "numeric", minute: "2-digit",
+  };
+  if (d.getFullYear() !== now.getFullYear()) fmt.year = "numeric";
+  return d.toLocaleDateString("en-US", fmt);
+}
+
 function dirBadge(dest: string | null): string {
   const d = (dest ?? "").toLowerCase();
   if (d.includes("north")) return "NB";
@@ -39,6 +51,23 @@ function dirBadge(dest: string | null): string {
   if (d.includes("east")) return "EB";
   if (d.includes("west")) return "WB";
   return "";
+}
+
+const CAUSE_FORMAT: Record<string, { emoji: string; label: string; cssClass: string }> = {
+  CONSTRUCTION: { emoji: "🚧", label: "Construction", cssClass: "cause--construction" },
+  WEATHER: { emoji: "🌧️", label: "Weather", cssClass: "cause--weather" },
+  ACCIDENT: { emoji: "💥", label: "Accident", cssClass: "cause--accident" },
+  MAINTENANCE: { emoji: "🔧", label: "Maintenance", cssClass: "cause--maintenance" },
+  TECHNICAL_PROBLEM: { emoji: "⚙️", label: "Technical", cssClass: "cause--technical" },
+  STRIKE: { emoji: "⛔", label: "Strike", cssClass: "cause--strike" },
+  DEMONSTRATION: { emoji: "✊🏿", label: "Demonstration", cssClass: "cause--demonstration" },
+  POLICE_ACTIVITY: { emoji: "🚔", label: "Police", cssClass: "cause--police" },
+  MEDICAL_EMERGENCY: { emoji: "🚑", label: "Medical", cssClass: "cause--medical" },
+  HOLIDAY: { emoji: "🎉", label: "Holiday", cssClass: "cause--holiday" },
+};
+
+function formatCause(cause: string): { emoji: string; label: string; cssClass: string } {
+  return CAUSE_FORMAT[cause] ?? { emoji: "ℹ️", label: "Other", cssClass: "cause--other" };
 }
 
 function haversine(lat1: number, lon1: number, lat2: number, lon2: number): number {
@@ -100,6 +129,7 @@ export function DashboardWidget({ onAddStop }: DashboardWidgetProps) {
   const [addedStops, setAddedStops] = useState<Set<string>>(new Set);
   const [nearbyErrors, setNearbyErrors] = useState<Record<string, string>>({});
   const [trackingLoading, setTrackingLoading] = useState<Record<string, boolean>>({});
+  const [expandedAlerts, setExpandedAlerts] = useState<Set<string>>(new Set);
 
   const fetchPredictions = useCallback(async () => {
     const prefs = preferences.get();
@@ -188,9 +218,8 @@ export function DashboardWidget({ onAddStop }: DashboardWidgetProps) {
     fetchPredictions();
     fetchAlerts();
     const pi = setInterval(fetchPredictions, 30000);
-    const ai = setInterval(fetchAlerts, 60000);
     const ti = setInterval(() => setNow(Date.now()), 1000);
-    return () => { clearInterval(pi); clearInterval(ai); clearInterval(ti); };
+    return () => { clearInterval(pi); clearInterval(ti); };
   }, [fetchPredictions, fetchAlerts]);
 
   const handleFindNearby = () => {
@@ -490,27 +519,47 @@ export function DashboardWidget({ onAddStop }: DashboardWidgetProps) {
               <span class="at__count">{alerts.length}</span>
             </div>
             <div class="at__list">
-              {alerts.map((a) => (
-                <div key={a.id} class={`at__row at__row--${a.severity.toLowerCase()}`}>
-                  <div class="at__row-top">
-                    <span class="at__dot" />
-                    <span class="at__sev">{a.severity === "SEVERE" ? "Severe" : a.severity === "WARNING" ? "Warning" : "Info"}</span>
-                    <span class="at__header-text">{a.header}</span>
-                  </div>
-                  <div class="at__row-mid">
-                    {a.routes.length > 0 && (
-                      <span class="at__routes">
-                        {a.routes.slice(0, 6).map((rid) => (
-                          <span key={rid} class="at__route-badge">{rid}</span>
-                        ))}
-                        {a.routes.length > 6 && <span class="at__route-more">+{a.routes.length - 6}</span>}
+              {alerts.map((a) => {
+                const isExpanded = expandedAlerts.has(a.id);
+                const cause = formatCause(a.cause);
+                const severityClass = a.severity.toLowerCase();
+                const extraClass = a.severity === "INFO" ? ` ${cause.cssClass}` : "";
+                return (
+                  <div
+                    key={a.id}
+                    class={`at__row at__row--${severityClass}${extraClass}${isExpanded ? " at__row--expanded" : ""}`}
+                    onClick={() => setExpandedAlerts((prev) => {
+                      const n = new Set(prev);
+                      if (n.has(a.id)) n.delete(a.id); else n.add(a.id);
+                      return n;
+                    })}
+                  >
+                    <div class="at__row-top">
+                      <span class="at__dot" />
+                      <span class="at__sev">
+                        {a.severity === "SEVERE" ? "Severe" : a.severity === "WARNING" ? "Warning" : `${cause.emoji} ${cause.label}`}
                       </span>
-                    )}
-                    {a.description && <span class="at__desc">{a.description}</span>}
+                      <span class="at__header-text">{a.header}</span>
+                    </div>
+                    <div class="at__row-mid">
+                      {a.routes.length > 0 && (
+                        <span class="at__routes">
+                          {a.routes.slice(0, 6).map((rid) => (
+                            <span key={rid} class="at__route-badge">{rid}</span>
+                          ))}
+                          {a.routes.length > 6 && <span class="at__route-more">+{a.routes.length - 6}</span>}
+                        </span>
+                      )}
+                      {isExpanded ? (
+                        <span class="at__desc at__desc--full">{a.description}</span>
+                      ) : a.description ? (
+                        <span class="at__desc at__desc--truncated">{a.description}</span>
+                      ) : null}
+                    </div>
+                    <span class="at__time">{formatDate(a.createdAt)} · {relativeTime(a.updatedAt)}</span>
                   </div>
-                  <span class="at__time">{relativeTime(a.updatedAt)}</span>
-                </div>
-              ))}
+                );
+              })}
             </div>
             <div class="at__updated">Updated {label}</div>
           </div>

@@ -67,6 +67,7 @@ interface GtfsRtAlertEntity {
     descriptionText?: { translation?: { text: string }[] };
     severityLevel?: string;
     effect?: string;
+    cause?: string;
     informedEntity?: { routeId?: string; stopId?: string }[];
     activePeriod?: { start?: number; end?: number }[];
     url?: { translation?: { text: string }[] };
@@ -93,6 +94,7 @@ function mapAlert(entity: GtfsRtAlertEntity): ServiceAlert {
     header: a.headerText?.translation?.[0]?.text ?? "Unknown Alert",
     description: a.descriptionText?.translation?.[0]?.text ?? "",
     severity: mapSeverity(a.severityLevel),
+    cause: a.cause ?? "OTHER_CAUSE",
     createdAt: (activePeriod?.start ?? 0) * 1000,
     updatedAt: (activePeriod?.end ?? now) * 1000,
     effect: mapEffect(a.effect),

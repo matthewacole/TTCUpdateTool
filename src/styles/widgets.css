@@ -1378,6 +1378,7 @@
   position: relative;
   border-left: 3px solid transparent;
   transition: background 0.1s;
+  cursor: pointer;
 }
 
 .at__row:hover {
@@ -1394,6 +1395,10 @@
 
 .at__row--info {
   border-left-color: var(--accent-blue);
+}
+
+.at__row--expanded {
+  background: var(--glass-bg);
 }
 
 .at__row-top {
@@ -1424,6 +1429,54 @@
 .at__row--severe .at__sev { color: var(--accent-red); }
 .at__row--warning .at__sev { color: var(--accent-orange); }
 .at__row--info .at__sev { color: var(--accent-blue); }
+
+.cause--construction { --cause-color: #e67e22; }
+.cause--weather { --cause-color: #3498db; }
+.cause--accident { --cause-color: #e74c3c; }
+.cause--maintenance { --cause-color: #95a5a6; }
+.cause--technical { --cause-color: #9b59b6; }
+.cause--strike { --cause-color: #c0392b; }
+.cause--demonstration { --cause-color: #e67e22; }
+.cause--police { --cause-color: #2980b9; }
+.cause--medical { --cause-color: #e74c3c; }
+.cause--holiday { --cause-color: #27ae60; }
+.cause--other { --cause-color: #95a5a6; }
+
+.at__row--info.cause--construction { border-left-color: var(--cause-color); }
+.at__row--info.cause--weather { border-left-color: var(--cause-color); }
+.at__row--info.cause--accident { border-left-color: var(--cause-color); }
+.at__row--info.cause--maintenance { border-left-color: var(--cause-color); }
+.at__row--info.cause--technical { border-left-color: var(--cause-color); }
+.at__row--info.cause--strike { border-left-color: var(--cause-color); }
+.at__row--info.cause--demonstration { border-left-color: var(--cause-color); }
+.at__row--info.cause--police { border-left-color: var(--cause-color); }
+.at__row--info.cause--medical { border-left-color: var(--cause-color); }
+.at__row--info.cause--holiday { border-left-color: var(--cause-color); }
+.at__row--info.cause--other { border-left-color: var(--cause-color); }
+
+.at__row--info.cause--construction .at__dot { background: var(--cause-color); }
+.at__row--info.cause--weather .at__dot { background: var(--cause-color); }
+.at__row--info.cause--accident .at__dot { background: var(--cause-color); }
+.at__row--info.cause--maintenance .at__dot { background: var(--cause-color); }
+.at__row--info.cause--technical .at__dot { background: var(--cause-color); }
+.at__row--info.cause--strike .at__dot { background: var(--cause-color); }
+.at__row--info.cause--demonstration .at__dot { background: var(--cause-color); }
+.at__row--info.cause--police .at__dot { background: var(--cause-color); }
+.at__row--info.cause--medical .at__dot { background: var(--cause-color); }
+.at__row--info.cause--holiday .at__dot { background: var(--cause-color); }
+.at__row--info.cause--other .at__dot { background: var(--cause-color); }
+
+.at__row--info.cause--construction .at__sev { color: var(--cause-color); }
+.at__row--info.cause--weather .at__sev { color: var(--cause-color); }
+.at__row--info.cause--accident .at__sev { color: var(--cause-color); }
+.at__row--info.cause--maintenance .at__sev { color: var(--cause-color); }
+.at__row--info.cause--technical .at__sev { color: var(--cause-color); }
+.at__row--info.cause--strike .at__sev { color: var(--cause-color); }
+.at__row--info.cause--demonstration .at__sev { color: var(--cause-color); }
+.at__row--info.cause--police .at__sev { color: var(--cause-color); }
+.at__row--info.cause--medical .at__sev { color: var(--cause-color); }
+.at__row--info.cause--holiday .at__sev { color: var(--cause-color); }
+.at__row--info.cause--other .at__sev { color: var(--cause-color); }
 
 .at__header-text {
   font-size: 14px;
@@ -1467,6 +1520,17 @@
   font-size: 12px;
   color: var(--text-tertiary);
   line-height: 1.3;
+}
+
+.at__desc--truncated {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.at__desc--full {
+  white-space: pre-wrap;
 }
 
 .at__time {

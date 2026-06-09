@@ -3,6 +3,7 @@ export interface ServiceAlert {
   header: string;
   description: string;
   severity: AlertSeverity;
+  cause: string;
   createdAt: number;
   updatedAt: number;
   effect: AlertEffect;
