@@ -1,0 +1,25 @@
+{
+  "name": "ttc-tracker",
+  "private": true,
+  "version": "0.2.0-beta.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "generate:stops": "node scripts/generate-stops-json.mjs",
+    "generate:schedule": "node scripts/generate-schedule-lookup.mjs",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist",
+    "fetch:data": "node scripts/fetch-ttc-data.mjs"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.10.5",
+    "gh-pages": "^6.3.0",
+    "gtfs-realtime-bindings": "^2.0.0",
+    "typescript": "~6.0.2",
+    "vite": "^8.0.12"
+  },
+  "dependencies": {
+    "preact": "^10.26.5"
+  }
+}
