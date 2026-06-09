@@ -719,8 +719,10 @@
 .dw__empty {
   flex: 1;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: var(--space-sm);
   color: var(--text-secondary);
   font-size: 15px;
 }
@@ -953,4 +955,35 @@
   color: var(--text-tertiary);
   font-weight: 500;
   flex-shrink: 0;
+}
+
+.dw__nearby-added {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--accent-green);
+  flex-shrink: 0;
+}
+
+.dw__find-btn {
+  display: block;
+  width: 100%;
+  padding: var(--space-md);
+  border-radius: var(--radius-md);
+  background: var(--glass-bg);
+  backdrop-filter: var(--glass-blur);
+  border: 0.5px solid var(--glass-border);
+  color: var(--accent-blue);
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s;
+  font-family: var(--font-text);
+}
+
+.dw__find-btn:hover {
+  background: var(--glass-bg-heavy);
+}
+
+.dw__empty .dw__find-btn {
+  margin-top: var(--space-lg);
 }

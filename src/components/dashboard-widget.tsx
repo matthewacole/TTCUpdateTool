@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback, useRef } from "preact/hooks";
+import { useState, useEffect, useCallback } from "preact/hooks";
 import { WidgetBase } from "./widget-base";
 import { preferences, dataCache } from "../store";
 import { ttcApi, gtfsRtApi } from "../api";
@@ -58,12 +58,11 @@ export function DashboardWidget({ onAddStop }: DashboardWidgetProps) {
   const [alertsOpen, setAlertsOpen] = useState(true);
   const [nearbyStops, setNearbyStops] = useState<NearbyStop[]>([]);
   const [gpsStatus, setGpsStatus] = useState<GpsStatus>("idle");
-  const nearbyFetched = useRef(false);
+  const [addedStops, setAddedStops] = useState<Set<string>>(new Set());
 
   const fetchPredictions = useCallback(async () => {
     const favs = preferences.get().favoriteStops;
     setFavorites(favs);
-
     const results = await Promise.allSettled(
       favs.map(async (fav) => {
         const key = `${fav.routeId}:${fav.stopCode}`;
@@ -78,7 +77,6 @@ export function DashboardWidget({ onAddStop }: DashboardWidgetProps) {
         }
       }),
     );
-
     for (const result of results) {
       if (result.status === "fulfilled") {
         const { key, vehicles, error } = result.value;
@@ -86,11 +84,7 @@ export function DashboardWidget({ onAddStop }: DashboardWidgetProps) {
           setErrors((prev) => ({ ...prev, [key]: error }));
         } else {
           setPredictions((prev) => ({ ...prev, [key]: vehicles }));
-          setErrors((prev) => {
-            const next = { ...prev };
-            delete next[key];
-            return next;
-          });
+          setErrors((prev) => { const n = { ...prev }; delete n[key]; return n; });
         }
       }
     }
@@ -100,15 +94,11 @@ export function DashboardWidget({ onAddStop }: DashboardWidgetProps) {
   const fetchAlerts = useCallback(async () => {
     try {
       const cached = dataCache.getAlerts();
-      if (cached) {
-        setAlerts(cached);
-        return;
-      }
+      if (cached) { setAlerts(cached); return; }
       const data = await gtfsRtApi.getAlerts();
       dataCache.setAlerts(data);
       setAlerts(data);
-    } catch {
-    }
+    } catch {}
   }, []);
 
   useEffect(() => {
@@ -120,47 +110,39 @@ export function DashboardWidget({ onAddStop }: DashboardWidgetProps) {
     return () => { clearInterval(pi); clearInterval(ai); clearInterval(ti); };
   }, [fetchPredictions, fetchAlerts]);
 
-  useEffect(() => {
-    if (favorites.length > 0 && gpsStatus !== "denied" && gpsStatus !== "unavailable" && !nearbyFetched.current) {
-      nearbyFetched.current = true;
-      setGpsStatus("locating");
-      navigator.geolocation.getCurrentPosition(
-        async (pos) => {
-          try {
-            const all = await loadStops();
-            const distances = all.map((s) => ({
-              code: s.c,
-              name: s.n,
-              lat: s.lat,
-              lon: s.lon,
-              distance: haversine(pos.coords.latitude, pos.coords.longitude, s.lat, s.lon),
-              routes: [] as Route[],
-            }));
-            distances.sort((a, b) => a.distance - b.distance);
-            const top = distances.slice(0, 8);
-            for (let i = 0; i < top.length; i++) {
-              try {
-                const routes = await ttcApi.getRoutesByStop(top[i].code);
-                top[i].routes = routes;
-              } catch {}
-            }
-            setNearbyStops(top);
-            setGpsStatus("ready");
-          } catch {
-            setGpsStatus("unavailable");
+  const handleFindNearby = () => {
+    if (gpsStatus === "locating") return;
+    setGpsStatus("locating");
+    setNearbyStops([]);
+    navigator.geolocation.getCurrentPosition(
+      async (pos) => {
+        try {
+          const all = await loadStops();
+          const distances = all.map((s) => ({
+            code: s.c, name: s.n, lat: s.lat, lon: s.lon,
+            distance: haversine(pos.coords.latitude, pos.coords.longitude, s.lat, s.lon),
+            routes: [] as Route[],
+          }));
+          distances.sort((a, b) => a.distance - b.distance);
+          const top = distances.slice(0, 8);
+          for (let i = 0; i < top.length; i++) {
+            try {
+              const routes = await ttcApi.getRoutesByStop(top[i].code);
+              top[i].routes = routes;
+            } catch {}
           }
-        },
-        (err) => {
-          if (err.code === err.PERMISSION_DENIED) {
-            setGpsStatus("denied");
-          } else {
-            setGpsStatus("unavailable");
-          }
-        },
-        { enableHighAccuracy: false, timeout: 10000 },
-      );
-    }
-  }, [favorites.length, gpsStatus]);
+          setNearbyStops(top);
+          setGpsStatus("ready");
+        } catch {
+          setGpsStatus("unavailable");
+        }
+      },
+      (err) => {
+        setGpsStatus(err.code === err.PERMISSION_DENIED ? "denied" : "unavailable");
+      },
+      { enableHighAccuracy: false, timeout: 10000 },
+    );
+  };
 
   const handleDelete = (routeId: number, stopCode: string) => {
     preferences.removeFavorite(routeId, stopCode);
@@ -170,18 +152,21 @@ export function DashboardWidget({ onAddStop }: DashboardWidgetProps) {
     setErrors((prev) => { const n = { ...prev }; delete n[key]; return n; });
   };
 
-  const handleAddNearby = (stop: NearbyStop) => {
-    const route = stop.routes[0];
+  const handleAddNearby = async (stop: NearbyStop) => {
+    let routes = stop.routes;
+    if (routes.length === 0) {
+      try {
+        routes = await ttcApi.getRoutesByStop(stop.code);
+        stop.routes = routes;
+      } catch {}
+    }
+    const route = routes[0];
     if (!route) return;
     const routeId = parseInt(route.shortName, 10) || route.id;
-    preferences.addFavorite({
-      routeId,
-      routeName: route.shortName,
-      routeColour: route.colour,
-      stopCode: stop.code,
-      stopName: stop.name,
-    });
+    preferences.addFavorite({ routeId, routeName: route.shortName, routeColour: route.colour, stopCode: stop.code, stopName: stop.name });
     fetchPredictions();
+    setAddedStops((prev) => new Set(prev).add(stop.code));
+    setTimeout(() => setAddedStops((prev) => { const n = new Set(prev); n.delete(stop.code); return n; }), 2000);
   };
 
   const severe = alerts.filter((a) => a.severity === "SEVERE");
@@ -190,7 +175,6 @@ export function DashboardWidget({ onAddStop }: DashboardWidgetProps) {
   const hasAlerts = topAlerts.length > 0;
   const hasFavorites = favorites.length > 0;
   const hasNearby = nearbyStops.length > 0;
-
   const sinceSec = Math.floor((now - lastFetch) / 1000);
   const label = sinceSec < 60 ? `${sinceSec}s ago` : `${Math.floor(sinceSec / 60)}m ago`;
 
@@ -212,9 +196,7 @@ export function DashboardWidget({ onAddStop }: DashboardWidgetProps) {
               {alerts.length > 0 && <span class="dw__alerts-count">{alerts.length}</span>}
             </span>
             {hasAlerts && (
-              <span class={`dw__alerts-toggle${alertsOpen ? "" : " dw__alerts-toggle--closed"}`}>
-                ▾
-              </span>
+              <span class={`dw__alerts-toggle${alertsOpen ? "" : " dw__alerts-toggle--closed"}`}>▾</span>
             )}
           </button>
           {(!hasAlerts || alertsOpen) && (
@@ -237,72 +219,73 @@ export function DashboardWidget({ onAddStop }: DashboardWidgetProps) {
         {!hasFavorites ? (
           <div class="dw__empty">
             <p>Tap <strong>+</strong> to add a stop</p>
+            {gpsStatus === "idle" || gpsStatus === "denied" || gpsStatus === "unavailable" ? (
+              <button class="dw__find-btn" onClick={handleFindNearby}>📍 Find nearby stops</button>
+            ) : gpsStatus === "locating" ? (
+              <span class="dw__nearby-locating">📡 Locating...</span>
+            ) : null}
           </div>
         ) : (
-          <div class="dw__stops">
-            {favorites.map((fav) => {
-              const key = `${fav.routeId}:${fav.stopCode}`;
-              const vehicles = predictions[key] ?? [];
-              const err = errors[key];
-              return (
-                <div key={key} class="dw__row" style={fav.routeColour ? { "--accent": fav.routeColour } as any : undefined}>
-                  {fav.routeColour && <div class="dw__row-accent" />}
-                  <div class="dw__row-info">
-                    <span class="dw__row-route" style={fav.routeColour ? { color: fav.routeColour } : undefined}>
-                      {fav.routeName}
-                    </span>
-                    <span class="dw__row-stop">{fav.stopName}</span>
+          <>
+            <div class="dw__stops">
+              {favorites.map((fav) => {
+                const key = `${fav.routeId}:${fav.stopCode}`;
+                const vehicles = predictions[key] ?? [];
+                const err = errors[key];
+                return (
+                  <div key={key} class="dw__row" style={fav.routeColour ? { "--accent": fav.routeColour } as any : undefined}>
+                    {fav.routeColour && <div class="dw__row-accent" />}
+                    <div class="dw__row-info">
+                      <span class="dw__row-route" style={fav.routeColour ? { color: fav.routeColour } : undefined}>{fav.routeName}</span>
+                      <span class="dw__row-stop">{fav.stopName}</span>
+                    </div>
+                    {!err && vehicles.length > 0 && <span class="dw__row-dir">{dirBadge(vehicles[0].destination)}</span>}
+                    <div class="dw__row-times">
+                      {err && <span class="dw__row-error">{err}</span>}
+                      {!err && vehicles.length === 0 && <span class="dw__row-none">—</span>}
+                      {!err && vehicles.slice(0, 3).map((v, i) => (
+                        <span key={i} class="dw__row-time">{v.minutes}<small>m</small></span>
+                      ))}
+                      {!err && vehicles.length > 3 && <span class="dw__row-more">+{vehicles.length - 3}</span>}
+                    </div>
+                    <button class="dw__row-delete" onClick={() => handleDelete(fav.routeId, fav.stopCode)} aria-label="Remove stop">✕</button>
                   </div>
-                  {!err && vehicles.length > 0 && (
-                    <span class="dw__row-dir">{dirBadge(vehicles[0].destination)}</span>
-                  )}
-                  <div class="dw__row-times">
-                    {err && <span class="dw__row-error">{err}</span>}
-                    {!err && vehicles.length === 0 && <span class="dw__row-none">—</span>}
-                    {!err && vehicles.slice(0, 3).map((v, i) => (
-                      <span key={i} class="dw__row-time">
-                        {v.minutes}<small>m</small>
-                      </span>
-                    ))}
-                    {!err && vehicles.length > 3 && (
-                      <span class="dw__row-more">+{vehicles.length - 3}</span>
-                    )}
-                  </div>
-                  <button class="dw__row-delete" onClick={() => handleDelete(fav.routeId, fav.stopCode)} aria-label="Remove stop">✕</button>
-                </div>
-              );
-            })}
-          </div>
+                );
+              })}
+            </div>
+            {gpsStatus === "idle" || gpsStatus === "denied" || gpsStatus === "unavailable" ? (
+              <button class="dw__find-btn" onClick={handleFindNearby}>📍 Find nearby stops</button>
+            ) : null}
+          </>
         )}
 
-        {gpsStatus === "locating" && (
+        {gpsStatus === "locating" && hasFavorites && (
           <div class="dw__nearby-locating">📡 Locating nearby stops...</div>
         )}
 
         {gpsStatus === "ready" && hasNearby && (
-          <>
-            <div class="dw__divider" />
-            <div class="dw__nearby">
-              <div class="dw__nearby-header">📍 Nearby Stops</div>
-              <div class="dw__nearby-list">
-                {nearbyStops.map((s) => (
-                  <button key={s.code} class="dw__nearby-stop" onClick={() => handleAddNearby(s)}>
-                    <div class="dw__nearby-info">
-                      <span class="dw__nearby-name">{s.name}</span>
-                      <span class="dw__nearby-routes">
-                        {s.routes.slice(0, 4).map((r) => (
-                          <span key={r.shortName} class="dw__nearby-badge" style={r.colour ? { color: r.colour } : undefined}>
-                            {r.shortName}
-                          </span>
-                        ))}
-                      </span>
-                    </div>
+          <div class="dw__nearby">
+            <div class="dw__nearby-header">📍 Nearby Stops</div>
+            <div class="dw__nearby-list">
+              {nearbyStops.map((s) => (
+                <button key={s.code} class="dw__nearby-stop" onClick={() => handleAddNearby(s)}>
+                  <div class="dw__nearby-info">
+                    <span class="dw__nearby-name">{s.name}</span>
+                    <span class="dw__nearby-routes">
+                      {s.routes.slice(0, 4).map((r) => (
+                        <span key={r.shortName} class="dw__nearby-badge" style={r.colour ? { color: r.colour } : undefined}>{r.shortName}</span>
+                      ))}
+                    </span>
+                  </div>
+                  {addedStops.has(s.code) ? (
+                    <span class="dw__nearby-added">✓ Added</span>
+                  ) : (
                     <span class="dw__nearby-dist">{s.distance < 1000 ? `${Math.round(s.distance)}m` : `${(s.distance / 1000).toFixed(1)}km`}</span>
-                  </button>
-                ))}
-              </div>
+                  )}
+                </button>
+              ))}
             </div>
-          </>
+          </div>
         )}
       </div>
     </WidgetBase>
