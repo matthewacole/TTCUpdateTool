@@ -874,3 +874,83 @@
   background: rgba(255, 59, 48, 0.15);
   color: var(--accent-red);
 }
+
+/* Nearby Stops */
+.dw__nearby-locating {
+  font-size: 12px;
+  color: var(--text-tertiary);
+  text-align: center;
+  padding: var(--space-md);
+}
+
+.dw__nearby {
+  flex-shrink: 0;
+}
+
+.dw__nearby-header {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-secondary);
+  margin-bottom: var(--space-sm);
+}
+
+.dw__nearby-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.dw__nearby-stop {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  width: 100%;
+  padding: var(--space-sm) var(--space-sm);
+  background: none;
+  border: none;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  text-align: left;
+  color: var(--text-primary);
+  transition: background 0.1s;
+}
+
+.dw__nearby-stop:hover {
+  background: var(--glass-bg);
+}
+
+.dw__nearby-info {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.dw__nearby-name {
+  font-size: 14px;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.dw__nearby-routes {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+
+.dw__nearby-badge {
+  font-size: 11px;
+  font-weight: 700;
+  font-family: var(--font-display);
+  color: var(--accent-blue);
+}
+
+.dw__nearby-dist {
+  font-size: 11px;
+  color: var(--text-tertiary);
+  font-weight: 500;
+  flex-shrink: 0;
+}

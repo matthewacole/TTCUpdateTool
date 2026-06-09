@@ -1,12 +1,21 @@
-import { useState, useEffect, useCallback } from "preact/hooks";
+import { useState, useEffect, useCallback, useRef } from "preact/hooks";
 import { WidgetBase } from "./widget-base";
 import { preferences, dataCache } from "../store";
 import { ttcApi, gtfsRtApi } from "../api";
 import type { FavoriteStop } from "../store";
-import type { ServiceAlert, VehicleArrival } from "../types";
+import type { ServiceAlert, VehicleArrival, Route } from "../types";
 
 interface DashboardWidgetProps {
   onAddStop: () => void;
+}
+
+interface NearbyStop {
+  code: string;
+  name: string;
+  lat: number;
+  lon: number;
+  distance: number;
+  routes: Route[];
 }
 
 function dirBadge(dest: string | null): string {
@@ -18,20 +27,38 @@ function dirBadge(dest: string | null): string {
   return "";
 }
 
-function timeAgo(iso: string): string {
-  const diff = Math.floor((Date.now() - new Date(iso).getTime()) / 1000);
-  if (diff < 60) return "just now";
-  if (diff < 3600) return `${Math.floor(diff / 60)}m ago`;
-  return `${Math.floor(diff / 3600)}h ago`;
+function haversine(lat1: number, lon1: number, lat2: number, lon2: number): number {
+  const R = 6371000;
+  const toRad = (d: number) => (d * Math.PI) / 180;
+  const dLat = toRad(lat2 - lat1);
+  const dLon = toRad(lon2 - lon1);
+  const a = Math.sin(dLat / 2) ** 2 + Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) * Math.sin(dLon / 2) ** 2;
+  return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
 }
+
+interface RawStop { i: string; c: string; n: string; lat: number; lon: number }
+let stopsCache: RawStop[] | null = null;
+
+async function loadStops(): Promise<RawStop[]> {
+  if (stopsCache) return stopsCache;
+  const res = await fetch("./data/stops.json");
+  stopsCache = (await res.json()) as RawStop[];
+  return stopsCache!;
+}
+
+type GpsStatus = "idle" | "locating" | "ready" | "denied" | "unavailable";
 
 export function DashboardWidget({ onAddStop }: DashboardWidgetProps) {
   const [favorites, setFavorites] = useState<FavoriteStop[]>([]);
   const [alerts, setAlerts] = useState<ServiceAlert[]>([]);
   const [predictions, setPredictions] = useState<Record<string, VehicleArrival[]>>({});
   const [errors, setErrors] = useState<Record<string, string>>({});
-  const [lastUpdated, setLastUpdated] = useState<string | null>(null);
+  const [lastFetch, setLastFetch] = useState(Date.now());
+  const [now, setNow] = useState(Date.now());
   const [alertsOpen, setAlertsOpen] = useState(true);
+  const [nearbyStops, setNearbyStops] = useState<NearbyStop[]>([]);
+  const [gpsStatus, setGpsStatus] = useState<GpsStatus>("idle");
+  const nearbyFetched = useRef(false);
 
   const fetchPredictions = useCallback(async () => {
     const favs = preferences.get().favoriteStops;
@@ -67,6 +94,7 @@ export function DashboardWidget({ onAddStop }: DashboardWidgetProps) {
         }
       }
     }
+    setLastFetch(Date.now());
   }, []);
 
   const fetchAlerts = useCallback(async () => {
@@ -83,23 +111,56 @@ export function DashboardWidget({ onAddStop }: DashboardWidgetProps) {
     }
   }, []);
 
-  const fetchIndex = useCallback(async () => {
-    try {
-      const idx = await gtfsRtApi.getCacheIndex();
-      if (idx?.updatedAt) setLastUpdated(idx.updatedAt);
-    } catch {
-    }
-  }, []);
-
   useEffect(() => {
     fetchPredictions();
     fetchAlerts();
-    fetchIndex();
     const pi = setInterval(fetchPredictions, 30000);
     const ai = setInterval(fetchAlerts, 60000);
-    const ii = setInterval(fetchIndex, 30000);
-    return () => { clearInterval(pi); clearInterval(ai); clearInterval(ii); };
-  }, [fetchPredictions, fetchAlerts, fetchIndex]);
+    const ti = setInterval(() => setNow(Date.now()), 1000);
+    return () => { clearInterval(pi); clearInterval(ai); clearInterval(ti); };
+  }, [fetchPredictions, fetchAlerts]);
+
+  useEffect(() => {
+    if (favorites.length > 0 && gpsStatus !== "denied" && gpsStatus !== "unavailable" && !nearbyFetched.current) {
+      nearbyFetched.current = true;
+      setGpsStatus("locating");
+      navigator.geolocation.getCurrentPosition(
+        async (pos) => {
+          try {
+            const all = await loadStops();
+            const distances = all.map((s) => ({
+              code: s.c,
+              name: s.n,
+              lat: s.lat,
+              lon: s.lon,
+              distance: haversine(pos.coords.latitude, pos.coords.longitude, s.lat, s.lon),
+              routes: [] as Route[],
+            }));
+            distances.sort((a, b) => a.distance - b.distance);
+            const top = distances.slice(0, 8);
+            for (let i = 0; i < top.length; i++) {
+              try {
+                const routes = await ttcApi.getRoutesByStop(top[i].code);
+                top[i].routes = routes;
+              } catch {}
+            }
+            setNearbyStops(top);
+            setGpsStatus("ready");
+          } catch {
+            setGpsStatus("unavailable");
+          }
+        },
+        (err) => {
+          if (err.code === err.PERMISSION_DENIED) {
+            setGpsStatus("denied");
+          } else {
+            setGpsStatus("unavailable");
+          }
+        },
+        { enableHighAccuracy: false, timeout: 10000 },
+      );
+    }
+  }, [favorites.length, gpsStatus]);
 
   const handleDelete = (routeId: number, stopCode: string) => {
     preferences.removeFavorite(routeId, stopCode);
@@ -109,9 +170,29 @@ export function DashboardWidget({ onAddStop }: DashboardWidgetProps) {
     setErrors((prev) => { const n = { ...prev }; delete n[key]; return n; });
   };
 
+  const handleAddNearby = (stop: NearbyStop) => {
+    const route = stop.routes[0];
+    if (!route) return;
+    const routeId = parseInt(route.shortName, 10) || route.id;
+    preferences.addFavorite({
+      routeId,
+      routeName: route.shortName,
+      routeColour: route.colour,
+      stopCode: stop.code,
+      stopName: stop.name,
+    });
+    fetchPredictions();
+  };
+
   const severe = alerts.filter((a) => a.severity === "SEVERE");
   const warnings = alerts.filter((a) => a.severity === "WARNING");
   const topAlerts = [...severe, ...warnings].slice(0, 3);
+  const hasAlerts = topAlerts.length > 0;
+  const hasFavorites = favorites.length > 0;
+  const hasNearby = nearbyStops.length > 0;
+
+  const sinceSec = Math.floor((now - lastFetch) / 1000);
+  const label = sinceSec < 60 ? `${sinceSec}s ago` : `${Math.floor(sinceSec / 60)}m ago`;
 
   return (
     <WidgetBase size="large">
@@ -119,40 +200,41 @@ export function DashboardWidget({ onAddStop }: DashboardWidgetProps) {
         <div class="dw__header">
           <span class="dw__title">TTC Tracker</span>
           <div class="dw__header-right">
-            {lastUpdated && <span class="dw__updated">{timeAgo(lastUpdated)}</span>}
+            <span class="dw__updated">Updated {label}</span>
             <button class="dw__add" onClick={onAddStop} aria-label="Add stop">+</button>
           </div>
         </div>
 
-        {topAlerts.length > 0 && (
-          <div class="dw__alerts">
-            <button class="dw__alerts-header" onClick={() => setAlertsOpen((o) => !o)}>
-              <span class="dw__alerts-title">
-                Service Alerts
-                <span class="dw__alerts-count">{alerts.length}</span>
-              </span>
+        <div class="dw__alerts">
+          <button class="dw__alerts-header" onClick={() => hasAlerts && setAlertsOpen((o) => !o)}>
+            <span class="dw__alerts-title">
+              Service Alerts
+              {alerts.length > 0 && <span class="dw__alerts-count">{alerts.length}</span>}
+            </span>
+            {hasAlerts && (
               <span class={`dw__alerts-toggle${alertsOpen ? "" : " dw__alerts-toggle--closed"}`}>
                 ▾
               </span>
-            </button>
-            {alertsOpen && (
-              <div class="dw__alerts-list">
-                {topAlerts.map((a) => (
-                  <div key={a.id} class="dw__alert-item">
-                    <span class={["badge", a.severity === "SEVERE" ? "badge--severe" : "badge--warning"].join(" ")}>
-                      {a.severity === "SEVERE" ? "Severe" : "Warning"}
-                    </span>
-                    <span class="dw__alert-text">{a.header}</span>
-                  </div>
-                ))}
-              </div>
             )}
-          </div>
-        )}
+          </button>
+          {(!hasAlerts || alertsOpen) && (
+            <div class="dw__alerts-list">
+              {!hasAlerts && <span class="dw__alerts-none">No active alerts</span>}
+              {hasAlerts && topAlerts.map((a) => (
+                <div key={a.id} class="dw__alert-item">
+                  <span class={["badge", a.severity === "SEVERE" ? "badge--severe" : "badge--warning"].join(" ")}>
+                    {a.severity === "SEVERE" ? "Severe" : "Warning"}
+                  </span>
+                  <span class="dw__alert-text">{a.header}</span>
+                </div>
+              ))}
+            </div>
+          )}
+        </div>
 
-        {topAlerts.length > 0 && favorites.length > 0 && <div class="dw__divider" />}
+        <div class="dw__divider" />
 
-        {favorites.length === 0 ? (
+        {!hasFavorites ? (
           <div class="dw__empty">
             <p>Tap <strong>+</strong> to add a stop</p>
           </div>
@@ -191,6 +273,36 @@ export function DashboardWidget({ onAddStop }: DashboardWidgetProps) {
               );
             })}
           </div>
+        )}
+
+        {gpsStatus === "locating" && (
+          <div class="dw__nearby-locating">📡 Locating nearby stops...</div>
+        )}
+
+        {gpsStatus === "ready" && hasNearby && (
+          <>
+            <div class="dw__divider" />
+            <div class="dw__nearby">
+              <div class="dw__nearby-header">📍 Nearby Stops</div>
+              <div class="dw__nearby-list">
+                {nearbyStops.map((s) => (
+                  <button key={s.code} class="dw__nearby-stop" onClick={() => handleAddNearby(s)}>
+                    <div class="dw__nearby-info">
+                      <span class="dw__nearby-name">{s.name}</span>
+                      <span class="dw__nearby-routes">
+                        {s.routes.slice(0, 4).map((r) => (
+                          <span key={r.shortName} class="dw__nearby-badge" style={r.colour ? { color: r.colour } : undefined}>
+                            {r.shortName}
+                          </span>
+                        ))}
+                      </span>
+                    </div>
+                    <span class="dw__nearby-dist">{s.distance < 1000 ? `${Math.round(s.distance)}m` : `${(s.distance / 1000).toFixed(1)}km`}</span>
+                  </button>
+                ))}
+              </div>
+            </div>
+          </>
         )}
       </div>
     </WidgetBase>
