@@ -1,0 +1,73 @@
+:root {
+  /* Fonts - SF Pro compatible stack */
+  --font-display: -apple-system, "SF Pro Display", "Helvetica Neue", sans-serif;
+  --font-text: -apple-system, "SF Pro Text", "Helvetica Neue", sans-serif;
+  --font-mono: "SF Mono", "SF Pro Text", monospace;
+
+  /* iOS 26 Liquid Glass - Light */
+  --glass-bg: rgba(255, 255, 255, 0.18);
+  --glass-bg-heavy: rgba(255, 255, 255, 0.35);
+  --glass-border: rgba(255, 255, 255, 0.3);
+  --glass-border-heavy: rgba(255, 255, 255, 0.5);
+  --glass-shadow: 0 1px 2px rgba(0, 0, 0, 0.03),
+    0 8px 24px rgba(0, 0, 0, 0.06),
+    0 16px 48px rgba(0, 0, 0, 0.08);
+  --glass-highlight: inset 0 1px 0 rgba(255, 255, 255, 0.4);
+  --glass-blur: blur(40px);
+
+  /* Text */
+  --text-primary: rgba(0, 0, 0, 0.85);
+  --text-secondary: rgba(0, 0, 0, 0.55);
+  --text-tertiary: rgba(0, 0, 0, 0.35);
+  --text-inverse: #ffffff;
+
+  /* Background */
+  --bg-app: #f2f2f7;
+  --bg-overlay: rgba(0, 0, 0, 0.3);
+
+  /* Accents */
+  --accent-blue: #007aff;
+  --accent-green: #34c759;
+  --accent-red: #ff3b30;
+  --accent-orange: #ff9500;
+  --accent-yellow: #ffcc00;
+
+  /* Spacing */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 12px;
+  --space-lg: 16px;
+  --space-xl: 24px;
+  --space-2xl: 32px;
+
+  /* Radius - capsule inspired */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --radius-capsule: 1000px;
+
+  /* Sizes */
+  --widget-small: 160px;
+  --widget-medium: 340px;
+  --widget-large: 100%;
+  --nav-height: 50px;
+}
+
+[data-theme="dark"] {
+  --glass-bg: rgba(30, 30, 30, 0.55);
+  --glass-bg-heavy: rgba(40, 40, 40, 0.7);
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --glass-border-heavy: rgba(255, 255, 255, 0.15);
+  --glass-shadow: 0 1px 2px rgba(0, 0, 0, 0.2),
+    0 8px 24px rgba(0, 0, 0, 0.3),
+    0 16px 48px rgba(0, 0, 0, 0.4);
+  --glass-highlight: inset 0 1px 0 rgba(255, 255, 255, 0.08);
+
+  --text-primary: rgba(255, 255, 255, 0.92);
+  --text-secondary: rgba(255, 255, 255, 0.6);
+  --text-tertiary: rgba(255, 255, 255, 0.35);
+
+  --bg-app: #000000;
+  --bg-overlay: rgba(0, 0, 0, 0.6);
+}

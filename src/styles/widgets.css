@@ -1,0 +1,421 @@
+/* Arrival Widget */
+.arrival-widget {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  height: 100%;
+}
+
+.arrival-widget__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.arrival-widget__route {
+  font-size: 22px;
+  font-weight: 700;
+  font-family: var(--font-display);
+  letter-spacing: -0.02em;
+}
+
+.arrival-widget__fav {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: var(--accent-yellow);
+  padding: 2px;
+  line-height: 1;
+  transition: transform 0.2s ease;
+}
+
+.arrival-widget__fav:active {
+  transform: scale(0.85);
+}
+
+.arrival-widget__stop {
+  font-size: 13px;
+  color: var(--text-secondary);
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.arrival-widget__times {
+  display: flex;
+  gap: var(--space-sm);
+  flex-wrap: wrap;
+  flex: 1;
+  align-items: flex-end;
+}
+
+.arrival-widget__time {
+  font-size: 34px;
+  font-weight: 700;
+  font-family: var(--font-display);
+  letter-spacing: -0.03em;
+  line-height: 1;
+  color: var(--text-primary);
+}
+
+.arrival-widget__time small {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-secondary);
+  margin-left: 2px;
+}
+
+.arrival-widget__loading,
+.arrival-widget__empty,
+.arrival-widget__error {
+  font-size: 15px;
+  color: var(--text-tertiary);
+}
+
+.arrival-widget__dest {
+  font-size: 12px;
+  color: var(--text-tertiary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Alert Widget */
+.alert-widget {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  height: 100%;
+}
+
+.alert-widget__title {
+  font-size: 17px;
+  font-weight: 700;
+  font-family: var(--font-display);
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.alert-widget__count {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  background: var(--glass-bg-heavy);
+  padding: 2px 8px;
+  border-radius: var(--radius-capsule);
+}
+
+.alert-widget__list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  flex: 1;
+  overflow: hidden;
+}
+
+.alert-widget__item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.alert-widget__item-text {
+  font-size: 13px;
+  color: var(--text-primary);
+  line-height: 1.3;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.alert-widget__none {
+  font-size: 14px;
+  color: var(--text-tertiary);
+  text-align: center;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.alert-widget__error {
+  font-size: 13px;
+  color: var(--accent-red);
+}
+
+/* Route Card */
+.route-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  height: 100%;
+}
+
+.route-card__header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--space-sm);
+}
+
+.route-card__route {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.route-card__name {
+  font-size: 28px;
+  font-weight: 800;
+  font-family: var(--font-display);
+  letter-spacing: -0.03em;
+  line-height: 1;
+}
+
+.route-card__long {
+  font-size: 13px;
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.route-card__status {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: var(--radius-capsule);
+  white-space: nowrap;
+}
+
+.route-card__status--active {
+  background: rgba(52, 199, 89, 0.15);
+  color: var(--accent-green);
+}
+
+.route-card__status--inactive {
+  background: rgba(255, 59, 48, 0.15);
+  color: var(--accent-red);
+}
+
+.route-card__message {
+  font-size: 13px;
+  color: var(--accent-orange);
+  font-weight: 500;
+}
+
+.route-card__frequency {
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+.route-card__directions {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  flex: 1;
+  overflow: hidden;
+}
+
+.route-card__direction {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.route-card__dir-name {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.route-card__stops {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.route-card__stop {
+  font-size: 12px;
+  padding: 2px 8px;
+  border-radius: var(--radius-capsule);
+  background: var(--glass-bg);
+  border: 0.5px solid var(--glass-border);
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.route-card__stop:hover {
+  background: var(--glass-bg-heavy);
+}
+
+/* Route Picker */
+.route-picker {
+  background: var(--bg-app);
+  border-radius: var(--radius-xl);
+  width: 90%;
+  max-width: 420px;
+  max-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  animation: slideUp 0.3s cubic-bezier(0.32, 0.72, 0, 1);
+  overflow: hidden;
+}
+
+.route-picker__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-lg) var(--space-xl);
+  border-bottom: 0.5px solid var(--glass-border);
+}
+
+.route-picker__title {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: var(--font-display);
+  color: var(--text-primary);
+}
+
+.route-picker__close {
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: var(--text-secondary);
+  cursor: pointer;
+  padding: var(--space-sm);
+  border-radius: var(--radius-capsule);
+  transition: background 0.15s;
+}
+
+.route-picker__close:hover {
+  background: var(--glass-bg);
+}
+
+.route-picker__form {
+  display: flex;
+  gap: var(--space-sm);
+  padding: var(--space-lg) var(--space-xl);
+}
+
+.route-picker__input {
+  flex: 1;
+  padding: var(--space-md) var(--space-lg);
+  border-radius: var(--radius-capsule);
+  border: 0.5px solid var(--glass-border);
+  background: var(--glass-bg);
+  backdrop-filter: var(--glass-blur);
+  font-size: 17px;
+  font-weight: 500;
+  color: var(--text-primary);
+  outline: none;
+  transition: border-color 0.15s;
+}
+
+.route-picker__input:focus {
+  border-color: var(--accent-blue);
+}
+
+.route-picker__search {
+  padding: var(--space-md) var(--space-xl);
+  border-radius: var(--radius-capsule);
+  background: var(--accent-blue);
+  color: white;
+  border: none;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.route-picker__search:disabled {
+  opacity: 0.5;
+}
+
+.route-picker__error {
+  padding: 0 var(--space-xl);
+  font-size: 14px;
+  color: var(--accent-red);
+}
+
+.route-picker__results {
+  flex: 1;
+  overflow-y: auto;
+  padding: 0 var(--space-xl) var(--space-xl);
+}
+
+.route-picker__route-info {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-lg);
+}
+
+.route-picker__route-name {
+  font-size: 24px;
+  font-weight: 800;
+  font-family: var(--font-display);
+}
+
+.route-picker__route-long {
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
+.route-picker__direction {
+  margin-bottom: var(--space-lg);
+}
+
+.route-picker__dir-name {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin-bottom: var(--space-sm);
+}
+
+.route-picker__stops {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 6px;
+}
+
+.route-picker__stop {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: var(--space-sm) var(--space-md);
+  background: var(--glass-bg);
+  backdrop-filter: var(--glass-blur);
+  border: 0.5px solid var(--glass-border);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: background 0.15s;
+  text-align: left;
+  font-size: 14px;
+  color: var(--text-primary);
+}
+
+.route-picker__stop:hover {
+  background: var(--glass-bg-heavy);
+}
+
+.route-picker__stop-code {
+  font-weight: 600;
+  color: var(--text-secondary);
+  font-size: 12px;
+  min-width: 32px;
+}
+
+.route-picker__stop-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
