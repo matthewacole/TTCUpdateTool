@@ -43,9 +43,21 @@ body {
 
 .dashboard__header {
   display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: var(--space-md) 0;
+}
+
+.dashboard__header-top {
+  display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: var(--space-md) 0;
+}
+
+.dashboard__updated {
+  font-size: 11px;
+  color: var(--text-tertiary);
+  font-weight: 500;
 }
 
 .dashboard__title {

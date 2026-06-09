@@ -19,40 +19,78 @@
   letter-spacing: -0.02em;
 }
 
-.arrival-widget__fav {
+.arrival-widget__delete {
   background: none;
   border: none;
-  font-size: 20px;
+  font-size: 16px;
   cursor: pointer;
-  color: var(--accent-yellow);
-  padding: 2px;
+  color: var(--text-tertiary);
+  padding: 2px 6px;
   line-height: 1;
-  transition: transform 0.2s ease;
+  border-radius: var(--radius-capsule);
+  transition: background 0.15s, color 0.15s;
 }
 
-.arrival-widget__fav:active {
-  transform: scale(0.85);
+.arrival-widget__delete:hover {
+  background: rgba(255, 59, 48, 0.15);
+  color: var(--accent-red);
 }
 
 .arrival-widget__stop {
-  font-size: 13px;
+  font-size: 14px;
   color: var(--text-secondary);
   font-weight: 500;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  line-height: 1.35;
 }
 
 .arrival-widget__times {
   display: flex;
-  gap: var(--space-sm);
-  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 4px;
   flex: 1;
-  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.arrival-widget__group {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.arrival-widget__group-dest {
+  font-size: 11px;
+  color: var(--text-tertiary);
+  font-weight: 500;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex: 1;
+}
+
+.arrival-widget__badge {
+  font-size: 9px;
+  font-weight: 700;
+  padding: 1px 5px;
+  border-radius: 3px;
+  background: var(--glass-bg-heavy);
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  flex-shrink: 0;
+}
+
+.arrival-widget__group-times {
+  display: flex;
+  gap: 4px;
+  flex-shrink: 0;
 }
 
 .arrival-widget__time {
-  font-size: 34px;
+  font-size: 28px;
   font-weight: 700;
   font-family: var(--font-display);
   letter-spacing: -0.03em;
@@ -61,10 +99,10 @@
 }
 
 .arrival-widget__time small {
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 500;
   color: var(--text-secondary);
-  margin-left: 2px;
+  margin-left: 1px;
 }
 
 .arrival-widget__loading,
@@ -72,14 +110,6 @@
 .arrival-widget__error {
   font-size: 15px;
   color: var(--text-tertiary);
-}
-
-.arrival-widget__dest {
-  font-size: 12px;
-  color: var(--text-tertiary);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 
 /* Alert Widget */
@@ -418,4 +448,107 @@
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+/* Route Picker Tabs */
+.route-picker__tabs {
+  display: flex;
+  gap: 0;
+  padding: 0 var(--space-xl);
+  border-bottom: 0.5px solid var(--glass-border);
+}
+
+.route-picker__tab {
+  flex: 1;
+  background: none;
+  border: none;
+  padding: var(--space-md) var(--space-lg);
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-tertiary);
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition: color 0.15s, border-color 0.15s;
+}
+
+.route-picker__tab:hover {
+  color: var(--text-secondary);
+}
+
+.route-picker__tab--active {
+  color: var(--accent-blue);
+  border-bottom-color: var(--accent-blue);
+}
+
+/* Route Picker Browse */
+.route-picker__browse {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.route-picker__browse-filter {
+  padding: var(--space-lg) var(--space-xl);
+}
+
+.route-picker__browse-list {
+  flex: 1;
+  overflow-y: auto;
+  padding: 0 var(--space-xl) var(--space-xl);
+}
+
+.route-picker__browse-group {
+  margin-bottom: var(--space-lg);
+}
+
+.route-picker__browse-label {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--text-tertiary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: var(--space-sm);
+}
+
+.route-picker__browse-routes {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 6px;
+}
+
+.route-picker__browse-route {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: var(--space-sm) var(--space-md);
+  background: var(--glass-bg);
+  backdrop-filter: var(--glass-blur);
+  border: 0.5px solid var(--glass-border);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: background 0.15s;
+  text-align: left;
+  font-size: 13px;
+  color: var(--text-primary);
+}
+
+.route-picker__browse-route:hover {
+  background: var(--glass-bg-heavy);
+}
+
+.route-picker__browse-badge {
+  font-weight: 700;
+  font-family: var(--font-display);
+  font-size: 14px;
+  color: var(--route-color, var(--accent-blue));
+  min-width: 32px;
+}
+
+.route-picker__browse-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: var(--text-secondary);
+  font-size: 12px;
 }

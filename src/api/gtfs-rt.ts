@@ -23,6 +23,16 @@ export class GtfsRtApi {
     this.baseUrl = url;
   }
 
+  async getCacheIndex(): Promise<{ timestamp: number; updatedAt: string } | null> {
+    try {
+      return await this.client.get<{ timestamp: number; updatedAt: string }>(
+        `${this.baseUrl}/index.json`,
+      );
+    } catch {
+      return null;
+    }
+  }
+
   async getAlerts(): Promise<ServiceAlert[]> {
     try {
       const data = await this.client.get<{ entity: GtfsRtAlertEntity[] }>(

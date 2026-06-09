@@ -1,8 +1,7 @@
 import { useState, useEffect, useCallback } from "preact/hooks";
 import { ttcApi } from "../api";
 import { dataCache } from "../store";
-import { preferences } from "../store";
-import type { ArrivalPrediction } from "../types";
+import type { ArrivalPrediction, VehicleArrival } from "../types";
 import { WidgetBase } from "./widget-base";
 
 interface ArrivalWidgetProps {
@@ -11,9 +10,24 @@ interface ArrivalWidgetProps {
   routeColour: string | null;
   stopCode: string;
   stopName: string;
+  onDelete: (routeId: number, stopCode: string) => void;
 }
 
-export function ArrivalWidget({ routeId, routeName, routeColour, stopCode, stopName }: ArrivalWidgetProps) {
+function dirBadge(dest: string | null): string {
+  const d = (dest ?? "").toLowerCase();
+  if (d.includes("north")) return "NB";
+  if (d.includes("south")) return "SB";
+  if (d.includes("east")) return "EB";
+  if (d.includes("west")) return "WB";
+  return "";
+}
+
+function destShort(dest: string | null): string {
+  const d = (dest ?? "").replace(/^(to|via)\s+/i, "").trim();
+  return d.length > 40 ? d.substring(0, 38) + "…" : d;
+}
+
+export function ArrivalWidget({ routeId, routeName, routeColour, stopCode, stopName, onDelete }: ArrivalWidgetProps) {
   const [prediction, setPrediction] = useState<ArrivalPrediction | null>(null);
   const [error, setError] = useState<string | null>(null);
 
@@ -34,18 +48,15 @@ export function ArrivalWidget({ routeId, routeName, routeColour, stopCode, stopN
 
   useEffect(() => {
     fetchPredictions();
-    const interval = setInterval(fetchPredictions, preferences.get().refreshInterval * 1000);
+    const interval = setInterval(fetchPredictions, 30000);
     return () => clearInterval(interval);
   }, [fetchPredictions]);
 
-  const isFav = preferences.isFavorite(routeId, stopCode);
-  const toggleFav = () => {
-    if (isFav) {
-      preferences.removeFavorite(routeId, stopCode);
-    } else {
-      preferences.addFavorite({ routeId, routeName, routeColour, stopCode, stopName });
-    }
-  };
+  const grouped = (prediction?.vehicles ?? []).reduce<Record<string, VehicleArrival[]>>((acc, v) => {
+    const key = v.destination ?? "Unknown";
+    (acc[key] ??= []).push(v);
+    return acc;
+  }, {});
 
   return (
     <WidgetBase size="small" accent={routeColour}>
@@ -55,11 +66,11 @@ export function ArrivalWidget({ routeId, routeName, routeColour, stopCode, stopN
             {routeName}
           </span>
           <button
-            class="arrival-widget__fav"
-            onClick={toggleFav}
-            aria-label={isFav ? "Remove from favorites" : "Add to favorites"}
+            class="arrival-widget__delete"
+            onClick={() => onDelete(routeId, stopCode)}
+            aria-label="Remove stop"
           >
-            {isFav ? "★" : "☆"}
+            ✕
           </button>
         </div>
         <span class="arrival-widget__stop">{stopName}</span>
@@ -71,18 +82,23 @@ export function ArrivalWidget({ routeId, routeName, routeColour, stopCode, stopN
           {!error && prediction && prediction.vehicles.length === 0 && (
             <span class="arrival-widget__empty">No vehicles</span>
           )}
-          {!error && prediction?.vehicles.map((v, i) => (
-            <span key={`${v.vehicleType}-${v.minutes}-${i}`} class="arrival-widget__time">
-              {v.minutes}
-              <small>min</small>
-            </span>
+          {!error && Object.entries(grouped).map(([dest, vehicles]) => (
+            <div key={dest} class="arrival-widget__group">
+              <span class="arrival-widget__group-dest">
+                {dirBadge(dest) && <span class="arrival-widget__badge">{dirBadge(dest)}</span>}
+                {destShort(dest)}
+              </span>
+              <div class="arrival-widget__group-times">
+                {vehicles.map((v, i) => (
+                  <span key={`${v.vehicleType}-${v.minutes}-${i}`} class="arrival-widget__time">
+                    {v.minutes}
+                    <small>min</small>
+                  </span>
+                ))}
+              </div>
+            </div>
           ))}
         </div>
-        {prediction && prediction.vehicles.length > 0 && (
-          <span class="arrival-widget__dest">
-            to {prediction.vehicles[0].destination ?? "Unknown"}
-          </span>
-        )}
       </div>
     </WidgetBase>
   );
