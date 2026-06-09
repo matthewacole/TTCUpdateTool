@@ -100,7 +100,7 @@ interface TtcVehicleArrivalRaw {
 function mapRoute(data: TtcRouteWrapper): RouteWithDirections {
   const r = data.route;
   return {
-    id: r.id,
+    id: parseInt(r.shortName, 10) || r.id,
     gtfsId: r.gtfsId,
     agencyId: r.agencyId,
     agency: r.agency,
