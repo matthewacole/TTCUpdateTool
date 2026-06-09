@@ -353,17 +353,24 @@ export function DashboardWidget({ onAddStop }: DashboardWidgetProps) {
                         {!err && renderArrival(vehicles, err, sched)}
                         {err && <span class="dw__row-error">{err}</span>}
                       </div>
-                      <button
-                        class={`dw__row-track${isTracked ? " dw__row-track--active" : ""}`}
-                        onClick={() => {
-                          if (tracked) { handleUntrack(fav.stopCode); return; }
-                          handleTrack(fav.stopCode, fav.stopName, [{ id: fav.routeId, shortName: fav.routeName, colour: fav.routeColour }]);
-                        }}
-                        aria-label={isTracked ? "Stop tracking" : "Track stop"}
-                        disabled={trackingLoading[fav.stopCode]}
-                      >
-                        {trackingLoading[fav.stopCode] ? "…" : isTracked ? "♫" : "♪"}
-                      </button>
+                      {isTracked ? (
+                        <button
+                          class="dw__row-live"
+                          onClick={() => handleUntrack(fav.stopCode)}
+                          aria-label="Stop tracking"
+                        >
+                          LIVE
+                        </button>
+                      ) : (
+                        <button
+                          class="dw__row-track-btn"
+                          onClick={() => handleTrack(fav.stopCode, fav.stopName, [{ id: fav.routeId, shortName: fav.routeName, colour: fav.routeColour }])}
+                          disabled={trackingLoading[fav.stopCode]}
+                          aria-label="Track stop"
+                        >
+                          {trackingLoading[fav.stopCode] ? "…" : "Track"}
+                        </button>
+                      )}
                       <button class="dw__row-delete" onClick={() => handleDelete(fav.routeId, fav.stopCode)} aria-label="Remove stop">✕</button>
                     </div>
                   );
@@ -403,18 +410,27 @@ export function DashboardWidget({ onAddStop }: DashboardWidgetProps) {
                           <span class="dw__nearby-dist">{s.distance < 1000 ? `${Math.round(s.distance)}m` : `${(s.distance / 1000).toFixed(1)}km`}</span>
                         )}
                       </button>
-                      <button
-                        class={`dw__nr-track${isTracked ? " dw__nr-track--active" : ""}`}
-                        onClick={() => {
-                          if (tracked) { handleUntrack(s.code); return; }
-                          const routes = s.routes.map((r) => ({ id: parseInt(r.shortName, 10) || r.id, shortName: r.shortName, colour: r.colour }));
-                          handleTrack(s.code, s.name, routes);
-                        }}
-                        disabled={trackingLoading[s.code]}
-                        aria-label={isTracked ? "Stop tracking" : "Track stop"}
-                      >
-                        {trackingLoading[s.code] ? "…" : isTracked ? "♫" : "♪"}
-                      </button>
+                      {isTracked ? (
+                        <button
+                          class="dw__nr-live"
+                          onClick={() => handleUntrack(s.code)}
+                          aria-label="Stop tracking"
+                        >
+                          LIVE
+                        </button>
+                      ) : (
+                        <button
+                          class="dw__nr-track-btn"
+                          onClick={() => {
+                            const routes = s.routes.map((r) => ({ id: parseInt(r.shortName, 10) || r.id, shortName: r.shortName, colour: r.colour }));
+                            handleTrack(s.code, s.name, routes);
+                          }}
+                          disabled={trackingLoading[s.code]}
+                          aria-label="Track stop"
+                        >
+                          {trackingLoading[s.code] ? "…" : "Track"}
+                        </button>
+                      )}
                     </div>
                   );
                 })}

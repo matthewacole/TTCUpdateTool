@@ -997,31 +997,54 @@
 }
 
 /* Track button on favorite rows */
-.dw__row-track {
+.dw__row-track-btn {
   background: none;
-  border: none;
-  font-size: 18px;
+  border: 0.5px solid var(--glass-border);
+  border-radius: var(--radius-sm);
+  font-size: 11px;
+  font-weight: 600;
   cursor: pointer;
-  color: var(--text-tertiary);
-  padding: 2px 4px;
-  line-height: 1;
-  border-radius: var(--radius-capsule);
-  transition: color 0.15s, background 0.15s;
+  color: var(--text-secondary);
+  padding: 2px 8px;
+  line-height: 1.4;
+  transition: background 0.15s, color 0.15s;
   flex-shrink: 0;
   font-family: var(--font-text);
+  min-width: 44px;
+  text-align: center;
 }
 
-.dw__row-track:hover {
+.dw__row-track-btn:hover {
   background: var(--glass-bg-heavy);
+  color: var(--text-primary);
 }
 
-.dw__row-track:disabled {
+.dw__row-track-btn:disabled {
   opacity: 0.4;
   cursor: default;
 }
 
-.dw__row-track--active {
+.dw__row-live {
+  background: rgba(52, 199, 89, 0.2);
+  border: none;
+  border-radius: var(--radius-sm);
+  font-size: 9px;
+  font-weight: 800;
+  cursor: pointer;
   color: var(--accent-green);
+  padding: 2px 8px;
+  line-height: 1.4;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  transition: background 0.15s;
+  flex-shrink: 0;
+  font-family: var(--font-text);
+  min-width: 44px;
+  text-align: center;
+}
+
+.dw__row-live:hover {
+  background: rgba(52, 199, 89, 0.35);
 }
 
 /* Nearby stop row (add + track) */
@@ -1035,34 +1058,54 @@
   flex: 1;
 }
 
-.dw__nr-track {
+.dw__nr-track-btn {
   background: var(--glass-bg);
   border: 0.5px solid var(--glass-border);
   border-radius: var(--radius-md);
-  color: var(--text-tertiary);
-  font-size: 18px;
+  color: var(--text-secondary);
+  font-size: 11px;
+  font-weight: 600;
   cursor: pointer;
   padding: 0 var(--space-sm);
   min-width: 44px;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: color 0.15s, background 0.15s;
+  transition: background 0.15s, color 0.15s;
   font-family: var(--font-text);
 }
 
-.dw__nr-track:hover {
+.dw__nr-track-btn:hover {
   background: var(--glass-bg-heavy);
+  color: var(--text-primary);
 }
 
-.dw__nr-track:disabled {
+.dw__nr-track-btn:disabled {
   opacity: 0.4;
   cursor: default;
 }
 
-.dw__nr-track--active {
+.dw__nr-live {
+  background: rgba(52, 199, 89, 0.2);
+  border: none;
+  border-radius: var(--radius-md);
   color: var(--accent-green);
-  border-color: var(--accent-green);
+  font-size: 9px;
+  font-weight: 800;
+  cursor: pointer;
+  padding: 0 var(--space-sm);
+  min-width: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  transition: background 0.15s;
+  font-family: var(--font-text);
+}
+
+.dw__nr-live:hover {
+  background: rgba(52, 199, 89, 0.35);
 }
 
 /* Live Activity Widget */
