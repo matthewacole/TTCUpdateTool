@@ -19,6 +19,18 @@ interface NearbyStop {
   routes: Route[];
 }
 
+function relativeTime(epoch: number): string {
+  const diff = Date.now() - epoch;
+  const s = Math.floor(diff / 1000);
+  if (s < 60) return `${s}s ago`;
+  const m = Math.floor(s / 60);
+  if (m < 60) return `${m}m ago`;
+  const h = Math.floor(m / 60);
+  if (h < 24) return `${h}h ago`;
+  const d = Math.floor(h / 24);
+  return `${d}d ago`;
+}
+
 function dirBadge(dest: string | null): string {
   const d = (dest ?? "").toLowerCase();
   if (d.includes("north")) return "NB";
@@ -401,6 +413,48 @@ export function DashboardWidget({ onAddStop }: DashboardWidgetProps) {
           )}
         </div>
       </WidgetBase>
+
+      {alerts.length === 0 ? (
+        <WidgetBase size="large">
+          <div class="at at--empty">
+            <span class="at__check">✓</span>
+            <span class="at__empty-text">No active alerts</span>
+          </div>
+        </WidgetBase>
+      ) : (
+        <WidgetBase size="large">
+          <div class="at">
+            <div class="at__header">
+              <span>🚨 Service Alerts</span>
+              <span class="at__count">{alerts.length}</span>
+            </div>
+            <div class="at__list">
+              {alerts.map((a) => (
+                <div key={a.id} class={`at__row at__row--${a.severity.toLowerCase()}`}>
+                  <div class="at__row-top">
+                    <span class="at__dot" />
+                    <span class="at__sev">{a.severity === "SEVERE" ? "Severe" : a.severity === "WARNING" ? "Warning" : "Info"}</span>
+                    <span class="at__header-text">{a.header}</span>
+                  </div>
+                  <div class="at__row-mid">
+                    {a.routes.length > 0 && (
+                      <span class="at__routes">
+                        {a.routes.slice(0, 6).map((rid) => (
+                          <span key={rid} class="at__route-badge">{rid}</span>
+                        ))}
+                        {a.routes.length > 6 && <span class="at__route-more">+{a.routes.length - 6}</span>}
+                      </span>
+                    )}
+                    {a.description && <span class="at__desc">{a.description}</span>}
+                  </div>
+                  <span class="at__time">{relativeTime(a.updatedAt)}</span>
+                </div>
+              ))}
+            </div>
+            <div class="at__updated">Updated {label}</div>
+          </div>
+        </WidgetBase>
+      )}
 
       {trackedStops.map((ts) => {
         const allArrivals: { minutes: number; destination: string | null; routeName: string; routeColour: string | null; key: string }[] = [];
