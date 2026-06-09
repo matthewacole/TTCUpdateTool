@@ -8,20 +8,31 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: fetch-ttc
+  cancel-in-progress: false
+
 jobs:
   fetch:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+          persist-credentials: false
 
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-          cache: "npm"
+          cache: npm
 
       - run: npm ci
 
       - run: npm run fetch:data
+        working-directory: ${{ github.workspace }}
 
       - name: Deploy cache to gh-pages
         uses: peaceiris/actions-gh-pages@v3
@@ -30,3 +41,4 @@ jobs:
           publish_dir: ./cache
           destination_dir: cache
           keep_files: false
+          force_orphan: false
