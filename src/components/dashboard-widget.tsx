@@ -178,8 +178,9 @@ export function DashboardWidget({ onAddStop }: DashboardWidgetProps) {
         if (error) {
           newErrors[key] = error;
         } else {
-          newPredictions[key] = vehicles;
-          if (vehicles.length === 0) {
+          const valid = vehicles.filter((v) => Number.isFinite(v.minutes) && v.minutes >= 0);
+          newPredictions[key] = valid;
+          if (valid.length === 0) {
             const [routeIdStr, stopCode] = key.split(":");
             scheduledPromises.push(
               getNextScheduled(parseInt(routeIdStr, 10), stopCode).then((r) => ({ key, result: r })),
