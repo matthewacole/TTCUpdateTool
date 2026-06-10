@@ -125,7 +125,6 @@ export function DashboardWidget({ onAddStop }: DashboardWidgetProps) {
   const [scheduled, setScheduled] = useState<Record<string, { time: string; minutes: number } | null>>({});
   const [lastFetch, setLastFetch] = useState(Date.now());
   const [now, setNow] = useState(Date.now());
-  const [alertsOpen, setAlertsOpen] = useState(true);
   const [nearbyStops, setNearbyStops] = useState<NearbyStop[]>([]);
   const [gpsStatus, setGpsStatus] = useState<GpsStatus>("idle");
   const [addedStops, setAddedStops] = useState<Set<string>>(new Set);
@@ -336,10 +335,6 @@ export function DashboardWidget({ onAddStop }: DashboardWidgetProps) {
         (a) => a.severity !== "INFO" || a.routes.some((rid) => subwayRouteIds.has(rid) || userRouteIds.has(rid)),
       )
     : alerts;
-  const severe = filteredAlerts.filter((a) => a.severity === "SEVERE");
-  const warnings = filteredAlerts.filter((a) => a.severity === "WARNING");
-  const topAlerts = [...severe, ...warnings].slice(0, 3);
-  const hasAlerts = topAlerts.length > 0;
   const hasFavorites = favorites.length > 0;
   const hasNearby = nearbyStops.length > 0;
   const sinceSec = Math.floor((now - lastFetch) / 1000);
@@ -373,28 +368,57 @@ export function DashboardWidget({ onAddStop }: DashboardWidgetProps) {
           </div>
 
           <div class="dw__alerts">
-            <button class="dw__alerts-header" onClick={() => hasAlerts && setAlertsOpen((o) => !o)}>
-              <span class="dw__alerts-title">
-                Service Alerts
-                {filteredAlerts.length > 0 && <span class="dw__alerts-count">{filteredAlerts.length}</span>}
-              </span>
-              {hasAlerts && (
-                <span class={`dw__alerts-toggle${alertsOpen ? "" : " dw__alerts-toggle--closed"}`}>▾</span>
-              )}
-            </button>
-            {(!hasAlerts || alertsOpen) && (
-              <div class="dw__alerts-list">
-                {!hasAlerts && <span class="dw__alerts-none">{alertFilter === "priority" ? "No priority alerts" : "No active alerts"}</span>}
-                {hasAlerts && topAlerts.map((a) => (
-                  <div key={a.id} class="dw__alert-item">
-                    <span class={["badge", a.severity === "SEVERE" ? "badge--severe" : "badge--warning"].join(" ")}>
-                      {a.severity === "SEVERE" ? "Severe" : "Warning"}
-                    </span>
-                    <span class="dw__alert-text">{a.header}</span>
+            <div class="at__header">
+              <span>🚨 Service Alerts</span>
+              <span class="at__count">{filteredAlerts.length}</span>
+            </div>
+            <div class="at__list">
+              {filteredAlerts.map((a) => {
+                const isExpanded = expandedAlerts.has(a.id);
+                const cause = formatCause(a.cause);
+                const severityClass = a.severity.toLowerCase();
+                const extraClass = a.severity === "INFO" ? ` ${cause.cssClass}` : "";
+                return (
+                  <div
+                    key={a.id}
+                    class={`at__row at__row--${severityClass}${extraClass}${isExpanded ? " at__row--expanded" : ""}`}
+                    onClick={() => setExpandedAlerts((prev) => {
+                      const n = new Set(prev);
+                      if (n.has(a.id)) n.delete(a.id); else n.add(a.id);
+                      return n;
+                    })}
+                  >
+                    <div class="at__row-top">
+                      <span class="at__dot" />
+                      <span class="at__sev">
+                        {a.severity === "SEVERE" ? "Severe" : a.severity === "WARNING" ? "Warning" : `${cause.emoji} ${cause.label}`}
+                      </span>
+                      <span class="at__header-text">{a.header}</span>
+                    </div>
+                    <div class="at__row-mid">
+                      {a.routes.length > 0 && (
+                        <span class="at__routes">
+                          {a.routes.slice(0, 6).map((rid) => (
+                            <span key={rid} class="at__route-badge">{rid}</span>
+                          ))}
+                          {a.routes.length > 6 && <span class="at__route-more">+{a.routes.length - 6}</span>}
+                        </span>
+                      )}
+                      {isExpanded ? (
+                        <span class="at__desc at__desc--full">{a.description}</span>
+                      ) : a.description ? (
+                        <span class="at__desc at__desc--truncated">{a.description}</span>
+                      ) : null}
+                    </div>
+                    <span class="at__time">{formatDate(a.createdAt)} · {relativeTime(a.updatedAt)}</span>
                   </div>
-                ))}
-              </div>
-            )}
+                );
+              })}
+            </div>
+            <div class="at__empty" style={{ display: filteredAlerts.length === 0 ? "block" : "none" }}>
+              {alertFilter === "priority" ? "No priority alerts" : "No active alerts"}
+            </div>
+            <div class="at__updated">Updated {label}</div>
           </div>
 
           <div class="dw__divider" />
@@ -527,68 +551,6 @@ export function DashboardWidget({ onAddStop }: DashboardWidgetProps) {
           )}
         </div>
       </WidgetBase>
-
-      {filteredAlerts.length === 0 ? (
-        <WidgetBase size="large">
-          <div class="at at--empty">
-            <span class="at__check">✓</span>
-            <span class="at__empty-text">{alertFilter === "priority" ? "No priority alerts" : "No active alerts"}</span>
-          </div>
-        </WidgetBase>
-      ) : (
-        <WidgetBase size="large">
-          <div class="at">
-            <div class="at__header">
-              <span>🚨 Service Alerts</span>
-              <span class="at__count">{filteredAlerts.length}</span>
-            </div>
-            <div class="at__list">
-              {filteredAlerts.map((a) => {
-                const isExpanded = expandedAlerts.has(a.id);
-                const cause = formatCause(a.cause);
-                const severityClass = a.severity.toLowerCase();
-                const extraClass = a.severity === "INFO" ? ` ${cause.cssClass}` : "";
-                return (
-                  <div
-                    key={a.id}
-                    class={`at__row at__row--${severityClass}${extraClass}${isExpanded ? " at__row--expanded" : ""}`}
-                    onClick={() => setExpandedAlerts((prev) => {
-                      const n = new Set(prev);
-                      if (n.has(a.id)) n.delete(a.id); else n.add(a.id);
-                      return n;
-                    })}
-                  >
-                    <div class="at__row-top">
-                      <span class="at__dot" />
-                      <span class="at__sev">
-                        {a.severity === "SEVERE" ? "Severe" : a.severity === "WARNING" ? "Warning" : `${cause.emoji} ${cause.label}`}
-                      </span>
-                      <span class="at__header-text">{a.header}</span>
-                    </div>
-                    <div class="at__row-mid">
-                      {a.routes.length > 0 && (
-                        <span class="at__routes">
-                          {a.routes.slice(0, 6).map((rid) => (
-                            <span key={rid} class="at__route-badge">{rid}</span>
-                          ))}
-                          {a.routes.length > 6 && <span class="at__route-more">+{a.routes.length - 6}</span>}
-                        </span>
-                      )}
-                      {isExpanded ? (
-                        <span class="at__desc at__desc--full">{a.description}</span>
-                      ) : a.description ? (
-                        <span class="at__desc at__desc--truncated">{a.description}</span>
-                      ) : null}
-                    </div>
-                    <span class="at__time">{formatDate(a.createdAt)} · {relativeTime(a.updatedAt)}</span>
-                  </div>
-                );
-              })}
-            </div>
-            <div class="at__updated">Updated {label}</div>
-          </div>
-        </WidgetBase>
-      )}
 
       {trackedStops.map((ts) => {
         const allArrivals: { minutes: number; destination: string | null; routeName: string; routeColour: string | null; key: string }[] = [];
