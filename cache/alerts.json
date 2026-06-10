@@ -2,11 +2,40 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1781037315"
+    "timestamp": "1781089582"
   },
   "entity": [
     {
       "id": "1",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "501"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "501 Queen: Detour eastbound via",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "501 Queen: Detour eastbound via Spadina Ave and Adelaide St E while we respond to a medical emergency.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "2",
       "alert": {
         "informedEntity": [
           {
@@ -28,35 +57,6 @@
           "translation": [
             {
               "text": "134 Progress: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "2",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "112"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "112 West Mall: Detour via Ashfie",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "112 West Mall: Detour via Ashfield Dr due to construction.",
               "language": "en"
             }
           ]
@@ -304,47 +304,6 @@
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "22"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "70"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "322"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Coxwell: Elevator 11D1L out of s",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Coxwell: Elevator out of service between Strathmore Blvd entrance, concourse and Line 2 eastbound platform while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "11",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
             "routeId": "131"
           }
         ],
@@ -369,7 +328,7 @@
       }
     },
     {
-      "id": "12",
+      "id": "11",
       "alert": {
         "informedEntity": [
           {
@@ -398,7 +357,7 @@
       }
     },
     {
-      "id": "13",
+      "id": "12",
       "alert": {
         "informedEntity": [
           {
@@ -451,7 +410,7 @@
       }
     },
     {
-      "id": "14",
+      "id": "13",
       "alert": {
         "informedEntity": [
           {
@@ -486,7 +445,7 @@
       }
     },
     {
-      "id": "15",
+      "id": "14",
       "alert": {
         "informedEntity": [
           {
@@ -515,64 +474,7 @@
       }
     },
     {
-      "id": "16",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "48"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "73"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "149"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "15"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "76"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "66"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "315"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Royal York: Elevator 14B2L out o",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Royal York: Elevator out of service between west concourse and Line 2 westbound platform due to a technical problem.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "17",
+      "id": "15",
       "alert": {
         "informedEntity": [
           {
@@ -601,7 +503,7 @@
       }
     },
     {
-      "id": "18",
+      "id": "16",
       "alert": {
         "informedEntity": [
           {
@@ -630,7 +532,7 @@
       }
     },
     {
-      "id": "19",
+      "id": "17",
       "alert": {
         "informedEntity": [
           {
@@ -659,7 +561,7 @@
       }
     },
     {
-      "id": "20",
+      "id": "18",
       "alert": {
         "informedEntity": [
           {
@@ -720,7 +622,7 @@
       }
     },
     {
-      "id": "21",
+      "id": "19",
       "alert": {
         "informedEntity": [
           {
@@ -761,7 +663,7 @@
       }
     },
     {
-      "id": "22",
+      "id": "20",
       "alert": {
         "informedEntity": [
           {
@@ -790,7 +692,7 @@
       }
     },
     {
-      "id": "23",
+      "id": "21",
       "alert": {
         "informedEntity": [
           {
@@ -819,36 +721,24 @@
       }
     },
     {
-      "id": "24",
+      "id": "22",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "164"
+            "routeId": "97"
           },
           {
             "agencyId": "1",
-            "routeId": "363"
+            "routeId": "19"
           },
           {
             "agencyId": "1",
-            "routeId": "34"
+            "routeId": "300"
           },
           {
             "agencyId": "1",
-            "routeId": "90"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "109"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "63"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "334"
+            "routeId": "320"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -856,7 +746,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Cedarvale: Elevator 6 out of ser",
+              "text": "Bloor-Yonge: Elevator out of ser",
               "language": "en"
             }
           ]
@@ -864,7 +754,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "Cedarvale: Elevator out of service between upper concourse, lower concourse, Line 1 northbound, and Line 5 centre platform due to a technical problem.",
+              "text": "Bloor-Yonge: Elevator out of service between Bloor St E south side entrance and south concourse while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -872,36 +762,7 @@
       }
     },
     {
-      "id": "25",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "501"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "501 Queen: Detour via Church St",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "501 Queen: Detour via Church St and King St E due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "26",
+      "id": "23",
       "alert": {
         "informedEntity": [
           {
@@ -1250,72 +1111,7 @@
       }
     },
     {
-      "id": "27",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "97"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "304"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "19"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "503"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "504"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "505"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "501"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "320"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "301"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "305"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Queen: Elevator 9Y2L out of serv",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Queen: Elevator out of service between underpass and Line 1 northbound platform while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "28",
+      "id": "24",
       "alert": {
         "informedEntity": [
           {
@@ -1344,7 +1140,7 @@
       }
     },
     {
-      "id": "29",
+      "id": "25",
       "alert": {
         "informedEntity": [
           {
@@ -1373,7 +1169,7 @@
       }
     },
     {
-      "id": "30",
+      "id": "26",
       "alert": {
         "informedEntity": [
           {
@@ -1402,7 +1198,7 @@
       }
     },
     {
-      "id": "31",
+      "id": "27",
       "alert": {
         "informedEntity": [
           {
@@ -1431,7 +1227,7 @@
       }
     },
     {
-      "id": "32",
+      "id": "28",
       "alert": {
         "informedEntity": [
           {
