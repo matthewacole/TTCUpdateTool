@@ -1737,3 +1737,44 @@
   color: var(--text-tertiary);
   line-height: 1.35;
 }
+
+/* Favourite Routes header */
+.dw__stops-header {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-secondary);
+  margin-bottom: var(--space-sm);
+}
+
+/* Night route scheduled time */
+.dw__row-sched--night {
+  font-size: 13px;
+  font-weight: 700;
+  color: #0054a6;
+  white-space: nowrap;
+}
+
+/* Night badge on LIVE widget */
+.live__night-badge {
+  font-size: 9px;
+  font-weight: 800;
+  padding: 2px 6px;
+  border-radius: 4px;
+  background: rgba(0, 84, 166, 0.2);
+  color: #0054a6;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  flex-shrink: 0;
+}
+
+/* Night route hero */
+.live__hero--night .live__hero-num,
+.live__hero--night .live__hero-unit {
+  color: #0054a6;
+}
+
+.live__hero--night .live__hero-sub {
+  font-size: 11px;
+  font-weight: 600;
+  color: #0054a6;
+}

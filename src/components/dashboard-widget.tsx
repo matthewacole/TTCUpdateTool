@@ -5,6 +5,7 @@ import { ttcApi, gtfsRtApi, mapAlert } from "../api";
 import type { GtfsRtAlertEntity } from "../api";
 import { getNextScheduled, getRouteIdsForStop } from "../api/schedule";
 import { ALL_ROUTES } from "../data/routes-list";
+import { NIGHT_ROUTE_MAP, isNightHours } from "../data/night-routes";
 import { SettingsPanel } from "./settings-panel";
 import type { FavoriteStop, TrackedStop, TrackedStopRoute } from "../store";
 import type { ServiceAlert, VehicleArrival, Route, RouteType } from "../types";
@@ -131,6 +132,7 @@ export function DashboardWidget({ onAddStop }: DashboardWidgetProps) {
   const [nearbyErrors, setNearbyErrors] = useState<Record<string, string>>({});
   const [trackingLoading, setTrackingLoading] = useState<Record<string, boolean>>({});
   const [expandedAlerts, setExpandedAlerts] = useState<Set<string>>(new Set);
+  const [nightScheduled, setNightScheduled] = useState<Record<string, { time: string; minutes: number } | null>>({});
   const [showSettings, setShowSettings] = useState(false);
 
   const fetchPredictions = useCallback(async () => {
@@ -202,6 +204,24 @@ export function DashboardWidget({ onAddStop }: DashboardWidgetProps) {
       newScheduled[key] = result;
     }
     setScheduled((prev) => ({ ...prev, ...newScheduled }));
+
+    const newNight: Record<string, { time: string; minutes: number } | null> = {};
+    if (isNightHours()) {
+      const nightPromises: Promise<{ key: string; result: { time: string; minutes: number } | null }>[] = [];
+      for (const p of pairs) {
+        const nightId = NIGHT_ROUTE_MAP[String(p.routeId)];
+        if (nightId) {
+          nightPromises.push(
+            getNextScheduled(parseInt(nightId, 10), p.stopCode).then((r) => ({ key: `${p.routeId}:${p.stopCode}`, result: r })),
+          );
+        }
+      }
+      const nightResults = await Promise.all(nightPromises);
+      for (const { key, result } of nightResults) {
+        newNight[key] = result;
+      }
+    }
+    setNightScheduled(newNight);
 
     setLastFetch(Date.now());
   }, []);
@@ -435,43 +455,54 @@ export function DashboardWidget({ onAddStop }: DashboardWidgetProps) {
             </div>
           ) : (
             <>
+              <div class="dw__stops-header">Favourite Routes</div>
               <div class="dw__stops">
                 {favorites.map((fav) => {
                   const key = `${fav.routeId}:${fav.stopCode}`;
                   const vehicles = predictions[key] ?? [];
                   const err = errors[key];
                   const sched = scheduled[key];
+                  const nightSched = nightScheduled[key];
                   const tracked = trackedStops.find((t) => t.stopCode === fav.stopCode);
                   const isTracked = !!tracked;
+                  const nightId = nightSched ? NIGHT_ROUTE_MAP[String(fav.routeId)] : null;
+                  const displayRoute = nightId ?? fav.routeName;
+                  const displayColour = nightId ? "#0054a6" : fav.routeColour;
                   return (
-                    <div key={key} class="dw__row" style={fav.routeColour ? { "--accent": fav.routeColour } as any : undefined}>
-                      {fav.routeColour && <div class="dw__row-accent" />}
+                    <div key={key} class="dw__row" style={displayColour ? { "--accent": displayColour } as any : undefined}>
+                      {displayColour && <div class="dw__row-accent" />}
                       <div class="dw__row-info">
-                        <span class="dw__row-route" style={fav.routeColour ? { color: fav.routeColour } : undefined}>{fav.routeName}</span>
+                        <span class="dw__row-route" style={displayColour ? { color: displayColour } : undefined}>{displayRoute}</span>
                         <span class="dw__row-stop">{fav.stopName}</span>
                       </div>
-                      {!err && vehicles.length > 0 && <span class="dw__row-dir">{dirBadge(vehicles[0].destination)}</span>}
-                      <div class="dw__row-times">
-                        {!err && renderArrival(vehicles, err, sched)}
-                        {err && <span class="dw__row-error">{err}</span>}
-                      </div>
-                      {isTracked ? (
-                        <button
-                          class="dw__row-live"
-                          onClick={() => handleUntrack(fav.stopCode)}
-                          aria-label="Stop tracking"
-                        >
-                          LIVE
-                        </button>
+                      {nightSched ? (
+                        <span class="dw__row-sched dw__row-sched--night">🌙 {nightSched.time}</span>
                       ) : (
-                        <button
-                          class="dw__row-track-btn"
-                          onClick={() => handleTrack(fav.stopCode, fav.stopName, [{ id: fav.routeId, shortName: fav.routeName, colour: fav.routeColour }])}
-                          disabled={trackingLoading[fav.stopCode]}
-                          aria-label="Track stop"
-                        >
-                          {trackingLoading[fav.stopCode] ? "…" : "Track"}
-                        </button>
+                        <>
+                          {!err && vehicles.length > 0 && <span class="dw__row-dir">{dirBadge(vehicles[0].destination)}</span>}
+                          <div class="dw__row-times">
+                            {!err && renderArrival(vehicles, err, sched)}
+                            {err && <span class="dw__row-error">{err}</span>}
+                          </div>
+                          {isTracked ? (
+                            <button
+                              class="dw__row-live"
+                              onClick={() => handleUntrack(fav.stopCode)}
+                              aria-label="Stop tracking"
+                            >
+                              LIVE
+                            </button>
+                          ) : (
+                            <button
+                              class="dw__row-track-btn"
+                              onClick={() => handleTrack(fav.stopCode, fav.stopName, [{ id: fav.routeId, shortName: fav.routeName, colour: fav.routeColour }])}
+                              disabled={trackingLoading[fav.stopCode]}
+                              aria-label="Track stop"
+                            >
+                              {trackingLoading[fav.stopCode] ? "…" : "Track"}
+                            </button>
+                          )}
+                        </>
                       )}
                       <button class="dw__row-delete" onClick={() => handleDelete(fav.routeId, fav.stopCode)} aria-label="Remove stop">✕</button>
                     </div>
@@ -568,13 +599,22 @@ export function DashboardWidget({ onAddStop }: DashboardWidgetProps) {
         let schedFallback: { time: string; minutes: number } | null = null;
         if (!best) {
           for (const r of ts.routes) {
-            const key = `${r.id}:${ts.stopCode}`;
-            const s = scheduled[key];
-            if (s) { schedFallback = s; break; }
+            const ns = nightScheduled[`${r.id}:${ts.stopCode}`];
+            if (ns) { schedFallback = ns; break; }
+          }
+          if (!schedFallback) {
+            for (const r of ts.routes) {
+              const key = `${r.id}:${ts.stopCode}`;
+              const s = scheduled[key];
+              if (s) { schedFallback = s; break; }
+            }
           }
         }
 
-        const bestColour = best?.routeColour ?? null;
+        const isNightFallback = !best && !!nightScheduled[`${ts.routes[0]?.id}:${ts.stopCode}`];
+        const nightId = isNightFallback && ts.routes[0] ? NIGHT_ROUTE_MAP[String(ts.routes[0].id)] : null;
+        const bestColour = isNightFallback ? "#0054a6" : (best?.routeColour ?? null);
+        const bestRouteName = nightId ?? best?.routeName ?? ts.routes[0]?.shortName ?? "?";
 
         return (
           <WidgetBase key={ts.stopCode} size="large">
@@ -582,10 +622,11 @@ export function DashboardWidget({ onAddStop }: DashboardWidgetProps) {
               <div class="live__header">
                 <div class="live__header-left">
                   <span class="live__route" style={bestColour ? { color: bestColour } : undefined}>
-                    {best?.routeName ?? ts.routes[0]?.shortName ?? "?"}
+                    {bestRouteName}
                   </span>
-                  {best && <span class="live__live-badge">LIVE</span>}
-                  {best && <span class="live__dir">{dirBadge(best.destination)}</span>}
+                  {!isNightFallback && best && <span class="live__live-badge">LIVE</span>}
+                  {isNightFallback && <span class="live__night-badge">Night</span>}
+                  {!isNightFallback && best && <span class="live__dir">{dirBadge(best.destination)}</span>}
                   {ts.routes.length > 1 && (
                     <span class="live__routes-more">+{ts.routes.length - 1}</span>
                   )}
@@ -600,10 +641,10 @@ export function DashboardWidget({ onAddStop }: DashboardWidgetProps) {
                   <span class="live__hero-unit">min</span>
                 </div>
               ) : schedFallback ? (
-                <div class="live__hero live__hero--sched">
+                <div class={`live__hero${isNightFallback ? " live__hero--night" : " live__hero--sched"}`}>
                   <span class="live__hero-num">{schedFallback.minutes}</span>
                   <span class="live__hero-unit">min</span>
-                  <span class="live__hero-sub">📍 Scheduled {schedFallback.time}</span>
+                  <span class="live__hero-sub">{isNightFallback ? `🌙 ${nightId} Night` : `📍 Scheduled ${schedFallback.time}`}</span>
                 </div>
               ) : (
                 <div class="live__hero live__hero--none">
