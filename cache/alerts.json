@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1781089582"
+    "timestamp": "1781121389"
   },
   "entity": [
     {
@@ -69,6 +69,35 @@
         "informedEntity": [
           {
             "agencyId": "1",
+            "routeId": "960"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "960 Steeles West Express: Detour",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "960 Steeles West Express: Detour eastbound via Steeles Ave W, Westminster Ave, Conley St, Thurman Rd and Steeles Ave W due to a blocked road.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "4",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
             "routeId": "506"
           }
         ],
@@ -93,7 +122,7 @@
       }
     },
     {
-      "id": "4",
+      "id": "5",
       "alert": {
         "informedEntity": [
           {
@@ -122,7 +151,7 @@
       }
     },
     {
-      "id": "5",
+      "id": "6",
       "alert": {
         "informedEntity": [
           {
@@ -151,7 +180,7 @@
       }
     },
     {
-      "id": "6",
+      "id": "7",
       "alert": {
         "informedEntity": [
           {
@@ -212,7 +241,7 @@
       }
     },
     {
-      "id": "7",
+      "id": "8",
       "alert": {
         "informedEntity": [
           {
@@ -241,7 +270,7 @@
       }
     },
     {
-      "id": "8",
+      "id": "9",
       "alert": {
         "informedEntity": [
           {
@@ -270,7 +299,7 @@
       }
     },
     {
-      "id": "9",
+      "id": "10",
       "alert": {
         "informedEntity": [
           {
@@ -299,7 +328,7 @@
       }
     },
     {
-      "id": "10",
+      "id": "11",
       "alert": {
         "informedEntity": [
           {
@@ -328,7 +357,7 @@
       }
     },
     {
-      "id": "11",
+      "id": "12",
       "alert": {
         "informedEntity": [
           {
@@ -350,59 +379,6 @@
           "translation": [
             {
               "text": "133 Neilson: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "12",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "164"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "363"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "90"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "109"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "63"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "334"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Oakwood: Elevator 1 out of servi",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Oakwood: Elevator out of service between concourse and Line 5 centre platform while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -566,67 +542,6 @@
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "12"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "24"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "117"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "924"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "113"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "67"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "20"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "324"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Victoria Park: Elevator 14D3L ou",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Victoria Park: Elevator out of service between concourse and Line 2 eastbound platform while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "19",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
             "routeId": "97"
           },
           {
@@ -656,6 +571,35 @@
           "translation": [
             {
               "text": "Bloor-Yonge: Elevator out of service between Bloor St E north side entrance and north concourse due to a technical problem.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "19",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "112"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "112 West Mall: Detour via Welles",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "112 West Mall: Detour via Wellesworth Dr and Eringate Dr due to construction.",
               "language": "en"
             }
           ]
@@ -1203,6 +1147,35 @@
         "informedEntity": [
           {
             "agencyId": "1",
+            "routeId": "60"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "60 Steeles West: Detour eastboun",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "60 Steeles West: Detour eastbound via Steeles Ave W, Westminster Ave, Conley St, Thurman Rd and Steeles Ave W due to a blocked road.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "28",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
             "routeId": "169"
           }
         ],
@@ -1227,7 +1200,7 @@
       }
     },
     {
-      "id": "28",
+      "id": "29",
       "alert": {
         "informedEntity": [
           {
