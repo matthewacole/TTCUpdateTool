@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1781212176"
+    "timestamp": "1781263848"
   },
   "entity": [
     {
@@ -712,6 +712,47 @@
       }
     },
     {
+      "id": "DevAPI-0D0A97DD-B574-4EC4-97E3-288341C01B56",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "310"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "510"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "127"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Spadina: Elevator 2B2L out of se",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Spadina: Elevator out of service between south concourse and Line 2 westbound platform while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-552DEDCA-1557-491F-85CD-96B13D61B733",
       "alert": {
         "informedEntity": [
@@ -1126,96 +1167,6 @@
           "translation": [
             {
               "text": "130 Middlefield: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-C0D37EC8-B4DE-481B-9EB4-E921C41F5218",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "67"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "20"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "117"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "924"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "324"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "12"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "24"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "113"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Line 2 Bloor-Danforth: Delays we",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Line 2 Bloor-Danforth: Delays westbound at Victoria Park station while we fix a mechanical problem.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-68F096AF-6738-4112-BFEA-AEA1CE9F0FE5",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "31"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "31 Greenwood: Detour southbound",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "31 Greenwood: Detour southbound via Leslie St, Lake Shore Blvd E and Emdaabiimok Ave due to construction.",
               "language": "en"
             }
           ]
