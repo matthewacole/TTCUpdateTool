@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1781365973"
+    "timestamp": "1781383768"
   },
   "entity": [
     {
@@ -89,35 +89,6 @@
           "translation": [
             {
               "text": "Have proof of payment ready for inspection.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-ACE9761A-470E-4854-B560-46CB61DC4DCE",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "161"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "161 Rogers Rd: Detour westbound",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "161 Rogers Rd: Detour westbound via Davenport Rd, Dufferin St and Rogers Rd due to the Portugal Day Parade.",
               "language": "en"
             }
           ]
@@ -234,6 +205,79 @@
           "translation": [
             {
               "text": "16 Mccowan: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-B62764D4-A113-4400-B5B4-49EE906E1A06",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "335"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "106"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "353"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "341"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "166"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "935"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "960"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "41"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "35"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "60"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "84"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "108"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Pioneer Village: Elevator 13S3L",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Pioneer Village: Elevator out of service between lower south concourse and Line 1 centre platform or upper south concourse while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -1075,6 +1119,79 @@
       }
     },
     {
+      "id": "DevAPI-936B64DF-125C-4D1C-A14F-F6C80EF9BFBD",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "396"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "996"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "395"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "78"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "95"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "122"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "320"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "115"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "165"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "96"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "97"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "995"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "York Mills: Elevator 20Y2L out o",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "York Mills: Elevator out of service between concourse and bus platform due to a technical problem.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-DA091B87-E1A6-4B9F-9F9E-70F820FF508F",
       "alert": {
         "informedEntity": [
@@ -1165,16 +1282,20 @@
       }
     },
     {
-      "id": "DevAPI-AE261FA4-108F-4A7F-9CA7-16CBE012047E",
+      "id": "DevAPI-6BBA412D-0048-4562-A646-FBDA89C04191",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "68"
+            "routeId": "334"
           },
           {
             "agencyId": "1",
-            "routeId": "334"
+            "routeId": "63"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "90"
           },
           {
             "agencyId": "1",
@@ -1182,11 +1303,15 @@
           },
           {
             "agencyId": "1",
-            "routeId": "968"
+            "routeId": "109"
           },
           {
             "agencyId": "1",
-            "routeId": "17"
+            "routeId": "363"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "164"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -1194,7 +1319,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Line 5 Eglinton: No service betw",
+              "text": "Cedarvale: Elevator 6 out of ser",
               "language": "en"
             }
           ]
@@ -1202,7 +1327,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "Line 5 Eglinton: No service between Hakimi Lebovic and Birchmount stations due to blocked track. Shuttle buses are on the way.",
+              "text": "Cedarvale: Elevator out of service between upper concourse, lower concourse, Line 1 northbound, and Line 5 centre platform while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -1239,12 +1364,40 @@
       }
     },
     {
-      "id": "DevAPI-C5FF66A4-77D7-44B8-B834-5533316B1163",
+      "id": "DevAPI-083487A1-0FE7-4410-AE9F-0AE0EC2B314A",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "161"
+            "routeId": "941"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "101"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "36"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "336"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "341"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "939"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "41"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "107"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -1252,7 +1405,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "161 Rogers Rd: Detour eastbound",
+              "text": "Finch West: Elevator FWLRT-1 out",
               "language": "en"
             }
           ]
@@ -1260,7 +1413,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "161 Rogers Rd: Detour eastbound via Rogers Rd, Dufferin St, Davenport Rd and Dovercourt Rd due to the Portugal Day Parade.",
+              "text": "Finch West: Elevator out of service between Finch Avenue South Side Entrance and Line 6 Concourse while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -1367,6 +1520,79 @@
       }
     },
     {
+      "id": "DevAPI-747B594A-E1C2-461E-AD29-493156C68F67",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "304"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "62"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "8"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "322"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "100"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "25"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "505"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "925"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "87"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "305"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "504"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Broadview: Elevator 6D1L out of",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Broadview: Elevator out of service between Broadview Ave entrance, concourse and Line 2 westbound platform while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-BE8054CF-15DA-4A37-AB2D-8DF04C8A823D",
       "alert": {
         "informedEntity": [
@@ -1418,6 +1644,123 @@
           "translation": [
             {
               "text": "511 Bathurst: Streetcars are not stopping near Exhibition Loop due to FIFA World Cup route adjustments.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-70B91ECA-0780-4B9F-A88B-39F1A8F1FF59",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "335"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "941"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "384"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "106"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "101"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "36"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "329"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "341"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "984"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "166"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "935"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "960"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "41"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "104"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "60"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "84"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "108"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "353"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "336"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "939"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "35"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "105"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "107"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Line 1 Yonge-University: No serv",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Line 1 Yonge-University: No service between Pioneer Village and Sheppard West stations due to a security incident.",
               "language": "en"
             }
           ]
