@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1781413959"
+    "timestamp": "1781427068"
   },
   "entity": [
     {
@@ -176,6 +176,35 @@
           "translation": [
             {
               "text": "511 Bathurst: Streetcars are not stopping southbound near Manitoba Dr at Strachan Ave West Side due to FIFA World Cup route adjustments.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-D20B8443-283C-430B-B504-55E56A2CD8A2",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "320"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "320 Yonge: Detour southbound via",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "320 Yonge: Detour southbound via Front St E and Yonge St due to police activity.",
               "language": "en"
             }
           ]
@@ -443,6 +472,64 @@
           "translation": [
             {
               "text": "903 Kennedy Stn-Scarborough Express: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-23157925-250E-4019-8DF7-B059BDE8DB69",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "509"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "509 Harbourfront: No service nea",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "509 Harbourfront: No service near Fleet St at Bathurst St West Side due to a blocked track.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-CED4CC5C-6BE0-49E7-843C-F056DCB14EF5",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "354"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "354 Lawrence East: Detour eastbo",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "354 Lawrence East: Detour eastbound via Mccowan Rd, Brimorton Dr and Bellamy Rd S due to a collision.",
               "language": "en"
             }
           ]
@@ -1039,6 +1126,35 @@
           "translation": [
             {
               "text": "395 York Mills: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-DDF8F2BF-F233-4289-8F67-7DC0345E9AB2",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "511"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "511 Bathurst: No service near Fl",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "511 Bathurst: No service near Fleet St at Bathurst St due to a collision.",
               "language": "en"
             }
           ]
