@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1781450317"
+    "timestamp": "1781455817"
   },
   "entity": [
     {
@@ -183,6 +183,67 @@
       }
     },
     {
+      "id": "DevAPI-ECB6C3DA-CD7E-47D4-9D80-1DB162D8E07F",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "396"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "73"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "336"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "46"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "337"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "945"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "927"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "96"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "45"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Line 6 Finch West: No service be",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Line 6 Finch West: No service between Mount Olive and Martin Grove stations while the maintainer fixes a switch problem. Shuttle buses are running between Mount Olive and Humber College.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-20DBE903-2332-49D4-8DDD-C0E3052144BC",
       "alert": {
         "informedEntity": [
@@ -212,6 +273,59 @@
       }
     },
     {
+      "id": "DevAPI-2DBE5FB0-A000-4061-85A5-C00AFF1E374E",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "63"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "90"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "109"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "363"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "164"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Cedarvale: Elevator 6 out of ser",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Cedarvale: Elevator out of service between upper concourse, lower concourse, Line 1 northbound, and Line 5 centre platform while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-0659CD86-A907-4CCA-A34C-917B128E3D6C",
       "alert": {
         "informedEntity": [
@@ -234,6 +348,59 @@
           "translation": [
             {
               "text": "996 Wilson Express: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-D72D0722-4A30-4120-940D-D91C97A5D662",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "63"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "90"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "109"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "363"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "164"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Cedarvale: Elevator 4S2L out of",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Cedarvale: Elevator out of service between bus terminal entrance and Line 1 Finch via southbound platform due to a technical problem.",
               "language": "en"
             }
           ]
@@ -792,103 +959,6 @@
           "translation": [
             {
               "text": "Line 5 Eglinton: Delays westbound from Kennedy to Mount Dennis stations while the maintainer fixes a mechanical problem.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-308D5D05-1044-4348-9336-C0D72E20D343",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "510"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "127"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "301"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "506"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "305"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "97"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "19"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "504"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "13"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "304"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "26"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "310"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "505"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "94"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "501"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "503"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "306"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Line 1 Yonge-University: No serv",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Line 1 Yonge-University: No service between St Andrew and Spadina stations due to a security incident.",
               "language": "en"
             }
           ]
