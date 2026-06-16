@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1781631311"
+    "timestamp": "1781641737"
   },
   "entity": [
     {
@@ -154,35 +154,6 @@
       }
     },
     {
-      "id": "DevAPI-FC23F54F-CC1D-46DC-AA38-43EDF422BB5A",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "28"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "28 Bayview South: Detour via Yon",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "28 Bayview South: Detour via Yonge St, Millwood Rd and Acacia Rd due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-735FF2B6-56CD-4CA9-8B32-08F91E57BEB3",
       "alert": {
         "informedEntity": [
@@ -323,6 +294,35 @@
       }
     },
     {
+      "id": "DevAPI-6EF63A59-5C0B-4524-8804-9707E0BBE4E7",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "102"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "102 Markham Rd: Detour southboun",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "102 Markham Rd: Detour southbound via Markham Rd, 16th Ave, Fincham , Paramount Crt, Parkway Ave and Markham Rd due to a collision.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-AEDBDB48-BB19-4C0E-9FF1-B2653B69CAA6",
       "alert": {
         "informedEntity": [
@@ -445,60 +445,12 @@
       }
     },
     {
-      "id": "DevAPI-2F39D3F6-6DFA-4D4F-8A80-51BB0D6DCE9E",
+      "id": "DevAPI-D38DAB5D-5E2F-42B3-BB66-2815191088BF",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "509"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "114"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "510"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "320"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "121"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "97"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "504"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "19"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "304"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "202"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "309"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "310"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "503"
+            "routeId": "939"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -506,7 +458,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Union: Elevator 7Y1L out of serv",
+              "text": "939 Finch Express: Detour eastbo",
               "language": "en"
             }
           ]
@@ -514,7 +466,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "Union: Elevator out of service between concourse and Line 1 Vaughan platform while we perform maintenance.",
+              "text": "939 Finch Express: Detour eastbound via Finch Ave E, Neilson Rd and Morningside Ave due to a collision.",
               "language": "en"
             }
           ]
@@ -638,6 +590,67 @@
       }
     },
     {
+      "id": "DevAPI-0C35870C-E50C-47FA-A263-4B7B24808BF8",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "67"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "20"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "117"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "924"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "324"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "12"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "24"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "113"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Victoria Park: Elevator 14D3L ou",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Victoria Park: Elevator out of service between concourse and Line 2 eastbound platform while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-552DEDCA-1557-491F-85CD-96B13D61B733",
       "alert": {
         "informedEntity": [
@@ -747,79 +760,6 @@
           "translation": [
             {
               "text": "509 Harbourfront: Streetcars are not stopping eastbound near Fleet St at Strachan Ave due to FIFA World Cup route adjustments.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-D2A8D111-DE5B-423E-B703-386DCA4A6439",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "396"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "996"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "395"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "78"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "95"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "122"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "320"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "115"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "165"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "96"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "97"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "995"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "York Mills: Elevator 20Y1L out o",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "York Mills: Elevator out of service between concourse and Line 1 centre platform while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -1004,6 +944,64 @@
       }
     },
     {
+      "id": "DevAPI-83C61A14-02B1-40C7-9DC2-CC62D7B70BAC",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "133"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "133 Neilson: Detour northbound v",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "133 Neilson: Detour northbound via Neilson Rd, Morningside Ave and Staines Rd due to a collision.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-D2749115-61B9-4EB2-9CF4-B158348A4D9F",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "511"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "511 Bathurst: Detour northbound",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "511 Bathurst: Detour northbound via College St, Spadina Ave and Spadina Station due to a collision.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-88ED0667-5E69-419C-B7E2-72949F41B441",
       "alert": {
         "informedEntity": [
@@ -1125,6 +1123,35 @@
           "translation": [
             {
               "text": "131 Nugget: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-A4132875-893D-45D3-B27D-A8096BB4C177",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "68"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "68 Warden: Detour via Ellesmere",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "68 Warden: Detour via Ellesmere Rd, Pharmacy Ave and Lawrence Ave E due to a collision.",
               "language": "en"
             }
           ]
