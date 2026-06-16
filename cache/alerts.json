@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1781641737"
+    "timestamp": "1781649135"
   },
   "entity": [
     {
@@ -294,35 +294,6 @@
       }
     },
     {
-      "id": "DevAPI-6EF63A59-5C0B-4524-8804-9707E0BBE4E7",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "102"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "102 Markham Rd: Detour southboun",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "102 Markham Rd: Detour southbound via Markham Rd, 16th Ave, Fincham , Paramount Crt, Parkway Ave and Markham Rd due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-AEDBDB48-BB19-4C0E-9FF1-B2653B69CAA6",
       "alert": {
         "informedEntity": [
@@ -438,35 +409,6 @@
           "translation": [
             {
               "text": "16 Mccowan: Detour southbound via Danforth Rd and Birchmount Rd due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-D38DAB5D-5E2F-42B3-BB66-2815191088BF",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "939"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "939 Finch Express: Detour eastbo",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "939 Finch Express: Detour eastbound via Finch Ave E, Neilson Rd and Morningside Ave due to a collision.",
               "language": "en"
             }
           ]
@@ -590,44 +532,12 @@
       }
     },
     {
-      "id": "DevAPI-0C35870C-E50C-47FA-A263-4B7B24808BF8",
+      "id": "DevAPI-7DA0CB49-C8B7-4BD0-AD54-2C1FA6BA6B6A",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "67"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "20"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "117"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "924"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "324"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "12"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "24"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "113"
+            "routeId": "66"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -635,7 +545,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Victoria Park: Elevator 14D3L ou",
+              "text": "66 Prince Edward: Detour via Par",
               "language": "en"
             }
           ]
@@ -643,7 +553,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "Victoria Park: Elevator out of service between concourse and Line 2 eastbound platform while we perform maintenance.",
+              "text": "66 Prince Edward: Detour via Park Lawn Rd and The Queensway due to a collision.",
               "language": "en"
             }
           ]
@@ -944,64 +854,6 @@
       }
     },
     {
-      "id": "DevAPI-83C61A14-02B1-40C7-9DC2-CC62D7B70BAC",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "133"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "133 Neilson: Detour northbound v",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "133 Neilson: Detour northbound via Neilson Rd, Morningside Ave and Staines Rd due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-D2749115-61B9-4EB2-9CF4-B158348A4D9F",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "511"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "511 Bathurst: Detour northbound",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "511 Bathurst: Detour northbound via College St, Spadina Ave and Spadina Station due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-88ED0667-5E69-419C-B7E2-72949F41B441",
       "alert": {
         "informedEntity": [
@@ -1123,35 +975,6 @@
           "translation": [
             {
               "text": "131 Nugget: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-A4132875-893D-45D3-B27D-A8096BB4C177",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "68"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "68 Warden: Detour via Ellesmere",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "68 Warden: Detour via Ellesmere Rd, Pharmacy Ave and Lawrence Ave E due to a collision.",
               "language": "en"
             }
           ]
