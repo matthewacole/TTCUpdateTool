@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1781731689"
+    "timestamp": "1781737334"
   },
   "entity": [
     {
@@ -183,32 +183,56 @@
       }
     },
     {
-      "id": "DevAPI-9B50EE55-41B3-4BFB-B859-374A883F6D7D",
+      "id": "DevAPI-C97FFCC6-A1F5-438D-9448-6E002C3C90DF",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "74"
+            "routeId": "904"
           },
           {
             "agencyId": "1",
-            "routeId": "312"
+            "routeId": "985"
           },
           {
             "agencyId": "1",
-            "routeId": "320"
+            "routeId": "169"
           },
           {
             "agencyId": "1",
-            "routeId": "512"
+            "routeId": "24"
           },
           {
             "agencyId": "1",
-            "routeId": "88"
+            "routeId": "325"
           },
           {
             "agencyId": "1",
-            "routeId": "97"
+            "routeId": "25"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "167"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "10"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "925"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "85"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "185"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "385"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -216,7 +240,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "St Clair: Elevator 16Y2L out of",
+              "text": "Don Mills: Elevator 61P3L out of",
               "language": "en"
             }
           ]
@@ -224,7 +248,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "St Clair: Elevator out of service between concourse and Line 1 northbound platform due to an investigation.",
+              "text": "Don Mills: Elevator out of service between concourse and Line 4 platform while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -315,6 +339,35 @@
           "translation": [
             {
               "text": "16 Mccowan: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-A385BBC1-0694-4094-83D1-F4CE60FAF380",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "66"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "66 Prince Edward: Detour via Mar",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "66 Prince Edward: Detour via Marine Parade Dr due to a fire.",
               "language": "en"
             }
           ]
@@ -426,47 +479,6 @@
           "translation": [
             {
               "text": "904 Sheppard-Kennedy Express: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-E0E03577-9107-4098-ACD5-6ED1ABEAB392",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "65"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "365"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "94"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Castle Frank: Elevator 5D2L out",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Castle Frank: Elevator out of service between Castle Frank Rd entrance and Line 2 Kennedy (eastbound) platform due to a technical problem.",
               "language": "en"
             }
           ]
@@ -901,12 +913,12 @@
       }
     },
     {
-      "id": "DevAPI-BEDD0920-62AB-43D0-A56C-DC9BA3883F34",
+      "id": "DevAPI-65B536DB-2744-4A3C-AFA4-18CD79E1A071",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "7"
+            "routeId": "80"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -914,7 +926,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "7 Bathurst: Detour via Eglinton",
+              "text": "80 Queensway: Detour eastbound v",
               "language": "en"
             }
           ]
@@ -922,7 +934,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "7 Bathurst: Detour via Eglinton Ave W, Oakwood Ave and Vaughan Rd due to a collision.",
+              "text": "80 Queensway: Detour eastbound via The Queensway, Roncesvalles Ave, Bloor St E and Keele St due to FIFA World Cup road closures.",
               "language": "en"
             }
           ]
@@ -952,35 +964,6 @@
           "translation": [
             {
               "text": "395 York Mills: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-0935EC1A-463A-4F13-AA98-D6CF72454B1E",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "80"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "80 Queensway: Detour via The Que",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "80 Queensway: Detour via The Queensway, Roncesvalles Ave, Bloor St E and Keele St due to FIFA road closure.",
               "language": "en"
             }
           ]
@@ -1087,35 +1070,6 @@
       }
     },
     {
-      "id": "DevAPI-51368FF2-039C-4CCE-9039-AEF76A830A35",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "506"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "506 Carlton: Detour westbound vi",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "506 Carlton: Detour westbound via Bay St, Dundas St E and Ossington Ave while we respond to a medical emergency.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-992D5CED-BEF6-45CB-AF4B-1095B9C3F428",
       "alert": {
         "informedEntity": [
@@ -1208,6 +1162,35 @@
           "translation": [
             {
               "text": "131 Nugget: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-335BCAB7-6989-4843-B6B4-8FB8BFF46B46",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "7"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "7 Bathurst: Detour southbound vi",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "7 Bathurst: Detour southbound via Eglinton Ave W, Oakwood Ave and Vaughan Rd due to a collision.",
               "language": "en"
             }
           ]
