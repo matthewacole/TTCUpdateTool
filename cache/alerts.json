@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1781654468"
+    "timestamp": "1781672798"
   },
   "entity": [
     {
@@ -96,6 +96,35 @@
       }
     },
     {
+      "id": "DevAPI-CAA136BA-9C3C-4B66-9B6B-C360632592A3",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "65"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "65 Parliament: Detour via Front",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "65 Parliament: Detour via Front St E and Lower Sherbourne St due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-C1BAAE76-9AB5-482E-A239-FC623D9C5E9B",
       "alert": {
         "informedEntity": [
@@ -154,12 +183,12 @@
       }
     },
     {
-      "id": "DevAPI-8F843695-6B4A-45FC-9EAE-2A6C179374DB",
+      "id": "DevAPI-9F415B67-EA7C-4433-AAAD-12BEF59174E1",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "106"
+            "routeId": "16"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -167,7 +196,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "106 Sentinel: Delays between She",
+              "text": "16 Mccowan: Detour southbound vi",
               "language": "en"
             }
           ]
@@ -175,7 +204,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "106 Sentinel: Delays between Sheppard Ave West at William R Allen Rd West Side and Sheppard Ave West at Keele St due to the Post Malone Concert.",
+              "text": "16 Mccowan: Detour southbound via Danforth Rd and Birchmount Rd due to construction.",
               "language": "en"
             }
           ]
@@ -205,35 +234,6 @@
           "translation": [
             {
               "text": "511 Bathurst: Streetcars are not stopping southbound near Manitoba Dr at Strachan Ave West Side due to FIFA World Cup route adjustments.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-67DE32FA-87FA-483F-8C5B-D867770FEA28",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "112"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "112 West Mall: Detour northbound",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "112 West Mall: Detour northbound via Renforth Dr, Carlingview Dr and Dixon Rd due to a collision.",
               "language": "en"
             }
           ]
@@ -352,6 +352,35 @@
       }
     },
     {
+      "id": "DevAPI-5D91EC53-9BD2-4295-881B-7D93882E88E8",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "501"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "501 Queen: No service between Qu",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "501 Queen: No service between Queen St West at Augusta Ave and Queen St West at Shaw St due to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-AEDBDB48-BB19-4C0E-9FF1-B2653B69CAA6",
       "alert": {
         "informedEntity": [
@@ -374,6 +403,35 @@
           "translation": [
             {
               "text": "904 Sheppard-Kennedy Express: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-33BA482F-FBAF-4DDE-BBDC-1DF98B6B9BB3",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "11"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "11 Bayview: Detour southbound vi",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "11 Bayview: Detour southbound via Yonge St, Merton St and Mount Pleasant Rd due to water main work.",
               "language": "en"
             }
           ]
@@ -438,35 +496,6 @@
           "translation": [
             {
               "text": "21 Brimley: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-DBEEA6F8-3E6F-4B3B-9596-9E390734E17B",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "16"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "16 Mccowan: Detour southbound vi",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "16 Mccowan: Detour southbound via Danforth Rd and Birchmount Rd due to construction.",
               "language": "en"
             }
           ]
@@ -583,6 +612,55 @@
           "translation": [
             {
               "text": "903 Kennedy Stn-Scarborough Express: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-235A4BF6-3EF6-42DA-BECF-6E3AC8F19DC2",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "156"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "354"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "51"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "88"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Laird: Elevator 2 out of service",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Laird: Elevator out of service between Eglinton Avenue south side entrance and concourse while we perform maintenance. Elevator is expected to be back in service June 17, 2026.",
               "language": "en"
             }
           ]
@@ -793,6 +871,35 @@
       }
     },
     {
+      "id": "DevAPI-CF41D7BC-9471-411C-9CA7-9A8BBCB9A7E5",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "510"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "510 Spadina: No service between",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "510 Spadina: No service between Spadina Ave at King St West North Side and Spadina Station Streetcar Platform while we respond to a medical emergency.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-DA091B87-E1A6-4B9F-9F9E-70F820FF508F",
       "alert": {
         "informedEntity": [
@@ -876,35 +983,6 @@
           "translation": [
             {
               "text": "133 Neilson: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-CF4CCCF9-844A-401F-B615-6AA5203288C6",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "115"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "115 Silver Hills: Detour via Ban",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "115 Silver Hills: Detour via Banbury Rd and Beaverhall Dr due to police activity.",
               "language": "en"
             }
           ]
@@ -1040,64 +1118,6 @@
       }
     },
     {
-      "id": "DevAPI-55337C15-CD03-455B-889A-1BD3E11CF212",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "113"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "113 Danforth: Detour westbound v",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "113 Danforth: Detour westbound via Transway Cres and Kennedy Station due to a traffic light problem.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-401140CA-CA87-4C61-9D47-9037234F0972",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "51"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "51 Leslie: Detour via York Mills",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "51 Leslie: Detour via York Mills Rd, Don Mills Rd and Sheppard Ave E due to police activity.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-BE8054CF-15DA-4A37-AB2D-8DF04C8A823D",
       "alert": {
         "informedEntity": [
@@ -1120,64 +1140,6 @@
           "translation": [
             {
               "text": "130 Middlefield: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-36D4F931-C8E6-458B-9B78-61AB626A6E5E",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "108"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "108 Driftwood: Delays between Sh",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "108 Driftwood: Delays between Sheppard Ave West at William R Allen Rd West Side and Sheppard Ave West at Keele St due to the Post Malone Concert.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-D1C89518-D135-4A64-9CF4-67F7C3A52B5A",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "11"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "11 Bayview: Detour southbound vi",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "11 Bayview: Detour southbound via Yonge St, Merton St and Mount Pleasant Rd due to water main work.",
               "language": "en"
             }
           ]
@@ -1324,35 +1286,6 @@
           "translation": [
             {
               "text": "Line 1 Yonge-University: No service between Pioneer Village and Sheppard West stations due to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-9EDCFC3D-27AB-4F22-A9FA-5FF879D85BE4",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "84"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "84 Sheppard West: Delays between",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "84 Sheppard West: Delays between Sheppard Ave West at William R Allen Rd West Side and Sheppard Ave West at Keele St due to the Post Malone Concert.",
               "language": "en"
             }
           ]
