@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1781672798"
+    "timestamp": "1781690469"
   },
   "entity": [
     {
@@ -96,35 +96,6 @@
       }
     },
     {
-      "id": "DevAPI-CAA136BA-9C3C-4B66-9B6B-C360632592A3",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "65"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "65 Parliament: Detour via Front",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "65 Parliament: Detour via Front St E and Lower Sherbourne St due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-C1BAAE76-9AB5-482E-A239-FC623D9C5E9B",
       "alert": {
         "informedEntity": [
@@ -176,35 +147,6 @@
           "translation": [
             {
               "text": "509 Harbourfront: Streetcars are not stopping at Exhibition Loop due to FIFA World Cup route adjustments.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-9F415B67-EA7C-4433-AAAD-12BEF59174E1",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "16"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "16 Mccowan: Detour southbound vi",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "16 Mccowan: Detour southbound via Danforth Rd and Birchmount Rd due to construction.",
               "language": "en"
             }
           ]
@@ -352,35 +294,6 @@
       }
     },
     {
-      "id": "DevAPI-5D91EC53-9BD2-4295-881B-7D93882E88E8",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "501"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "501 Queen: No service between Qu",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "501 Queen: No service between Queen St West at Augusta Ave and Queen St West at Shaw St due to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-AEDBDB48-BB19-4C0E-9FF1-B2653B69CAA6",
       "alert": {
         "informedEntity": [
@@ -403,35 +316,6 @@
           "translation": [
             {
               "text": "904 Sheppard-Kennedy Express: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-33BA482F-FBAF-4DDE-BBDC-1DF98B6B9BB3",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "11"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "11 Bayview: Detour southbound vi",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "11 Bayview: Detour southbound via Yonge St, Merton St and Mount Pleasant Rd due to water main work.",
               "language": "en"
             }
           ]
@@ -619,55 +503,6 @@
       }
     },
     {
-      "id": "DevAPI-235A4BF6-3EF6-42DA-BECF-6E3AC8F19DC2",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "156"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "334"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "354"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "51"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "88"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Laird: Elevator 2 out of service",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Laird: Elevator out of service between Eglinton Avenue south side entrance and concourse while we perform maintenance. Elevator is expected to be back in service June 17, 2026.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-552DEDCA-1557-491F-85CD-96B13D61B733",
       "alert": {
         "informedEntity": [
@@ -690,6 +525,35 @@
           "translation": [
             {
               "text": "501 Queen: Detour eastbound via Spadina Ave and Adelaide St E while we respond to a medical emergency.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-AE8CA1B9-A4B8-4A7B-B231-F2ED67C61827",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "91"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "91 Woodbine: Detour via Lawrence",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "91 Woodbine: Detour via Lawrence Ave E, Underhill Dr, Roanoke Rd and Curlew Dr due to police activity.",
               "language": "en"
             }
           ]
@@ -871,35 +735,6 @@
       }
     },
     {
-      "id": "DevAPI-CF41D7BC-9471-411C-9CA7-9A8BBCB9A7E5",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "510"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "510 Spadina: No service between",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "510 Spadina: No service between Spadina Ave at King St West North Side and Spadina Station Streetcar Platform while we respond to a medical emergency.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-DA091B87-E1A6-4B9F-9F9E-70F820FF508F",
       "alert": {
         "informedEntity": [
@@ -983,6 +818,47 @@
           "translation": [
             {
               "text": "133 Neilson: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-5DB56CCF-1C9A-433A-804F-8B1B834C9AA6",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "13"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "61"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Avenue: Elevator 2 out of servic",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Avenue: Elevator out of service between Eglinton Avenue north side, west entrance and concourse while we perform maintenance.",
               "language": "en"
             }
           ]
