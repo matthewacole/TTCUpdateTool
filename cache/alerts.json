@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1781737334"
+    "timestamp": "1781746595"
   },
   "entity": [
     {
@@ -183,56 +183,32 @@
       }
     },
     {
-      "id": "DevAPI-C97FFCC6-A1F5-438D-9448-6E002C3C90DF",
+      "id": "DevAPI-25B14B53-2A49-4724-8A33-A775B6FB6CDF",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "904"
+            "routeId": "156"
           },
           {
             "agencyId": "1",
-            "routeId": "985"
+            "routeId": "334"
           },
           {
             "agencyId": "1",
-            "routeId": "169"
+            "routeId": "354"
           },
           {
             "agencyId": "1",
-            "routeId": "24"
+            "routeId": "51"
           },
           {
             "agencyId": "1",
-            "routeId": "325"
+            "routeId": "34"
           },
           {
             "agencyId": "1",
-            "routeId": "25"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "167"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "10"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "925"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "85"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "185"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "385"
+            "routeId": "88"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -240,7 +216,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Don Mills: Elevator 61P3L out of",
+              "text": "Laird: Elevator 2 out of service",
               "language": "en"
             }
           ]
@@ -248,7 +224,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "Don Mills: Elevator out of service between concourse and Line 4 platform while we perform maintenance.",
+              "text": "Laird: Elevator out of service between Eglinton Avenue south side entrance and concourse while we perform maintenance. Elevator is expected to be back in service June 18, 2026.",
               "language": "en"
             }
           ]
@@ -339,35 +315,6 @@
           "translation": [
             {
               "text": "16 Mccowan: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-A385BBC1-0694-4094-83D1-F4CE60FAF380",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "66"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "66 Prince Edward: Detour via Mar",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "66 Prince Edward: Detour via Marine Parade Dr due to a fire.",
               "language": "en"
             }
           ]
@@ -768,6 +715,35 @@
       }
     },
     {
+      "id": "DevAPI-54D2A53F-2D5A-49B6-B309-6275CDC9919A",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "509"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "509 Harbourfront: Streetcars are",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "509 Harbourfront: Streetcars are not stopping eastbound from Fleet St at Bastion St to Fleet St at Bathurst St due to FIFA World Cup route adjustments.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-5E3F49FD-909A-41F6-B36D-748E827818C4",
       "alert": {
         "informedEntity": [
@@ -971,6 +947,35 @@
       }
     },
     {
+      "id": "DevAPI-450CF641-23A7-4585-9257-AAAD6DCA6659",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "97"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "97 Yonge: Detour southbound via",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "97 Yonge: Detour southbound via College St, Church St and Richmond St W due to a blocked road.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-F92885AA-2070-4819-B78B-544D607977A2",
       "alert": {
         "informedEntity": [
@@ -993,6 +998,35 @@
           "translation": [
             {
               "text": "133 Neilson: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-0B2ED373-D1FC-4308-B33E-615BC878B178",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "511"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "511 Bathurst: Streetcars are not",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "511 Bathurst: Streetcars are not stopping northbound from Fleet St at Bastion St to Bathurst St at Niagara St due to FIFA World Cup route adjustments.",
               "language": "en"
             }
           ]
@@ -1063,6 +1097,35 @@
           "translation": [
             {
               "text": "316 Kingston Rd-Mccowan: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-DB660BE6-688D-4642-A12C-4D136A1245BC",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "97"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "97 Yonge: Detour northbound via",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "97 Yonge: Detour northbound via Adelaide St E, Church St and Carlton St due to a blocked road.",
               "language": "en"
             }
           ]
@@ -1169,35 +1232,6 @@
       }
     },
     {
-      "id": "DevAPI-335BCAB7-6989-4843-B6B4-8FB8BFF46B46",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "7"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "7 Bathurst: Detour southbound vi",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "7 Bathurst: Detour southbound via Eglinton Ave W, Oakwood Ave and Vaughan Rd due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-BE8054CF-15DA-4A37-AB2D-8DF04C8A823D",
       "alert": {
         "informedEntity": [
@@ -1220,6 +1254,35 @@
           "translation": [
             {
               "text": "130 Middlefield: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-211EBB37-B3D7-4F5D-A288-C3FAFA76857F",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "505"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "505 Dundas: Detour via Church St",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "505 Dundas: Detour via Church St, College St and Bay St due to traffic congestion.",
               "language": "en"
             }
           ]
