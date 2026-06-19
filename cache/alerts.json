@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1781835580"
+    "timestamp": "1781854412"
   },
   "entity": [
     {
@@ -154,71 +154,6 @@
       }
     },
     {
-      "id": "DevAPI-22D0170D-89B0-4BA9-923E-E2C537360999",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "396"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "37"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "73"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "336"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "46"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "937"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "337"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "945"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "927"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "45"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Line 6 Finch West: No service be",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Line 6 Finch West: No service between Albion and Duncanwoods stations due to a collision. Shuttle buses are running between Albion and Duncanwoods.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-0114DF6B-3DFA-4093-B6ED-97426E49C30D",
       "alert": {
         "informedEntity": [
@@ -241,35 +176,6 @@
           "translation": [
             {
               "text": "511 Bathurst: Streetcars are not stopping southbound near Manitoba Dr at Strachan Ave West Side due to FIFA World Cup route adjustments.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-885E72F6-9798-4ED6-83B2-3B6EB22C26DE",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "65"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "65 Parliament: Detour southbound",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "65 Parliament: Detour southbound via Front St E and Lower Sherbourne St due to construction.",
               "language": "en"
             }
           ]
@@ -728,35 +634,6 @@
       }
     },
     {
-      "id": "DevAPI-DA901151-7178-4BBF-B066-3C3D7623B3F6",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "202"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "202 Cherry Beach: No service wes",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "202 Cherry Beach: No service westbound from Mill St at Cherry St West Side to Mill St at Parliament St due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-41083758-9360-454D-A376-6BFDEE4C7E28",
       "alert": {
         "informedEntity": [
@@ -1169,59 +1046,6 @@
       }
     },
     {
-      "id": "DevAPI-EA96399E-899D-4933-9243-2121245E2EC4",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "13"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "26"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "310"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "510"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "127"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "94"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Line 1 Yonge-University: Delays",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Line 1 Yonge-University: Delays at St George station while we respond to an emergency alarm.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-6940B6C0-31E0-4442-B07E-294994729BBE",
       "alert": {
         "informedEntity": [
@@ -1419,6 +1243,35 @@
           "translation": [
             {
               "text": "112 West Mall: Detour via Wellesworth Dr and Eringate Dr due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-A2F3500D-B93F-424A-B3BB-80588F685C9C",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "68"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "68 Warden: Detour northbound via",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "68 Warden: Detour northbound via Mcnicoll Ave, Birchmount Rd and Steeles Ave E due to a collision.",
               "language": "en"
             }
           ]
