@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1782032638"
+    "timestamp": "1782042669"
   },
   "entity": [
     {
@@ -118,35 +118,6 @@
           "translation": [
             {
               "text": "506 Carlton: Detour via Ossington Ave, Dundas St W and Bay St due to a blocked track.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-6FE8AF2A-8053-4E6E-80A4-5B821A1D0308",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "510"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "510 Spadina: No service between",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "510 Spadina: No service between Queens Quay Loop at Lower Spadina Ave and Spadina Ave at King St West North Side due to a collision.",
               "language": "en"
             }
           ]
@@ -644,35 +615,6 @@
       }
     },
     {
-      "id": "DevAPI-ABB426F3-E701-40FF-9448-AC1C0BC24E28",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "507"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "507 Long Branch: No service betw",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "507 Long Branch: No service between Lake Shore Blvd West at Islington Ave and Lake Shore Blvd West at Kipling Ave due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-9553B793-EC2A-482F-9A9A-80773CD62355",
       "alert": {
         "informedEntity": [
@@ -753,35 +695,6 @@
           "translation": [
             {
               "text": "395 York Mills: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-EA1293AA-70EE-42D9-BDCD-7E052AFD8317",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "507"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "507 Long Branch: Detour westboun",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "507 Long Branch: Detour westbound via Kipling Ave, Birmingham and Islington due to a downed wire.",
               "language": "en"
             }
           ]
