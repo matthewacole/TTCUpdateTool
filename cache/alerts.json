@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1782127095"
+    "timestamp": "1782144281"
   },
   "entity": [
     {
@@ -176,6 +176,83 @@
           "translation": [
             {
               "text": "511 Bathurst: Streetcars are not stopping southbound near Manitoba Dr at Strachan Ave West Side due to FIFA World Cup route adjustments.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-F59EA298-48F1-4C4D-866E-6CF8511169B9",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "161"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "168"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "989"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "71"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "171"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "164"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "32"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "73"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "27"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "89"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "35"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Mount Dennis: Elevator 4 out of",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Mount Dennis: Elevator out of service between Eglinton avenue north side west entrance and concourse while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -358,6 +435,35 @@
       }
     },
     {
+      "id": "DevAPI-69BCBB94-906B-493D-9638-3BF7BEC59415",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "117"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "117 Birchmount South: Detour nor",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "117 Birchmount South: Detour northbound via Danforth Ave, Pharmacy Ave and Denton Ave due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-C567323F-E1C7-4A94-BB8A-246447E099F1",
       "alert": {
         "informedEntity": [
@@ -496,6 +602,35 @@
           "translation": [
             {
               "text": "509 Harbourfront: Streetcars are not stopping eastbound near Fleet St at Strachan Ave due to FIFA World Cup route adjustments.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-E741DADE-FCAF-4A3C-9AA1-A7B3B6D463D5",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "67"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "67 Pharmacy: Detour northbound v",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "67 Pharmacy: Detour northbound via Victoria Park Ave and Danforth Ave due to construction.",
               "language": "en"
             }
           ]
@@ -816,6 +951,35 @@
       }
     },
     {
+      "id": "DevAPI-5548E850-6FE2-4A2E-AD4B-93F58095B3E3",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "12"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "12 Kingston Rd: Detour westbound",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "12 Kingston Rd: Detour westbound via Danforth Ave, Pharmacy Ave and Denton Ave due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-BFCB2813-1960-43D9-8076-44320299955B",
       "alert": {
         "informedEntity": [
@@ -899,6 +1063,51 @@
           "translation": [
             {
               "text": "316 Kingston Rd-Mccowan: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-070553C2-8CE8-41B0-A5F5-1DA95C6DDA7E",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "14"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "11"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "320"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "28"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "97"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Davisville: Elevator 17Y1L out o",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Davisville: Elevator out of service between Davisville Ave south side entrance and concourse while we perform maintenance.",
               "language": "en"
             }
           ]
