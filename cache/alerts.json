@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1782164929"
+    "timestamp": "1782169734"
   },
   "entity": [
     {
@@ -236,83 +236,6 @@
       }
     },
     {
-      "id": "DevAPI-647E2DBE-404E-42DB-BB60-8092B1C8F259",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "509"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "114"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "510"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "320"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "121"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "97"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "504"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "19"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "304"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "309"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "202"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "310"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "503"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Line 1 Yonge-University: Delays",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Line 1 Yonge-University: Delays northbound at Union station towards Finch while we respond to a medical emergency.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-20DBE903-2332-49D4-8DDD-C0E3052144BC",
       "alert": {
         "informedEntity": [
@@ -393,6 +316,35 @@
           "translation": [
             {
               "text": "904 Sheppard-Kennedy Express: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-DB8AF5BF-1C08-45FD-A76D-3CB0893AE059",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "53"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "53 Steeles East: Detour eastboun",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "53 Steeles East: Detour eastbound via Ashcott St, Port Royal Trl, Goldhawk Trl, Strawberry Hills Dr and Steeles Ave E due to a collision.",
               "language": "en"
             }
           ]
@@ -580,35 +532,6 @@
       }
     },
     {
-      "id": "DevAPI-A3764B83-BFE5-47B7-9CDD-43B76A4AF84A",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "68"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "68 Warden: Detour southbound via",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "68 Warden: Detour southbound via Lawrence Ave E, Crockford Blvd and Bertrand Ave due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-BFEB99F3-0C66-44CF-AC31-136637EF9CC6",
       "alert": {
         "informedEntity": [
@@ -631,35 +554,6 @@
           "translation": [
             {
               "text": "509 Harbourfront: Streetcars are not stopping eastbound near Fleet St at Strachan Ave due to FIFA World Cup route adjustments.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-E741DADE-FCAF-4A3C-9AA1-A7B3B6D463D5",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "67"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "67 Pharmacy: Detour northbound v",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "67 Pharmacy: Detour northbound via Victoria Park Ave and Danforth Ave due to construction.",
               "language": "en"
             }
           ]
@@ -1430,6 +1324,35 @@
       }
     },
     {
+      "id": "DevAPI-49EB4299-1E3D-47F7-A5BB-7AC68E5194D1",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "73"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "73 Royal York: Detour via Lawren",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "73 Royal York: Detour via Lawrence Ave W and Weston Rd due to a blocked road.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-DF9F4FBE-5057-4E2D-917E-4688FEA80242",
       "alert": {
         "informedEntity": [
@@ -1452,6 +1375,35 @@
           "translation": [
             {
               "text": "112 West Mall: Detour via Wellesworth Dr and Eringate Dr due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-6134B10B-E60A-4DC2-ABE6-BFA6B46F22C9",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "21"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "21 Brimley: Detour northbound vi",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "21 Brimley: Detour northbound via Brimley Rd, Mcnicoll Ave, Mccowan Rd and Steeles Ave E due to a collision.",
               "language": "en"
             }
           ]
