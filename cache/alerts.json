@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1782157206"
+    "timestamp": "1782164929"
   },
   "entity": [
     {
@@ -229,6 +229,83 @@
           "translation": [
             {
               "text": "Cedarvale: Elevator out of service between bus terminal entrance and Line 1 Finch via southbound platform while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-647E2DBE-404E-42DB-BB60-8092B1C8F259",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "509"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "114"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "510"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "320"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "121"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "97"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "504"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "19"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "304"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "309"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "202"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "310"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "503"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Line 1 Yonge-University: Delays",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Line 1 Yonge-University: Delays northbound at Union station towards Finch while we respond to a medical emergency.",
               "language": "en"
             }
           ]
@@ -503,6 +580,35 @@
       }
     },
     {
+      "id": "DevAPI-A3764B83-BFE5-47B7-9CDD-43B76A4AF84A",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "68"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "68 Warden: Detour southbound via",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "68 Warden: Detour southbound via Lawrence Ave E, Crockford Blvd and Bertrand Ave due to a collision.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-BFEB99F3-0C66-44CF-AC31-136637EF9CC6",
       "alert": {
         "informedEntity": [
@@ -554,6 +660,55 @@
           "translation": [
             {
               "text": "67 Pharmacy: Detour northbound via Victoria Park Ave and Danforth Ave due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-36B4725D-4714-4F2F-8E6D-89B0EA0FFF7D",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "37"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "996"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "336"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "906"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "96"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "927"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Humber College: Elevator 2 out o",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Humber College: Elevator out of service between Humber College South Entrance and Line 6 Centre Platform while we perform an inspection.",
               "language": "en"
             }
           ]
@@ -777,6 +932,79 @@
           "translation": [
             {
               "text": "395 York Mills: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-54E48F8D-6E14-4C20-94F4-CADF0C9AF476",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "354"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "54"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "162"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "191"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "100"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "325"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "25"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "925"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "72"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "954"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Don Valley: Elevator 3 out of se",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Don Valley: Elevator out of service between concourse and Don Mills Road west side entrance due to the Ontario Line construction. Elevator is expected to be back in service February 8, 2032.",
               "language": "en"
             }
           ]
