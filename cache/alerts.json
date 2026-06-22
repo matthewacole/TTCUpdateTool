@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1782087058"
+    "timestamp": "1782106282"
   },
   "entity": [
     {
@@ -229,35 +229,6 @@
           "translation": [
             {
               "text": "Cedarvale: Elevator out of service between bus terminal entrance and Line 1 Finch via southbound platform while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-0501E3D2-28D8-4B07-96F9-349FA09FB337",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "16"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "16 Mccowan: Detour northbound vi",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "16 Mccowan: Detour northbound via Kennedy Rd and Danforth Rd due to construction.",
               "language": "en"
             }
           ]
@@ -503,6 +474,35 @@
       }
     },
     {
+      "id": "DevAPI-8E1298FE-E2B4-4EC0-9105-3B9E1EAE340E",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "16"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "16 Mccowan: Detour northbound vi",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "16 Mccowan: Detour northbound via Kennedy Rd and Danforth Rd due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-BFEB99F3-0C66-44CF-AC31-136637EF9CC6",
       "alert": {
         "informedEntity": [
@@ -632,47 +632,6 @@
           "translation": [
             {
               "text": "939 Finch Express: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-AB444825-8421-446C-B5F1-6F1EAEBE2367",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "322"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "22"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "70"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Coxwell: Elevator 11D1L out of s",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Coxwell: Elevator out of service between Strathmore Blvd entrance, concourse and Line 2 eastbound platform due to a technical problem.",
               "language": "en"
             }
           ]
