@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1782247144"
+    "timestamp": "1782252250"
   },
   "entity": [
     {
@@ -205,59 +205,6 @@
           "translation": [
             {
               "text": "511 Bathurst: Streetcars are not stopping southbound near Manitoba Dr at Strachan Ave West Side due to FIFA World Cup route adjustments.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-7AF8F0C3-C0D3-4EF7-ACB7-ABBFA41A1DC5",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "13"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "26"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "310"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "510"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "127"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "94"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "St George: Elevator 1Y1L out of",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "St George: Elevator out of service between bus platform, Bedford rd west side entrance, concourse, Line 1 centre platform and Line 2 centre platform while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -590,6 +537,35 @@
       }
     },
     {
+      "id": "DevAPI-472F9058-FC9B-49FB-B34C-3E4636120942",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "105"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "105 Dufferin North: Detour north",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "105 Dufferin North: Detour northbound via Dolomite Dr, Alness St and Steeles Ave W due to a collision.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-36B4725D-4714-4F2F-8E6D-89B0EA0FFF7D",
       "alert": {
         "informedEntity": [
@@ -661,6 +637,87 @@
           "translation": [
             {
               "text": "501 Queen: Detour eastbound via Spadina Ave and Adelaide St E while we respond to a medical emergency.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-324ED075-8A28-4E43-8256-5942A380C911",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "101"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "119"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "329"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "104"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "160"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "184"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "396"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "996"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "29"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "118"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "165"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "96"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "120"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "929"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Wilson: Elevator 8S3L out of ser",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Wilson: Elevator out of service between concourse, lower bus platform and upper bus platform while we perform maintenance.",
               "language": "en"
             }
           ]
