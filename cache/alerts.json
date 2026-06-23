@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1782232540"
+    "timestamp": "1782239347"
   },
   "entity": [
     {
@@ -89,6 +89,35 @@
           "translation": [
             {
               "text": "Have proof of payment ready for inspection.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-DD71AF65-BA24-4989-BC0A-A27EA8B27E61",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "108"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "108A Driftwood: Detour via Arlet",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "108A Driftwood: Detour via Arleta Ave, Sheppard Ave W, Sentinel Rd and Grandravine Dr due to construction.",
               "language": "en"
             }
           ]
@@ -183,12 +212,12 @@
       }
     },
     {
-      "id": "DevAPI-063AAF25-D318-414A-ACA6-02DCFC334B67",
+      "id": "DevAPI-1D5C196D-24D4-45B0-A141-235E19EF64C2",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "154"
+            "routeId": "927"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -196,7 +225,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "154 Curran Hall: Detour westboun",
+              "text": "927 Highway 27 Express: Detour s",
               "language": "en"
             }
           ]
@@ -204,7 +233,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "154 Curran Hall: Detour westbound via Orton Park Rd and Lawrence Ave E due to construction.",
+              "text": "927 Highway 27 Express: Detour southbound via Humber College Blvd, Finch Ave W and Highway 27 due to construction.",
               "language": "en"
             }
           ]
@@ -234,59 +263,6 @@
           "translation": [
             {
               "text": "16 Mccowan: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-55BDD1B8-93A4-4385-860A-69CE858EF5AE",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "13"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "26"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "310"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "510"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "127"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "94"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "St George: Elevator 1Y1L out of",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "St George: Elevator out of service between bus platform, Bedford rd west side entrance, concourse, Line 1 centre platform and Line 2 centre platform while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -1321,6 +1297,35 @@
           "translation": [
             {
               "text": "112 West Mall: Detour via Wellesworth Dr and Eringate Dr due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-086CCC78-6E0A-4C06-A77F-51C451B18ADC",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "154"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "154 Curran Hall: Detour westboun",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "154 Curran Hall: Detour westbound via Orton Park Rd and Lawrence Ave E due to construction.",
               "language": "en"
             }
           ]
