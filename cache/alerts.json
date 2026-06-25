@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1782380877"
+    "timestamp": "1782389278"
   },
   "entity": [
     {
@@ -376,35 +376,6 @@
           "translation": [
             {
               "text": "21 Brimley: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-BAE2EC7C-5A90-40D0-A8A3-727953218D4F",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "17"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "17 Birchmount: Detour via Comsto",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "17 Birchmount: Detour via Comstock Rd, Warden Ave and Ashtonbee Rd due to a collision.",
               "language": "en"
             }
           ]
@@ -1030,35 +1001,6 @@
       }
     },
     {
-      "id": "DevAPI-DF4F2E4E-B165-4645-B71F-8A2FF31C96B4",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "334"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "334 Eglinton: Detour eastbound v",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "334 Eglinton: Detour eastbound via Warden Ave, Bertrand Ave and Rosemount Dr due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-2E2A1EDF-8B91-4F3C-9639-3A42DB817738",
       "alert": {
         "informedEntity": [
@@ -1183,6 +1125,35 @@
           "translation": [
             {
               "text": "133 Neilson: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-A80B72A4-B0B5-4EA0-BCFC-A261744C9D11",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "112"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "112 West Mall: Detour via Eringa",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "112 West Mall: Detour via Eringate Dr and Renforth Dr due to construction.",
               "language": "en"
             }
           ]
@@ -1579,104 +1550,36 @@
       }
     },
     {
-      "id": "DevAPI-8E778C38-E05D-4FE7-ABF0-9A4C2E0D1E34",
+      "id": "DevAPI-3289919E-7725-47C9-A569-C08173D55DEF",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "131"
+            "routeId": "304"
           },
           {
             "agencyId": "1",
-            "routeId": "20"
+            "routeId": "301"
           },
           {
             "agencyId": "1",
-            "routeId": "905"
+            "routeId": "501"
           },
           {
             "agencyId": "1",
-            "routeId": "38"
+            "routeId": "503"
           },
           {
             "agencyId": "1",
-            "routeId": "300"
+            "routeId": "97"
           },
           {
             "agencyId": "1",
-            "routeId": "12"
+            "routeId": "504"
           },
           {
             "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "986"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "21"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "201"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "43"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "904"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "86"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "334"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "939"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "129"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "154"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "113"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "116"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "57"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "343"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "903"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "386"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "133"
+            "routeId": "19"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -1684,7 +1587,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Kennedy: Elevator 16D2L out of s",
+              "text": "St Andrew: Elevator 6Y2L out of",
               "language": "en"
             }
           ]
@@ -1692,7 +1595,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "Kennedy: Elevator out of service between concourse and Line 2 centre platform while we perform maintenance.",
+              "text": "St Andrew: Elevator out of service between concourse and Line 1 centre platform while we perform maintenance.",
               "language": "en"
             }
           ]
