@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1782512429"
+    "timestamp": "1782517146"
   },
   "entity": [
     {
@@ -494,6 +494,35 @@
       }
     },
     {
+      "id": "DevAPI-5EE21408-E243-46BF-A80A-23FF63F0BEBA",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "63"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "63 Ossington: Detour northbound",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "63 Ossington: Detour northbound via Rogers Rd, Dufferin St and Eglinton Ave W due to a collision.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-DAF9EE30-A85F-4423-93A5-541DD6013E69",
       "alert": {
         "informedEntity": [
@@ -609,12 +638,12 @@
       }
     },
     {
-      "id": "DevAPI-E5136D36-779C-402E-9293-80593D3C1D1D",
+      "id": "DevAPI-1A9D3262-EBF7-45A7-90A0-1EF208DB2F7E",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "154"
+            "routeId": "63"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -622,7 +651,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "154 Curran Hall: Detour eastboun",
+              "text": "63 Ossington: Detour southbound",
               "language": "en"
             }
           ]
@@ -630,7 +659,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "154 Curran Hall: Detour eastbound via Lawrence Ave E and Orton Park Rd due to construction.",
+              "text": "63 Ossington: Detour southbound via Northcliffe Blvd, Vaughan Rd and Oakwood Ave due to a collision.",
               "language": "en"
             }
           ]
@@ -709,6 +738,35 @@
           "translation": [
             {
               "text": "501 Queen: Detour eastbound via Spadina Ave and Adelaide St E while we respond to a medical emergency.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-D6F29742-9CA6-4BA5-84FD-12CC32783320",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "97"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "97 Yonge: Detour southbound via",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "97 Yonge: Detour southbound via Bloor St W, Bay St and College St due to an event.",
               "language": "en"
             }
           ]
@@ -827,6 +885,35 @@
       }
     },
     {
+      "id": "DevAPI-DBB61DF2-8109-4BF9-B73F-07299D18569D",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "104"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "104 Faywood: Detour via Overbroo",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "104 Faywood: Detour via Overbrook Pl, Shaftesbury St and Kennard Ave due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-9553B793-EC2A-482F-9A9A-80773CD62355",
       "alert": {
         "informedEntity": [
@@ -907,6 +994,47 @@
           "translation": [
             {
               "text": "395 York Mills: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-9DCB5821-F328-450F-84F7-0D8301902E6B",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "322"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "22"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "70"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Coxwell: Elevator 11D1L out of s",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Coxwell: Elevator out of service between Strathmore Blvd entrance, concourse and Line 2 eastbound platform due to a technical problem.",
               "language": "en"
             }
           ]
@@ -1016,64 +1144,6 @@
       }
     },
     {
-      "id": "DevAPI-FF21DE30-E54A-450D-8CC6-6B6183697801",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "158"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "158 Trethewey: Detour eastbound",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "158 Trethewey: Detour eastbound via Church St, Rosemount Ave, Queenslea Ave, Yelland St and Oak St due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-0D7481BF-8041-4954-9A4F-B022DFFD87F9",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "59"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "59 Maple Leaf: Detour via Rosemo",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "59 Maple Leaf: Detour via Rosemount Dr, Queenslea Ave, Yelland St and Gary Dr due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-BFCB2813-1960-43D9-8076-44320299955B",
       "alert": {
         "informedEntity": [
@@ -1135,175 +1205,6 @@
       }
     },
     {
-      "id": "DevAPI-B921563E-55C3-43FB-A25D-A16EC20F3D59",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "329"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "61"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "354"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "341"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "74"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "14"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "168"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "171"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "307"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "320"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "363"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "164"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "32"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "73"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "29"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "7"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "90"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "89"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "103"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "33"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "929"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "161"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "63"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "989"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "71"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "158"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "41"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "47"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "97"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "18"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "13"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "334"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "109"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "27"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "35"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Line 5 Eglinton: Delays between",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Line 5 Eglinton: Delays between Mount Dennis and Mount Pleasant stations due to an operational problem.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-88ED0667-5E69-419C-B7E2-72949F41B441",
       "alert": {
         "informedEntity": [
@@ -1326,35 +1227,6 @@
           "translation": [
             {
               "text": "316 Kingston Rd-Mccowan: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-6671B561-BF05-4545-9F0F-8C896B4B8A75",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "89"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "89 Weston: Detour via Church Ave",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "89 Weston: Detour via Church Ave, Rosemount Ave, Queenslea Ave, Yelland St and Oak St due to a collision.",
               "language": "en"
             }
           ]
@@ -1425,35 +1297,6 @@
           "translation": [
             {
               "text": "Bloor-Yonge: Elevator out of service between Bloor St E north side entrance and north concourse due to a technical problem.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-69CB3CF3-6B7D-4F6C-BB3F-B4C6B69D2601",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "104"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "104 Faywood: Detour via Overbroo",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "104 Faywood: Detour via Overbrook Pl, Shaftesbury St and Kennard Ave due to construction.",
               "language": "en"
             }
           ]
@@ -1548,12 +1391,12 @@
       }
     },
     {
-      "id": "DevAPI-4D7FC23B-04F3-47EA-B614-DF0B9F003270",
+      "id": "DevAPI-955A79B6-6067-4A55-A54E-1537650EBC1A",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "989"
+            "routeId": "90"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -1561,7 +1404,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "989 Weston Express: Detour via C",
+              "text": "90 Vaughan: Detour via Vaughan R",
               "language": "en"
             }
           ]
@@ -1569,7 +1412,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "989 Weston Express: Detour via Church Ave, Rosemount Ave, Queenslea Ave, Yelland St and Oak St due to a collision.",
+              "text": "90 Vaughan: Detour via Vaughan Rd, Glenholme Ave and Eglinton Ave W due to a collision.",
               "language": "en"
             }
           ]
