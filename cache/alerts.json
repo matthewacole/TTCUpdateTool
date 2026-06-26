@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1782447909"
+    "timestamp": "1782461252"
   },
   "entity": [
     {
@@ -89,64 +89,6 @@
           "translation": [
             {
               "text": "Have proof of payment ready for inspection.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-31A7FA90-BA41-4A7A-A002-8DAE0287C4DA",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "112"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "112 West Mall: Detour via Eringa",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "112 West Mall: Detour via Eringate Dr and Renforth Dr due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-841FA6A7-ABB1-447F-9291-84E148396617",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "104"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "104 Faywood: Detour northbound v",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "104 Faywood: Detour northbound via Kennard Ave, Shaftesbury St and Overbrook Pl due to construction.",
               "language": "en"
             }
           ]
@@ -321,35 +263,6 @@
           "translation": [
             {
               "text": "904 Sheppard-Kennedy Express: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-A4D45E6E-1683-4B1D-82DD-E61CD9746FF9",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "104"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "104 Faywood: Detour southbound v",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "104 Faywood: Detour southbound via Kennard Ave, Shaftesbury St and Overbrook Pl due to construction.",
               "language": "en"
             }
           ]
@@ -614,40 +527,12 @@
       }
     },
     {
-      "id": "DevAPI-24436CC9-A3F3-4195-B3DD-A6D1836EA44C",
+      "id": "DevAPI-DAB4F203-3ABF-4325-AC78-896E042ACF5B",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "126"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "7"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "90"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "311"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "312"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "307"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "512"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "33"
+            "routeId": "336"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -655,7 +540,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "St Clair West: Elevator 3S1L out",
+              "text": "336 Finch West: No service near",
               "language": "en"
             }
           ]
@@ -663,7 +548,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "St Clair West: Elevator out of service between Heath St W north side entrance and north concourse while we perform maintenance.",
+              "text": "336 Finch West: No service near Woodbine Race Track Loop (Main Entrance) due to a collision.",
               "language": "en"
             }
           ]
@@ -881,35 +766,6 @@
           "translation": [
             {
               "text": "939 Finch Express: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-960AB45C-4257-42EC-A60B-94F7F4CAD9B0",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "65"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "65 Parliament: Detour southbound",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "65 Parliament: Detour southbound via Front St E and Sherbourne St due to construction.",
               "language": "en"
             }
           ]
