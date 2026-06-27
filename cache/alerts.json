@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1782555956"
+    "timestamp": "1782561327"
   },
   "entity": [
     {
@@ -540,6 +540,35 @@
       }
     },
     {
+      "id": "DevAPI-B0E1C378-738B-41B5-834C-6BB970C159F2",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "22"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "22 Coxwell: Detour via Queen St",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "22 Coxwell: Detour via Queen St E, Greenwood Ave and Dundas St E due to Hydro Lines down.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-36B4725D-4714-4F2F-8E6D-89B0EA0FFF7D",
       "alert": {
         "informedEntity": [
@@ -816,6 +845,47 @@
       }
     },
     {
+      "id": "DevAPI-87E68522-EF14-4A6B-9516-224AB03F966A",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "320"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "97"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "19"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Bloor-Yonge: Elevator 3D1L out o",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Bloor-Yonge: Elevator out of service between Line 1 northbound platform and Line 2 centre platform while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-54E48F8D-6E14-4C20-94F4-CADF0C9AF476",
       "alert": {
         "informedEntity": [
@@ -911,63 +981,6 @@
           "translation": [
             {
               "text": "133 Neilson: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-A19E96DC-4C24-4BB0-96C0-9BC940C97571",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "384"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "119"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "336"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "166"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "989"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "165"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "99"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "84"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Line 6 Finch West: No service be",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Line 6 Finch West: No service between Signet Arrow and Milvan Rumike stations while the maintainer fixes a mechanical problem. Shuttle buses are on the way.",
               "language": "en"
             }
           ]
