@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1782685011"
+    "timestamp": "1782689621"
   },
   "entity": [
     {
@@ -770,34 +770,6 @@
       }
     },
     {
-      "id": "DevAPI-9E9DF995-518C-4FAB-9CFF-37372DA76DFB",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Queen's Quay: Elevator 2HF1L out",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Queen's Quay: Elevator out of service between Bay Street west side entrance and westbound streetcars while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-9553B793-EC2A-482F-9A9A-80773CD62355",
       "alert": {
         "informedEntity": [
@@ -1553,35 +1525,6 @@
           "translation": [
             {
               "text": "112 West Mall: Detour via Wellesworth Dr and Eringate Dr due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-757E680A-F5A9-4854-972C-F41BB0C5E16C",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "503"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "503 Kingston Rd: Detour eastboun",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "503 Kingston Rd: Detour eastbound via Adelaide St W and Bay St due to an event.",
               "language": "en"
             }
           ]
