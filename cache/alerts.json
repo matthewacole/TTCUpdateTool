@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1782767386"
+    "timestamp": "1782771591"
   },
   "entity": [
     {
@@ -589,6 +589,59 @@
       }
     },
     {
+      "id": "DevAPI-FC6E7AE5-DF2D-4687-B724-C2979FAA75B3",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "55"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "335"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "149"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "26"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "935"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "27"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Jane: Elevator 12B3L out of serv",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Jane: Elevator out of service between concourse and Line 2 westbound platform while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-F7CD2360-8A74-496B-8988-4ABFF0B77F06",
       "alert": {
         "informedEntity": [
@@ -761,6 +814,35 @@
       }
     },
     {
+      "id": "DevAPI-B987502F-1B2A-4A4E-B0BB-CCF0A697BE94",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "133"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "133 Neilson: Detour via Tapscott",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "133 Neilson: Detour via Tapscott Rd, Blackwell Ave and Berner Trl due to a collision.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-5282ABBF-0561-4D11-8FCC-2B208961ADA1",
       "alert": {
         "informedEntity": [
@@ -894,47 +976,6 @@
           "translation": [
             {
               "text": "38 Highland Creek: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-BCFD67DC-8364-4944-B390-7A5880998727",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "65"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "365"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "94"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Castle Frank: Elevator 5D2L out",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Castle Frank: Elevator out of service between Castle Frank Rd entrance and Line 2 Kennedy (eastbound) platform while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -1213,35 +1254,6 @@
       }
     },
     {
-      "id": "DevAPI-3D284513-981F-469D-949B-116FD1FCFC87",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "511"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "511 Bathurst: No service between",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "511 Bathurst: No service between Fleet St at Bathurst St West Side and Exhibition Loop due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-963A2A8D-A1F4-488A-B54A-B2CBEDF5D377",
       "alert": {
         "informedEntity": [
@@ -1513,35 +1525,6 @@
           "translation": [
             {
               "text": "112 West Mall: Detour via Wellesworth Dr and Eringate Dr due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-9FD4A73C-A19B-49A1-B7DC-5FFD7766A324",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "509"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "509 Harbourfront: No service bet",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "509 Harbourfront: No service between Fleet St at Bathurst St West Side and Exhibition Loop at Manitoba Dr due to a collision.",
               "language": "en"
             }
           ]
