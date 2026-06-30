@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1782783153"
+    "timestamp": "1782798708"
   },
   "entity": [
     {
@@ -183,12 +183,12 @@
       }
     },
     {
-      "id": "DevAPI-D5281FE3-D8D2-432E-909A-9D93FFB3921F",
+      "id": "DevAPI-46AA5BE1-0936-46F2-9659-42327887A972",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "191"
+            "routeId": "65"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -196,7 +196,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "191 Underhill: Detour via Brookb",
+              "text": "65 Parliament: Detour southbound",
               "language": "en"
             }
           ]
@@ -204,7 +204,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "191 Underhill: Detour via Brookbanks Dr, Laurentide Dr, Silverdale Cres, York Mills Rd and Valley Woods Rd due to construction.",
+              "text": "65 Parliament: Detour southbound via Front St E and Sherbourne St due to a blocked road.",
               "language": "en"
             }
           ]
@@ -356,6 +356,35 @@
           "translation": [
             {
               "text": "21 Brimley: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-40FCA77D-2DDE-4B2B-BB59-F6DE143A11B3",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "87"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "87 Cosburn: Detour via Cosburn A",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "87 Cosburn: Detour via Cosburn Ave, Pape Ave and Mortimer Ave due to a blocked road.",
               "language": "en"
             }
           ]
@@ -790,35 +819,6 @@
       }
     },
     {
-      "id": "DevAPI-B987502F-1B2A-4A4E-B0BB-CCF0A697BE94",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "133"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "133 Neilson: Detour via Tapscott",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "133 Neilson: Detour via Tapscott Rd, Blackwell Ave and Berner Trl due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-5282ABBF-0561-4D11-8FCC-2B208961ADA1",
       "alert": {
         "informedEntity": [
@@ -923,6 +923,35 @@
           "translation": [
             {
               "text": "43 Kennedy: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-1EE5561F-03DF-41D5-A412-5F37F0043759",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "25"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "25 Don Mills: Detour via Cosburn",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "25 Don Mills: Detour via Cosburn Ave, Pape Ave and Mortimer Ave due to a blocked road.",
               "language": "en"
             }
           ]
@@ -1131,35 +1160,6 @@
       }
     },
     {
-      "id": "DevAPI-2EF32A46-921D-4855-B29F-CAB4728855AB",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "505"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "505 Dundas: Detour westbound via",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "505 Dundas: Detour westbound via Gerrard St E, Parliament St and Dundas St E while we deal with an operational problem.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-88ED0667-5E69-419C-B7E2-72949F41B441",
       "alert": {
         "informedEntity": [
@@ -1182,6 +1182,35 @@
           "translation": [
             {
               "text": "316 Kingston Rd-Mccowan: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-D7D714D0-46AA-494C-84F8-84146987B3E6",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "100"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "100 Flemingdon Park: Detour via",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "100 Flemingdon Park: Detour via Cosburn Ave, Pape Ave and Mortimer Ave due to a blocked road.",
               "language": "en"
             }
           ]
