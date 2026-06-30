@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1782850912"
+    "timestamp": "1782856344"
   },
   "entity": [
     {
@@ -376,6 +376,347 @@
       }
     },
     {
+      "id": "DevAPI-39B2D43A-1D47-4FC0-B119-31D5042FFF34",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "341"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "74"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "14"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "91"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "324"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "171"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "307"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "986"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "164"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "201"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "32"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "67"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "73"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "154"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "129"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "7"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "90"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "24"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "103"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "925"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "33"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "72"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "929"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "131"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "161"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "68"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "20"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "63"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "191"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "924"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "38"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "12"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "25"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "158"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "954"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "43"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "13"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "156"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "162"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "100"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "113"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "109"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "27"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "57"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "329"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "61"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "354"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "905"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "168"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "320"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "363"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "88"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "904"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "86"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "29"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "54"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "51"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "11"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "89"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "116"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "903"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "133"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "989"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "71"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "41"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "21"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "47"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "17"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "97"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "18"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "939"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "325"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "35"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "343"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "386"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "70"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Line 5 Eglinton: Delays between",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Line 5 Eglinton: Delays between Mount Dennis and Kennedy stations while the maintainer fixes a track problem.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-AEDBDB48-BB19-4C0E-9FF1-B2653B69CAA6",
       "alert": {
         "informedEntity": [
@@ -717,6 +1058,35 @@
           "translation": [
             {
               "text": "509 Harbourfront: Streetcars are not stopping eastbound near Fleet St at Strachan Ave due to FIFA World Cup route adjustments.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-5BB9E68B-F093-4DAE-B962-7D25D7B6DCE0",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "504"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "504 King: Detour eastbound via S",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "504 King: Detour eastbound via Spadina Ave, King St W, Adelaide St W and Church St due to a collision.",
               "language": "en"
             }
           ]
@@ -1089,6 +1459,34 @@
       }
     },
     {
+      "id": "DevAPI-6FF92C42-9387-4B01-BB8C-1188CC9EC56A",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Queen's Quay: Elevator 2HF1L out",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Queen's Quay: Elevator out of service between Bay Street west side entrance and westbound streetcars due to a technical problem.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-4578ADD0-D58E-4FD2-933E-4E97ACBD9059",
       "alert": {
         "informedEntity": [
@@ -1227,59 +1625,6 @@
           "translation": [
             {
               "text": "Line 6 Finch West: No service between Finch West and Humber College stations while maintainers fix a communication issue. Shuttle buses are running between Finch West and Humber College stations.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-9AE6C3BB-BF65-44FB-AACA-661598D9965A",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "334"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "63"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "90"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "109"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "363"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "164"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Oakwood: Elevator 2 out of servi",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Oakwood: Elevator out of service between concourse and Eglinton Avenue north side entrance while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -1428,6 +1773,35 @@
           "translation": [
             {
               "text": "316 Kingston Rd-Mccowan: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-A7C4FFF8-927D-415A-BE8E-74898B7BCC3E",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "94"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "94 Wellesley: Detour westbound v",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "94 Wellesley: Detour westbound via Parliament St, Carlton St and Jarvis St due to a fire.",
               "language": "en"
             }
           ]
