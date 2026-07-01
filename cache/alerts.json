@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1782925202"
+    "timestamp": "1782932681"
   },
   "entity": [
     {
@@ -21,28 +21,38 @@
           },
           {
             "agencyId": "1",
-            "routeId": "84",
-            "stopId": "3755"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "84",
-            "stopId": "3755"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "84",
-            "stopId": "3755"
-          },
-          {
-            "agencyId": "1",
             "routeId": "104",
             "stopId": "3975"
           },
           {
             "agencyId": "1",
-            "routeId": "105",
-            "stopId": "3749"
+            "routeId": "984",
+            "stopId": "3754"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "84",
+            "stopId": "3755"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "84",
+            "stopId": "3755"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "108",
+            "stopId": "3756"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "84",
+            "stopId": "3755"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "108",
+            "stopId": "3756"
           },
           {
             "agencyId": "1",
@@ -56,23 +66,13 @@
           },
           {
             "agencyId": "1",
-            "routeId": "108",
-            "stopId": "3756"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "108",
-            "stopId": "3756"
-          },
-          {
-            "agencyId": "1",
             "routeId": "984",
             "stopId": "3750"
           },
           {
             "agencyId": "1",
-            "routeId": "984",
-            "stopId": "3754"
+            "routeId": "105",
+            "stopId": "3749"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -101,11 +101,11 @@
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "7"
+            "routeId": "334"
           },
           {
             "agencyId": "1",
-            "routeId": "33"
+            "routeId": "7"
           },
           {
             "agencyId": "1",
@@ -117,7 +117,7 @@
           },
           {
             "agencyId": "1",
-            "routeId": "334"
+            "routeId": "33"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -146,7 +146,7 @@
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "34"
+            "routeId": "334"
           },
           {
             "agencyId": "1",
@@ -158,19 +158,19 @@
           },
           {
             "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
             "routeId": "109"
           },
           {
             "agencyId": "1",
-            "routeId": "164"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "334"
-          },
-          {
-            "agencyId": "1",
             "routeId": "363"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "164"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -286,7 +286,7 @@
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "84"
+            "routeId": "384"
           },
           {
             "agencyId": "1",
@@ -298,15 +298,15 @@
           },
           {
             "agencyId": "1",
-            "routeId": "108"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "384"
-          },
-          {
-            "agencyId": "1",
             "routeId": "984"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "84"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "108"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -364,7 +364,7 @@
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "34"
+            "routeId": "334"
           },
           {
             "agencyId": "1",
@@ -376,19 +376,19 @@
           },
           {
             "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
             "routeId": "109"
           },
           {
             "agencyId": "1",
-            "routeId": "164"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "334"
-          },
-          {
-            "agencyId": "1",
             "routeId": "363"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "164"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -475,12 +475,12 @@
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "114",
+            "routeId": "202",
             "stopId": "4277"
           },
           {
             "agencyId": "1",
-            "routeId": "202",
+            "routeId": "114",
             "stopId": "4277"
           }
         ],
@@ -539,7 +539,7 @@
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "34"
+            "routeId": "334"
           },
           {
             "agencyId": "1",
@@ -551,19 +551,19 @@
           },
           {
             "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
             "routeId": "109"
           },
           {
             "agencyId": "1",
-            "routeId": "164"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "334"
-          },
-          {
-            "agencyId": "1",
             "routeId": "363"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "164"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -748,28 +748,73 @@
       }
     },
     {
+      "id": "DevAPI-35749E1E-A856-4E23-BF5E-6D27170C31E1",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "13"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "26"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "310"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "510"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "127"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "94"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "St George: Elevator 1Y1L out of",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "St George: Elevator out of service between bus platform, Bedford rd west side entrance, concourse, Line 1 centre platform and Line 2 centre platform due to a technical problem.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-C178C4BB-EC53-4D30-8A93-194DA3CD4871",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "25"
+            "routeId": "334"
           },
           {
             "agencyId": "1",
-            "routeId": "34"
+            "routeId": "354"
           },
           {
             "agencyId": "1",
             "routeId": "54"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "72"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "100"
           },
           {
             "agencyId": "1",
@@ -781,19 +826,27 @@
           },
           {
             "agencyId": "1",
+            "routeId": "100"
+          },
+          {
+            "agencyId": "1",
             "routeId": "325"
           },
           {
             "agencyId": "1",
-            "routeId": "334"
+            "routeId": "25"
           },
           {
             "agencyId": "1",
-            "routeId": "354"
+            "routeId": "34"
           },
           {
             "agencyId": "1",
             "routeId": "925"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "72"
           },
           {
             "agencyId": "1",
@@ -879,73 +932,12 @@
       }
     },
     {
-      "id": "DevAPI-96566F1D-D679-4AF5-86A5-BE7C281D9B85",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "91"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "92"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "93"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Woodbine: Elevator 12D1L out of",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Woodbine: Elevator out of service between Woodbine Ave east side entrance, concourse and Line 2 eastbound platform while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-F7CD2360-8A74-496B-8988-4ABFF0B77F06",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "301"
-          },
-          {
-            "agencyId": "1",
             "routeId": "304"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "305"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "501"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "503"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "504"
           },
           {
             "agencyId": "1",
@@ -953,7 +945,23 @@
           },
           {
             "agencyId": "1",
-            "routeId": "19"
+            "routeId": "320"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "301"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "501"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "305"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "503"
           },
           {
             "agencyId": "1",
@@ -961,7 +969,11 @@
           },
           {
             "agencyId": "1",
-            "routeId": "320"
+            "routeId": "504"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "19"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -994,7 +1006,7 @@
           },
           {
             "agencyId": "1",
-            "routeId": "96"
+            "routeId": "996"
           },
           {
             "agencyId": "1",
@@ -1006,11 +1018,11 @@
           },
           {
             "agencyId": "1",
-            "routeId": "927"
+            "routeId": "96"
           },
           {
             "agencyId": "1",
-            "routeId": "996"
+            "routeId": "927"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -1101,15 +1113,7 @@
           },
           {
             "agencyId": "1",
-            "routeId": "305"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "504"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "505"
+            "routeId": "62"
           },
           {
             "agencyId": "1",
@@ -1117,19 +1121,7 @@
           },
           {
             "agencyId": "1",
-            "routeId": "25"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "62"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "87"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "100"
+            "routeId": "322"
           },
           {
             "agencyId": "1",
@@ -1137,11 +1129,31 @@
           },
           {
             "agencyId": "1",
-            "routeId": "322"
+            "routeId": "100"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "25"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "505"
           },
           {
             "agencyId": "1",
             "routeId": "925"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "87"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "305"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "504"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -1372,7 +1384,7 @@
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "12"
+            "routeId": "67"
           },
           {
             "agencyId": "1",
@@ -1380,19 +1392,11 @@
           },
           {
             "agencyId": "1",
-            "routeId": "24"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "67"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "113"
-          },
-          {
-            "agencyId": "1",
             "routeId": "117"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "924"
           },
           {
             "agencyId": "1",
@@ -1404,7 +1408,15 @@
           },
           {
             "agencyId": "1",
-            "routeId": "924"
+            "routeId": "12"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "24"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "113"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -1486,58 +1498,9 @@
       }
     },
     {
-      "id": "DevAPI-FF05CFA4-70D8-4AAB-82AE-26AA509C468A",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "14"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "33"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "334"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Chaplin: Elevator 2 out of servi",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Chaplin: Elevator out of service between Eglinton Avenue north side entrance and concourse while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-89F22EC9-A8C5-481E-AF05-F03427F8D55E",
       "alert": {
         "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "19"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "97"
-          },
           {
             "agencyId": "1",
             "routeId": "300"
@@ -1545,6 +1508,14 @@
           {
             "agencyId": "1",
             "routeId": "320"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "97"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "19"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -1631,15 +1602,7 @@
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "301"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "305"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "501"
+            "routeId": "13"
           },
           {
             "agencyId": "1",
@@ -1647,7 +1610,15 @@
           },
           {
             "agencyId": "1",
-            "routeId": "13"
+            "routeId": "301"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "501"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "305"
           },
           {
             "agencyId": "1",
