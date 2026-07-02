@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1783023158"
+    "timestamp": "1783028073"
   },
   "entity": [
     {
@@ -277,35 +277,6 @@
           "translation": [
             {
               "text": "Bayview: Elevator out of service between Sheppard Ave E south side entrance and east concourse due to a technical problem.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-6A6839C7-B8AC-4979-A8E8-A574F7849AA1",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "504"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "504A King: Detour via Shaw St, Q",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "504A King: Detour via Shaw St, Queen St W and Spadina Ave due to FIFA World Cup fan marches.",
               "language": "en"
             }
           ]
@@ -1305,6 +1276,35 @@
       }
     },
     {
+      "id": "DevAPI-26B2A77C-67F7-4D51-9584-ACCB24686BFB",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "511"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "511 Bathurst: Delays between Bat",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "511 Bathurst: Delays between Bathurst Station at Bay 6 and Fleet St at Bathurst St West Side due to weather conditions.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-D9F16C80-7AD0-48C4-9229-52C25445D8E1",
       "alert": {
         "informedEntity": [
@@ -1465,32 +1465,24 @@
       }
     },
     {
-      "id": "DevAPI-EA38EB99-550E-495F-AC11-3558BFE12D98",
+      "id": "DevAPI-52FDE959-9F22-47A3-B18D-3BE971551813",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "161"
+            "routeId": "74"
           },
           {
             "agencyId": "1",
-            "routeId": "63"
+            "routeId": "14"
           },
           {
             "agencyId": "1",
-            "routeId": "300"
+            "routeId": "91"
           },
           {
             "agencyId": "1",
-            "routeId": "311"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "510"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "127"
+            "routeId": "324"
           },
           {
             "agencyId": "1",
@@ -1498,19 +1490,27 @@
           },
           {
             "agencyId": "1",
-            "routeId": "363"
+            "routeId": "986"
           },
           {
             "agencyId": "1",
-            "routeId": "13"
+            "routeId": "164"
           },
           {
             "agencyId": "1",
-            "routeId": "126"
+            "routeId": "201"
           },
           {
             "agencyId": "1",
-            "routeId": "26"
+            "routeId": "67"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "154"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "129"
           },
           {
             "agencyId": "1",
@@ -1518,15 +1518,199 @@
           },
           {
             "agencyId": "1",
-            "routeId": "511"
+            "routeId": "90"
           },
           {
             "agencyId": "1",
-            "routeId": "310"
+            "routeId": "24"
           },
           {
             "agencyId": "1",
-            "routeId": "94"
+            "routeId": "103"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "925"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "33"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "72"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "131"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "68"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "20"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "63"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "191"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "924"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "38"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "12"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "25"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "954"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "43"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "13"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "156"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "162"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "100"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "113"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "109"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "57"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "61"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "354"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "905"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "320"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "363"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "88"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "904"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "86"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "54"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "51"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "11"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "116"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "903"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "133"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "21"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "17"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "97"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "939"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "325"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "343"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "386"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "70"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -1534,7 +1718,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Line 2 Bloor-Danforth: No servic",
+              "text": "Line 5 Eglinton: Delays between",
               "language": "en"
             }
           ]
@@ -1542,7 +1726,36 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "Line 2 Bloor-Danforth: No service between Ossington and St George stations while we respond to an injury on the tracks.",
+              "text": "Line 5 Eglinton: Delays between Cedarvale and Kennedy stations while the maintainer fixes a signal problem.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-9FC9B7B0-9766-4411-810E-66B1572EF8BE",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "503"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "503 Kingston Rd: Detour westboun",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "503 Kingston Rd: Detour westbound via York St, Queen St W and Bay St due to police activity.",
               "language": "en"
             }
           ]
@@ -1572,35 +1785,6 @@
           "translation": [
             {
               "text": "939 Finch Express: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-31D5D8E8-7ED5-437A-AE85-BBC649D4336F",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "504"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "504B King: Detour via Church St,",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "504B King: Detour via Church St, Wellington St E and York St due to FIFA World Cup fan marches.",
               "language": "en"
             }
           ]
