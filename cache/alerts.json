@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1782998066"
+    "timestamp": "1783006433"
   },
   "entity": [
     {
@@ -666,6 +666,35 @@
       }
     },
     {
+      "id": "DevAPI-B7C42C9B-31B6-458C-940F-D16DD7793B2C",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "75"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "75 Sherbourne: Detour via Elm Av",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "75 Sherbourne: Detour via Elm Ave due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-C178C4BB-EC53-4D30-8A93-194DA3CD4871",
       "alert": {
         "informedEntity": [
@@ -732,6 +761,47 @@
           "translation": [
             {
               "text": "Don Valley: Elevator out of service between concourse and Don Mills Road west side entrance due to the Ontario Line construction. Elevator is expected to be back in service February 8, 2032.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-2F8FAFAF-0667-443F-8A11-968379D666D1",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "92"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "93"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "91"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Woodbine: Elevator 12D1L out of",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Woodbine: Elevator out of service between Woodbine Ave east side entrance, concourse and Line 2 eastbound platform while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -1056,6 +1126,35 @@
       }
     },
     {
+      "id": "DevAPI-1C8FB0FF-A505-4EBA-AD32-F26076817399",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "79"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "79 Scarlett Rd: Delays near Scar",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "79 Scarlett Rd: Delays near Scarlett Rd at Lawrence Ave West while we deal with an operational problem.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-2E2A1EDF-8B91-4F3C-9639-3A42DB817738",
       "alert": {
         "informedEntity": [
@@ -1225,6 +1324,79 @@
           "translation": [
             {
               "text": "316 Kingston Rd-Mccowan: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-0B38DF16-6C3F-4F9C-9CA3-9F89B8A1FF29",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "396"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "996"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "395"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "78"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "95"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "122"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "320"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "115"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "165"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "96"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "97"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "995"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "York Mills: Elevator 20Y2L out o",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "York Mills: Elevator out of service between concourse and bus platform while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -1431,47 +1603,6 @@
           "translation": [
             {
               "text": "130 Middlefield: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-F805C29C-9636-43BA-832C-D81C0CD111CA",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "92"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "93"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "91"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Woodbine: Elevator 12D1L out of",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Woodbine: Elevator out of service between Woodbine Ave east side entrance, concourse and Line 2 eastbound platform while we perform maintenance.",
               "language": "en"
             }
           ]
