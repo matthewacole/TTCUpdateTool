@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1783067166"
+    "timestamp": "1783077004"
   },
   "entity": [
     {
@@ -517,43 +517,6 @@
       }
     },
     {
-      "id": "DevAPI-A5619A2F-AC8E-44E3-ACA3-853651FC734F",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "11"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "185"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "385"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Bayview: Elevator 55P4L out of s",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Bayview: Elevator out of service between Sheppard Ave E south side entrance and east concourse due to a technical problem.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-D9F16C80-7AD0-48C4-9229-52C25445D8E1",
       "alert": {
         "informedEntity": [
@@ -634,6 +597,35 @@
           "translation": [
             {
               "text": "903 Kennedy Stn-Scarborough Express: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-087B16DC-3524-4FF8-A4B3-2CD3305BF1AA",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "96"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "96 Wilson: Detour via Beverly Hi",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "96 Wilson: Detour via Beverly Hills Dr and Jane St due to a fire.",
               "language": "en"
             }
           ]
@@ -765,347 +757,6 @@
           "translation": [
             {
               "text": "509 Harbourfront: Streetcars are not stopping eastbound near Fleet St at Strachan Ave due to FIFA World Cup route adjustments.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-D91B33A9-623D-4835-BBAF-4EF195C8A75B",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "341"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "74"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "14"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "91"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "324"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "171"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "307"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "986"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "164"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "201"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "32"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "67"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "73"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "154"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "129"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "7"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "90"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "24"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "103"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "925"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "33"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "72"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "929"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "131"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "161"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "68"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "20"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "63"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "191"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "924"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "38"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "12"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "25"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "158"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "954"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "43"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "13"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "334"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "156"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "162"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "100"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "113"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "109"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "27"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "57"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "329"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "61"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "354"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "905"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "168"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "320"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "363"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "88"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "904"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "86"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "29"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "54"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "51"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "11"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "89"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "116"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "903"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "133"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "989"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "71"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "41"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "21"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "47"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "17"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "97"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "18"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "939"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "325"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "35"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "343"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "386"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "70"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Line 5 Eglinton: Delays between",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Line 5 Eglinton: Delays between Mount Dennis and Kennedy stations while the maintainer fixes a signal problem.",
               "language": "en"
             }
           ]
@@ -1474,6 +1125,35 @@
       }
     },
     {
+      "id": "DevAPI-6EF5E469-36F8-433A-AF58-478B67A7372B",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "118"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "118 Thistle Down: Detour via Jan",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "118 Thistle Down: Detour via Jane St, Beverly Hills Dr and Wilson Ave due to a fire.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-F92885AA-2070-4819-B78B-544D607977A2",
       "alert": {
         "informedEntity": [
@@ -1564,79 +1244,6 @@
       }
     },
     {
-      "id": "DevAPI-984F56BF-0821-45FA-886A-23B590FB66E6",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "904"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "985"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "169"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "24"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "325"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "25"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "167"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "10"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "925"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "85"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "185"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "385"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Don Mills: Elevator 61P6L out of",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Don Mills: Elevator out of service between Fairview Mall entrance and bus platform while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-88ED0667-5E69-419C-B7E2-72949F41B441",
       "alert": {
         "informedEntity": [
@@ -1659,6 +1266,47 @@
           "translation": [
             {
               "text": "316 Kingston Rd-Mccowan: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-2FE06CFE-8308-4252-83E7-C470B48B26E2",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "18"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "47"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Caledonia: Elevator 2 out of ser",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Caledonia: Elevator out of service between Eglinton Avenue north side entrance and concourse due to a technical problem.",
               "language": "en"
             }
           ]
@@ -1758,6 +1406,35 @@
           "translation": [
             {
               "text": "131 Nugget: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-67E06CE4-86B3-4270-A05B-6D07CB30AEB1",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "996"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "996 Wilson Express: Detour via B",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "996 Wilson Express: Detour via Beverly Hills Dr and Jane St due to a fire.",
               "language": "en"
             }
           ]
@@ -1894,6 +1571,35 @@
           "translation": [
             {
               "text": "112 West Mall: Detour via Wellesworth Dr and Eringate Dr due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-E7583E80-BE69-44E4-95B8-C111F92FFCD8",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "165"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "165 Weston Rd North: Detour via",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "165 Weston Rd North: Detour via Beverly Hills Dr and Jane St due to a fire.",
               "language": "en"
             }
           ]
