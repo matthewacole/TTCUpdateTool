@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1783092354"
+    "timestamp": "1783097668"
   },
   "entity": [
     {
@@ -154,6 +154,35 @@
       }
     },
     {
+      "id": "DevAPI-817E8381-5A80-48C7-9331-315EA4CF4FB0",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "61"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "61 Avenue Rd North: Detour via W",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "61 Avenue Rd North: Detour via Wilson Ave, Kelso Ave and Carmichael Ave due to a possible watermain break.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-0114DF6B-3DFA-4093-B6ED-97426E49C30D",
       "alert": {
         "informedEntity": [
@@ -176,6 +205,59 @@
           "translation": [
             {
               "text": "511 Bathurst: Streetcars are not stopping southbound near Manitoba Dr at Strachan Ave West Side due to FIFA World Cup route adjustments.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-A337EED8-E174-4C1B-B1B7-43262B2AF895",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "63"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "90"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "109"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "363"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "164"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Cedarvale: Elevator 4S2L out of",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Cedarvale: Elevator out of service between bus terminal entrance and Line 1 Finch via southbound platform due to a technical problem.",
               "language": "en"
             }
           ]
@@ -653,47 +735,6 @@
       }
     },
     {
-      "id": "DevAPI-53A2889D-249F-4A4A-AE94-D9F313891DCB",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "325"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "83"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "72"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Pape: Elevator 8D1L out of servi",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Pape: Elevator out of service between Pape Ave entrance, concourse and Line 2 westbound platform while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-BFEB99F3-0C66-44CF-AC31-136637EF9CC6",
       "alert": {
         "informedEntity": [
@@ -723,12 +764,12 @@
       }
     },
     {
-      "id": "DevAPI-05B4F116-CED1-4776-9217-D97BFDC5EC1F",
+      "id": "DevAPI-1E4889D5-5F48-4C3C-B7DB-91893AD61750",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "57"
+            "routeId": "68"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -736,7 +777,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "57 Midland: Detour northbound vi",
+              "text": "68 Warden: Delays near Warden Av",
               "language": "en"
             }
           ]
@@ -744,7 +785,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "57 Midland: Detour northbound via Mcnicoll Ave, Milliken Blvd and Passmore Ave due to a collision.",
+              "text": "68 Warden: Delays near Warden Ave at Lawrence Ave East due to an event.",
               "language": "en"
             }
           ]
@@ -1411,6 +1452,35 @@
           "translation": [
             {
               "text": "130 Middlefield: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-9653BDC4-4F2C-4311-982E-5BF1249C2C1F",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "79"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "79 Scarlett Rd: Delays between R",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "79 Scarlett Rd: Delays between Runnymede Station at Bus Bay 3 and Scarlett Rd at Eglinton Ave West while we deal with an operational problem.",
               "language": "en"
             }
           ]
