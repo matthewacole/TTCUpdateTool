@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1783190285"
+    "timestamp": "1783194763"
   },
   "entity": [
     {
@@ -683,35 +683,6 @@
       }
     },
     {
-      "id": "DevAPI-6AA6C267-A712-4135-B258-B2E4DDFFE004",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "102"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "102 Markham Rd: Detour southboun",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "102 Markham Rd: Detour southbound via Grangeway Ave, Bushby Dr and Mccowan Rd due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-BFEB99F3-0C66-44CF-AC31-136637EF9CC6",
       "alert": {
         "informedEntity": [
@@ -935,6 +906,35 @@
       }
     },
     {
+      "id": "DevAPI-A85B0AC9-F61A-41A4-88D9-D2FFD471D8FC",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "95"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "95 York Mills: Detour westbound",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "95 York Mills: Detour westbound via Grangeway Ave, Bushby Dr and Mccowan Rd due to a collision.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-2E2A1EDF-8B91-4F3C-9639-3A42DB817738",
       "alert": {
         "informedEntity": [
@@ -1076,47 +1076,6 @@
           "translation": [
             {
               "text": "316 Kingston Rd-Mccowan: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-8EE93E5B-71A1-4AC9-B27A-3A6AF0AF3E58",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "77"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "79"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "71"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Runnymede: Elevator 11B2L out of",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Runnymede: Elevator out of service between concourse and Line 2 westbound platform due to a technical problem.",
               "language": "en"
             }
           ]
