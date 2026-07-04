@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1783157478"
+    "timestamp": "1783163278"
   },
   "entity": [
     {
@@ -89,6 +89,35 @@
           "translation": [
             {
               "text": "Have proof of payment ready for inspection.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-E8313F25-AB14-4357-846A-7486E2957B00",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "61"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "61 Avenue Rd North: Detour via W",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "61 Avenue Rd North: Detour via Wilson Ave, Ridley Blvd and Carmichael Ave due to a watermain break.",
               "language": "en"
             }
           ]
@@ -341,6 +370,35 @@
           "translation": [
             {
               "text": "34 Eglinton: Detour via Danforth Rd, Trudelle St and Mccowan Rd due to a blocked road.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-C6577831-71C2-451D-A06E-08E4BDE67D03",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "38"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "38 Highland Creek: Detour westbo",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "38 Highland Creek: Detour westbound via Lawrence Ave E, Centennial Rd and Conference Blvd due to a collision.",
               "language": "en"
             }
           ]
@@ -741,12 +799,12 @@
       }
     },
     {
-      "id": "DevAPI-79122B28-0EEF-4A60-8237-7999E9935A04",
+      "id": "DevAPI-831292D4-85A1-4351-866B-7BE6AB8CA286",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "506"
+            "routeId": "116"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -754,7 +812,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "506 Carlton: No service between",
+              "text": "116 Morningside: Detour eastboun",
               "language": "en"
             }
           ]
@@ -762,7 +820,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "506 Carlton: No service between College St at McCaul St and College St at Bay St due to a collision.",
+              "text": "116 Morningside: Detour eastbound via Danforth Ave, Trudelle St and Mccowan Rd due to a collision.",
               "language": "en"
             }
           ]
@@ -906,6 +964,63 @@
       }
     },
     {
+      "id": "DevAPI-301A597E-5C90-4B1E-98CA-06034CBF5D08",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "304"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "505"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "301"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "501"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "305"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "503"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "504"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "19"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Osgoode: Elevator 5Y1L out of se",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Osgoode: Elevator out of service between concourse and Line 1 centre platform while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-9553B793-EC2A-482F-9A9A-80773CD62355",
       "alert": {
         "informedEntity": [
@@ -986,6 +1101,35 @@
           "translation": [
             {
               "text": "395 York Mills: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-482BC1F7-8B89-40B8-B042-5C9543E7F576",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "505"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "505 Dundas: Detour eastbound via",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "505 Dundas: Detour eastbound via Spadina Ave, Adelaide St W and Church St due to a collision.",
               "language": "en"
             }
           ]
@@ -1385,6 +1529,35 @@
           "translation": [
             {
               "text": "112 West Mall: Detour via Wellesworth Dr and Eringate Dr due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-F0798B99-0DF5-4681-BC78-0E39547E4291",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "505"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "505 Dundas: Detour westbound via",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "505 Dundas: Detour westbound via Church St, College St and Bay St due to a collision.",
               "language": "en"
             }
           ]
