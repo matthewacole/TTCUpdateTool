@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1783178304"
+    "timestamp": "1783182511"
   },
   "entity": [
     {
@@ -699,59 +699,6 @@
       }
     },
     {
-      "id": "DevAPI-8BEE4A56-F0A9-4306-977E-29DE83CDFA9C",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "13"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "26"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "310"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "510"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "127"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "94"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Line 2 Bloor-Danforth: Delays we",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Line 2 Bloor-Danforth: Delays westbound at St George station while we fix a mechanical problem.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-DAF9EE30-A85F-4423-93A5-541DD6013E69",
       "alert": {
         "informedEntity": [
@@ -832,35 +779,6 @@
           "translation": [
             {
               "text": "86 Scarborough: Detour via Danforth Rd, Trudelle St and Mccowan Rd due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-9113964A-D6BD-4782-937D-E46AC99BB78B",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "512"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "512 St Clair: No service between",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "512 St Clair: No service between St Clair West Station at Bay 3 and St Clair Station at Bay 2 due to a collision.",
               "language": "en"
             }
           ]
