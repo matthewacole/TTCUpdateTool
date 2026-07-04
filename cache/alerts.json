@@ -2,9 +2,38 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1783167396"
+    "timestamp": "1783173793"
   },
   "entity": [
+    {
+      "id": "DevAPI-4E52309E-435D-4E18-964F-14F4E8921B59",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "512"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "512 St Clair: No service between",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "512 St Clair: No service between St Clair West Station at Bay 4 and St Clair Ave West at Oakwood Ave while we deal with an operational problem.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
     {
       "id": "DevAPI-A7A47D84-4C20-4E7B-A011-BE3F74D8425A",
       "alert": {
@@ -212,35 +241,6 @@
       }
     },
     {
-      "id": "DevAPI-6B166E39-B1F0-43DD-A903-C17714661DD2",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "95"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "95 York Mills: Detour via Lawren",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "95 York Mills: Detour via Lawrence Ave E, East Ave and Island Rd due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-0114DF6B-3DFA-4093-B6ED-97426E49C30D",
       "alert": {
         "informedEntity": [
@@ -263,35 +263,6 @@
           "translation": [
             {
               "text": "511 Bathurst: Streetcars are not stopping southbound near Manitoba Dr at Strachan Ave West Side due to FIFA World Cup route adjustments.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-F92F49F9-151B-4A4A-AC66-3755F93A837A",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "86"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "86 Scarborough: Detour via Danfo",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "86 Scarborough: Detour via Danforth Rd, Trudelle St and Mccowan Rd due to a blocked road.",
               "language": "en"
             }
           ]
@@ -377,12 +348,12 @@
       }
     },
     {
-      "id": "DevAPI-4C6CEC85-8639-4AF4-A707-0B86DC5354FF",
+      "id": "DevAPI-E4CF13E7-9FD5-452A-A933-8BE57FADEB4F",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "34"
+            "routeId": "504"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -390,7 +361,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "34 Eglinton: Detour via Danforth",
+              "text": "504B King: No service between Du",
               "language": "en"
             }
           ]
@@ -398,36 +369,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "34 Eglinton: Detour via Danforth Rd, Trudelle St and Mccowan Rd due to a blocked road.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-C6577831-71C2-451D-A06E-08E4BDE67D03",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "38"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "38 Highland Creek: Detour westbo",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "38 Highland Creek: Detour westbound via Lawrence Ave E, Centennial Rd and Conference Blvd due to a collision.",
+              "text": "504B King: No service between Dufferin Gate Loop and King St West at Dufferin St while we fix a mechanical problem.",
               "language": "en"
             }
           ]
@@ -828,6 +770,35 @@
       }
     },
     {
+      "id": "DevAPI-214A4ADC-BA4A-4723-B749-7E91230C7D74",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "86"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "86 Scarborough: Detour via Danfo",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "86 Scarborough: Detour via Danforth Rd, Trudelle St and Mccowan Rd due to a collision.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-831292D4-85A1-4351-866B-7BE6AB8CA286",
       "alert": {
         "informedEntity": [
@@ -986,63 +957,6 @@
           "translation": [
             {
               "text": "95 York Mills: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-301A597E-5C90-4B1E-98CA-06034CBF5D08",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "304"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "505"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "301"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "501"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "305"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "503"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "504"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "19"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Osgoode: Elevator 5Y1L out of se",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Osgoode: Elevator out of service between concourse and Line 1 centre platform while we perform maintenance.",
               "language": "en"
             }
           ]
