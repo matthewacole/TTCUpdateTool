@@ -2,9 +2,38 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1783194763"
+    "timestamp": "1783198184"
   },
   "entity": [
+    {
+      "id": "DevAPI-11A4A66D-17B8-4699-A698-55C604265FE2",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "17"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "17 Birchmount: Detour northbound",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "17 Birchmount: Detour northbound via Windermere Ave and Mount Castle Gt due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
     {
       "id": "DevAPI-A7A47D84-4C20-4E7B-A011-BE3F74D8425A",
       "alert": {
@@ -118,35 +147,6 @@
           "translation": [
             {
               "text": "61 Avenue Rd North: Detour via Wilson Ave, Ridley Blvd and Carmichael Ave due to a watermain break.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-AA2849A8-FD2C-41E8-A40C-059EDAC00B26",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "17"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "17 Birchmount: Detour northbound",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "17 Birchmount: Detour northbound via Riseborough Ave and Masseyfield Gt due to construction.",
               "language": "en"
             }
           ]
