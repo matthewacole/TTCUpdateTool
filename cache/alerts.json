@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1783123995"
+    "timestamp": "1783137869"
   },
   "entity": [
     {
@@ -711,12 +711,12 @@
       }
     },
     {
-      "id": "DevAPI-21AF5A21-3932-42DE-9A45-5FD7C64D23B2",
+      "id": "DevAPI-8117D655-10E7-4F7A-88A3-E12643BF8541",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "116"
+            "routeId": "512"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -724,7 +724,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "116 Morningside: Detour via Ceda",
+              "text": "512 St Clair: Delays near St Cla",
               "language": "en"
             }
           ]
@@ -732,7 +732,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "116 Morningside: Detour via Cedar Ave, Dunelm St, Scarborough Golf Club Rd and Kingston Rd due to a collision.",
+              "text": "512 St Clair: Delays near St Clair Ave West at Dufferin St West Side due to heavy crowds and traffic congestion.",
               "language": "en"
             }
           ]
@@ -762,6 +762,35 @@
           "translation": [
             {
               "text": "509 Harbourfront: Streetcars are not stopping eastbound near Fleet St at Strachan Ave due to FIFA World Cup route adjustments.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-9F36A06B-6FB5-4932-9918-94DBCF0E593B",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "504"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "504 King: No service between Kin",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "504 King: No service between King St West at Shaw St and King St West at Spadina Ave East Side due to a blocked track.",
               "language": "en"
             }
           ]
@@ -807,35 +836,6 @@
           "translation": [
             {
               "text": "Queen's Park: Elevator out of service between concourse and Line 1 centre platform while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-1E4889D5-5F48-4C3C-B7DB-91893AD61750",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "68"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "68 Warden: Delays near Warden Av",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "68 Warden: Delays near Warden Ave at Lawrence Ave East due to an event.",
               "language": "en"
             }
           ]
@@ -1060,6 +1060,35 @@
       }
     },
     {
+      "id": "DevAPI-FF3A2270-BF60-4B17-AB34-06E73124BB58",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "132"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "132 Milner: Detour via Sheppard",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "132 Milner: Detour via Sheppard Ave E, Morningside Ave and Mclevin Ave due to police activity.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-9553B793-EC2A-482F-9A9A-80773CD62355",
       "alert": {
         "informedEntity": [
@@ -1140,35 +1169,6 @@
           "translation": [
             {
               "text": "395 York Mills: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-9A8D2FD9-EAD6-4910-9CBA-8020C12C17D9",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "12"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "12 Kingston Rd: Detour westbound",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "12 Kingston Rd: Detour westbound via Scarborough Golf Club Rd, Dunelm St, Cedar Dr, Eglinton Ave E and Markham Rd due to a collision.",
               "language": "en"
             }
           ]
@@ -1488,35 +1488,6 @@
       }
     },
     {
-      "id": "DevAPI-7DC1FC2C-220A-46B2-AB80-338259D91E93",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "86"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "86 Scarborough: Detour via Cedar",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "86 Scarborough: Detour via Cedar Ave, Dunelm St, Scarborough Golf Club Rd and Kingston Rd due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-6940B6C0-31E0-4442-B07E-294994729BBE",
       "alert": {
         "informedEntity": [
@@ -1568,35 +1539,6 @@
           "translation": [
             {
               "text": "130 Middlefield: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-9653BDC4-4F2C-4311-982E-5BF1249C2C1F",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "79"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "79 Scarlett Rd: Delays between R",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "79 Scarlett Rd: Delays between Runnymede Station at Bus Bay 3 and Scarlett Rd at Eglinton Ave West while we deal with an operational problem.",
               "language": "en"
             }
           ]
