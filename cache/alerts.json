@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1783273460"
+    "timestamp": "1783277309"
   },
   "entity": [
     {
@@ -183,32 +183,60 @@
       }
     },
     {
-      "id": "DevAPI-E02B2378-5469-4EFE-B62A-389E84929325",
+      "id": "DevAPI-24FC6D50-0976-42F2-BAF5-DFD8DCC121E8",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "384"
+            "routeId": "125"
           },
           {
             "agencyId": "1",
-            "routeId": "101"
+            "routeId": "36"
           },
           {
             "agencyId": "1",
-            "routeId": "106"
+            "routeId": "960"
           },
           {
             "agencyId": "1",
-            "routeId": "984"
+            "routeId": "320"
           },
           {
             "agencyId": "1",
-            "routeId": "84"
+            "routeId": "60"
           },
           {
             "agencyId": "1",
-            "routeId": "108"
+            "routeId": "97"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "953"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "336"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "939"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "339"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "39"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "53"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "42"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -216,7 +244,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Downsview Park: Elevator 10S2L o",
+              "text": "Finch: Elevator 22Y1L out of ser",
               "language": "en"
             }
           ]
@@ -224,7 +252,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "Downsview Park: Elevator out of service between Vitti St east side entrance and concourse due to a technical problem.",
+              "text": "Finch: Elevator out of service between fares concourse and Line 1 centre platform while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -581,32 +609,12 @@
       }
     },
     {
-      "id": "DevAPI-36B4725D-4714-4F2F-8E6D-89B0EA0FFF7D",
+      "id": "DevAPI-21EF5FC6-56E0-496E-A502-F7F8C5A6A460",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "37"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "996"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "336"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "906"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "96"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "927"
+            "routeId": "54"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -614,7 +622,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Humber College: Elevator 2 out o",
+              "text": "54 Lawrence East: Delays between",
               "language": "en"
             }
           ]
@@ -622,7 +630,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "Humber College: Elevator out of service between Humber College South Entrance and Line 6 Centre Platform while we perform an inspection.",
+              "text": "54 Lawrence East: Delays between Lawrence Ave East at Warden Ave and Lawrence Ave East at Birchmount Rd due to an event.",
               "language": "en"
             }
           ]
@@ -1155,6 +1163,35 @@
           "translation": [
             {
               "text": "112 West Mall: Detour via Wellesworth Dr and Eringate Dr due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-EEB899E7-47C7-406B-B197-AA5174F01E8A",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "512"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "512 St Clair: No service between",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "512 St Clair: No service between Gunns Loop at St Clair Ave West and St Clair Ave West at Oakwood Ave due to a blocked track.",
               "language": "en"
             }
           ]
