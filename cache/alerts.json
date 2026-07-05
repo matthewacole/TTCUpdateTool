@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1783277309"
+    "timestamp": "1783281786"
   },
   "entity": [
     {
@@ -21,38 +21,28 @@
           },
           {
             "agencyId": "1",
+            "routeId": "84",
+            "stopId": "3755"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "84",
+            "stopId": "3755"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "84",
+            "stopId": "3755"
+          },
+          {
+            "agencyId": "1",
             "routeId": "104",
             "stopId": "3975"
           },
           {
             "agencyId": "1",
-            "routeId": "984",
-            "stopId": "3754"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "84",
-            "stopId": "3755"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "84",
-            "stopId": "3755"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "108",
-            "stopId": "3756"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "84",
-            "stopId": "3755"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "108",
-            "stopId": "3756"
+            "routeId": "105",
+            "stopId": "3749"
           },
           {
             "agencyId": "1",
@@ -66,13 +56,23 @@
           },
           {
             "agencyId": "1",
+            "routeId": "108",
+            "stopId": "3756"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "108",
+            "stopId": "3756"
+          },
+          {
+            "agencyId": "1",
             "routeId": "984",
             "stopId": "3750"
           },
           {
             "agencyId": "1",
-            "routeId": "105",
-            "stopId": "3749"
+            "routeId": "984",
+            "stopId": "3754"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -188,19 +188,19 @@
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "125"
-          },
-          {
-            "agencyId": "1",
             "routeId": "36"
           },
           {
             "agencyId": "1",
-            "routeId": "960"
+            "routeId": "39"
           },
           {
             "agencyId": "1",
-            "routeId": "320"
+            "routeId": "42"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "53"
           },
           {
             "agencyId": "1",
@@ -212,7 +212,11 @@
           },
           {
             "agencyId": "1",
-            "routeId": "953"
+            "routeId": "125"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "320"
           },
           {
             "agencyId": "1",
@@ -220,23 +224,19 @@
           },
           {
             "agencyId": "1",
-            "routeId": "939"
-          },
-          {
-            "agencyId": "1",
             "routeId": "339"
           },
           {
             "agencyId": "1",
-            "routeId": "39"
+            "routeId": "939"
           },
           {
             "agencyId": "1",
-            "routeId": "53"
+            "routeId": "953"
           },
           {
             "agencyId": "1",
-            "routeId": "42"
+            "routeId": "960"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -294,7 +294,7 @@
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "334"
+            "routeId": "34"
           },
           {
             "agencyId": "1",
@@ -306,19 +306,19 @@
           },
           {
             "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
             "routeId": "109"
           },
           {
             "agencyId": "1",
-            "routeId": "363"
+            "routeId": "164"
           },
           {
             "agencyId": "1",
-            "routeId": "164"
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "363"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -405,12 +405,12 @@
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "202",
+            "routeId": "114",
             "stopId": "4277"
           },
           {
             "agencyId": "1",
-            "routeId": "114",
+            "routeId": "202",
             "stopId": "4277"
           }
         ],
@@ -846,7 +846,7 @@
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "67"
+            "routeId": "12"
           },
           {
             "agencyId": "1",
@@ -854,11 +854,19 @@
           },
           {
             "agencyId": "1",
-            "routeId": "117"
+            "routeId": "24"
           },
           {
             "agencyId": "1",
-            "routeId": "924"
+            "routeId": "67"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "113"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "117"
           },
           {
             "agencyId": "1",
@@ -870,15 +878,7 @@
           },
           {
             "agencyId": "1",
-            "routeId": "12"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "24"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "113"
+            "routeId": "924"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -965,7 +965,7 @@
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "334"
+            "routeId": "34"
           },
           {
             "agencyId": "1",
@@ -977,19 +977,19 @@
           },
           {
             "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
             "routeId": "109"
           },
           {
             "agencyId": "1",
-            "routeId": "363"
+            "routeId": "164"
           },
           {
             "agencyId": "1",
-            "routeId": "164"
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "363"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -1018,11 +1018,7 @@
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "320"
+            "routeId": "19"
           },
           {
             "agencyId": "1",
@@ -1030,7 +1026,11 @@
           },
           {
             "agencyId": "1",
-            "routeId": "19"
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "320"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -1170,12 +1170,12 @@
       }
     },
     {
-      "id": "DevAPI-EEB899E7-47C7-406B-B197-AA5174F01E8A",
+      "id": "DevAPI-34456C47-993B-4C68-9DA9-E5A09DC02C39",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "512"
+            "routeId": "68"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -1183,7 +1183,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "512 St Clair: No service between",
+              "text": "68 Warden: Delays between Warden",
               "language": "en"
             }
           ]
@@ -1191,7 +1191,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "512 St Clair: No service between Gunns Loop at St Clair Ave West and St Clair Ave West at Oakwood Ave due to a blocked track.",
+              "text": "68 Warden: Delays between Warden Ave at Ellesmere Rd and Warden Ave at Eglinton Ave East due to an event.",
               "language": "en"
             }
           ]
