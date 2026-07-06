@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1783356141"
+    "timestamp": "1783362755"
   },
   "entity": [
     {
@@ -561,35 +561,6 @@
       }
     },
     {
-      "id": "DevAPI-0AEF0604-8348-4AE0-BF74-74B4C95F8271",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "501"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "501 Queen: Detour via Church St,",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "501 Queen: Detour via Church St, King St E and Parliament St due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-5E3F49FD-909A-41F6-B36D-748E827818C4",
       "alert": {
         "informedEntity": [
@@ -871,6 +842,35 @@
           "translation": [
             {
               "text": "Eglinton: Elevator out of service between Line 1 centre platform and Line 5 centre platform while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-9C38F0A1-52D5-4A74-ACC5-380A31C5EC05",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "35"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "35 Jane: Detour southbound via G",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "35 Jane: Detour southbound via Gosford Blvd, Milo Park Gt and Jane St due to construction.",
               "language": "en"
             }
           ]
@@ -1220,6 +1220,59 @@
           "translation": [
             {
               "text": "509 Harbourfront: Streetcars are not stopping westbound near Manitoba Dr at Strachan Ave West Side due to FIFA World Cup route adjustments.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-DCAAF01E-A379-461E-BFB9-56A93BD1E009",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "55"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "335"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "149"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "26"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "935"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "27"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Jane: Elevator 12B1L out of serv",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Jane: Elevator out of service between Jane St entrance and concourse while we perform maintenance.",
               "language": "en"
             }
           ]
