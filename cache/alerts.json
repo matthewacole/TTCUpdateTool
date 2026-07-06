@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1783369830"
+    "timestamp": "1783375178"
   },
   "entity": [
     {
@@ -147,6 +147,35 @@
           "translation": [
             {
               "text": "511 Bathurst: Streetcars are not stopping northbound near Fleet St at Strachan Ave due to FIFA World Cup route adjustments.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-AFDED269-AEBC-4C26-86A0-2EEC68CD1374",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "97"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "97B Yonge: Detour northbound via",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "97B Yonge: Detour northbound via Yonge St due to construction.",
               "language": "en"
             }
           ]
@@ -358,6 +387,35 @@
       }
     },
     {
+      "id": "DevAPI-299C9528-EDBD-416B-89E5-963DC19D1EBC",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "97"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "97B Yonge: Detour southbound via",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "97B Yonge: Detour southbound via Yonge St due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-D9F16C80-7AD0-48C4-9229-52C25445D8E1",
       "alert": {
         "informedEntity": [
@@ -409,6 +467,79 @@
           "translation": [
             {
               "text": "129 Mccowan North: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-18BA2A29-FC1F-48A8-B35B-024508FF1A84",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "149"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "49"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "111"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "112"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "46"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "40"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "123"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "900"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "927"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "44"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "45"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Kipling: Elevator 16B2L out of s",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Kipling: Elevator out of service between bus platform and Line 2 centre platform due to a technical problem.",
               "language": "en"
             }
           ]
@@ -641,35 +772,6 @@
           "translation": [
             {
               "text": "38 Highland Creek: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-FEC83DA5-37C8-4137-A149-E6FD17832738",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "131"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "131 Nugget: Detour eastbound via",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "131 Nugget: Detour eastbound via Fawcett Trl, John Stoner Dr and Morningview Trl due to a collision.",
               "language": "en"
             }
           ]
@@ -1010,47 +1112,6 @@
           "translation": [
             {
               "text": "134 Progress: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-89F22EC9-A8C5-481E-AF05-F03427F8D55E",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "320"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "97"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "19"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Bloor-Yonge: Elevator out of ser",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Bloor-Yonge: Elevator out of service between Bloor St E north side entrance and north concourse due to a technical problem.",
               "language": "en"
             }
           ]
