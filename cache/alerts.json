@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1783294284"
+    "timestamp": "1783300772"
   },
   "entity": [
     {
@@ -532,35 +532,6 @@
       }
     },
     {
-      "id": "DevAPI-21EF5FC6-56E0-496E-A502-F7F8C5A6A460",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "54"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "54 Lawrence East: Delays between",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "54 Lawrence East: Delays between Lawrence Ave East at Warden Ave and Lawrence Ave East at Birchmount Rd due to an event.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-552DEDCA-1557-491F-85CD-96B13D61B733",
       "alert": {
         "informedEntity": [
@@ -735,7 +706,7 @@
       }
     },
     {
-      "id": "DevAPI-FD620DAF-B857-4806-9117-2D2492D8A79E",
+      "id": "DevAPI-B8F0B84E-3DA6-4B84-B2A9-E6E8994E2057",
       "alert": {
         "informedEntity": [
           {
@@ -780,7 +751,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Eglinton: Elevator 18Y2L out of",
+              "text": "Eglinton: Elevator 3 out of serv",
               "language": "en"
             }
           ]
@@ -788,7 +759,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "Eglinton: Elevator out of service between concourse and Line 1 centre platform due to a technical problem.",
+              "text": "Eglinton: Elevator out of service between Line 1 centre platform and Line 5 centre platform while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -879,83 +850,6 @@
           "translation": [
             {
               "text": "Victoria Park: Elevator out of service between overpass, Victoria Park Ave entrance and concourse while we perform maintenance. Elevator is expected to be back in service July 10, 2026.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-5B5636B8-8487-4FD5-968C-BFD572D5A547",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "125"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "36"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "960"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "320"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "60"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "97"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "953"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "336"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "939"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "339"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "39"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "53"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "42"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Line 1 Yonge-University: Delays",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Line 1 Yonge-University: Delays southbound at Finch station while we respond to an emergency alarm.",
               "language": "en"
             }
           ]
