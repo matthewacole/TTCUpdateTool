@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1783448442"
+    "timestamp": "1783455627"
   },
   "entity": [
     {
@@ -358,35 +358,6 @@
       }
     },
     {
-      "id": "DevAPI-E7880A06-0803-4FC9-875D-8457CB4BCE81",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "84"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "84 Sheppard West: Detour westbou",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "84 Sheppard West: Detour westbound via Jane St, Finch Ave W and Keele St due to a blocked road.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-D9F16C80-7AD0-48C4-9229-52C25445D8E1",
       "alert": {
         "informedEntity": [
@@ -677,12 +648,12 @@
       }
     },
     {
-      "id": "DevAPI-6D488566-E9AE-4F3B-9196-0871CD0DF9BF",
+      "id": "DevAPI-852CB547-8385-45EC-8448-3F185E7AE942",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "108"
+            "routeId": "504"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -690,7 +661,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "108 Driftwood: Detour westbound",
+              "text": "504A King: Detour via Parliament",
               "language": "en"
             }
           ]
@@ -698,7 +669,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "108 Driftwood: Detour westbound via Sentinel Rd, Finch Ave W and Driftwood Ave due to a blocked road.",
+              "text": "504A King: Detour via Parliament St, Dundas St E and Broadview Ave due to construction.",
               "language": "en"
             }
           ]
@@ -728,6 +699,79 @@
           "translation": [
             {
               "text": "395 York Mills: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-6B26E25A-1354-43B7-8485-499ADED246E7",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "304"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "62"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "8"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "322"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "100"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "25"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "505"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "925"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "87"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "305"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "504"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Broadview: Elevator 6D1L out of",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Broadview: Elevator out of service between Broadview Ave entrance, concourse and Line 2 westbound platform while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -981,34 +1025,6 @@
           "translation": [
             {
               "text": "316 Kingston Rd-Mccowan: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-97B06B0C-52FA-47B6-815F-804B028170C7",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Highway 407: Elevator 14S1L out",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Highway 407: Elevator out of service between concourse and Line 1 centre platform while we perform maintenance.",
               "language": "en"
             }
           ]
