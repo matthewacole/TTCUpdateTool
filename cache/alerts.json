@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1783423828"
+    "timestamp": "1783431541"
   },
   "entity": [
     {
@@ -147,63 +147,6 @@
           "translation": [
             {
               "text": "511 Bathurst: Streetcars are not stopping northbound near Fleet St at Strachan Ave due to FIFA World Cup route adjustments.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-30902E59-9B03-49AF-9AE4-793ED0DE8F77",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "304"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "340"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "168"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "505"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "40"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "305"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "504"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Dundas West: Elevator 8B1L out o",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Dundas West: Elevator out of service between Dundas St W entrance and bus platform, concourse and Line 2 eastbound platform due to a technical problem.",
               "language": "en"
             }
           ]
@@ -618,6 +561,43 @@
       }
     },
     {
+      "id": "DevAPI-FD205322-E0BC-42F3-99C3-CB8348F232F3",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "51"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "83"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Donlands: Elevator 9D1L out of s",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Donlands: Elevator out of service between Donlands Ave entrance, concourse and Line 2 eastbound platform while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-41083758-9360-454D-A376-6BFDEE4C7E28",
       "alert": {
         "informedEntity": [
@@ -734,6 +714,39 @@
       }
     },
     {
+      "id": "DevAPI-07B72BAF-3211-4756-ADCC-6967DBF614C7",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "47"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Lansdowne: Elevator 7B3L out of",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Lansdowne: Elevator out of service between concourse and Line 2 (Kennedy) eastbound platform due to a technical problem.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-B8F0B84E-3DA6-4B84-B2A9-E6E8994E2057",
       "alert": {
         "informedEntity": [
@@ -817,34 +830,6 @@
           "translation": [
             {
               "text": "133 Neilson: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-C5C883C9-39D5-4145-AB0B-62B72EFDB7EA",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Queen's Quay: Elevator 2HF1L out",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Queen's Quay: Elevator out of service between Bay Street west side entrance and westbound streetcars while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -1151,6 +1136,34 @@
       }
     },
     {
+      "id": "DevAPI-48598F8D-6680-494F-9597-661055BAD842",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Queen's Quay: Elevator 2HF1L out",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Queen's Quay: Elevator out of service between Bay Street west side entrance and westbound streetcars while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-BE8054CF-15DA-4A37-AB2D-8DF04C8A823D",
       "alert": {
         "informedEntity": [
@@ -1173,6 +1186,79 @@
           "translation": [
             {
               "text": "130 Middlefield: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-A22C4894-C49E-400D-924B-5EA062EC493A",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "904"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "985"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "169"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "24"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "325"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "25"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "167"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "10"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "925"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "85"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "185"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "385"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Don Mills: Elevator 61P5L out of",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Don Mills: Elevator out of service between Sheppard Ave E south side entrance and concourse while we perform maintenance.",
               "language": "en"
             }
           ]
