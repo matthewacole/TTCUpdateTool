@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1783464399"
+    "timestamp": "1783467647"
   },
   "entity": [
     {
@@ -677,35 +677,6 @@
       }
     },
     {
-      "id": "DevAPI-895CDE77-D516-4E0B-9A89-7454624F2218",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "18"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "18B Caledonia: Detour via Playfa",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "18B Caledonia: Detour via Playfair Ave, Marianfeld Ave, Dufflaw Rd and Orfus Rd due to a Toronto Fire Investigation.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-41083758-9360-454D-A376-6BFDEE4C7E28",
       "alert": {
         "informedEntity": [
@@ -786,64 +757,6 @@
           "translation": [
             {
               "text": "38 Highland Creek: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-F9DDACBE-77A2-4BA0-AE80-D5A5D4EEF696",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "25"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "25 Don Mills: Delays between Ove",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "25 Don Mills: Delays between Overlea Blvd at Millwood Rd East Side and Overlea Blvd at Thorncliffe Park Dr (West) due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-9FE407B2-65CE-4C6F-BECB-2A3E18A21D92",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "18"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "18A Caledonia: Detour via Duffer",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "18A Caledonia: Detour via Dufferin St, Orfus Rd, Paul David St and Bentworth Ave due to a Toronto Fire investigation.",
               "language": "en"
             }
           ]
@@ -1291,35 +1204,6 @@
           "translation": [
             {
               "text": "509 Harbourfront: Streetcars are not stopping westbound near Manitoba Dr at Strachan Ave West Side due to FIFA World Cup route adjustments.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-F8EB158E-4666-4643-85F3-DE59621424B9",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "925"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "925 Don Mills Express: Delays be",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "925 Don Mills Express: Delays between Overlea Blvd at Don Mills Rd West Side and Overlea Blvd at Thorncliffe Park Dr (West) due to construction.",
               "language": "en"
             }
           ]
