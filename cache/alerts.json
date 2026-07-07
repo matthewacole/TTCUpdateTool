@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1783455627"
+    "timestamp": "1783460911"
   },
   "entity": [
     {
@@ -89,6 +89,35 @@
           "translation": [
             {
               "text": "Have proof of payment ready for inspection.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-B3DF1D5D-BEDD-45B1-BE8F-0B5BEB575A09",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "68"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "68 Warden: Delays between Warden",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "68 Warden: Delays between Warden Station and Warden Ave at Eglinton Ave East due to construction.",
               "language": "en"
             }
           ]
@@ -351,6 +380,35 @@
           "translation": [
             {
               "text": "21 Brimley: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-3BC826F5-3EF6-4845-A226-4D0F7F87D4CF",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "18"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "18A Caledonia: Detour via Lawren",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "18A Caledonia: Detour via Lawrence Ave W and Dufflaw Rd due to a fire.",
               "language": "en"
             }
           ]
@@ -648,12 +706,12 @@
       }
     },
     {
-      "id": "DevAPI-852CB547-8385-45EC-8448-3F185E7AE942",
+      "id": "DevAPI-F9DDACBE-77A2-4BA0-AE80-D5A5D4EEF696",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "504"
+            "routeId": "25"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -661,7 +719,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "504A King: Detour via Parliament",
+              "text": "25 Don Mills: Delays between Ove",
               "language": "en"
             }
           ]
@@ -669,7 +727,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "504A King: Detour via Parliament St, Dundas St E and Broadview Ave due to construction.",
+              "text": "25 Don Mills: Delays between Overlea Blvd at Millwood Rd East Side and Overlea Blvd at Thorncliffe Park Dr (West) due to construction.",
               "language": "en"
             }
           ]
@@ -772,6 +830,35 @@
           "translation": [
             {
               "text": "Broadview: Elevator out of service between Broadview Ave entrance, concourse and Line 2 westbound platform while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-48D7BFEE-7F41-429C-95CE-E606FC1FFBEB",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "18"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "18B Caledonia: Detour via Lawren",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "18B Caledonia: Detour via Lawrence Ave W, Dufflaw Rd, Orfus Rd, Paul David St and Bentworth Ave due to a fire.",
               "language": "en"
             }
           ]
@@ -1161,6 +1248,35 @@
           "translation": [
             {
               "text": "509 Harbourfront: Streetcars are not stopping westbound near Manitoba Dr at Strachan Ave West Side due to FIFA World Cup route adjustments.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-F8EB158E-4666-4643-85F3-DE59621424B9",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "925"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "925 Don Mills Express: Delays be",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "925 Don Mills Express: Delays between Overlea Blvd at Don Mills Rd West Side and Overlea Blvd at Thorncliffe Park Dr (West) due to construction.",
               "language": "en"
             }
           ]
