@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1783606539"
+    "timestamp": "1783615529"
   },
   "entity": [
     {
@@ -358,108 +358,6 @@
       }
     },
     {
-      "id": "DevAPI-5FBF70DF-5D9B-4B42-935D-F0FB23B7DC34",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "505"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "505 Dundas: Detour via College S",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "505 Dundas: Detour via College St and Ossington Ave due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-B160A0CC-C3D5-42F1-A345-A203D80A48A7",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "304"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "62"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "8"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "322"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "100"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "25"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "505"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "925"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "87"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "305"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "504"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Broadview: Elevator 6D1L out of",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Broadview: Elevator out of service between Broadview Ave entrance, concourse and Line 2 westbound platform due to a technical problem.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-D9F16C80-7AD0-48C4-9229-52C25445D8E1",
       "alert": {
         "informedEntity": [
@@ -750,6 +648,79 @@
       }
     },
     {
+      "id": "DevAPI-A39471A9-3488-41C3-BED9-6395473F74B5",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "335"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "106"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "353"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "341"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "166"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "935"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "960"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "41"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "35"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "60"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "84"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "108"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Pioneer Village: Elevator 13S1L",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Pioneer Village: Elevator out of service between Steeles Ave W north side entrance and north concourse while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-2E2A1EDF-8B91-4F3C-9639-3A42DB817738",
       "alert": {
         "informedEntity": [
@@ -772,6 +743,127 @@
           "translation": [
             {
               "text": "395 York Mills: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-526F0681-B475-4AFA-B5DB-42D82FBAF642",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "131"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "20"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "905"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "38"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "12"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "986"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "21"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "201"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "43"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "904"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "86"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "939"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "154"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "129"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "113"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "116"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "343"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "57"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "903"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "386"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "133"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Line 5 Eglinton: No service betw",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Line 5 Eglinton: No service between Ionview and Kennedy stations while the maintainer fixes a switch problem.",
               "language": "en"
             }
           ]
@@ -1100,43 +1192,6 @@
           "translation": [
             {
               "text": "509 Harbourfront: Streetcars are not stopping westbound near Manitoba Dr at Strachan Ave West Side due to FIFA World Cup route adjustments.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-B962AEBA-8F23-4FE0-83CA-2BEF198440E9",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "31"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "51"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Greenwood: Elevator 10D1L out of",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Greenwood: Elevator out of service Street to Concourse to Line 2 Kennedy Platform while we perform maintenance.",
               "language": "en"
             }
           ]
