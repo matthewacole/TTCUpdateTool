@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1783634296"
+    "timestamp": "1783639150"
   },
   "entity": [
     {
@@ -154,6 +154,127 @@
       }
     },
     {
+      "id": "DevAPI-895A2693-541B-41C4-B9CF-D83C58B93DB8",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "131"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "20"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "905"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "38"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "12"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "986"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "21"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "201"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "43"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "904"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "86"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "939"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "154"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "129"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "113"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "116"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "343"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "57"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "903"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "386"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "133"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Line 5 Eglinton: No service betw",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Line 5 Eglinton: No service between Ionview and Kennedy stations while the maintainer fixes a track problem. Shuttle buses are running between Ionview and Kennedy.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-20DBE903-2332-49D4-8DDD-C0E3052144BC",
       "alert": {
         "informedEntity": [
@@ -229,127 +350,6 @@
           "translation": [
             {
               "text": "Cedarvale: Elevator out of service between platform and upper concourse while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-32AEDE5C-72AC-42CF-A568-5FF673B0D198",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "509"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "114"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "510"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "127"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "320"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "301"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "121"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "506"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "305"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "97"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "19"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "504"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "13"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "304"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "309"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "202"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "26"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "310"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "505"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "94"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "501"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "503"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "306"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Line 1 Yonge-University: No serv",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Line 1 Yonge-University: No service between Union and St George stations due to a fire.",
               "language": "en"
             }
           ]
@@ -472,127 +472,6 @@
           "translation": [
             {
               "text": "21 Brimley: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-8C57F037-CE58-4C81-8006-1B06FBA5ABB5",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "131"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "20"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "905"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "38"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "12"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "986"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "21"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "201"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "43"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "904"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "86"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "334"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "939"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "154"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "129"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "113"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "116"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "343"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "57"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "903"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "386"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "133"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Line 5 Eglinton: No service betw",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Line 5 Eglinton: No service between Ionview and Kennedy stations while the maintainer fixes a track problem. Shuttle buses are running between Ionview and Kennedy.",
               "language": "en"
             }
           ]
