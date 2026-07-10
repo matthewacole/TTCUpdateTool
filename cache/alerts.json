@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1783639150"
+    "timestamp": "1783645428"
   },
   "entity": [
     {
@@ -154,104 +154,12 @@
       }
     },
     {
-      "id": "DevAPI-895A2693-541B-41C4-B9CF-D83C58B93DB8",
+      "id": "DevAPI-B790C42C-39D5-4C6A-9D90-B93691F68F8C",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "131"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "20"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "905"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "38"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "12"
-          },
-          {
-            "agencyId": "1",
             "routeId": "34"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "986"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "21"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "201"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "43"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "904"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "86"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "334"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "939"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "154"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "129"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "113"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "116"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "343"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "57"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "903"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "386"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "133"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -259,7 +167,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Line 5 Eglinton: No service betw",
+              "text": "34 Eglinton: Detour via Dufferin",
               "language": "en"
             }
           ]
@@ -267,7 +175,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "Line 5 Eglinton: No service between Ionview and Kennedy stations while the maintainer fixes a track problem. Shuttle buses are running between Ionview and Kennedy.",
+              "text": "34 Eglinton: Detour via Dufferin St, Castlefield Ave and Caledonia Rd due to a collision.",
               "language": "en"
             }
           ]
