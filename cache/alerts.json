@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1783706037"
+    "timestamp": "1783711409"
   },
   "entity": [
     {
@@ -323,12 +323,12 @@
       }
     },
     {
-      "id": "DevAPI-2A743566-3CEA-4119-A567-599376AC2D8D",
+      "id": "DevAPI-637F9CCD-ED6C-49CB-BE23-6AA325CD83BE",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "64"
+            "routeId": "17"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -336,7 +336,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "64 Main: Detour northbound via G",
+              "text": "17 Birchmount: Detour via Bertra",
               "language": "en"
             }
           ]
@@ -344,7 +344,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "64 Main: Detour northbound via Gerrard St E, Victoria Park Ave and Main St due to a collision.",
+              "text": "17 Birchmount: Detour via Bertrand Ave, Kennedy Rd and Ellesmere Rd due to a collision.",
               "language": "en"
             }
           ]
@@ -704,6 +704,35 @@
       }
     },
     {
+      "id": "DevAPI-393431BA-7D77-4BF1-ABE0-8AE76D6E9C83",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "54"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "54 Lawrence East: Detour via Ken",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "54 Lawrence East: Detour via Kennedy Rd, Ellesmere Rd and Warden Ave due to a collision.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-BFEB99F3-0C66-44CF-AC31-136637EF9CC6",
       "alert": {
         "informedEntity": [
@@ -726,6 +755,35 @@
           "translation": [
             {
               "text": "509 Harbourfront: Streetcars are not stopping eastbound near Fleet St at Strachan Ave due to FIFA World Cup route adjustments.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-40A51A87-C625-404D-AF15-16213806F091",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "52"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "52 Lawrence West: Detour eastbou",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "52 Lawrence West: Detour eastbound via Jane St, Trethewey Dr and Brookhaven Dr due to a collision.",
               "language": "en"
             }
           ]
@@ -784,6 +842,75 @@
           "translation": [
             {
               "text": "939 Finch Express: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-77B4BEE4-1BCB-4BD2-8F3A-76BB72EA1A60",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "396"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "37"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "996"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "73"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "336"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "46"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "337"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "906"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "927"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "96"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "45"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Line 6 Finch West: Delays betwee",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Line 6 Finch West: Delays between Humber College and Mount Olive stations due to switch issue. Shuttle buses are on the way.",
               "language": "en"
             }
           ]
@@ -1270,6 +1397,35 @@
           "translation": [
             {
               "text": "Humber College: Elevator out of service between Humber College South Entrance and Line 6 Centre Platform while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-054E746F-7C10-402A-AC61-819428CDEEEC",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "54"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "54 Lawrence East: Detour via Ken",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "54 Lawrence East: Detour via Kennedy Rd, Ellesmere Rd and Pharmacy Ave due to a collision.",
               "language": "en"
             }
           ]
