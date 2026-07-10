@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1783723425"
+    "timestamp": "1783726850"
   },
   "entity": [
     {
@@ -1075,35 +1075,6 @@
           "translation": [
             {
               "text": "TMU: Elevator out of service between 10 Dundas St E entrance and Line 1 Finch platform while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-D60DE013-FE71-4F56-9768-8B00A586ED81",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "47"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "47 Lansdowne: Detour via Rogers",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "47 Lansdowne: Detour via Rogers Rd, Dufferin St and Eglinton Ave W due to a collision.",
               "language": "en"
             }
           ]
