@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1783726850"
+    "timestamp": "1783732167"
   },
   "entity": [
     {
@@ -154,12 +154,12 @@
       }
     },
     {
-      "id": "DevAPI-26C6003F-06FD-4ECD-8625-08D0D6108254",
+      "id": "DevAPI-DDFB5A3C-326E-4AB3-8C6F-1EB021A654FA",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "17"
+            "routeId": "43"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -167,7 +167,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "17 Birchmount: Detour via Eglint",
+              "text": "43 Kennedy: Delays near Kennedy",
               "language": "en"
             }
           ]
@@ -175,7 +175,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "17 Birchmount: Detour via Eglinton Ave E, Kennedy Rd and Ellesmere Rd due to a collision.",
+              "text": "43 Kennedy: Delays near Kennedy Rd at Lawrence Ave East due to a collision.",
               "language": "en"
             }
           ]
@@ -610,35 +610,6 @@
           "translation": [
             {
               "text": "St Andrew: Elevator out of service between 145 King St W entrance and concourse while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-393431BA-7D77-4BF1-ABE0-8AE76D6E9C83",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "54"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "54 Lawrence East: Detour via Ken",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "54 Lawrence East: Detour via Kennedy Rd, Ellesmere Rd and Warden Ave due to a collision.",
               "language": "en"
             }
           ]
@@ -1082,6 +1053,75 @@
       }
     },
     {
+      "id": "DevAPI-865B0989-9411-4E89-B22F-74B863C73633",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "396"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "37"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "996"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "73"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "336"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "46"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "337"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "906"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "927"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "96"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "45"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Line 6 Finch West: No service be",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Line 6 Finch West: No service between Humber College and Mount Olive stations while the maintainer fixes a mechanical problem. Shuttle buses are on the way.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-992D5CED-BEF6-45CB-AF4B-1095B9C3F428",
       "alert": {
         "informedEntity": [
@@ -1182,35 +1222,6 @@
           "translation": [
             {
               "text": "Humber College: Elevator out of service between Humber College South Entrance and Line 6 Centre Platform while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-054E746F-7C10-402A-AC61-819428CDEEEC",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "54"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "54 Lawrence East: Detour via Ken",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "54 Lawrence East: Detour via Kennedy Rd, Ellesmere Rd and Pharmacy Ave due to a collision.",
               "language": "en"
             }
           ]
