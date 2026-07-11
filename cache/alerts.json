@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1783732167"
+    "timestamp": "1783744063"
   },
   "entity": [
     {
@@ -154,12 +154,104 @@
       }
     },
     {
-      "id": "DevAPI-DDFB5A3C-326E-4AB3-8C6F-1EB021A654FA",
+      "id": "DevAPI-3BED8356-719A-4007-A02B-CFD38453D386",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "43"
+            "routeId": "8"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "322"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "510"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "127"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "365"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "25"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "320"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "97"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "305"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "19"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "504"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "13"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "304"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "62"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "26"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "75"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "310"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "65"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "100"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "505"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "94"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "925"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "87"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -167,7 +259,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "43 Kennedy: Delays near Kennedy",
+              "text": "Line 2 Bloor-Danforth: No servic",
               "language": "en"
             }
           ]
@@ -175,7 +267,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "43 Kennedy: Delays near Kennedy Rd at Lawrence Ave East due to a collision.",
+              "text": "Line 2 Bloor-Danforth: No service between Broadview and St George stations due to a security incident.",
               "language": "en"
             }
           ]
@@ -646,6 +738,231 @@
       }
     },
     {
+      "id": "DevAPI-98069857-E3B8-4D32-A72F-F4F8E23E4D87",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "384"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "74"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "14"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "960"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "82"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "952"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "995"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "385"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "103"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "395"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "984"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "352"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "115"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "953"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "13"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "996"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "162"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "39"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "512"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "125"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "61"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "354"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "36"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "320"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "95"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "52"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "28"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "88"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "60"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "19"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "396"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "124"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "336"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "11"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "42"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "185"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "98"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "97"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "84"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "939"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "339"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "312"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "78"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "122"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "165"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "53"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "96"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Line 1 Yonge-University: Delays",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Line 1 Yonge-University: Delays between Finch and Bloor-Yonge stations due to service adjustments.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-552DEDCA-1557-491F-85CD-96B13D61B733",
       "alert": {
         "informedEntity": [
@@ -906,6 +1223,35 @@
       }
     },
     {
+      "id": "DevAPI-9C87B446-A0D4-4A97-80CF-ACFC76862E77",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "21"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "21 Brimley: Detour via Shediac R",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "21 Brimley: Detour via Shediac Rd and Haileybury Dr due to a collision.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-30CFA51B-7B09-476B-BBB3-376A8BBBE2F2",
       "alert": {
         "informedEntity": [
@@ -1053,75 +1399,6 @@
       }
     },
     {
-      "id": "DevAPI-865B0989-9411-4E89-B22F-74B863C73633",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "396"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "37"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "996"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "73"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "336"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "46"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "337"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "906"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "927"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "96"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "45"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Line 6 Finch West: No service be",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Line 6 Finch West: No service between Humber College and Mount Olive stations while the maintainer fixes a mechanical problem. Shuttle buses are on the way.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-992D5CED-BEF6-45CB-AF4B-1095B9C3F428",
       "alert": {
         "informedEntity": [
@@ -1144,6 +1421,35 @@
           "translation": [
             {
               "text": "134 Progress: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-BD29B88C-AB47-4AE4-B2A6-09F233E4848F",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "11"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "11 Bayview: Detour northbound vi",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "11 Bayview: Detour northbound via Soudan Ave, Cleveland St, Eglinton Ave E, Bruce Park Ave and Roehampton Ave due to a collision.",
               "language": "en"
             }
           ]
