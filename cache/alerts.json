@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1783895106"
+    "timestamp": "1783898767"
   },
   "entity": [
     {
@@ -588,12 +588,12 @@
       }
     },
     {
-      "id": "DevAPI-2E459C47-EC89-4F81-8DC9-01DEB099A628",
+      "id": "DevAPI-E6A3994C-0324-436A-AFDA-5ADF6465F024",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "501"
+            "routeId": "12"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -601,7 +601,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "501 Queen: No service between Qu",
+              "text": "12 Kingston Rd: Detour westbound",
               "language": "en"
             }
           ]
@@ -609,7 +609,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "501 Queen: No service between Queen St East at Neville Park Blvd and Queen St East at Kingston Rd due to a collision.",
+              "text": "12 Kingston Rd: Detour westbound via Danforth Ave and Birchmount Rd due to a blocked road.",
               "language": "en"
             }
           ]
@@ -668,35 +668,6 @@
           "translation": [
             {
               "text": "501 Queen: Detour eastbound via Spadina Ave and Adelaide St E while we respond to a medical emergency.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-13D57FA6-DA2F-457D-BD73-FA91826D7550",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "506"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "506 Carlton: Delays near Gerrard",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "506 Carlton: Delays near Gerrard St East at Broadview Ave due to a blocked track.",
               "language": "en"
             }
           ]
@@ -1112,6 +1083,35 @@
       }
     },
     {
+      "id": "DevAPI-10231FF1-F5D3-43D9-970D-5A0D357BFDAA",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "12"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "12 Kingston Rd: Detour eastbound",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "12 Kingston Rd: Detour eastbound via Glen Everest Rd and Cliffside Dr due to a blocked road.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-963A2A8D-A1F4-488A-B54A-B2CBEDF5D377",
       "alert": {
         "informedEntity": [
@@ -1299,6 +1299,35 @@
           "translation": [
             {
               "text": "112 West Mall: Detour via Wellesworth Dr and Eringate Dr due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-2313171C-A477-4D5E-BBAF-2B2AE564AFC8",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "86"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "86 Scarborough: Detour via Old K",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "86 Scarborough: Detour via Old Kingston Rd due to a collision.",
               "language": "en"
             }
           ]
