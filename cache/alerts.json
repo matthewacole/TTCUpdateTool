@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1783840418"
+    "timestamp": "1783847899"
   },
   "entity": [
     {
@@ -367,35 +367,6 @@
       }
     },
     {
-      "id": "DevAPI-F52A6878-4421-4332-8685-06AC9C97E2A7",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "312"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "312 St Clair: Detour via Bathurs",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "312 St Clair: Detour via Bathurst St, Davenport Rd and Oakwood Ave due to a Toronto Police Investigation.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-A669C5C7-A773-400C-8786-4D674D5CEC88",
       "alert": {
         "informedEntity": [
@@ -601,55 +572,6 @@
           "translation": [
             {
               "text": "Victoria Park: Elevator out of service between overpass, Victoria Park Ave entrance and concourse while we perform maintenance. Elevator is expected to be back in service July 24, 2026.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-3B3969B1-6E68-417A-80F0-D24942F86C35",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "74"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "312"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "320"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "512"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "88"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "97"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "St Clair: Elevator 16Y2L out of",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "St Clair: Elevator out of service between concourse and Line 1 northbound platform while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -1037,6 +959,35 @@
           "translation": [
             {
               "text": "Don Valley: Elevator out of service between concourse and Don Mills Road west side entrance due to the Ontario Line construction. Elevator is expected to be back in service February 8, 2032.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-FA5C9D32-4F9B-4905-8534-3E4DFA60A7A5",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "512"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "512 St Clair: Detour westbound v",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "512 St Clair: Detour westbound via Bathurst St, Davenport Rd and Oakwood Ave due to a Toronto Police Investigation.",
               "language": "en"
             }
           ]
