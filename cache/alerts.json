@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1783847899"
+    "timestamp": "1783853247"
   },
   "entity": [
     {
@@ -424,6 +424,35 @@
           "translation": [
             {
               "text": "21 Brimley: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-B203AEE6-BDB5-4F0C-A576-AEE863FF3953",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "504"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "504 King: No service between Kin",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "504 King: No service between King St East at Sumach St and Distillery Loop due to police activity.",
               "language": "en"
             }
           ]
