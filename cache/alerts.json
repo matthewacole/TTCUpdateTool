@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1783870103"
+    "timestamp": "1783873769"
   },
   "entity": [
     {
@@ -941,47 +941,6 @@
       }
     },
     {
-      "id": "DevAPI-BC847A2E-D4BA-4C9C-A4FE-CD486BA0683A",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "320"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "97"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "19"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Bloor-Yonge: Elevator 13Y1L out",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Bloor-Yonge: Elevator out of service between north concourse and Line 1 southbound platform while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-2E2A1EDF-8B91-4F3C-9639-3A42DB817738",
       "alert": {
         "informedEntity": [
@@ -1142,7 +1101,7 @@
       }
     },
     {
-      "id": "DevAPI-FA5C9D32-4F9B-4905-8534-3E4DFA60A7A5",
+      "id": "DevAPI-CA45AA8E-5520-43F3-9C37-D970FC582C4B",
       "alert": {
         "informedEntity": [
           {
@@ -1155,7 +1114,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "512 St Clair: Detour westbound v",
+              "text": "512 St Clair: No service near Gu",
               "language": "en"
             }
           ]
@@ -1163,7 +1122,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "512 St Clair: Detour westbound via Bathurst St, Davenport Rd and Oakwood Ave due to a Toronto Police Investigation.",
+              "text": "512 St Clair: No service near Gunns Loop at St Clair Ave West due to police activity. Shuttle buses are running between Gunns Loop at St Clair Ave West and St Clair West Station at Bay 4.",
               "language": "en"
             }
           ]
@@ -1394,35 +1353,6 @@
           "translation": [
             {
               "text": "Humber College: Elevator out of service between Humber College South Entrance and Line 6 Centre Platform while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-569421C0-D63C-4523-8A71-E424835EC7AF",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "202"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "202 Cherry Beach: Detour westbou",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "202 Cherry Beach: Detour westbound via Lakeshore Blvd E due to police activity.",
               "language": "en"
             }
           ]
