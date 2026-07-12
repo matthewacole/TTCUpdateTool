@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1783891617"
+    "timestamp": "1783895106"
   },
   "entity": [
     {
@@ -588,63 +588,6 @@
       }
     },
     {
-      "id": "DevAPI-A461BDC8-12FF-4F71-B1BB-7FEE9A6A0974",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "67"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "334"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "924"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "91"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "324"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "24"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "70"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Line 5 Eglinton: No service betw",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Line 5 Eglinton: No service between Sloane and Pharmacy stations while the maintainer fixes a brake problem. Shuttle buses are on the way to operate between Sloane and Pharmacy.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-2E459C47-EC89-4F81-8DC9-01DEB099A628",
       "alert": {
         "informedEntity": [
@@ -725,6 +668,35 @@
           "translation": [
             {
               "text": "501 Queen: Detour eastbound via Spadina Ave and Adelaide St E while we respond to a medical emergency.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-13D57FA6-DA2F-457D-BD73-FA91826D7550",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "506"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "506 Carlton: Delays near Gerrard",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "506 Carlton: Delays near Gerrard St East at Broadview Ave due to a blocked track.",
               "language": "en"
             }
           ]
