@@ -2,42 +2,9 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1783812506"
+    "timestamp": "1783818394"
   },
   "entity": [
-    {
-      "id": "DevAPI-EDC4114D-6DFC-4096-9F51-E843579C13F9",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "126"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Christie: Elevator 4B2L out of s",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Christie: Elevator out of service between concourse and Line 2 Kennedy (eastbound) platform while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
     {
       "id": "DevAPI-A7A47D84-4C20-4E7B-A011-BE3F74D8425A",
       "alert": {
@@ -54,28 +21,38 @@
           },
           {
             "agencyId": "1",
-            "routeId": "84",
-            "stopId": "3755"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "84",
-            "stopId": "3755"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "84",
-            "stopId": "3755"
-          },
-          {
-            "agencyId": "1",
             "routeId": "104",
             "stopId": "3975"
           },
           {
             "agencyId": "1",
-            "routeId": "105",
-            "stopId": "3749"
+            "routeId": "984",
+            "stopId": "3754"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "84",
+            "stopId": "3755"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "84",
+            "stopId": "3755"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "108",
+            "stopId": "3756"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "84",
+            "stopId": "3755"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "108",
+            "stopId": "3756"
           },
           {
             "agencyId": "1",
@@ -89,23 +66,13 @@
           },
           {
             "agencyId": "1",
-            "routeId": "108",
-            "stopId": "3756"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "108",
-            "stopId": "3756"
-          },
-          {
-            "agencyId": "1",
             "routeId": "984",
             "stopId": "3750"
           },
           {
             "agencyId": "1",
-            "routeId": "984",
-            "stopId": "3754"
+            "routeId": "105",
+            "stopId": "3749"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -187,35 +154,6 @@
       }
     },
     {
-      "id": "DevAPI-C2825EF6-5A7F-427B-8B39-0F9A90AF725B",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "201"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "201 Bluffer's Park: Detour via K",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "201 Bluffer's Park: Detour via Kingston Rd, Midland Ave and St Clair Ave E due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-48D3C333-011F-4DB4-82C3-32E55A404829",
       "alert": {
         "informedEntity": [
@@ -225,15 +163,7 @@
           },
           {
             "agencyId": "1",
-            "routeId": "305"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "504"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "505"
+            "routeId": "62"
           },
           {
             "agencyId": "1",
@@ -241,19 +171,7 @@
           },
           {
             "agencyId": "1",
-            "routeId": "25"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "62"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "87"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "100"
+            "routeId": "322"
           },
           {
             "agencyId": "1",
@@ -261,11 +179,31 @@
           },
           {
             "agencyId": "1",
-            "routeId": "322"
+            "routeId": "100"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "25"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "505"
           },
           {
             "agencyId": "1",
             "routeId": "925"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "87"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "305"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "504"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -323,7 +261,7 @@
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "34"
+            "routeId": "334"
           },
           {
             "agencyId": "1",
@@ -335,19 +273,19 @@
           },
           {
             "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
             "routeId": "109"
           },
           {
             "agencyId": "1",
-            "routeId": "164"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "334"
-          },
-          {
-            "agencyId": "1",
             "routeId": "363"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "164"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -434,12 +372,12 @@
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "114",
+            "routeId": "202",
             "stopId": "4277"
           },
           {
             "agencyId": "1",
-            "routeId": "202",
+            "routeId": "114",
             "stopId": "4277"
           }
         ],
@@ -585,7 +523,7 @@
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "12"
+            "routeId": "67"
           },
           {
             "agencyId": "1",
@@ -593,19 +531,11 @@
           },
           {
             "agencyId": "1",
-            "routeId": "24"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "67"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "113"
-          },
-          {
-            "agencyId": "1",
             "routeId": "117"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "924"
           },
           {
             "agencyId": "1",
@@ -617,7 +547,15 @@
           },
           {
             "agencyId": "1",
-            "routeId": "924"
+            "routeId": "12"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "24"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "113"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -704,11 +642,11 @@
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "301"
+            "routeId": "304"
           },
           {
             "agencyId": "1",
-            "routeId": "304"
+            "routeId": "301"
           },
           {
             "agencyId": "1",
@@ -720,15 +658,15 @@
           },
           {
             "agencyId": "1",
+            "routeId": "97"
+          },
+          {
+            "agencyId": "1",
             "routeId": "504"
           },
           {
             "agencyId": "1",
             "routeId": "19"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "97"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -1018,23 +956,15 @@
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "25"
+            "routeId": "334"
           },
           {
             "agencyId": "1",
-            "routeId": "34"
+            "routeId": "354"
           },
           {
             "agencyId": "1",
             "routeId": "54"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "72"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "100"
           },
           {
             "agencyId": "1",
@@ -1046,19 +976,27 @@
           },
           {
             "agencyId": "1",
+            "routeId": "100"
+          },
+          {
+            "agencyId": "1",
             "routeId": "325"
           },
           {
             "agencyId": "1",
-            "routeId": "334"
+            "routeId": "25"
           },
           {
             "agencyId": "1",
-            "routeId": "354"
+            "routeId": "34"
           },
           {
             "agencyId": "1",
             "routeId": "925"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "72"
           },
           {
             "agencyId": "1",
@@ -1120,15 +1058,15 @@
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "305"
-          },
-          {
-            "agencyId": "1",
             "routeId": "505"
           },
           {
             "agencyId": "1",
-            "routeId": "19"
+            "routeId": "320"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "305"
           },
           {
             "agencyId": "1",
@@ -1136,7 +1074,7 @@
           },
           {
             "agencyId": "1",
-            "routeId": "320"
+            "routeId": "19"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -1222,18 +1160,6 @@
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "51"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "88"
-          },
-          {
-            "agencyId": "1",
             "routeId": "156"
           },
           {
@@ -1243,6 +1169,18 @@
           {
             "agencyId": "1",
             "routeId": "354"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "51"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "88"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -1304,7 +1242,7 @@
           },
           {
             "agencyId": "1",
-            "routeId": "96"
+            "routeId": "996"
           },
           {
             "agencyId": "1",
@@ -1316,11 +1254,11 @@
           },
           {
             "agencyId": "1",
-            "routeId": "927"
+            "routeId": "96"
           },
           {
             "agencyId": "1",
-            "routeId": "996"
+            "routeId": "927"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
