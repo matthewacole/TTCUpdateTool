@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1783940938"
+    "timestamp": "1783949348"
   },
   "entity": [
     {
@@ -147,6 +147,35 @@
           "translation": [
             {
               "text": "511 Bathurst: Streetcars are not stopping northbound near Fleet St at Strachan Ave due to FIFA World Cup route adjustments.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-950CAE24-8A34-4059-BBBE-D480F4880355",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "989"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "989 Weston Express: Detour south",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "989 Weston Express: Detour southbound via Signet Dr and Garyray Dr due to a collision.",
               "language": "en"
             }
           ]
@@ -813,51 +842,6 @@
           "translation": [
             {
               "text": "133 Neilson: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-28D09F9B-0E2C-40C0-A08B-25E00D3DE889",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "505"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "320"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "305"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "97"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "19"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Line 1 Yonge-University: Trains",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Line 1 Yonge-University: Bypass at TMU station due to a security incident.",
               "language": "en"
             }
           ]
