@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1783978623"
+    "timestamp": "1783982158"
   },
   "entity": [
     {
@@ -358,35 +358,6 @@
       }
     },
     {
-      "id": "DevAPI-3120A8D0-356D-4A16-82F6-029C8B54DEEB",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "84"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "84 Sheppard West: Detour westbou",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "84 Sheppard West: Detour westbound via Arrow Rd, Finch Ave W, Weston Rd and Bradstock Rd due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-C567323F-E1C7-4A94-BB8A-246447E099F1",
       "alert": {
         "informedEntity": [
@@ -646,35 +617,6 @@
       }
     },
     {
-      "id": "DevAPI-36D130DE-7466-4A17-BB03-F75176EEB5DB",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "8"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "8 Broadview: Detour southbound v",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "8 Broadview: Detour southbound via Pharmacy Ave, Holswade Rd and Victoria Ave E due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-BFEB99F3-0C66-44CF-AC31-136637EF9CC6",
       "alert": {
         "informedEntity": [
@@ -842,35 +784,6 @@
           "translation": [
             {
               "text": "38 Highland Creek: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-664C9B1A-3D6F-4E9A-B9CD-3E03B19150B0",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "984"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "984 Sheppard West Express: Detou",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "984 Sheppard West Express: Detour westbound via Arrow Rd, Finch Ave W, Weston Rd and Bradstock Rd due to a collision.",
               "language": "en"
             }
           ]
