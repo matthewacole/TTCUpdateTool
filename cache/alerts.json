@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1783904677"
+    "timestamp": "1783917662"
   },
   "entity": [
     {
@@ -849,6 +849,35 @@
       }
     },
     {
+      "id": "DevAPI-FE804891-6AA5-4AED-8F8F-CFC0B572D0D7",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "512"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "512 St Clair: No service between",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "512 St Clair: No service between and Gunns Loop at St Clair Ave West due to police investigation. Shuttle buses are running between Gunns Loop at St Clair Ave West and St Clair West Station at Bay 4.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-F92885AA-2070-4819-B78B-544D607977A2",
       "alert": {
         "informedEntity": [
@@ -989,35 +1018,6 @@
           "translation": [
             {
               "text": "Fairbank: Elevator out of service between concourse and Line 5 centre platform while we perform maintenance. Elevator is expected to be back in service July 13, 2026.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-CA45AA8E-5520-43F3-9C37-D970FC582C4B",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "512"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "512 St Clair: No service near Gu",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "512 St Clair: No service near Gunns Loop at St Clair Ave West due to police activity. Shuttle buses are running between Gunns Loop at St Clair Ave West and St Clair West Station at Bay 4.",
               "language": "en"
             }
           ]
@@ -1315,6 +1315,35 @@
           "translation": [
             {
               "text": "112 West Mall: Detour via Wellesworth Dr and Eringate Dr due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-9B35D115-C1A1-489F-91EE-C62D6400CC67",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "506"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "506 Carlton: No service between",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "506 Carlton: No service between Main Street Station at Bay 7 and Gerrard St East at Coxwell Ave due to a blocked track. Shuttle buses are running between Main Street Station at Bay 7 and Gerrard St East at Coxwell Ave.",
               "language": "en"
             }
           ]
