@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1783917662"
+    "timestamp": "1783929274"
   },
   "entity": [
     {
@@ -21,38 +21,28 @@
           },
           {
             "agencyId": "1",
+            "routeId": "84",
+            "stopId": "3755"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "84",
+            "stopId": "3755"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "84",
+            "stopId": "3755"
+          },
+          {
+            "agencyId": "1",
             "routeId": "104",
             "stopId": "3975"
           },
           {
             "agencyId": "1",
-            "routeId": "984",
-            "stopId": "3754"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "84",
-            "stopId": "3755"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "84",
-            "stopId": "3755"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "108",
-            "stopId": "3756"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "84",
-            "stopId": "3755"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "108",
-            "stopId": "3756"
+            "routeId": "105",
+            "stopId": "3749"
           },
           {
             "agencyId": "1",
@@ -66,13 +56,23 @@
           },
           {
             "agencyId": "1",
+            "routeId": "108",
+            "stopId": "3756"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "108",
+            "stopId": "3756"
+          },
+          {
+            "agencyId": "1",
             "routeId": "984",
             "stopId": "3750"
           },
           {
             "agencyId": "1",
-            "routeId": "105",
-            "stopId": "3749"
+            "routeId": "984",
+            "stopId": "3754"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -188,7 +188,7 @@
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "334"
+            "routeId": "34"
           },
           {
             "agencyId": "1",
@@ -200,19 +200,19 @@
           },
           {
             "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
             "routeId": "109"
           },
           {
             "agencyId": "1",
-            "routeId": "363"
+            "routeId": "164"
           },
           {
             "agencyId": "1",
-            "routeId": "164"
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "363"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -299,12 +299,12 @@
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "202",
+            "routeId": "114",
             "stopId": "4277"
           },
           {
             "agencyId": "1",
-            "routeId": "114",
+            "routeId": "202",
             "stopId": "4277"
           }
         ],
@@ -450,7 +450,7 @@
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "67"
+            "routeId": "12"
           },
           {
             "agencyId": "1",
@@ -458,11 +458,19 @@
           },
           {
             "agencyId": "1",
-            "routeId": "117"
+            "routeId": "24"
           },
           {
             "agencyId": "1",
-            "routeId": "924"
+            "routeId": "67"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "113"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "117"
           },
           {
             "agencyId": "1",
@@ -474,15 +482,7 @@
           },
           {
             "agencyId": "1",
-            "routeId": "12"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "24"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "113"
+            "routeId": "924"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -540,11 +540,11 @@
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "304"
+            "routeId": "301"
           },
           {
             "agencyId": "1",
-            "routeId": "301"
+            "routeId": "304"
           },
           {
             "agencyId": "1",
@@ -556,15 +556,15 @@
           },
           {
             "agencyId": "1",
-            "routeId": "97"
-          },
-          {
-            "agencyId": "1",
             "routeId": "504"
           },
           {
             "agencyId": "1",
             "routeId": "19"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "97"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -581,35 +581,6 @@
           "translation": [
             {
               "text": "St Andrew: Elevator out of service between 145 King St W entrance and concourse while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-E6A3994C-0324-436A-AFDA-5ADF6465F024",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "12"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "12 Kingston Rd: Detour westbound",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "12 Kingston Rd: Detour westbound via Danforth Ave and Birchmount Rd due to a blocked road.",
               "language": "en"
             }
           ]
@@ -733,35 +704,6 @@
       }
     },
     {
-      "id": "DevAPI-755E1945-02EA-4E4B-99A2-934532199CA4",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "126"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "126 Christie: Detour southbound",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "126 Christie: Detour southbound via Bathurst St and Davenport Rd due to police activity.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-9553B793-EC2A-482F-9A9A-80773CD62355",
       "alert": {
         "informedEntity": [
@@ -849,12 +791,12 @@
       }
     },
     {
-      "id": "DevAPI-FE804891-6AA5-4AED-8F8F-CFC0B572D0D7",
+      "id": "DevAPI-858F21B8-2C47-47D6-BAAE-F957AD26E1BB",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "512"
+            "routeId": "506"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -862,7 +804,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "512 St Clair: No service between",
+              "text": "506 Carlton: Detour via Parliame",
               "language": "en"
             }
           ]
@@ -870,7 +812,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "512 St Clair: No service between and Gunns Loop at St Clair Ave West due to police investigation. Shuttle buses are running between Gunns Loop at St Clair Ave West and St Clair West Station at Bay 4.",
+              "text": "506 Carlton: Detour via Parliament St, Queen St E and Coxwell Ave due to road closure for festival clean up.",
               "language": "en"
             }
           ]
@@ -912,15 +854,23 @@
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "334"
+            "routeId": "25"
           },
           {
             "agencyId": "1",
-            "routeId": "354"
+            "routeId": "34"
           },
           {
             "agencyId": "1",
             "routeId": "54"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "72"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "100"
           },
           {
             "agencyId": "1",
@@ -932,27 +882,19 @@
           },
           {
             "agencyId": "1",
-            "routeId": "100"
-          },
-          {
-            "agencyId": "1",
             "routeId": "325"
           },
           {
             "agencyId": "1",
-            "routeId": "25"
+            "routeId": "334"
           },
           {
             "agencyId": "1",
-            "routeId": "34"
+            "routeId": "354"
           },
           {
             "agencyId": "1",
             "routeId": "925"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "72"
           },
           {
             "agencyId": "1",
@@ -985,19 +927,19 @@
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "329"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "334"
-          },
-          {
-            "agencyId": "1",
             "routeId": "29"
           },
           {
             "agencyId": "1",
             "routeId": "34"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "329"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "334"
           },
           {
             "agencyId": "1",
@@ -1059,15 +1001,15 @@
         "informedEntity": [
           {
             "agencyId": "1",
+            "routeId": "305"
+          },
+          {
+            "agencyId": "1",
             "routeId": "505"
           },
           {
             "agencyId": "1",
-            "routeId": "320"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "305"
+            "routeId": "19"
           },
           {
             "agencyId": "1",
@@ -1075,7 +1017,7 @@
           },
           {
             "agencyId": "1",
-            "routeId": "19"
+            "routeId": "320"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -1166,7 +1108,7 @@
           },
           {
             "agencyId": "1",
-            "routeId": "996"
+            "routeId": "96"
           },
           {
             "agencyId": "1",
@@ -1178,11 +1120,11 @@
           },
           {
             "agencyId": "1",
-            "routeId": "96"
+            "routeId": "927"
           },
           {
             "agencyId": "1",
-            "routeId": "927"
+            "routeId": "996"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -1264,35 +1206,6 @@
       }
     },
     {
-      "id": "DevAPI-EDB85938-1D17-42D5-B0EE-CA0CAC839810",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "126"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "126 Christie: Detour northbound",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "126 Christie: Detour northbound via Christie St, Davenport Rd and Bathurst St due to police activity.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-DF9F4FBE-5057-4E2D-917E-4688FEA80242",
       "alert": {
         "informedEntity": [
@@ -1315,35 +1228,6 @@
           "translation": [
             {
               "text": "112 West Mall: Detour via Wellesworth Dr and Eringate Dr due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-9B35D115-C1A1-489F-91EE-C62D6400CC67",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "506"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "506 Carlton: No service between",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "506 Carlton: No service between Main Street Station at Bay 7 and Gerrard St East at Coxwell Ave due to a blocked track. Shuttle buses are running between Main Street Station at Bay 7 and Gerrard St East at Coxwell Ave.",
               "language": "en"
             }
           ]
