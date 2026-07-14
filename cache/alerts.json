@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1784024490"
+    "timestamp": "1784029883"
   },
   "entity": [
     {
@@ -154,6 +154,35 @@
       }
     },
     {
+      "id": "DevAPI-349BC601-10E5-496C-B9A9-D73439F6C60D",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "50"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "50 Burnhamthorpe: Buses are not",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "50 Burnhamthorpe: Bypass near Bloor St West at Aberfoyle Cres due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-20DBE903-2332-49D4-8DDD-C0E3052144BC",
       "alert": {
         "informedEntity": [
@@ -176,6 +205,71 @@
           "translation": [
             {
               "text": "16 Mccowan: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-DE91CB40-7BE1-4F09-A495-34AFCD268F42",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "62"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "20"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "23"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "64"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "113"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "87"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "135"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "506"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "306"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Main Street: Elevator 13D1L out",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Main Street: Elevator out of service between Main St east side entrance, concourse and Line 2 eastbound platform while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -358,28 +452,12 @@
       }
     },
     {
-      "id": "DevAPI-A3485C68-46B1-4152-A3C0-DC33CE4038CF",
+      "id": "DevAPI-AC11821A-0412-4C88-B947-6557CE4A3AD0",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "14"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "11"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "320"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "28"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "97"
+            "routeId": "110"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -387,7 +465,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Davisville: Elevator 17Y1L out o",
+              "text": "110 Islington South: Buses are n",
               "language": "en"
             }
           ]
@@ -395,7 +473,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "Davisville: Elevator out of service between Davisville Ave south side entrance and concourse while we perform maintenance.",
+              "text": "110 Islington South: Bypass near Bloor St West at Aberfoyle Cres due to construction.",
               "language": "en"
             }
           ]
@@ -551,6 +629,35 @@
       }
     },
     {
+      "id": "DevAPI-2DD37D63-5A98-4AB7-A9F2-64E74B565673",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "937"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "937 Islington Express: Buses are",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "937 Islington Express: Bypass southbound near Bloor St West at Aberfoyle Cres due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-DAF9EE30-A85F-4423-93A5-541DD6013E69",
       "alert": {
         "informedEntity": [
@@ -631,6 +738,35 @@
           "translation": [
             {
               "text": "501 Queen: Detour eastbound via Spadina Ave and Adelaide St E while we respond to a medical emergency.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-7BEE629B-FD28-43D9-B2FA-064AF1023E8B",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "37"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "37 Islington: Buses are not stop",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "37 Islington: Bypass southbound near Bloor St West at Aberfoyle Cres due to construction.",
               "language": "en"
             }
           ]
@@ -955,6 +1091,35 @@
           "translation": [
             {
               "text": "108 Driftwood: Detour via Driftwood Ave, Finch Ave W, Jane St and Grandravine Dr due to police activity.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-6A005978-7F65-4F75-B39F-7D8BD459C667",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "149"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "149 Etobicoke-Bloor: Buses are n",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "149 Etobicoke-Bloor: Bypass near Bloor St West at Aberfoyle Cres due to construction.",
               "language": "en"
             }
           ]
