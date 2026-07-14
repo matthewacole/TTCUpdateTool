@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1783990688"
+    "timestamp": "1784002131"
   },
   "entity": [
     {
@@ -229,35 +229,6 @@
           "translation": [
             {
               "text": "Cedarvale: Elevator out of service between platform and upper concourse while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-46A2F840-F1E2-469C-9F26-B9B1E7ED64E1",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "954"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "954 Lawrence East Express: Detou",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "954 Lawrence East Express: Detour via Port Union Rd, Lawson Rd and Centennial Rd due to a collision.",
               "language": "en"
             }
           ]
@@ -820,12 +791,28 @@
       }
     },
     {
-      "id": "DevAPI-16A7B017-DF8C-4151-9AB0-DE23237AA789",
+      "id": "DevAPI-203FF2DA-EA70-472C-9FA9-7EF143E22E2C",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "54"
+            "routeId": "329"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "29"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "929"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -833,7 +820,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "54 Lawrence East: Detour via Por",
+              "text": "Fairbank: Elevator 1 out of serv",
               "language": "en"
             }
           ]
@@ -841,7 +828,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "54 Lawrence East: Detour via Port Union Rd, Lawson Rd and Centennial Rd due to a collision.",
+              "text": "Fairbank: Elevator out of service between concourse and Line 5 centre platform while we perform maintenance. Elevator is expected to be back in service July 14, 2026.",
               "language": "en"
             }
           ]
@@ -1018,35 +1005,6 @@
           "translation": [
             {
               "text": "TMU: Elevator out of service between 10 Dundas St E entrance and Line 1 Finch platform while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-8013D176-1CB5-4FB2-BB2A-14FDEFBCE3FA",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "161"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "161 Rogers Rd: Detour eastbound",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "161 Rogers Rd: Detour eastbound via Dufferin St and Rosemount Ave due to a fire.",
               "language": "en"
             }
           ]
