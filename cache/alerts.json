@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1784002131"
+    "timestamp": "1784010240"
   },
   "entity": [
     {
@@ -258,6 +258,35 @@
           "translation": [
             {
               "text": "996 Wilson Express: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-AD72C772-9C4D-4031-834C-1C22E52EB473",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "165"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "165 Weston Rd North: Detour west",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "165 Weston Rd North: Detour westbound via Jane St and Beverly Hills Dr due to a collision.",
               "language": "en"
             }
           ]
@@ -535,59 +564,6 @@
       }
     },
     {
-      "id": "DevAPI-A511457F-C3B3-4459-AE5E-5E948D14ABBC",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "304"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "301"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "501"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "503"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "97"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "504"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "19"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "St Andrew: Elevator out of servi",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "St Andrew: Elevator out of service between 145 King St W entrance and concourse while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-BFEB99F3-0C66-44CF-AC31-136637EF9CC6",
       "alert": {
         "informedEntity": [
@@ -829,6 +805,35 @@
           "translation": [
             {
               "text": "Fairbank: Elevator out of service between concourse and Line 5 centre platform while we perform maintenance. Elevator is expected to be back in service July 14, 2026.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-4EFD2CAD-DA45-4D06-9E00-F83C5DFA314F",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "96"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "96 Wilson: Detour westbound via",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "96 Wilson: Detour westbound via Jane St and Beverly Hills Dr due to a collision.",
               "language": "en"
             }
           ]
