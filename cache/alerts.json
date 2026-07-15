@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1784133683"
+    "timestamp": "1784138137"
   },
   "entity": [
     {
@@ -154,47 +154,6 @@
       }
     },
     {
-      "id": "DevAPI-7E5B0BCC-D59F-4F66-B1E0-7EEEF0719C53",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "322"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "22"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "70"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Line 2 Bloor-Danforth: Trains ar",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Line 2 Bloor-Danforth: Bypass at Coxwell station due to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-20DBE903-2332-49D4-8DDD-C0E3052144BC",
       "alert": {
         "informedEntity": [
@@ -217,35 +176,6 @@
           "translation": [
             {
               "text": "16 Mccowan: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-80EF66FD-B23C-421B-A69D-D6BC5883C848",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "70"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "70 O'connor: No service near Cox",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "70 O'connor: No service near Coxwell Station at Bus Bay 1 while we respond to a security incident.",
               "language": "en"
             }
           ]
@@ -634,35 +564,6 @@
       }
     },
     {
-      "id": "DevAPI-F3E50974-5B34-4C99-B728-B1191C11E5AA",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "22"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "22 Coxwell: No service near Coxw",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "22 Coxwell: No service near Coxwell Station at Bus Bay 4 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-552DEDCA-1557-491F-85CD-96B13D61B733",
       "alert": {
         "informedEntity": [
@@ -808,47 +709,6 @@
       }
     },
     {
-      "id": "DevAPI-FC062BC1-8C13-4ECB-A8E5-6C79F1C0E935",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "92"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "93"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "91"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Woodbine: Elevator 12D1L out of",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Woodbine: Elevator out of service between Woodbine Ave east side entrance, concourse and Line 2 eastbound platform while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-6D575A87-856F-41B4-BB8C-8E84C4466B05",
       "alert": {
         "informedEntity": [
@@ -977,6 +837,71 @@
           "translation": [
             {
               "text": "133 Neilson: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-7EDE114E-80EE-4301-B2A2-DF27C766540F",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "62"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "20"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "23"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "64"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "113"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "87"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "135"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "506"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "306"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Main Street: Elevator 13D1L out",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Main Street: Elevator out of service between Main St east side entrance, concourse and Line 2 eastbound platform due to a technical problem.",
               "language": "en"
             }
           ]
