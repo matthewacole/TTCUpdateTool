@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1784094881"
+    "timestamp": "1784102930"
   },
   "entity": [
     {
@@ -154,35 +154,6 @@
       }
     },
     {
-      "id": "DevAPI-349BC601-10E5-496C-B9A9-D73439F6C60D",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "50"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "50 Burnhamthorpe: Buses are not",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "50 Burnhamthorpe: Bypass near Bloor St West at Aberfoyle Cres due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-20DBE903-2332-49D4-8DDD-C0E3052144BC",
       "alert": {
         "informedEntity": [
@@ -258,35 +229,6 @@
           "translation": [
             {
               "text": "Cedarvale: Elevator out of service between platform and upper concourse while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-B21E4177-AFE2-43B1-B422-6141A4804E4C",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "311"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "311 Bathurst: No service between",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "311 Bathurst: No service between Exhibition Loop and Fleet St at Bastion St due to emergency overhead repairs.",
               "language": "en"
             }
           ]
@@ -409,35 +351,6 @@
           "translation": [
             {
               "text": "21 Brimley: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-AC11821A-0412-4C88-B947-6557CE4A3AD0",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "110"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "110 Islington South: Buses are n",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "110 Islington South: Bypass near Bloor St West at Aberfoyle Cres due to construction.",
               "language": "en"
             }
           ]
@@ -680,35 +593,6 @@
       }
     },
     {
-      "id": "DevAPI-7BEE629B-FD28-43D9-B2FA-064AF1023E8B",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "37"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "37 Islington: Buses are not stop",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "37 Islington: Bypass southbound near Bloor St West at Aberfoyle Cres due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-5E3F49FD-909A-41F6-B36D-748E827818C4",
       "alert": {
         "informedEntity": [
@@ -854,35 +738,6 @@
       }
     },
     {
-      "id": "DevAPI-3346D4AB-7176-48B9-B078-28C73C754995",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "14"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "14 Glencairn: Detour eastbound v",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "14 Glencairn: Detour eastbound via Glenmount Ave and Viewmount Ave due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-F92885AA-2070-4819-B78B-544D607977A2",
       "alert": {
         "informedEntity": [
@@ -905,35 +760,6 @@
           "translation": [
             {
               "text": "133 Neilson: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-6A005978-7F65-4F75-B39F-7D8BD459C667",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "149"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "149 Etobicoke-Bloor: Buses are n",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "149 Etobicoke-Bloor: Bypass near Bloor St West at Aberfoyle Cres due to construction.",
               "language": "en"
             }
           ]
@@ -1007,35 +833,6 @@
           "translation": [
             {
               "text": "Don Valley: Elevator out of service between concourse and Don Mills Road west side entrance due to the Ontario Line construction. Elevator is expected to be back in service February 8, 2032.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-1CE18E93-AAD0-4917-A72E-EB5E04DF300C",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "309"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "309 Harbourfront: No service bet",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "309 Harbourfront: No service between Exhibition Loop at Manitoba Dr and Fleet St at Bastion St due to emergency overhead repairs.",
               "language": "en"
             }
           ]
