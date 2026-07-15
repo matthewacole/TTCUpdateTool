@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1784142820"
+    "timestamp": "1784147296"
   },
   "entity": [
     {
@@ -564,63 +564,6 @@
       }
     },
     {
-      "id": "DevAPI-580C3125-984B-4876-9B7C-4E567FCAF6DC",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "304"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "340"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "168"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "505"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "40"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "305"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "504"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Dundas West: Elevator 8B2L out o",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Dundas West: Elevator out of service between concourse and Line 2 westbound platform while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-552DEDCA-1557-491F-85CD-96B13D61B733",
       "alert": {
         "informedEntity": [
@@ -672,99 +615,6 @@
           "translation": [
             {
               "text": "939 Finch Express: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-43BC1561-4857-4D3C-979C-D9C826951527",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "149"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "49"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "112"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "50"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "110"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "937"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "337"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "123"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "900"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "45"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "37"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "111"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "46"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "40"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "927"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "44"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Line 2 Bloor-Danforth: No servic",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Line 2 Bloor-Danforth: No service between Kipling and Islington stations due to a security incident.",
               "language": "en"
             }
           ]
@@ -1019,6 +869,39 @@
       }
     },
     {
+      "id": "DevAPI-85C8125E-1BE5-413B-B686-D90F14D7D7AF",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "320"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "97"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "North York Centre: Elevator 23Y2",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "North York Centre: Elevator out of service between concourse and Line 1 southbound platform while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-B72DA614-67BB-4974-A35A-D1C2AE3A80CE",
       "alert": {
         "informedEntity": [
@@ -1164,79 +1047,6 @@
           "translation": [
             {
               "text": "Humber College: Elevator out of service between Humber College South Entrance and Line 6 Centre Platform while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-EA8DDD9D-8ACA-4329-93B5-DEDA2A345A0D",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "334"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "354"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "54"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "162"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "191"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "100"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "325"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "25"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "925"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "72"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "954"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Don Valley: Elevator 1 out of se",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Don Valley: Elevator out of service between concourse and Line 5 centre platform while we perform an inspection.",
               "language": "en"
             }
           ]
