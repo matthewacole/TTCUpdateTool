@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1784073941"
+    "timestamp": "1784086122"
   },
   "entity": [
     {
@@ -883,35 +883,6 @@
       }
     },
     {
-      "id": "DevAPI-CA6A3FE9-61B7-48AE-8B05-D53C180D380E",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "41"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "41 Keele: Delays near Keele St a",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "41 Keele: Delays near Keele St at Sheppard Ave West North Side due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-F92885AA-2070-4819-B78B-544D607977A2",
       "alert": {
         "informedEntity": [
@@ -1355,6 +1326,51 @@
       }
     },
     {
+      "id": "DevAPI-AF1B8B55-73CA-4392-B074-DBB563B0809E",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "329"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "29"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "929"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Fairbank: Elevator 2 out of serv",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Fairbank: Elevator out of service between Eglinton Avenue south east side entrance and concourse while we perform maintenance. Elevator is expected to be back in service July 15, 2026.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-DF9F4FBE-5057-4E2D-917E-4688FEA80242",
       "alert": {
         "informedEntity": [
@@ -1377,35 +1393,6 @@
           "translation": [
             {
               "text": "112 West Mall: Detour via Wellesworth Dr and Eringate Dr due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-B10DF4FF-BD31-4FF9-932B-9AA869EF4412",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "63"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "63 Ossington: Detour southbound",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "63 Ossington: Detour southbound via King St W, Jefferson Ave, Liberty St and Atlantic Ave due to traffic congestion.",
               "language": "en"
             }
           ]
