@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1784234480"
+    "timestamp": "1784238367"
   },
   "entity": [
     {
@@ -154,28 +154,12 @@
       }
     },
     {
-      "id": "DevAPI-37B2D5B5-5D02-4945-9699-21B841181DC3",
+      "id": "DevAPI-B910078D-DBC7-4BB6-A39F-FDEFB39E1AB5",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "7"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "511"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "311"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "307"
+            "routeId": "45"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -183,7 +167,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Bathurst: Elevator 3B1L out of s",
+              "text": "45 Kipling: Detour southbound vi",
               "language": "en"
             }
           ]
@@ -191,7 +175,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "Bathurst: Elevator out of service between Bathurst St east side entrance, concourse and Line 2 westbound platform while we perform maintenance.",
+              "text": "45 Kipling: Detour southbound via Disco Rd, Brockport Dr and Belfield Rd due to a Toronto fire investigation.",
               "language": "en"
             }
           ]
