@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1784231419"
+    "timestamp": "1784234480"
   },
   "entity": [
     {
@@ -1251,51 +1251,6 @@
           "translation": [
             {
               "text": "130 Middlefield: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-464951C5-BE7F-4664-9C9F-90F3D72641BD",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "14"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "11"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "320"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "28"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "97"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Davisville: Elevator 17Y3L out o",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Davisville: Elevator out of service between concourse and Line 1 northbound platform while we perform maintenance.",
               "language": "en"
             }
           ]
