@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1784175740"
+    "timestamp": "1784183965"
   },
   "entity": [
     {
@@ -1216,35 +1216,6 @@
           "translation": [
             {
               "text": "Scarborough Centre: Elevator out of service between concourse and Scarborough Town Centre entrance and bus platform while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-A9648FE8-0307-460F-834E-4E85E23EA5E6",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "110"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "110 Islington South: Buses are n",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "110 Islington South: Bypass near Bloor St West at Islington Ave due to construction.",
               "language": "en"
             }
           ]
