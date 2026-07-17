@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1784310222"
+    "timestamp": "1784313748"
   },
   "entity": [
     {
@@ -147,35 +147,6 @@
           "translation": [
             {
               "text": "511 Bathurst: Streetcars are not stopping northbound near Fleet St at Strachan Ave due to FIFA World Cup route adjustments.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-8EABEA60-CA86-41DA-A05B-7E5137BE9055",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "29"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "29 Dufferin: Delays between Duff",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "29 Dufferin: Delays between Dufferin Gate Loop and Wilson Station at Bus Bay 1A due to a collision.",
               "language": "en"
             }
           ]
@@ -1136,35 +1107,6 @@
           "translation": [
             {
               "text": "17 Birchmount: Detour northbound via Finch Ave E, Kennedy Ave and Mcnicoll Ave due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-52AAA137-12B5-4801-BE52-B017A708D3A0",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "929"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "929 Dufferin Express: Delays bet",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "929 Dufferin Express: Delays between Dufferin Gate Loop and Wilson Station at Bus Bay 1A due to a collision.",
               "language": "en"
             }
           ]
