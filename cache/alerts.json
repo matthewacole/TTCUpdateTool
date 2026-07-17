@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1784301602"
+    "timestamp": "1784306263"
   },
   "entity": [
     {
@@ -225,6 +225,35 @@
           "translation": [
             {
               "text": "Downsview Park: Elevator out of service between Vitti St east side entrance and concourse while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-8571A251-AC19-4797-9E05-59BBD34D396F",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "76"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "76B Royal York South: Detour via",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "76B Royal York South: Detour via Buckingham St and Newcastle St due to a Toronto fire investigation.",
               "language": "en"
             }
           ]
@@ -737,6 +766,35 @@
           "translation": [
             {
               "text": "509 Harbourfront: Streetcars are not stopping eastbound near Fleet St at Strachan Ave due to FIFA World Cup route adjustments.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-51D7510C-795D-4252-A774-72C7756DC2DE",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "76"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "76 Royal York South: Detour via",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "76 Royal York South: Detour via Evans Ave, Islington Ave and Judson St due to Working Fire.",
               "language": "en"
             }
           ]
