@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1784394913"
+    "timestamp": "1784398246"
   },
   "entity": [
     {
@@ -21,38 +21,28 @@
           },
           {
             "agencyId": "1",
+            "routeId": "84",
+            "stopId": "3755"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "84",
+            "stopId": "3755"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "84",
+            "stopId": "3755"
+          },
+          {
+            "agencyId": "1",
             "routeId": "104",
             "stopId": "3975"
           },
           {
             "agencyId": "1",
-            "routeId": "984",
-            "stopId": "3754"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "84",
-            "stopId": "3755"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "84",
-            "stopId": "3755"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "108",
-            "stopId": "3756"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "84",
-            "stopId": "3755"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "108",
-            "stopId": "3756"
+            "routeId": "105",
+            "stopId": "3749"
           },
           {
             "agencyId": "1",
@@ -66,13 +56,23 @@
           },
           {
             "agencyId": "1",
+            "routeId": "108",
+            "stopId": "3756"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "108",
+            "stopId": "3756"
+          },
+          {
+            "agencyId": "1",
             "routeId": "984",
             "stopId": "3750"
           },
           {
             "agencyId": "1",
-            "routeId": "105",
-            "stopId": "3749"
+            "routeId": "984",
+            "stopId": "3754"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -154,108 +154,6 @@
       }
     },
     {
-      "id": "DevAPI-55F675F3-1BBE-492A-9FCA-DB174BB438C8",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "42"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "42 Cummer: Detour eastbound via",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "42 Cummer: Detour eastbound via Mcnicoll Ave, Markham Rd and Passmore Ave due to Working Fire.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-91DB4F17-AD2C-4A4B-8057-38F11029E587",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "304"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "62"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "8"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "322"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "100"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "25"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "505"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "925"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "87"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "305"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "504"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Broadview: Elevator 6D1L out of",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Broadview: Elevator out of service between Broadview Ave entrance, concourse and Line 2 westbound platform due to a technical problem.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-20DBE903-2332-49D4-8DDD-C0E3052144BC",
       "alert": {
         "informedEntity": [
@@ -290,7 +188,7 @@
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "334"
+            "routeId": "34"
           },
           {
             "agencyId": "1",
@@ -302,19 +200,19 @@
           },
           {
             "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
             "routeId": "109"
           },
           {
             "agencyId": "1",
-            "routeId": "363"
+            "routeId": "164"
           },
           {
             "agencyId": "1",
-            "routeId": "164"
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "363"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -401,12 +299,12 @@
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "202",
+            "routeId": "114",
             "stopId": "4277"
           },
           {
             "agencyId": "1",
-            "routeId": "114",
+            "routeId": "202",
             "stopId": "4277"
           }
         ],
@@ -552,15 +450,11 @@
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "13"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "505"
-          },
-          {
-            "agencyId": "1",
             "routeId": "301"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "305"
           },
           {
             "agencyId": "1",
@@ -568,7 +462,11 @@
           },
           {
             "agencyId": "1",
-            "routeId": "305"
+            "routeId": "505"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "13"
           },
           {
             "agencyId": "1",
@@ -601,7 +499,7 @@
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "67"
+            "routeId": "12"
           },
           {
             "agencyId": "1",
@@ -609,11 +507,19 @@
           },
           {
             "agencyId": "1",
-            "routeId": "117"
+            "routeId": "24"
           },
           {
             "agencyId": "1",
-            "routeId": "924"
+            "routeId": "67"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "113"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "117"
           },
           {
             "agencyId": "1",
@@ -625,15 +531,7 @@
           },
           {
             "agencyId": "1",
-            "routeId": "12"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "24"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "113"
+            "routeId": "924"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -679,6 +577,35 @@
           "translation": [
             {
               "text": "329 Dufferin: Detour southbound via Dufferin St, Viceroy, Futurity Gt and Gerry Fitzgerald Dr due to a collision.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-A6B5B4FC-BF2C-4EB6-B61A-A0715520DA6F",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "75"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "75 Sherbourne: Detour via Elm Rd",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "75 Sherbourne: Detour via Elm Rd due to a blocked road.",
               "language": "en"
             }
           ]
@@ -802,39 +729,6 @@
       }
     },
     {
-      "id": "DevAPI-1C27A74E-8887-4B9B-9B59-6E7B851B4309",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "320"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "97"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "North York Centre: Elevator 23Y2",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "North York Centre: Elevator out of service between concourse and Line 1 southbound platform while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-9553B793-EC2A-482F-9A9A-80773CD62355",
       "alert": {
         "informedEntity": [
@@ -922,47 +816,6 @@
       }
     },
     {
-      "id": "DevAPI-D934EB13-B59C-4C25-B3DC-5E1CE1FC7211",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "325"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "83"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "72"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Pape: Elevator 8D2L out of servi",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Pape: Elevator out of service between concourse and Line 2 eastbound platform while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-F92885AA-2070-4819-B78B-544D607977A2",
       "alert": {
         "informedEntity": [
@@ -992,49 +845,28 @@
       }
     },
     {
-      "id": "DevAPI-DFF073B8-8891-4C7A-8507-E65E10E649E4",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "24"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "24 Victoria Park: Detour via Ell",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "24 Victoria Park: Detour via Ellesmere Rd, Pharmacy Ave and Surrey Ave due to police activity.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-30CFA51B-7B09-476B-BBB3-376A8BBBE2F2",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "334"
+            "routeId": "25"
           },
           {
             "agencyId": "1",
-            "routeId": "354"
+            "routeId": "34"
           },
           {
             "agencyId": "1",
             "routeId": "54"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "72"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "100"
           },
           {
             "agencyId": "1",
@@ -1046,27 +878,19 @@
           },
           {
             "agencyId": "1",
-            "routeId": "100"
-          },
-          {
-            "agencyId": "1",
             "routeId": "325"
           },
           {
             "agencyId": "1",
-            "routeId": "25"
+            "routeId": "334"
           },
           {
             "agencyId": "1",
-            "routeId": "34"
+            "routeId": "354"
           },
           {
             "agencyId": "1",
             "routeId": "925"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "72"
           },
           {
             "agencyId": "1",
@@ -1190,7 +1014,7 @@
           },
           {
             "agencyId": "1",
-            "routeId": "996"
+            "routeId": "96"
           },
           {
             "agencyId": "1",
@@ -1202,11 +1026,11 @@
           },
           {
             "agencyId": "1",
-            "routeId": "96"
+            "routeId": "927"
           },
           {
             "agencyId": "1",
-            "routeId": "927"
+            "routeId": "996"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -1293,7 +1117,7 @@
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "131"
+            "routeId": "12"
           },
           {
             "agencyId": "1",
@@ -1301,19 +1125,7 @@
           },
           {
             "agencyId": "1",
-            "routeId": "905"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "38"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "12"
+            "routeId": "21"
           },
           {
             "agencyId": "1",
@@ -1321,15 +1133,7 @@
           },
           {
             "agencyId": "1",
-            "routeId": "986"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "21"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "201"
+            "routeId": "38"
           },
           {
             "agencyId": "1",
@@ -1337,27 +1141,11 @@
           },
           {
             "agencyId": "1",
-            "routeId": "904"
+            "routeId": "57"
           },
           {
             "agencyId": "1",
             "routeId": "86"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "334"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "939"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "129"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "154"
           },
           {
             "agencyId": "1",
@@ -1369,7 +1157,31 @@
           },
           {
             "agencyId": "1",
-            "routeId": "57"
+            "routeId": "129"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "131"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "133"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "154"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "201"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "334"
           },
           {
             "agencyId": "1",
@@ -1377,15 +1189,27 @@
           },
           {
             "agencyId": "1",
-            "routeId": "903"
-          },
-          {
-            "agencyId": "1",
             "routeId": "386"
           },
           {
             "agencyId": "1",
-            "routeId": "133"
+            "routeId": "903"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "904"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "905"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "939"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "986"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -1443,7 +1267,7 @@
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "334"
+            "routeId": "34"
           },
           {
             "agencyId": "1",
@@ -1455,19 +1279,19 @@
           },
           {
             "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
             "routeId": "109"
           },
           {
             "agencyId": "1",
-            "routeId": "363"
+            "routeId": "164"
           },
           {
             "agencyId": "1",
-            "routeId": "164"
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "363"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
