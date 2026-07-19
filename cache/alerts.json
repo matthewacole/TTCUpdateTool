@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1784477543"
+    "timestamp": "1784481444"
   },
   "entity": [
     {
@@ -384,6 +384,35 @@
           "translation": [
             {
               "text": "21 Brimley: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-CFC5BD3E-5A7E-4C87-A697-37DC9CF1CC72",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "101"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "101 Downsview Park: Detour south",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "101 Downsview Park: Detour southbound via Vitti St, Carl Hall Road, Chesswood Dr and Sheppard Ave W due to a collision.",
               "language": "en"
             }
           ]
