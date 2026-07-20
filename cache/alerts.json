@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1784503807"
+    "timestamp": "1784509656"
   },
   "entity": [
     {
@@ -147,6 +147,67 @@
           "translation": [
             {
               "text": "511 Bathurst: Streetcars are not stopping northbound near Fleet St at Strachan Ave due to FIFA World Cup route adjustments.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-5C4C8A43-CF26-4158-A87C-170AD6A2A21D",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "396"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "37"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "73"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "336"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "46"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "937"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "337"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "927"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "45"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Line 6 Finch West: No service we",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Line 6 Finch West: No service westbound from Albion to Duncanwoods stations while the maintainer fixes a mechanical problem. Shuttle buses are on the way.",
               "language": "en"
             }
           ]
@@ -539,6 +600,51 @@
       }
     },
     {
+      "id": "DevAPI-FC3BCDC3-35A8-4978-9FE7-7B9A3097C9D4",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "13"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "94"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "506"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "306"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "19"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Queen's Park: Elevator 3Y1L out",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Queen's Park: Elevator out of service between College St northeast entrance and concourse due to a technical problem.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-DAF9EE30-A85F-4423-93A5-541DD6013E69",
       "alert": {
         "informedEntity": [
@@ -771,35 +877,6 @@
       }
     },
     {
-      "id": "DevAPI-88C158FF-82BA-492F-8DEC-2472BABABB8B",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "51"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "51 Leslie: Detour southbound via",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "51 Leslie: Detour southbound via Mcrae Dr and Millwood Rd due to a Toronto fire investigation.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-F92885AA-2070-4819-B78B-544D607977A2",
       "alert": {
         "informedEntity": [
@@ -822,6 +899,35 @@
           "translation": [
             {
               "text": "133 Neilson: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-5522CE08-6920-4AFF-B8CC-92F94D8F1A33",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "511"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "511 Bathurst: No service southbo",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "511 Bathurst: No service southbound from Bathurst St at Fort York Blvd to Exhibition Loop due to a collision.",
               "language": "en"
             }
           ]
@@ -895,6 +1001,35 @@
           "translation": [
             {
               "text": "Don Valley: Elevator out of service between concourse and Don Mills Road west side entrance due to the Ontario Line construction. Elevator is expected to be back in service February 8, 2032.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-7888EB86-88BB-47A5-BC70-B05D16DEAF4F",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "506"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "506 Carlton: Detour via Bathurst",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "506 Carlton: Detour via Bathurst St, Dundas St W and Ossington Ave due to an event.",
               "language": "en"
             }
           ]
