@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1784533747"
+    "timestamp": "1784543715"
   },
   "entity": [
     {
@@ -771,6 +771,35 @@
       }
     },
     {
+      "id": "DevAPI-CA328E61-4709-4B09-8E08-A9C509F67A6F",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "66"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "66 Prince Edward: Detour northbo",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "66 Prince Edward: Detour northbound via Stephen Dr, The Queensway, Park Lawn Rd and Ringley Ave due to a collision.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-F92885AA-2070-4819-B78B-544D607977A2",
       "alert": {
         "informedEntity": [
@@ -873,6 +902,35 @@
       }
     },
     {
+      "id": "DevAPI-13D18E2C-9671-4BB8-9F5A-C710616786EF",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "507"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "507 Long Branch: Detour via Lake",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "507 Long Branch: Detour via Lake Shore Blvd W, Marine Parade and Lake Shore Blvd W due to a collision.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-88ED0667-5E69-419C-B7E2-72949F41B441",
       "alert": {
         "informedEntity": [
@@ -902,35 +960,6 @@
       }
     },
     {
-      "id": "DevAPI-5A2EEFAC-7FDE-416E-AE69-C6B011F6D3FA",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "507"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "507 Long Branch: Detour westboun",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "507 Long Branch: Detour westbound via The Queensway, Windermere and Lake Shore Blvd W due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-992D5CED-BEF6-45CB-AF4B-1095B9C3F428",
       "alert": {
         "informedEntity": [
@@ -953,6 +982,63 @@
           "translation": [
             {
               "text": "134 Progress: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-216B121E-FD9C-4543-9CF0-D3FD7C4D1229",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "126"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "7"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "90"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "311"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "312"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "307"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "512"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "33"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "St Clair West: Elevator 3S1L out",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "St Clair West: Elevator out of service between Heath St W north side entrance and north concourse due to a technical problem.",
               "language": "en"
             }
           ]
@@ -1089,6 +1175,35 @@
           "translation": [
             {
               "text": "130 Middlefield: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-6F9E9579-30B2-4246-898A-81A5DE43C930",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "80"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "80 Queensway: Detour westbound v",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "80 Queensway: Detour westbound via Lakeshore Ave, Park Lawn Rd and The Queensway due to a collision.",
               "language": "en"
             }
           ]
