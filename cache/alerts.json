@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1784633332"
+    "timestamp": "1784638685"
   },
   "entity": [
     {
@@ -154,12 +154,48 @@
       }
     },
     {
-      "id": "DevAPI-0E747A96-BA94-4663-AF7C-32CA97B01699",
+      "id": "DevAPI-E2DA698F-92B5-45C3-A872-6BD200B8206D",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "54"
+            "routeId": "13"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "61"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "354"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "74"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "11"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "320"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "103"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "97"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -167,7 +203,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "54 Lawrence East: Detour eastbou",
+              "text": "Line 5 Eglinton: No service betw",
               "language": "en"
             }
           ]
@@ -175,7 +211,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "54 Lawrence East: Detour eastbound via Galloway Rd and Kingston Rd due to a collision.",
+              "text": "Line 5 Eglinton: No service between Eglinton and Leaside stations while the maintainer fixes a brake problem. Shuttle buses are running between Eglinton and Leaside.",
               "language": "en"
             }
           ]
@@ -564,35 +600,6 @@
       }
     },
     {
-      "id": "DevAPI-C48F4F0A-019E-4150-BEC8-A41EF9F9B460",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "954"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "954 Lawrence East Express: Detou",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "954 Lawrence East Express: Detour via Galloway Rd and Kingston Rd due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-BFEB99F3-0C66-44CF-AC31-136637EF9CC6",
       "alert": {
         "informedEntity": [
@@ -818,6 +825,83 @@
           "translation": [
             {
               "text": "133 Neilson: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-FFA8A2FE-7857-467E-8453-372476688518",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "125"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "36"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "960"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "320"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "60"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "97"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "953"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "336"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "939"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "339"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "39"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "53"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "42"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Finch: Elevator 22Y1L out of ser",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Finch: Elevator out of service between fares concourse and Line 1 centre platform while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -1235,35 +1319,6 @@
           "translation": [
             {
               "text": "112 West Mall: Detour via Wellesworth Dr and Eringate Dr due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-D7F2439A-09B3-4FE5-9812-F97DCA81C1E9",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "34"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "34 Eglinton: Detour westbound vi",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "34 Eglinton: Detour westbound via Avenue Rd, Roselawn Ave and Bathurst St due to a collision.",
               "language": "en"
             }
           ]
