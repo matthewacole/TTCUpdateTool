@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1784617815"
+    "timestamp": "1784626779"
   },
   "entity": [
     {
@@ -506,6 +506,35 @@
       }
     },
     {
+      "id": "DevAPI-9FCDC3BA-B5C2-404E-BB2C-E3FB545059A0",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "504"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "504, 504B King: Detour eastbound",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "504, 504B King: Detour eastbound via Church St, Queen St W and Broadview Ave due to a collision.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-DAF9EE30-A85F-4423-93A5-541DD6013E69",
       "alert": {
         "informedEntity": [
@@ -622,6 +651,35 @@
       }
     },
     {
+      "id": "DevAPI-BE1F97A3-3AAE-495D-BAEE-6EED6EF57E5C",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "504"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "504, 504A King: Detour eastbound",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "504, 504A King: Detour eastbound via Church St, Richmond St E, Victoria St and Adelaide St E due to a collision.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-41083758-9360-454D-A376-6BFDEE4C7E28",
       "alert": {
         "informedEntity": [
@@ -731,6 +789,35 @@
           "translation": [
             {
               "text": "395 York Mills: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-F12F97B8-BD52-4F75-9E4F-EA3DA5B4092C",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "307"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "307 Bathurst: Detour northbound",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "307 Bathurst: Detour northbound via Brooke Ave, Falkirk St and Dunblaine Ave due to a collision.",
               "language": "en"
             }
           ]
