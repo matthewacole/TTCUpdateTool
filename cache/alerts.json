@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1784719862"
+    "timestamp": "1784725575"
   },
   "entity": [
     {
@@ -147,6 +147,35 @@
           "translation": [
             {
               "text": "511 Bathurst: Streetcars are not stopping northbound near Fleet St at Strachan Ave due to FIFA World Cup route adjustments.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-759DBAAF-C5E7-4DD7-91DD-821EDD90AAB2",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "34 Eglinton: Detour via Dufferin",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "34 Eglinton: Detour via Dufferin St, Castlefield Ave and Caledonia Rd due to a Toronto fire investigation.",
               "language": "en"
             }
           ]
@@ -564,6 +593,35 @@
       }
     },
     {
+      "id": "DevAPI-B07EA3B6-CBD6-42D1-8F53-13BEB984CCD0",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "29"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "29 Dufferin: Detour southbound v",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "29 Dufferin: Detour southbound via Eglinton Ave W, Oakwood Ave and Rogers Rd due to a Toronto fire investigation.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-552DEDCA-1557-491F-85CD-96B13D61B733",
       "alert": {
         "informedEntity": [
@@ -738,6 +796,64 @@
       }
     },
     {
+      "id": "DevAPI-A4D380A1-5AFE-4FDA-ADEB-20FCC6F0551B",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "929"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "929 Dufferin Express: Detour sou",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "929 Dufferin Express: Detour southbound via Eglinton Ave W, Oakwood Ave and Rogers Rd due to a Toronto fire investigation.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-A259CD05-5C07-4D6B-AE40-5C5881343795",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "26"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "26 Dupont: Detour via Symington",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "26 Dupont: Detour via Symington Ave, Bloor St W and Dundas St W due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-F92885AA-2070-4819-B78B-544D607977A2",
       "alert": {
         "informedEntity": [
@@ -760,6 +876,35 @@
           "translation": [
             {
               "text": "133 Neilson: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-E96F5070-9AD5-4FE2-BAA5-4915C9F05221",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "59"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "59 Maple Leaf: Detour via Pine A",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "59 Maple Leaf: Detour via Pine Ave, Woodward Ave, Dalbeattie Ave and Gary Dr due to construction.",
               "language": "en"
             }
           ]
@@ -862,35 +1007,6 @@
           "translation": [
             {
               "text": "316 Kingston Rd-Mccowan: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-3074AD37-B39E-44CB-9E1E-B32F026F72C6",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "34"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "34 Eglinton: Detour via Dufferin",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "34 Eglinton: Detour via Dufferin St, Castlefield Ave and Caledonia Rd due to police activity.",
               "language": "en"
             }
           ]
