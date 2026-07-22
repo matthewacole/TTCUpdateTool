@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1784713358"
+    "timestamp": "1784719862"
   },
   "entity": [
     {
@@ -869,6 +869,35 @@
       }
     },
     {
+      "id": "DevAPI-3074AD37-B39E-44CB-9E1E-B32F026F72C6",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "34 Eglinton: Detour via Dufferin",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "34 Eglinton: Detour via Dufferin St, Castlefield Ave and Caledonia Rd due to police activity.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-992D5CED-BEF6-45CB-AF4B-1095B9C3F428",
       "alert": {
         "informedEntity": [
@@ -998,167 +1027,6 @@
           "translation": [
             {
               "text": "130 Middlefield: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-74FE8721-24AB-453D-85A0-C50D47F7F690",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "8"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "905"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "117"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "986"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "201"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "904"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "86"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "102"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "129"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "154"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "16"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "116"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "903"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "133"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "131"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "68"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "20"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "38"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "12"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "69"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "21"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "17"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "902"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "43"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "334"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "9"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "939"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "113"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "135"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "57"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "343"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "386"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Line 2 Bloor-Danforth: No servic",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Line 2 Bloor-Danforth: No service between Warden and Kennedy stations due to a power off at track level. Shuttle buses are running between Warden and Kennedy.",
               "language": "en"
             }
           ]
