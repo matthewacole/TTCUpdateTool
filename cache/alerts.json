@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1784820277"
+    "timestamp": "1784825799"
   },
   "entity": [
     {
@@ -187,6 +187,35 @@
       }
     },
     {
+      "id": "DevAPI-C711F7B5-D978-4D72-BBD6-B758FA583FAA",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "935"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "935 Jane Express: Detour via Gil",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "935 Jane Express: Detour via Giltspur Dr, Magellan Dr, Sheppard Ave W, Yatescastle Dr, Spenvalley Dr and Jane St due to a collision.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-20DBE903-2332-49D4-8DDD-C0E3052144BC",
       "alert": {
         "informedEntity": [
@@ -355,35 +384,6 @@
           "translation": [
             {
               "text": "Please look both ways for cyclists before exiting.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-329256F7-88AB-4E4D-B2D3-EA970FBFDE1C",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "71"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "71 Runnymede: Detour southbound",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "71 Runnymede: Detour southbound via St Clair Ave W, Jane St, Dundas St W and Runnymede Rd due to a blocked road.",
               "language": "en"
             }
           ]
@@ -684,64 +684,6 @@
       }
     },
     {
-      "id": "DevAPI-01BB07A1-7C10-47EF-BEB6-92C5AFD8A2C9",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "79"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "79 Scarlett Rd: Detour southboun",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "79 Scarlett Rd: Detour southbound via St Clair Ave W, Jane St, Dundas St W and Runnymede Rd due to a blocked road.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-7674FC0E-DE9F-4192-9072-FABD54544C85",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "69"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "69 Warden South: Detour southbou",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "69 Warden South: Detour southbound via Gradwell Dr and Kingston Rd due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-552DEDCA-1557-491F-85CD-96B13D61B733",
       "alert": {
         "informedEntity": [
@@ -940,7 +882,131 @@
       }
     },
     {
-      "id": "DevAPI-AF8A3679-59D0-4EBF-828C-F612D3472D59",
+      "id": "DevAPI-1CC7ADE5-D8AF-4878-AD95-2C123BB7911B",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "120"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "120 Calvington: Detour via Gilts",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "120 Calvington: Detour via Giltspur Dr and Magellan Dr due to a collision.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-425206C7-F094-407E-BE52-A15070A6BD24",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "31"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "51"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Line 2 Bloor-Danforth: Delays ea",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Line 2 Bloor-Danforth: Delays eastbound at Greenwood station while we respond to a medical emergency.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-C5060C98-D035-4D1E-ABFE-0777B1A7E9AC",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "84"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "84 Sheppard West: Detour via Lau",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "84 Sheppard West: Detour via Laura Rd, Clair Rd, Spenvalley Dr and Yatescastle Dr due to a collision.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-2E2A1EDF-8B91-4F3C-9639-3A42DB817738",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "395"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "395 York Mills: Buses are not st",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "395 York Mills: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-0FDD54AE-918A-4813-A3B2-2902A5D1FC97",
       "alert": {
         "informedEntity": [
           {
@@ -981,7 +1047,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Line 6 Finch West: No service be",
+              "text": "Line 6 Finch West: Delays betwee",
               "language": "en"
             }
           ]
@@ -989,123 +1055,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "Line 6 Finch West: No service between Finch West and Tobermory stations while the maintainer fixes a switch problem. Shuttle buses are running between Finch West and Tobermory.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-1CC7ADE5-D8AF-4878-AD95-2C123BB7911B",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "120"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "120 Calvington: Detour via Gilts",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "120 Calvington: Detour via Giltspur Dr and Magellan Dr due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-2E2A1EDF-8B91-4F3C-9639-3A42DB817738",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "395"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "395 York Mills: Buses are not st",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "395 York Mills: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-BA5E5C12-C4F9-436B-8E41-BD153B0FFA19",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "201"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "201 Bluffer's Park: Detour via K",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "201 Bluffer's Park: Detour via Kingston Rd, Gradwell Dr and Barkdene Hills due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-45D97F4A-D8EB-4AF5-814D-519DD09E7684",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "84"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "84 Sheppard West: Detour eastbou",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "84 Sheppard West: Detour eastbound via Jane St, Giltspur Dr and Magellan Dr due to a collision.",
+              "text": "Line 6 Finch West: Delays between Finch West and Tobermory stations while the maintainer fixes a switch problem. Shuttle buses are running between Finch West and Driftwood.",
               "language": "en"
             }
           ]
@@ -1237,35 +1187,6 @@
           "translation": [
             {
               "text": "Don Valley: Elevator out of service between concourse and Don Mills Road west side entrance due to the Ontario Line construction. Elevator is expected to be back in service February 8, 2032.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-262708A1-B782-4219-A243-3AFF176AA30D",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "35"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "35 Jane: Detour northbound via J",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "35 Jane: Detour northbound via Jane St, Giltspur Dr and Magellan Dr due to a collision.",
               "language": "en"
             }
           ]
@@ -1409,12 +1330,12 @@
       }
     },
     {
-      "id": "DevAPI-21D2F371-DF06-4292-A62A-0232D77B0B86",
+      "id": "DevAPI-97EDE6D9-839F-42B5-85EF-EABAE412ED14",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "935"
+            "routeId": "35"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -1422,7 +1343,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "935 Jane Express: Detour northbo",
+              "text": "35 Jane: Detour via Giltspur Dr,",
               "language": "en"
             }
           ]
@@ -1430,7 +1351,36 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "935 Jane Express: Detour northbound via Jane St, Giltspur Dr and Magellan Dr due to a collision.",
+              "text": "35 Jane: Detour via Giltspur Dr, Magellan Dr, Sheppard Ave W, Yatescastle Dr, Spenvalley Dr and Jane St due to a collision.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-841A3D38-833A-44E2-AB05-301521F3A38D",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "99"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "99 Arrow Rd: Detour southbound v",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "99 Arrow Rd: Detour southbound via Clair Rd and Laura Rd due to a collision.",
               "language": "en"
             }
           ]
