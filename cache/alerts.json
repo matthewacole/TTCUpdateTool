@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1784825799"
+    "timestamp": "1784830552"
   },
   "entity": [
     {
@@ -597,35 +597,6 @@
       }
     },
     {
-      "id": "DevAPI-B4A73987-A295-45F3-89CD-1EACEB0FE7CA",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "165"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "165 Weston Rd North: Detour east",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "165 Weston Rd North: Detour eastbound via Jane St, Giltspur Dr and Magellan Dr due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-DAF9EE30-A85F-4423-93A5-541DD6013E69",
       "alert": {
         "informedEntity": [
@@ -904,43 +875,6 @@
           "translation": [
             {
               "text": "120 Calvington: Detour via Giltspur Dr and Magellan Dr due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-425206C7-F094-407E-BE52-A15070A6BD24",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "31"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "51"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Line 2 Bloor-Danforth: Delays ea",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Line 2 Bloor-Danforth: Delays eastbound at Greenwood station while we respond to a medical emergency.",
               "language": "en"
             }
           ]
