@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1784926012"
+    "timestamp": "1784929701"
   },
   "entity": [
     {
@@ -151,35 +151,6 @@
           "translation": [
             {
               "text": "North York Centre: Elevator out of service between Empress Walk entrance and concourse while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-9E97E2C9-2C38-41C9-BEE8-775431807A4B",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "506"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "506 Carlton: Detour westbound vi",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "506 Carlton: Detour westbound via Bay St, Dundas St E and Spadina Ave while we respond to a medical emergency.",
               "language": "en"
             }
           ]
@@ -553,35 +524,6 @@
           "translation": [
             {
               "text": "329 Dufferin: Detour southbound via Dufferin St, Viceroy, Futurity Gt and Gerry Fitzgerald Dr due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-7F13AB9E-9F01-4FC1-805F-2840FF1D9875",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "37"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "37 Islington: Detour southbound",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "37 Islington: Detour southbound via Humber College Blvd, Highway 27, Queens Plate Dr and Rexdale Blvd due to police activity.",
               "language": "en"
             }
           ]
@@ -1076,12 +1018,20 @@
       }
     },
     {
-      "id": "DevAPI-B65DC014-2024-4B85-A56F-EAAD7128C857",
+      "id": "DevAPI-70B6A642-D0A8-437D-BC2C-2C7526C42E28",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "512"
+            "routeId": "11"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "185"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "385"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -1089,7 +1039,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "512 St Clair: No service between",
+              "text": "Bayview: Elevator 55P4L out of s",
               "language": "en"
             }
           ]
@@ -1097,36 +1047,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "512 St Clair: No service between Gunns Loop at St Clair Ave West and St Clair Ave West at Oakwood Ave East Side while we respond to a medical emergency.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-065ACAC2-5D55-48B0-A7FB-FDCA26263837",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "37"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "37 Islington: Detour northbound",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "37 Islington: Detour northbound via Queens Plate Dr, Rexdale Blvd, Highway 27 and Humber College Blvd due to police activity.",
+              "text": "Bayview: Elevator out of service between Sheppard Ave E south side entrance and east concourse due to a technical problem.",
               "language": "en"
             }
           ]
