@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1784933154"
+    "timestamp": "1784936851"
   },
   "entity": [
     {
@@ -853,127 +853,6 @@
       }
     },
     {
-      "id": "DevAPI-8AAD466E-5EC5-4C9F-9CE7-418C42CD137E",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "131"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "20"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "905"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "38"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "12"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "986"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "21"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "201"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "43"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "904"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "86"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "334"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "939"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "129"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "154"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "113"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "116"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "57"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "343"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "903"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "386"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "133"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Kennedy: Elevator out of service",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Kennedy: Elevator out of service between Eglinton Avenue south side entrance and concourse while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-F92885AA-2070-4819-B78B-544D607977A2",
       "alert": {
         "informedEntity": [
@@ -1127,72 +1006,6 @@
           "translation": [
             {
               "text": "316 Kingston Rd-Mccowan: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-70B6A642-D0A8-437D-BC2C-2C7526C42E28",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "11"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "185"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "385"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Bayview: Elevator 55P4L out of s",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Bayview: Elevator out of service between Sheppard Ave E south side entrance and east concourse due to a technical problem.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-712D3A22-2DAB-4312-86C2-35C67170DE58",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "37"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "37 Islington: Detour southbound",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "37 Islington: Detour southbound via Rathburn Rd, Kipling Ave and Burnhamthorpe Rd due to a collision.",
               "language": "en"
             }
           ]
