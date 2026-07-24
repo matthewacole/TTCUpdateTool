@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1784921176"
+    "timestamp": "1784926012"
   },
   "entity": [
     {
@@ -158,12 +158,12 @@
       }
     },
     {
-      "id": "DevAPI-38A3C147-DB8B-4CC1-9226-6C7F71419E18",
+      "id": "DevAPI-9E97E2C9-2C38-41C9-BEE8-775431807A4B",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "37"
+            "routeId": "506"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -171,7 +171,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "37 Islington: Detour via Queens",
+              "text": "506 Carlton: Detour westbound vi",
               "language": "en"
             }
           ]
@@ -179,7 +179,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "37 Islington: Detour via Queens Plate Dr, Highway 27 and Humber College Blvd due to police activity.",
+              "text": "506 Carlton: Detour westbound via Bay St, Dundas St E and Spadina Ave while we respond to a medical emergency.",
               "language": "en"
             }
           ]
@@ -553,6 +553,35 @@
           "translation": [
             {
               "text": "329 Dufferin: Detour southbound via Dufferin St, Viceroy, Futurity Gt and Gerry Fitzgerald Dr due to a collision.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-7F13AB9E-9F01-4FC1-805F-2840FF1D9875",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "37"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "37 Islington: Detour southbound",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "37 Islington: Detour southbound via Humber College Blvd, Highway 27, Queens Plate Dr and Rexdale Blvd due to police activity.",
               "language": "en"
             }
           ]
@@ -1040,6 +1069,64 @@
           "translation": [
             {
               "text": "316 Kingston Rd-Mccowan: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-B65DC014-2024-4B85-A56F-EAAD7128C857",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "512"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "512 St Clair: No service between",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "512 St Clair: No service between Gunns Loop at St Clair Ave West and St Clair Ave West at Oakwood Ave East Side while we respond to a medical emergency.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-065ACAC2-5D55-48B0-A7FB-FDCA26263837",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "37"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "37 Islington: Detour northbound",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "37 Islington: Detour northbound via Queens Plate Dr, Rexdale Blvd, Highway 27 and Humber College Blvd due to police activity.",
               "language": "en"
             }
           ]
