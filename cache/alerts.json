@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1785019163"
+    "timestamp": "1785022970"
   },
   "entity": [
     {
@@ -1121,35 +1121,6 @@
           "translation": [
             {
               "text": "112 West Mall: Detour via Wellesworth Dr and Eringate Dr due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-47D96AF0-7400-4AC6-B17B-BFE91FB0ADCC",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "89"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "89 Weston: Detour via Eglinton A",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "89 Weston: Detour via Eglinton Ave W, Black Creek Dr and Trethewey Dr due to Hydro Pole Down, blocking roadway.",
               "language": "en"
             }
           ]
