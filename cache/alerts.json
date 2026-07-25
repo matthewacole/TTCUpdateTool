@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1784970338"
+    "timestamp": "1784976078"
   },
   "entity": [
     {
@@ -589,6 +589,35 @@
       }
     },
     {
+      "id": "DevAPI-871AD4DF-F338-4F75-8DAF-154679143DDB",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "335"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "335 Jane: Detour via Trethewey D",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "335 Jane: Detour via Trethewey Dr, Black Creek Blvd and Eglinton Ave W due to downed hydro wires.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-41083758-9360-454D-A376-6BFDEE4C7E28",
       "alert": {
         "informedEntity": [
@@ -766,12 +795,12 @@
       }
     },
     {
-      "id": "DevAPI-C964FFE4-73D0-48BB-ABB6-AEDCC881CC81",
+      "id": "DevAPI-1A3DB6E9-E3CC-40BE-A8BD-EA047CA2D6E5",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "335"
+            "routeId": "112"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -779,7 +808,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "335 Jane: Detour via Trethewey D",
+              "text": "112 West Mall: Detour via Disco",
               "language": "en"
             }
           ]
@@ -787,7 +816,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "335 Jane: Detour via Trethewey Dr, Black Creek Blvd and Eglinton Ave W due to downed hydro wires.",
+              "text": "112 West Mall: Detour via Disco Rd, Attwell Dr, Dixon Rd and Carlingview Dr due to police activity.",
               "language": "en"
             }
           ]
@@ -897,6 +926,35 @@
       }
     },
     {
+      "id": "DevAPI-0006C1B9-9850-4563-A7F3-D1C244A53678",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "35"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "35 Jane: Detour via Trethewey Dr",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "35 Jane: Detour via Trethewey Dr, Black Creek Blvd and Eglinton Ave W due to Hydro Pole Down, blocking roadway.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-88ED0667-5E69-419C-B7E2-72949F41B441",
       "alert": {
         "informedEntity": [
@@ -996,6 +1054,51 @@
       }
     },
     {
+      "id": "DevAPI-59C81E86-D6CA-4EF4-B3C3-9FC6340B7CCE",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "329"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "29"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "929"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Fairbank: Elevator ELV02-B out o",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Fairbank: Elevator out of service between Eglinton Avenue south east side entrance and concourse due to a technical problem.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-963A2A8D-A1F4-488A-B54A-B2CBEDF5D377",
       "alert": {
         "informedEntity": [
@@ -1054,6 +1157,51 @@
       }
     },
     {
+      "id": "DevAPI-062BC240-2E60-45F8-9139-36951D9B67C5",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "14"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "11"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "320"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "28"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "97"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Davisville: Elevator 17Y1L out o",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Davisville: Elevator out of service between Davisville Ave south side entrance and concourse while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-DF9F4FBE-5057-4E2D-917E-4688FEA80242",
       "alert": {
         "informedEntity": [
@@ -1076,6 +1224,35 @@
           "translation": [
             {
               "text": "112 West Mall: Detour via Wellesworth Dr and Eringate Dr due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-47D96AF0-7400-4AC6-B17B-BFE91FB0ADCC",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "89"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "89 Weston: Detour via Eglinton A",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "89 Weston: Detour via Eglinton Ave W, Black Creek Dr and Trethewey Dr due to Hydro Pole Down, blocking roadway.",
               "language": "en"
             }
           ]
