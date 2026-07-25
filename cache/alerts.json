@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1785012888"
+    "timestamp": "1785016016"
   },
   "entity": [
     {
@@ -968,35 +968,6 @@
           "translation": [
             {
               "text": "Union: Elevator out of service between concourse and Line 1 Vaughan platform while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-FBE38C8D-C49F-4E17-BE9A-2FAB5F0F7607",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "102"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "102 Markham Rd: Detour via Golde",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "102 Markham Rd: Detour via Golden Ave, Middlefield Rd, Denison St, Marydale Ave, Steeles Ave E and Markham Rd due to a collision.",
               "language": "en"
             }
           ]
