@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1785063943"
+    "timestamp": "1785068013"
   },
   "entity": [
     {
@@ -151,6 +151,67 @@
           "translation": [
             {
               "text": "North York Centre: Elevator out of service between Empress Walk entrance and concourse while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-F38E305B-5B53-43C8-A288-A46D8C5F9040",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "67"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "20"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "117"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "924"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "324"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "12"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "24"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "113"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Victoria Park: Elevator 14D3L ou",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Victoria Park: Elevator out of service between concourse and Line 2 eastbound platform while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -1022,6 +1083,127 @@
           "translation": [
             {
               "text": "131 Nugget: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-6EE9FC1D-EDD2-45BC-9926-15868EA0B9BE",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "8"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "322"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "510"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "127"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "365"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "25"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "320"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "97"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "305"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "19"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "504"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "13"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "304"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "62"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "26"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "75"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "310"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "65"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "100"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "505"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "94"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "925"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "87"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Line 2 Bloor-Danforth: There is",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "There is no subway service on Line 2 Bloor-Danforth between St George and Broadview stations due to planned track work. Shuttle buses are running. Follow the station signs or speak to a TTC employee for help. Service will resume July 26.",
               "language": "en"
             }
           ]
