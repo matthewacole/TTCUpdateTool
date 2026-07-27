@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1785153362"
+    "timestamp": "1785163369"
   },
   "entity": [
     {
@@ -151,67 +151,6 @@
           "translation": [
             {
               "text": "North York Centre: Elevator out of service between Empress Walk entrance and concourse while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-F38E305B-5B53-43C8-A288-A46D8C5F9040",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "67"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "20"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "117"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "924"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "324"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "12"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "24"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "113"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Victoria Park: Elevator 14D3L ou",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Victoria Park: Elevator out of service between concourse and Line 2 eastbound platform while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -447,12 +386,12 @@
       }
     },
     {
-      "id": "DevAPI-81B96758-D015-4A31-94EF-34F423926711",
+      "id": "DevAPI-9D1E9D1B-CE2F-4110-8381-BC2B25367C5C",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "27"
+            "routeId": "88"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -460,7 +399,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "27 Jane South: Detour via St Cla",
+              "text": "88 South Leaside: Detour westbou",
               "language": "en"
             }
           ]
@@ -468,7 +407,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "27 Jane South: Detour via St Clair Ave W, Runnymede Rd and Dundas St W due to a collision.",
+              "text": "88 South Leaside: Detour westbound via Vanderhoof Ave and Brentcliffe Rd due to construction.",
               "language": "en"
             }
           ]
@@ -527,6 +466,35 @@
           "translation": [
             {
               "text": "305 Dundas: Detour via Parliament St, Gerrard St W and Broadview Ave due to police activity.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-8C7D9D79-89D4-4B41-B435-1B44C9D59111",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "27"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "27 Jane South: Detour via St Cla",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "27 Jane South: Detour via St Clair Ave W, Runnymede Rd and Dundas St W due to a collision.",
               "language": "en"
             }
           ]
@@ -621,6 +589,35 @@
       }
     },
     {
+      "id": "DevAPI-2BAFE028-D11A-4ECB-82E4-9324CC701AEF",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "156"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "156 Millwood: Detour southbound",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "156 Millwood: Detour southbound via Vanderhoof Ave and Brentcliffe Rd due to a blocked road.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-4DE1B5E9-6394-4DC6-9BB2-A9616FE1C9E0",
       "alert": {
         "informedEntity": [
@@ -679,63 +676,6 @@
       }
     },
     {
-      "id": "DevAPI-19003EEC-C362-44CA-95A2-ED1BCF3D547A",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "304"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "505"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "301"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "501"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "305"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "503"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "504"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "19"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Osgoode: Elevator 5Y1L out of se",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Osgoode: Elevator out of service between concourse and Line 1 centre platform while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-552DEDCA-1557-491F-85CD-96B13D61B733",
       "alert": {
         "informedEntity": [
@@ -787,6 +727,35 @@
           "translation": [
             {
               "text": "939 Finch Express: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-3E0EEA53-F638-4A3D-AE6E-931D6550A83C",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "935"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "935 Jane Express: Detour via St",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "935 Jane Express: Detour via St Clair Ave W, Runnymede Rd and Dundas St W due to a collision.",
               "language": "en"
             }
           ]
@@ -913,6 +882,39 @@
       }
     },
     {
+      "id": "DevAPI-0A06D57E-9F6F-41E9-8FD0-FE58AC3D2384",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "126"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Christie: Elevator 4B1L out of s",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Christie: Elevator out of service between Christie Street entrance, concourse and Line 2 Kipling (westbound) platform while we perform an inspection.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-9E889281-D220-4E5C-B735-8EA04D9797A4",
       "alert": {
         "informedEntity": [
@@ -971,12 +973,24 @@
       }
     },
     {
-      "id": "DevAPI-758F1F16-B422-469D-9C08-D2719EB82588",
+      "id": "DevAPI-5B5157BB-5C85-4C5C-9799-D15A0EC37CAF",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "935"
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "14"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "33"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -984,7 +998,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "935 Jane Express: Detour via St",
+              "text": "Chaplin: Elevator ELV01-A out of",
               "language": "en"
             }
           ]
@@ -992,7 +1006,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "935 Jane Express: Detour via St Clair Ave W, Runnymede Rd and Dundas St W due to a collision.",
+              "text": "Chaplin: Elevator out of service between concourse and Line 5 centre platform due to a technical problem.",
               "language": "en"
             }
           ]
@@ -1160,59 +1174,6 @@
       }
     },
     {
-      "id": "DevAPI-333FB9E8-B6D8-4A1A-81A0-4E6B8C2B0ACA",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "334"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "63"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "90"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "109"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "363"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "164"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Cedarvale: Elevator 4S1L out of",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Cedarvale: Elevator out of service between Bus Terminal entrance and Line 1 northbound platform due to a technical problem.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-9A2C80D6-0AAB-491D-8816-7D089BCA4C43",
       "alert": {
         "informedEntity": [
@@ -1264,6 +1225,39 @@
           "translation": [
             {
               "text": "131 Nugget: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-65B8E9E0-A3B9-4CAA-9454-9C0272C221FE",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "126"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Christie: Elevator 4B2L out of s",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Christie: Elevator out of service between concourse and Line 2 Kennedy (eastbound) platform while we perform an inspection.",
               "language": "en"
             }
           ]
@@ -1363,83 +1357,6 @@
           "translation": [
             {
               "text": "112 West Mall: Detour via Wellesworth Dr and Eringate Dr due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-21968EBD-72F9-483F-B82A-565EAF7B7B8E",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "61"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "354"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "74"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "320"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "88"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "97"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "13"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "334"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "156"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "51"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "11"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "103"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Line 5 Eglinton: No service betw",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Line 5 Eglinton: No service between Avenue and Laird stations while the maintainer fixes a track problem. Shuttle buses are on the way to operate between Avenue and Laird.",
               "language": "en"
             }
           ]
