@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1785200555"
+    "timestamp": "1785212433"
   },
   "entity": [
     {
@@ -151,6 +151,105 @@
           "translation": [
             {
               "text": "North York Centre: Elevator out of service between Empress Walk entrance and concourse while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-6F580DCF-5BE3-47F6-9074-4B5906BB11E0",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "82"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "82 Rosedale: Detour via South Dr",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "82 Rosedale: Detour via South Dr, Sherbourne St, Bloor St E, Church St, Yonge St and Crescent Rd due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-07C8E9D1-9D88-4AA7-8F94-21CF7AB4E483",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "88"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "88 South Leaside: Detour westbou",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "88 South Leaside: Detour westbound via Vanderhoof Ave and Brentcliffe Rd due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-EAAA484C-6133-436D-BF41-892D41268CD0",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "320"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "82"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "97"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "19"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Rosedale: Elevator 14Y2L out of",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Rosedale: Elevator out of service between Cresent Road and Line 1 northbound platform while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -531,64 +630,6 @@
       }
     },
     {
-      "id": "DevAPI-2BAFE028-D11A-4ECB-82E4-9324CC701AEF",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "156"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "156 Millwood: Detour southbound",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "156 Millwood: Detour southbound via Vanderhoof Ave and Brentcliffe Rd due to a blocked road.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-B2CDD240-1706-49A8-B5C5-5F6B174104B8",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "82"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "82 Rosedale: Detour via South Dr",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "82 Rosedale: Detour via South Dr, Sherbourne St, Bloor St E, Church St, Yonge St and Crescent Rd due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-4DE1B5E9-6394-4DC6-9BB2-A9616FE1C9E0",
       "alert": {
         "informedEntity": [
@@ -647,64 +688,6 @@
       }
     },
     {
-      "id": "DevAPI-C8CDA0C5-F31A-4433-A95A-CCFF185E010C",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "32"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "32 Eglinton West: Detour westbou",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "32 Eglinton West: Detour westbound via Weston Rd and Jane St due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-E086BA72-07BE-4C4B-9C6E-ED4F3AE6D4EA",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "35"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "35 Jane: Detour southbound via W",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "35 Jane: Detour southbound via Weston Rd and Jane St due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-552DEDCA-1557-491F-85CD-96B13D61B733",
       "alert": {
         "informedEntity": [
@@ -756,6 +739,115 @@
           "translation": [
             {
               "text": "939 Finch Express: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-38495663-3D10-474D-BD4C-A5047C37326A",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "384"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "984"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "25"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "320"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "10"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "97"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "84"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "385"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "904"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "51"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "151"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "985"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "169"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "24"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "325"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "11"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "167"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "925"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "185"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "85"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "98"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Line 4 Sheppard: There is no sub",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "There is no subway service on Line 4 Sheppard between Sheppard-Yonge and Don Mills stations due to planned track work. Shuttle buses are running. Follow the station signs or speak to a TTC employee for help. Service will resume July 28.",
               "language": "en"
             }
           ]
@@ -981,35 +1073,6 @@
       }
     },
     {
-      "id": "DevAPI-5B778193-BD4B-47D2-8D82-A07718D1370E",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "88"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "88 South Leaside: Detour westbou",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "88 South Leaside: Detour westbound via Vanderhoof Ave and Brentcliffe Rd due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-5B5157BB-5C85-4C5C-9799-D15A0EC37CAF",
       "alert": {
         "informedEntity": [
@@ -1073,35 +1136,6 @@
           "translation": [
             {
               "text": "133 Neilson: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-AC56B2AF-5700-42DF-8DCC-FD74BA3F1ECB",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "27"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "27 Jane South: Detour southbound",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "27 Jane South: Detour southbound via Weston Rd and Lambton Ave due to a collision.",
               "language": "en"
             }
           ]
