@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1785264285"
+    "timestamp": "1785269274"
   },
   "entity": [
     {
@@ -288,6 +288,35 @@
           "translation": [
             {
               "text": "Line 5 Eglinton: Delays eastbound from Pharmacy to Kennedy stations while the maintainer fixes a signal problem.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-7459AE71-B9AE-45C4-8144-0DB72AEC6DE9",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "160"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "160 Bathurst North: Detour north",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "160 Bathurst North: Detour northbound via Bathurst St, Centre St and Promenade Cir due to construction.",
               "language": "en"
             }
           ]
@@ -731,6 +760,35 @@
       }
     },
     {
+      "id": "DevAPI-B1B1B42F-FD5A-4CA3-83E7-C600AB61390C",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "37"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "37 Islington: Detour via Rexdale",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "37 Islington: Detour via Rexdale Blvd and Queens Plate Dr due to an event.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-41083758-9360-454D-A376-6BFDEE4C7E28",
       "alert": {
         "informedEntity": [
@@ -821,59 +879,6 @@
       }
     },
     {
-      "id": "DevAPI-92FF6571-1715-4899-A196-1B4EA2501B76",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "334"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "63"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "90"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "109"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "363"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "164"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Cedarvale: Elevator ELV02-B out",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Cedarvale: Elevator out of service between platform and upper concourse while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-9553B793-EC2A-482F-9A9A-80773CD62355",
       "alert": {
         "informedEntity": [
@@ -954,80 +959,6 @@
           "translation": [
             {
               "text": "395 York Mills: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-B8E15C13-3FA3-4DC1-BB86-4562D8969CC3",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "47"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Lansdowne: Elevator 7B3L out of",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Lansdowne: Elevator out of service between concourse and Line 2 (Kennedy) eastbound platform while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-5B5157BB-5C85-4C5C-9799-D15A0EC37CAF",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "334"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "14"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "33"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Chaplin: Elevator ELV01-A out of",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Chaplin: Elevator out of service between concourse and Line 5 centre platform due to a technical problem.",
               "language": "en"
             }
           ]
