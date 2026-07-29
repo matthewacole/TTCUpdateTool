@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1785358727"
+    "timestamp": "1785362778"
   },
   "entity": [
     {
@@ -1127,6 +1127,63 @@
           "translation": [
             {
               "text": "112 West Mall: Detour via Wellesworth Dr and Eringate Dr due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-88A12636-7DE8-4F04-8C85-326C8A8141C3",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "304"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "505"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "301"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "501"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "305"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "503"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "504"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "19"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Osgoode: Elevator 5Y1L out of se",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Osgoode: Elevator out of service between concourse and Line 1 centre platform due to a technical problem.",
               "language": "en"
             }
           ]
