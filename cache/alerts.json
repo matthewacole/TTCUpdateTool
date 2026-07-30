@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1785443914"
+    "timestamp": "1785448082"
   },
   "entity": [
     {
@@ -89,6 +89,35 @@
           "translation": [
             {
               "text": "Have proof of payment ready for inspection.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-37593C0C-6E5B-48A3-9938-E646EB30223A",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "935"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "935 Jane Express: Detour via Yor",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "935 Jane Express: Detour via Yorkgate Blvd, Hullmar Dr and Shoreham Dr due to a collision.",
               "language": "en"
             }
           ]
@@ -771,12 +800,12 @@
       }
     },
     {
-      "id": "DevAPI-D64796D4-61B4-4DCD-8374-657534092BA9",
+      "id": "DevAPI-89AFB16A-EE1A-4E2D-8046-2B25E8FC8D06",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "935"
+            "routeId": "35"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -784,7 +813,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "935 Jane Express: Detour southbo",
+              "text": "35 Jane: Detour via Yorkgate Blv",
               "language": "en"
             }
           ]
@@ -792,7 +821,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "935 Jane Express: Detour southbound via Shoreham Dr, Gosford Blvd, Hullmar Dr and York Gate Blvd due to a collision.",
+              "text": "35 Jane: Detour via Yorkgate Blvd, Hullmar Dr and Shoreham Dr due to a collision.",
               "language": "en"
             }
           ]
@@ -1069,35 +1098,6 @@
           "translation": [
             {
               "text": "112 West Mall: Detour via Wellesworth Dr and Eringate Dr due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-05A60073-5084-4D00-8B2D-104CA25376D2",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "35"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "35 Jane: Detour southbound via S",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "35 Jane: Detour southbound via Shoreham Dr, Gosford Blvd, Hullmar Dr and York Gate Blvd due to a collision.",
               "language": "en"
             }
           ]
