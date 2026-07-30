@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1785439187"
+    "timestamp": "1785443914"
   },
   "entity": [
     {
@@ -89,67 +89,6 @@
           "translation": [
             {
               "text": "Have proof of payment ready for inspection.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-2BB83485-7268-4023-8DC4-2372DA755112",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "67"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "20"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "117"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "924"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "324"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "12"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "24"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "113"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Victoria Park: Elevator 14D2L ou",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Victoria Park: Elevator out of service between concourse and Line 2 westbound platform due to a technical problem.",
               "language": "en"
             }
           ]
@@ -832,32 +771,12 @@
       }
     },
     {
-      "id": "DevAPI-E43C5BF8-7A17-46BF-9837-968B5A5350F5",
+      "id": "DevAPI-D64796D4-61B4-4DCD-8374-657534092BA9",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "320"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "94"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "506"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "97"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "306"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "19"
+            "routeId": "935"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -865,7 +784,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Wellesley: Elevator 12Y1L out of",
+              "text": "935 Jane Express: Detour southbo",
               "language": "en"
             }
           ]
@@ -873,7 +792,36 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "Wellesley: Elevator out of service between Wellesley St entrance to Line 1 southbound platform while we perform maintenance.",
+              "text": "935 Jane Express: Detour southbound via Shoreham Dr, Gosford Blvd, Hullmar Dr and York Gate Blvd due to a collision.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-4B72F071-383F-4B01-8206-51C4BFBC8B5D",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "108"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "108 Driftwood: Detour via Steele",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "108 Driftwood: Detour via Steeles Ave W, Jane St, Hullmar Dr, Gosford Blvd, York Gate Blvd and Stong Crt due to a collision.",
               "language": "en"
             }
           ]
@@ -1121,6 +1069,35 @@
           "translation": [
             {
               "text": "112 West Mall: Detour via Wellesworth Dr and Eringate Dr due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-05A60073-5084-4D00-8B2D-104CA25376D2",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "35"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "35 Jane: Detour southbound via S",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "35 Jane: Detour southbound via Shoreham Dr, Gosford Blvd, Hullmar Dr and York Gate Blvd due to a collision.",
               "language": "en"
             }
           ]
