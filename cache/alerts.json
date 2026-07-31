@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1785528604"
+    "timestamp": "1785533350"
   },
   "entity": [
     {
@@ -180,6 +180,35 @@
           "translation": [
             {
               "text": "37 Islington: Bypass near Woodbine Race Track Loop (Main Entrance) due to a demonstration.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-A7E7452F-3DF6-4CD8-B319-06855E4088B9",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "98"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "98 Willowdale-Senlac: Detour via",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "98 Willowdale-Senlac: Detour via Hillcrest Ave, Dudley Ave and Parkview Ave due to a collision.",
               "language": "en"
             }
           ]
