@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1785546742"
+    "timestamp": "1785559005"
   },
   "entity": [
     {
@@ -158,12 +158,12 @@
       }
     },
     {
-      "id": "DevAPI-1543250C-3239-4BC2-885D-B0DFD56404E5",
+      "id": "DevAPI-D1A8048E-B70D-404C-9EF0-2B6C942BB46B",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "37"
+            "routeId": "504"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -171,7 +171,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "37 Islington: Buses are not stop",
+              "text": "504 King: Delays between Broadvi",
               "language": "en"
             }
           ]
@@ -179,7 +179,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "37 Islington: Bypass near Woodbine Race Track Loop (Main Entrance) due to a demonstration.",
+              "text": "504 King: Delays between Broadview Station at Bay 7 and Broadview Ave at Queen St East due to traffic congestion.",
               "language": "en"
             }
           ]
@@ -851,6 +851,144 @@
           "translation": [
             {
               "text": "133 Neilson: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-38F0803E-DD9A-4DFC-B9B9-584495CEDCAA",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "384"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "984"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "25"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "320"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "10"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "97"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "84"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "385"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "904"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "51"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "151"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "985"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "169"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "24"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "325"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "11"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "167"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "925"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "185"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "85"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "98"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Line 4 Sheppard: There is no sub",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "There is no subway service on Line 4 Sheppard between Sheppard-Yonge and Don Mills stations due to planned track work. Shuttle buses are running. Follow the station signs or speak to a TTC employee for help. Service will resume August 1.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-70B1D091-F3D3-4991-AC71-08356E1B8078",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "84"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "84 Sheppard West: Delays between",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "84 Sheppard West: Delays between Sheppard Ave West at Downsview Dells Park and Sheppard Ave West at Vitti St - Downsview Park Station due to VELD event.",
               "language": "en"
             }
           ]
