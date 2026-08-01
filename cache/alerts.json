@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1785595689"
+    "timestamp": "1785599163"
   },
   "entity": [
     {
@@ -771,12 +771,24 @@
       }
     },
     {
-      "id": "DevAPI-37B5ADC9-C07B-40C4-8B90-A241F46E65BB",
+      "id": "DevAPI-EA453FCC-1881-4370-8A0D-9A81A80DB41A",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "504"
+            "routeId": "322"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "22"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "70"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -784,7 +796,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "504 King: Detour westbound via Q",
+              "text": "Line 2 Bloor-Danforth: Trains ar",
               "language": "en"
             }
           ]
@@ -792,7 +804,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "504 King: Detour westbound via Queen St E and Church St due to a collision.",
+              "text": "Line 2 Bloor-Danforth: Bypass westbound at Coxwell station due to a security incident.",
               "language": "en"
             }
           ]
@@ -982,6 +994,35 @@
           "translation": [
             {
               "text": "131 Nugget: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-52C8D0AB-2CAA-41A0-8B7D-EFEC02C62CA9",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "63"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "63 Ossington: No service between",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "63 Ossington: No service between Ossington Ave at Queen St West and Atlantic Ave at King St West due to an event.",
               "language": "en"
             }
           ]
