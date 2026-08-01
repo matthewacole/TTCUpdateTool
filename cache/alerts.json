@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1785609786"
+    "timestamp": "1785614272"
   },
   "entity": [
     {
@@ -713,6 +713,35 @@
       }
     },
     {
+      "id": "DevAPI-99313C47-747E-4E93-AC69-EBBC0ECB9B89",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "37"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "37 Islington: Buses are not stop",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "37 Islington: Bypass near Woodbine Racetrack Loop (Main Entrance) due to Job action.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-9E889281-D220-4E5C-B735-8EA04D9797A4",
       "alert": {
         "informedEntity": [
@@ -800,12 +829,60 @@
       }
     },
     {
-      "id": "DevAPI-A5F7B3F3-5E05-4796-A894-DD2FB07CFB6C",
+      "id": "DevAPI-FF81380F-794B-48C8-B480-250FAB844D1B",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "127"
+            "routeId": "125"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "36"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "960"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "320"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "60"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "97"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "953"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "336"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "939"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "339"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "39"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "53"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "42"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -813,7 +890,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "127 Davenport: Detour westbound",
+              "text": "Finch: Elevator out of service b",
               "language": "en"
             }
           ]
@@ -821,7 +898,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "127 Davenport: Detour westbound via Dovercourt Rd, Dupont St and Dufferin St due to a collision.",
+              "text": "Finch: Elevator out of service between GO and YRT bus platform and fares concourse due to a technical problem.",
               "language": "en"
             }
           ]
