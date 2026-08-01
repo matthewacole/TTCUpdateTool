@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1785541062"
+    "timestamp": "1785546742"
   },
   "entity": [
     {
@@ -180,35 +180,6 @@
           "translation": [
             {
               "text": "37 Islington: Bypass near Woodbine Race Track Loop (Main Entrance) due to a demonstration.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-A7E7452F-3DF6-4CD8-B319-06855E4088B9",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "98"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "98 Willowdale-Senlac: Detour via",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "98 Willowdale-Senlac: Detour via Hillcrest Ave, Dudley Ave and Parkview Ave due to a collision.",
               "language": "en"
             }
           ]
@@ -442,35 +413,6 @@
           "translation": [
             {
               "text": "305 Dundas: Detour via Parliament St, Gerrard St W and Broadview Ave due to police activity.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-5182D9FF-FF24-46B6-9A48-2A68593AAA77",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "504"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "504 King: Detour eastbound via P",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "504 King: Detour eastbound via Parliament St, Queen St E and Broadview Ave due to a collision.",
               "language": "en"
             }
           ]
@@ -858,6 +800,35 @@
       }
     },
     {
+      "id": "DevAPI-5747EF69-E271-462A-8959-B2753EF366FA",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "504"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "504 King: Detour via Parliament",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "504 King: Detour via Parliament St, Queen St E and Broadview Ave due to a collision.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-F92885AA-2070-4819-B78B-544D607977A2",
       "alert": {
         "informedEntity": [
@@ -1141,6 +1112,35 @@
       }
     },
     {
+      "id": "DevAPI-D47BC843-FA73-4887-8FAD-49C7935D3B8D",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "503"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "503 Kingston Rd: Detour via Parl",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "503 Kingston Rd: Detour via Parliament St and Queen St E due to a collision.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-DF9F4FBE-5057-4E2D-917E-4688FEA80242",
       "alert": {
         "informedEntity": [
@@ -1163,35 +1163,6 @@
           "translation": [
             {
               "text": "112 West Mall: Detour via Wellesworth Dr and Eringate Dr due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-A8A3013D-9D5E-4F8B-A873-77F716B07A9D",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "503"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "503 Kingston Rd: Detour via Parl",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "503 Kingston Rd: Detour via Parliament St and Queen St E due to a collision.",
               "language": "en"
             }
           ]
