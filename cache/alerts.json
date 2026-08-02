@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1785667313"
+    "timestamp": "1785671190"
   },
   "entity": [
     {
@@ -151,35 +151,6 @@
           "translation": [
             {
               "text": "North York Centre: Elevator out of service between Empress Walk entrance and concourse while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-62B7A7F4-9097-4142-BBE2-E35DE1CD57A5",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "19"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "19 Bay: Detour northbound via Ki",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "19 Bay: Detour northbound via King St, York St and Queen St E due to a blocked road.",
               "language": "en"
             }
           ]
@@ -507,6 +478,35 @@
       }
     },
     {
+      "id": "DevAPI-44A77B7F-F6ED-4867-B7D0-4617333783B8",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "341"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "341 Keele: Detour northbound via",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "341 Keele: Detour northbound via Wycombe Rd, Sunfield Rd and Sheppard Ave W due to a blocked road.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-4DE1B5E9-6394-4DC6-9BB2-A9616FE1C9E0",
       "alert": {
         "informedEntity": [
@@ -565,12 +565,12 @@
       }
     },
     {
-      "id": "DevAPI-21578CC0-4BFF-4D12-91D4-4A977A188E51",
+      "id": "DevAPI-FD3C13A5-23E5-42B6-A9AF-FB8FF8E2BB24",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "19"
+            "routeId": "300"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -578,7 +578,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "19 Bay: Detour southbound via Qu",
+              "text": "300 Bloor-Danforth: Detour eastb",
               "language": "en"
             }
           ]
@@ -586,7 +586,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "19 Bay: Detour southbound via Queen St E, University Ave and King St due to a blocked road.",
+              "text": "300 Bloor-Danforth: Detour eastbound via Rusholme Dr, Hepbourne St and Ossington Ave due to a collision.",
               "language": "en"
             }
           ]
@@ -1030,6 +1030,35 @@
           "translation": [
             {
               "text": "316 Kingston Rd-Mccowan: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-E62AC843-FEE7-40D8-82F2-2D974248BB41",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "41"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "41 Keele: Detour northbound via",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "41 Keele: Detour northbound via Wycombe Rd, Sunfield Rd and Sheppard Ave W due to a blocked road.",
               "language": "en"
             }
           ]
