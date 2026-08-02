@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1785710341"
+    "timestamp": "1785714094"
   },
   "entity": [
     {
@@ -858,6 +858,35 @@
       }
     },
     {
+      "id": "DevAPI-B082D8BC-5BAC-406C-ACEC-CAFE0DE2F7CB",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "202"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "202 Cherry Beach: No service bet",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "202 Cherry Beach: No service between Front St East at Cherry St and Cherry St at Commissioners St due to traffic congestion.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-9B32A74C-56D7-4D16-9CDF-9F36542EBE7A",
       "alert": {
         "informedEntity": [
@@ -953,35 +982,6 @@
           "translation": [
             {
               "text": "38 Highland Creek: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-159F82D7-B2BB-42DE-8732-13C7A553EED5",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "96"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "96 Wilson: Detour eastbound via",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "96 Wilson: Detour eastbound via Kipling Ave and Albion Rd due to a collision.",
               "language": "en"
             }
           ]
@@ -1248,6 +1248,35 @@
           "translation": [
             {
               "text": "19 Bay: Detour southbound via Queen St W, University Ave and King St due to a blocked road.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-F55B618A-1787-444B-8E6F-7F85423E7CB0",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "114"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "114 Queens Quay East: Detour eas",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "114 Queens Quay East: Detour eastbound via Lakeshore Blvd E, Saulter St and Commissioners St due to an event.",
               "language": "en"
             }
           ]
