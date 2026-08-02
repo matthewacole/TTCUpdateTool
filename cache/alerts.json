@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1785706734"
+    "timestamp": "1785710341"
   },
   "entity": [
     {
@@ -151,6 +151,64 @@
           "translation": [
             {
               "text": "North York Centre: Elevator out of service between Empress Walk entrance and concourse while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-B148B2AD-D2B5-4289-865E-7B7CEB670D64",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "510"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "510 Spadina: No service between",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "510 Spadina: No service between Queens Quay West at Lower Spadina Ave East Side and Union Station Streetcar Platform due to a collision. Shuttle buses are on the way.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-8644D040-E143-4396-9BD5-3EA384E7ED23",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "509"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "509 Harbourfront: No service bet",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "509 Harbourfront: No service between Queens Quay West at Lower Spadina Ave East Side and Union Station Streetcar Platform due to a collision. Shuttle buses are on the way.",
               "language": "en"
             }
           ]
@@ -333,6 +391,35 @@
       }
     },
     {
+      "id": "DevAPI-F115CD53-C54D-4E16-B5CE-BD41A8308362",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "130"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "130 Middlefield: Detour southbou",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "130 Middlefield: Detour southbound via Mcnicoll Ave, Tiffield Rd and Nashdene Rd due to a collision.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-C567323F-E1C7-4A94-BB8A-246447E099F1",
       "alert": {
         "informedEntity": [
@@ -384,35 +471,6 @@
           "translation": [
             {
               "text": "305 Dundas: Detour via Parliament St, Gerrard St W and Broadview Ave due to police activity.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-8218E46B-4482-4544-B375-758435EA14C7",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "507"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "507 Long Branch: Detour westboun",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "507 Long Branch: Detour westbound via The Queensway, Park Lawn and Lake Shore Blvd W due to a blocked track.",
               "language": "en"
             }
           ]
@@ -565,12 +623,12 @@
       }
     },
     {
-      "id": "DevAPI-1C6288E7-65B4-4304-99CA-9E46526838A1",
+      "id": "DevAPI-DEE1AB38-C235-4EAB-A9B7-061CFC2B98C9",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "501"
+            "routeId": "108"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -578,7 +636,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "501 Queen: No service between Hu",
+              "text": "108 Driftwood: Delays near Shepp",
               "language": "en"
             }
           ]
@@ -586,7 +644,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "501 Queen: No service between Humber Loop at the Queensway and Queen St West at Roncesvalles Ave East Side while we respond to a medical emergency.",
+              "text": "108 Driftwood: Delays near Sheppard Ave West at Tuscan Gate due to an event.",
               "language": "en"
             }
           ]
@@ -902,6 +960,35 @@
       }
     },
     {
+      "id": "DevAPI-159F82D7-B2BB-42DE-8732-13C7A553EED5",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "96"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "96 Wilson: Detour eastbound via",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "96 Wilson: Detour eastbound via Kipling Ave and Albion Rd due to a collision.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-2E2A1EDF-8B91-4F3C-9639-3A42DB817738",
       "alert": {
         "informedEntity": [
@@ -1190,35 +1277,6 @@
           "translation": [
             {
               "text": "134 Progress: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-C8EF7717-9001-484D-B707-C62404489D8E",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "507"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "507 Long Branch: Detour eastboun",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "507 Long Branch: Detour eastbound via The Queensway and Roncesvalles Ave due to a blocked track.",
               "language": "en"
             }
           ]
