@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1785695922"
+    "timestamp": "1785700340"
   },
   "entity": [
     {
@@ -362,35 +362,6 @@
       }
     },
     {
-      "id": "DevAPI-900B2B56-3A7A-49BD-ADF1-CD08C88517DE",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "501"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "501 Queen: No service between Hu",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "501 Queen: No service between Humber Loop at the Queensway and Queen St West at Roncesvalles Ave East Side while we respond to a medical emergency. Shuttle buses are on the way.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-FF051547-ABF1-4CF0-8685-BBE838AF3160",
       "alert": {
         "informedEntity": [
@@ -615,6 +586,35 @@
           "translation": [
             {
               "text": "Dundas West: Elevator out of service between concourse and Line 2 westbound platform while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-1C6288E7-65B4-4304-99CA-9E46526838A1",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "501"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "501 Queen: No service between Hu",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "501 Queen: No service between Humber Loop at the Queensway and Queen St West at Roncesvalles Ave East Side while we respond to a medical emergency.",
               "language": "en"
             }
           ]
@@ -1239,35 +1239,6 @@
           "translation": [
             {
               "text": "Line 5 Eglinton: No service between Leaside and Avenue stations due to a disruptive customer. Shuttle buses are on the way.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-251CC891-9982-4A2E-B4AE-62A39D099902",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "53"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "53 Steeles East: Detour eastboun",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "53 Steeles East: Detour eastbound via Firebrace Rd, Huntsmill Blvd, Bamburgh Crcl and Warden Ave due to police activity.",
               "language": "en"
             }
           ]
