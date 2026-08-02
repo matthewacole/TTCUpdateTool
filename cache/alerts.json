@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1785671190"
+    "timestamp": "1785674674"
   },
   "entity": [
     {
@@ -478,35 +478,6 @@
       }
     },
     {
-      "id": "DevAPI-44A77B7F-F6ED-4867-B7D0-4617333783B8",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "341"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "341 Keele: Detour northbound via",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "341 Keele: Detour northbound via Wycombe Rd, Sunfield Rd and Sheppard Ave W due to a blocked road.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-4DE1B5E9-6394-4DC6-9BB2-A9616FE1C9E0",
       "alert": {
         "informedEntity": [
@@ -565,12 +536,12 @@
       }
     },
     {
-      "id": "DevAPI-FD3C13A5-23E5-42B6-A9AF-FB8FF8E2BB24",
+      "id": "DevAPI-C12DBDA9-A6CA-403C-9338-088641734B69",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "300"
+            "routeId": "506"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -578,7 +549,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "300 Bloor-Danforth: Detour eastb",
+              "text": "506 Carlton: No service between",
               "language": "en"
             }
           ]
@@ -586,7 +557,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "300 Bloor-Danforth: Detour eastbound via Rusholme Dr, Hepbourne St and Ossington Ave due to a collision.",
+              "text": "506 Carlton: No service between High Park Loop and College St at Lansdowne Ave due to a blocked track. Shuttle buses are on the way.",
               "language": "en"
             }
           ]
@@ -829,6 +800,35 @@
       }
     },
     {
+      "id": "DevAPI-F1661047-2B34-414C-93FD-C53AC9FFC457",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "505"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "505 Dundas: No service between D",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "505 Dundas: No service between Dundas St West at Lansdowne Ave and Dundas West Station at Bay 5 due to a blocked track. Shuttle buses are on the way.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-F92885AA-2070-4819-B78B-544D607977A2",
       "alert": {
         "informedEntity": [
@@ -1030,35 +1030,6 @@
           "translation": [
             {
               "text": "316 Kingston Rd-Mccowan: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-E62AC843-FEE7-40D8-82F2-2D974248BB41",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "41"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "41 Keele: Detour northbound via",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "41 Keele: Detour northbound via Wycombe Rd, Sunfield Rd and Sheppard Ave W due to a blocked road.",
               "language": "en"
             }
           ]
