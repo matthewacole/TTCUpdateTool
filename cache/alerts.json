@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1785700340"
+    "timestamp": "1785703494"
   },
   "entity": [
     {
@@ -391,6 +391,35 @@
       }
     },
     {
+      "id": "DevAPI-8218E46B-4482-4544-B375-758435EA14C7",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "507"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "507 Long Branch: Detour westboun",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "507 Long Branch: Detour westbound via The Queensway, Park Lawn and Lake Shore Blvd W due to a blocked track.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-D9F16C80-7AD0-48C4-9229-52C25445D8E1",
       "alert": {
         "informedEntity": [
@@ -529,63 +558,6 @@
           "translation": [
             {
               "text": "329 Dufferin: Detour southbound via Dufferin St, Viceroy, Futurity Gt and Gerry Fitzgerald Dr due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-E4B7DEAD-662F-4E6B-8636-2135D031922D",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "304"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "340"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "168"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "505"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "40"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "305"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "504"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Dundas West: Elevator 8B2L out o",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Dundas West: Elevator out of service between concourse and Line 2 westbound platform while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -821,6 +793,79 @@
           "translation": [
             {
               "text": "43 Kennedy: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-9B32A74C-56D7-4D16-9CDF-9F36542EBE7A",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "904"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "985"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "169"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "24"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "325"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "25"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "167"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "10"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "925"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "85"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "185"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "385"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Don Mills: Elevator 61P3L out of",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Don Mills: Elevator out of service between concourse and Line 4 platform while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -1145,6 +1190,35 @@
           "translation": [
             {
               "text": "134 Progress: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-C8EF7717-9001-484D-B707-C62404489D8E",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "507"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "507 Long Branch: Detour eastboun",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "507 Long Branch: Detour eastbound via The Queensway and Roncesvalles Ave due to a blocked track.",
               "language": "en"
             }
           ]
