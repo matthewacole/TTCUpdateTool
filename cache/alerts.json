@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1785788008"
+    "timestamp": "1785792714"
   },
   "entity": [
     {
@@ -158,44 +158,12 @@
       }
     },
     {
-      "id": "DevAPI-8A3F570C-5558-4797-806D-8BC34774B317",
+      "id": "DevAPI-E332287B-0585-46B9-BA26-0C7469660E8E",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "13"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "26"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "310"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "510"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "127"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "94"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "506"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "306"
+            "routeId": "114"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -203,7 +171,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "St George: Elevator 1Y1L out of",
+              "text": "114 Queens Quay East: Delays bet",
               "language": "en"
             }
           ]
@@ -211,7 +179,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "St George: Elevator out of service between bus platform, Bedford rd west side entrance, concourse, Line 1 centre platform and Line 2 centre platform due to a technical problem.",
+              "text": "114 Queens Quay East: Delays between Commissioners St at Don Roadway and 1 Front St West - Union Station due to traffic congestion.",
               "language": "en"
             }
           ]
@@ -590,6 +558,35 @@
           "translation": [
             {
               "text": "329 Dufferin: Detour southbound via Dufferin St, Viceroy, Futurity Gt and Gerry Fitzgerald Dr due to a collision.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-472C7731-F9C7-4C9B-9AD1-5DE0B14515A4",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "507"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "507 Long Branch: Delays near Mar",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "507 Long Branch: Delays near Marine Parade Dr (East) at Lake Shore Blvd West due to traffic congestion.",
               "language": "en"
             }
           ]
