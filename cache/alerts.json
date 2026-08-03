@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1785792714"
+    "timestamp": "1785796543"
   },
   "entity": [
     {
@@ -645,6 +645,35 @@
           "translation": [
             {
               "text": "939 Finch Express: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-57FD1FD4-BD28-43C2-89DD-A26D66AD403A",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "94"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "94 Wellesley: Detour eastbound v",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "94 Wellesley: Detour eastbound via Bathurst St, Bloor St E and Spadina Ave due to police activity.",
               "language": "en"
             }
           ]
