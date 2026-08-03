@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1785781640"
+    "timestamp": "1785788008"
   },
   "entity": [
     {
@@ -151,6 +151,67 @@
           "translation": [
             {
               "text": "North York Centre: Elevator out of service between Empress Walk entrance and concourse while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-8A3F570C-5558-4797-806D-8BC34774B317",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "13"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "26"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "310"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "510"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "127"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "94"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "506"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "306"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "St George: Elevator 1Y1L out of",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "St George: Elevator out of service between bus platform, Bedford rd west side entrance, concourse, Line 1 centre platform and Line 2 centre platform due to a technical problem.",
               "language": "en"
             }
           ]
@@ -1016,151 +1077,6 @@
           "translation": [
             {
               "text": "Don Valley: Elevator out of service between concourse and Don Mills Road west side entrance due to the Ontario Line construction. Elevator is expected to be back in service February 8, 2032.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-BEB0A07F-7E22-49E2-996F-FB170D22C588",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "384"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "36"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "341"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "935"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "337"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "906"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "108"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "45"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "396"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "37"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "73"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "336"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "46"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "107"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "335"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "101"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "106"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "119"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "166"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "989"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "937"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "41"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "99"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "84"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "996"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "939"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "165"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "35"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "927"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "96"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Line 6 Finch West: There is no L",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "There is no LRT service on Line 6 Finch West between Finch West and Humber College stations due to planned work by Metrolinx. Shuttle buses are running. Follow the station signs or speak to a TTC employee for help. Service will resume at 4 p.m.",
               "language": "en"
             }
           ]
