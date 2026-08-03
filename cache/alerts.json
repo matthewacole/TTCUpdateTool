@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1785745217"
+    "timestamp": "1785757866"
   },
   "entity": [
     {
@@ -873,35 +873,6 @@
       }
     },
     {
-      "id": "DevAPI-F8BB9F90-3149-48D0-A0D8-53D31EBA738E",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "386"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "386 Scarborough: Detour westboun",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "386 Scarborough: Detour westbound via Beechgrove Dr, Megan Ave, Lawrence Ave E and Manse Rd due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-FF81380F-794B-48C8-B480-250FAB844D1B",
       "alert": {
         "informedEntity": [
@@ -1400,6 +1371,35 @@
           "translation": [
             {
               "text": "112 West Mall: Detour via Wellesworth Dr and Eringate Dr due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-BB4AEF2C-93AF-454E-8299-3E8755FD8292",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "17"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "17 Birchmount: Detour via Comsto",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "17 Birchmount: Detour via Comstock Rd and Warden Ave due to police activity.",
               "language": "en"
             }
           ]
