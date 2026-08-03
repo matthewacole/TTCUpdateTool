@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1785714094"
+    "timestamp": "1785719743"
   },
   "entity": [
     {
@@ -623,35 +623,6 @@
       }
     },
     {
-      "id": "DevAPI-DEE1AB38-C235-4EAB-A9B7-061CFC2B98C9",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "108"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "108 Driftwood: Delays near Shepp",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "108 Driftwood: Delays near Sheppard Ave West at Tuscan Gate due to an event.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-90442AF6-4029-4E92-8AAE-DBDECD658389",
       "alert": {
         "informedEntity": [
@@ -1011,6 +982,76 @@
           "translation": [
             {
               "text": "395 York Mills: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-C3CFA71F-BC4B-4326-B54B-6352A744B19E",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "97"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "97 Yonge: Detour northbound via",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "97 Yonge: Detour northbound via Empress Ave, Doris Ave and Church St due to police activity.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-0DB933F3-DF94-4BD5-86B0-45CBAE212C6B",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "13"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "61"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Line 5 Eglinton: Delays eastboun",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Line 5 Eglinton: Delays eastbound at Avenue station while the maintainer fixes a mechanical problem.",
               "language": "en"
             }
           ]
