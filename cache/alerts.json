@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1785775321"
+    "timestamp": "1785781640"
   },
   "entity": [
     {
@@ -151,35 +151,6 @@
           "translation": [
             {
               "text": "North York Centre: Elevator out of service between Empress Walk entrance and concourse while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-603304D3-AA58-4BB1-A9A7-CCA54AE2467B",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "57"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "57 Midland: Detour northbound vi",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "57 Midland: Detour northbound via Sheppard Ave E, Brimley Rd and Finch Ave E due to a collision.",
               "language": "en"
             }
           ]
@@ -706,35 +677,6 @@
           "translation": [
             {
               "text": "Victoria Park: Elevator out of service between overpass, Victoria Park Ave entrance and concourse while we perform maintenance. Elevator is expected to be back in service August 7, 2026.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-69A6E51D-8D6D-411F-AE7A-A635052A2138",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "169"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "169 Huntingwood: Detour via Kenn",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "169 Huntingwood: Detour via Kennedy Ave, Finch Ave E and Brimley Rd due to a collision.",
               "language": "en"
             }
           ]
