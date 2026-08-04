@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1785845535"
+    "timestamp": "1785854457"
   },
   "entity": [
     {
@@ -980,12 +980,44 @@
       }
     },
     {
-      "id": "DevAPI-2AF92034-61C5-4D2E-B61A-E60BA1A8B2C7",
+      "id": "DevAPI-53D1BB71-5F96-459D-BD8D-86A1A40A0077",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "80"
+            "routeId": "13"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "61"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "354"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "74"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "320"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "103"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "97"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -993,7 +1025,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "80 Queensway: Detour westbound v",
+              "text": "Eglinton: Elevator 5 out of serv",
               "language": "en"
             }
           ]
@@ -1001,7 +1033,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "80 Queensway: Detour westbound via Howard Park Ave, Roncesvalles Ave and The Queensway due to a collision.",
+              "text": "Eglinton: Elevator out of service between Line 5 upper concourse west side and Line 5 centre platform while we perform maintenance.",
               "language": "en"
             }
           ]
