@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1785817750"
+    "timestamp": "1785827843"
   },
   "entity": [
     {
@@ -478,6 +478,79 @@
       }
     },
     {
+      "id": "DevAPI-C34BFDA5-75D8-4BB6-8E38-C408CE35BE81",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "396"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "996"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "395"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "78"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "95"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "122"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "320"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "115"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "165"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "96"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "97"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "995"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "York Mills: Elevator 20Y2L out o",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "York Mills: Elevator out of service between concourse and bus platform due to a technical problem.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-4DE1B5E9-6394-4DC6-9BB2-A9616FE1C9E0",
       "alert": {
         "informedEntity": [
@@ -529,35 +602,6 @@
           "translation": [
             {
               "text": "329 Dufferin: Detour southbound via Dufferin St, Viceroy, Futurity Gt and Gerry Fitzgerald Dr due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-472C7731-F9C7-4C9B-9AD1-5DE0B14515A4",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "507"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "507 Long Branch: Delays near Mar",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "507 Long Branch: Delays near Marine Parade Dr (East) at Lake Shore Blvd West due to traffic congestion.",
               "language": "en"
             }
           ]
@@ -866,6 +910,79 @@
           "translation": [
             {
               "text": "395 York Mills: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-F7E20B2D-FD6C-439E-995A-714B04D85061",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "396"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "996"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "395"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "78"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "95"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "122"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "320"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "115"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "165"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "96"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "97"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "995"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "York Mills: Elevator 20Y1L out o",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "York Mills: Elevator out of service between concourse and Line 1 centre platform while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -1226,35 +1343,6 @@
           "translation": [
             {
               "text": "130 Middlefield: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-2760BD9F-3015-4384-BFC9-F7D079F16671",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "37"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "37 Islington: Detour via Rexdale",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "37 Islington: Detour via Rexdale Blvd and Queens Plate Dr due to a blocked road.",
               "language": "en"
             }
           ]
