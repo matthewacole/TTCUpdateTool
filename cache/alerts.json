@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1785965891"
+    "timestamp": "1785969704"
   },
   "entity": [
     {
@@ -800,12 +800,12 @@
       }
     },
     {
-      "id": "DevAPI-76F9EEA7-2C52-4514-B1C4-2D7938CC5924",
+      "id": "DevAPI-403DFAAF-F8C4-4BD5-B2A2-FA2AFDE5F31B",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "104"
+            "routeId": "12"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -813,7 +813,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "104 Faywood: Detour via William",
+              "text": "12 Kingston Rd: Detour eastbound",
               "language": "en"
             }
           ]
@@ -821,7 +821,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "104 Faywood: Detour via William R Allen Rd due to a collision.",
+              "text": "12 Kingston Rd: Detour eastbound via Markham Rd and Eglinton Ave E due to a collision.",
               "language": "en"
             }
           ]
@@ -1030,127 +1030,6 @@
           "translation": [
             {
               "text": "316 Kingston Rd-Mccowan: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-AD89BEA5-F2EF-407C-A164-2E1DDC9677F0",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "131"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "20"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "905"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "38"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "12"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "986"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "21"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "201"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "43"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "904"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "86"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "334"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "939"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "154"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "129"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "113"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "116"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "343"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "57"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "903"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "386"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "133"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Line 5 Eglinton: No service betw",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Line 5 Eglinton: No service between Kennedy and Ionview stations while the maintainer fixes a mechanical problem. Shuttle buses are on the way.",
               "language": "en"
             }
           ]
