@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1785886608"
+    "timestamp": "1785891714"
   },
   "entity": [
     {
@@ -391,6 +391,35 @@
       }
     },
     {
+      "id": "DevAPI-D17C7189-26E5-417A-9BCF-F942D53FBD6C",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "511"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "511 Bathurst: Detour southbound",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "511 Bathurst: Detour southbound via Queen St W, Spadina Ave and King St W due to a Toronto fire investigation.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-FF051547-ABF1-4CF0-8685-BBE838AF3160",
       "alert": {
         "informedEntity": [
@@ -652,12 +681,12 @@
       }
     },
     {
-      "id": "DevAPI-7CFE98D3-F624-43E3-9596-238FCC07CDCB",
+      "id": "DevAPI-E3320179-DC8B-4D9C-8FB0-76CBB6ADD776",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "21"
+            "routeId": "501"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -665,7 +694,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "21 Brimley: Detour northbound vi",
+              "text": "501 Queen: Detour via Shaw St, K",
               "language": "en"
             }
           ]
@@ -673,7 +702,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "21 Brimley: Detour northbound via Chillery Ave, Bimbrok Rd and Citadel Dr due to a collision.",
+              "text": "501 Queen: Detour via Shaw St, King St E and Spadina Ave due to a Toronto fire investigation.",
               "language": "en"
             }
           ]
@@ -851,64 +880,6 @@
           "translation": [
             {
               "text": "395 York Mills: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-1BA8B6F4-7A58-4C64-A7EC-D96B99B38643",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "112"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "112 West Mall: Detour northbound",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "112 West Mall: Detour northbound via Attwell Dr and Disco Rd due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-72492A62-CAA0-4E28-A9EF-8E55235BBE5F",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "130"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "130 Middlefield: Detour via Pass",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "130 Middlefield: Detour via Passmore Ave, State Crown Blvd and Steeles Ave E due to an event.",
               "language": "en"
             }
           ]
