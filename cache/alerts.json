@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1786000612"
+    "timestamp": "1786010564"
   },
   "entity": [
     {
@@ -118,6 +118,35 @@
           "translation": [
             {
               "text": "506 Carlton: Detour via Ossington Ave, Dundas St W and Bay St due to a blocked track.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-FFBF048C-6203-4656-8A61-8B4193E07004",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "52"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "52 Lawrence West: Detour eastbou",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "52 Lawrence West: Detour eastbound via Celestine Dr, Westway and Kipling Ave due to construction.",
               "language": "en"
             }
           ]
@@ -593,47 +622,6 @@
       }
     },
     {
-      "id": "DevAPI-A9D60F85-A0F1-42D7-8A71-4A59295DE4C0",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "334"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "14"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "33"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Chaplin: Elevator ELV02-B out of",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Chaplin: Elevator out of service between Eglinton Avenue north side entrance and concourse while we perform maintenance. Elevator is expected to be back in service August 6, 2026.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-552DEDCA-1557-491F-85CD-96B13D61B733",
       "alert": {
         "informedEntity": [
@@ -685,35 +673,6 @@
           "translation": [
             {
               "text": "939 Finch Express: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-552C8F19-1DF6-4646-9E89-C9789F7B4E05",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "111"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "111 East Mall: Detour southbound",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "111 East Mall: Detour southbound via Martin Grove Rd, Richgrove Dr and Willowridge Rd due to downed wire.",
               "language": "en"
             }
           ]
@@ -891,35 +850,6 @@
           "translation": [
             {
               "text": "395 York Mills: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-B51F66A2-2B95-4596-88A8-37DE918BB688",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "352"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "352 Lawrence West: Detour via Ce",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "352 Lawrence West: Detour via Celestine Dr, The Westway and Kipling Ave due to a blocked road.",
               "language": "en"
             }
           ]
@@ -1164,143 +1094,6 @@
       }
     },
     {
-      "id": "DevAPI-81826813-E9AA-4EA5-8CDB-F4AAD4253B5F",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "14"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "510"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "307"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "52"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "363"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "164"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "952"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "506"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "19"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "7"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "90"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "310"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "94"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "33"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "59"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "306"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "352"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "63"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "127"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "13"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "334"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "126"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "26"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "312"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "109"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "512"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Line 1 Yonge-University: There i",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "There is no subway service on Line 1 Yonge-University between Lawrence West and St George stations due to planned track work. Shuttle buses are running. Follow the station signs or speak to a TTC employee for help. Service will resume August 6.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-963A2A8D-A1F4-488A-B54A-B2CBEDF5D377",
       "alert": {
         "informedEntity": [
@@ -1395,32 +1188,16 @@
       }
     },
     {
-      "id": "DevAPI-11406AF8-940D-4126-B3E9-369E6053AC3D",
+      "id": "DevAPI-D7627CAD-FA05-4F2B-85F0-32A264B83CC3",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "304"
+            "routeId": "74"
           },
           {
             "agencyId": "1",
-            "routeId": "202"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "509"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "114"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "310"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "510"
+            "routeId": "300"
           },
           {
             "agencyId": "1",
@@ -1428,11 +1205,15 @@
           },
           {
             "agencyId": "1",
-            "routeId": "121"
+            "routeId": "88"
           },
           {
             "agencyId": "1",
-            "routeId": "503"
+            "routeId": "82"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "506"
           },
           {
             "agencyId": "1",
@@ -1440,11 +1221,27 @@
           },
           {
             "agencyId": "1",
-            "routeId": "504"
+            "routeId": "19"
           },
           {
             "agencyId": "1",
-            "routeId": "19"
+            "routeId": "13"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "312"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "512"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "94"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "306"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -1452,7 +1249,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Union: Elevator 7Y2L out of serv",
+              "text": "Line 1 Yonge-University: No serv",
               "language": "en"
             }
           ]
@@ -1460,7 +1257,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "Union: Elevator out of service between concourse and Line 1 Finch platform while we perform maintenance.",
+              "text": "Line 1 Yonge-University: No service between St Clair and College stations while we fix a signal problem.",
               "language": "en"
             }
           ]
