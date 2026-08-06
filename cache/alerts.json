@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1786010564"
+    "timestamp": "1786018349"
   },
   "entity": [
     {
@@ -118,35 +118,6 @@
           "translation": [
             {
               "text": "506 Carlton: Detour via Ossington Ave, Dundas St W and Bay St due to a blocked track.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-FFBF048C-6203-4656-8A61-8B4193E07004",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "52"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "52 Lawrence West: Detour eastbou",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "52 Lawrence West: Detour eastbound via Celestine Dr, Westway and Kipling Ave due to construction.",
               "language": "en"
             }
           ]
@@ -1181,83 +1152,6 @@
           "translation": [
             {
               "text": "Line 5 Eglinton: No service between Leaside and Avenue stations due to a disruptive customer. Shuttle buses are on the way.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-D7627CAD-FA05-4F2B-85F0-32A264B83CC3",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "74"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "320"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "88"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "82"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "506"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "97"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "19"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "13"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "312"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "512"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "94"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "306"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Line 1 Yonge-University: No serv",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Line 1 Yonge-University: No service between St Clair and College stations while we fix a signal problem.",
               "language": "en"
             }
           ]
