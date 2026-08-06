@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1785990404"
+    "timestamp": "1786000612"
   },
   "entity": [
     {
@@ -536,6 +536,63 @@
       }
     },
     {
+      "id": "DevAPI-01714967-6E70-496F-92CC-2B4F727B1722",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "304"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "340"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "168"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "505"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "40"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "305"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "504"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Dundas West: Elevator 8B2L out o",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Dundas West: Elevator out of service between concourse and Line 2 westbound platform while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-A9D60F85-A0F1-42D7-8A71-4A59295DE4C0",
       "alert": {
         "informedEntity": [
@@ -841,6 +898,35 @@
       }
     },
     {
+      "id": "DevAPI-B51F66A2-2B95-4596-88A8-37DE918BB688",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "352"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "352 Lawrence West: Detour via Ce",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "352 Lawrence West: Detour via Celestine Dr, The Westway and Kipling Ave due to a blocked road.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-F92885AA-2070-4819-B78B-544D607977A2",
       "alert": {
         "informedEntity": [
@@ -1049,35 +1135,6 @@
       }
     },
     {
-      "id": "DevAPI-EB0FB194-25A4-431A-8197-82849213195B",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "52"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "52 Lawrence West: Detour via Cel",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "52 Lawrence West: Detour via Celestine Dr, The Westway and Kipling Ave due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-992D5CED-BEF6-45CB-AF4B-1095B9C3F428",
       "alert": {
         "informedEntity": [
@@ -1100,6 +1157,143 @@
           "translation": [
             {
               "text": "134 Progress: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-81826813-E9AA-4EA5-8CDB-F4AAD4253B5F",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "14"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "510"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "307"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "52"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "363"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "164"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "952"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "506"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "19"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "7"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "90"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "310"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "94"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "33"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "59"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "306"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "352"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "63"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "127"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "13"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "126"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "26"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "312"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "109"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "512"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Line 1 Yonge-University: There i",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "There is no subway service on Line 1 Yonge-University between Lawrence West and St George stations due to planned track work. Shuttle buses are running. Follow the station signs or speak to a TTC employee for help. Service will resume August 6.",
               "language": "en"
             }
           ]
@@ -1267,87 +1461,6 @@
           "translation": [
             {
               "text": "Union: Elevator out of service between concourse and Line 1 Finch platform while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-930B8C97-5571-4AC3-A048-C10CC1FE4898",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "101"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "119"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "329"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "104"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "160"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "184"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "396"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "996"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "29"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "118"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "165"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "96"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "120"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "929"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Wilson: Elevator 8S3L out of ser",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Wilson: Elevator out of service between concourse, lower bus platform and upper bus platform due to a technical problem.",
               "language": "en"
             }
           ]
