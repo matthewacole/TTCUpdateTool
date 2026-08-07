@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1786123689"
+    "timestamp": "1786127094"
   },
   "entity": [
     {
@@ -735,35 +735,6 @@
           "translation": [
             {
               "text": "38 Highland Creek: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-732964BD-D849-400C-94C6-BADA9D617B50",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "7"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "7 Bathurst: Detour northbound vi",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "7 Bathurst: Detour northbound via Bathurst St and Steeles Ave W due to construction.",
               "language": "en"
             }
           ]
