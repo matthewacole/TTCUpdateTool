@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1786110448"
+    "timestamp": "1786113692"
   },
   "entity": [
     {
@@ -478,6 +478,47 @@
       }
     },
     {
+      "id": "DevAPI-F79027CE-BCB7-4B94-BC6F-E52765403912",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "51"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "151"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "185"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "385"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Line 4 Sheppard: Delays westboun",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Line 4 Sheppard: Delays westbound at Leslie station due to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-5E898F48-1914-4303-824E-D58DC0E185B0",
       "alert": {
         "informedEntity": [
@@ -558,63 +599,6 @@
           "translation": [
             {
               "text": "329 Dufferin: Detour southbound via Dufferin St, Viceroy, Futurity Gt and Gerry Fitzgerald Dr due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-3892A399-F5C2-49CA-A8BE-36FBED44469F",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "304"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "340"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "168"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "505"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "40"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "305"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "504"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Dundas West: Elevator 8B2L out o",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Dundas West: Elevator out of service between concourse and Line 2 westbound platform while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -1246,6 +1230,35 @@
       }
     },
     {
+      "id": "DevAPI-AE6CF325-0B36-44F5-B8CD-476AF1BC29DB",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "20"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "20 Cliffside: Detour westbound v",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "20 Cliffside: Detour westbound via Hollis Ave, Eastwood Ave and Danforth Ave due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-DF9F4FBE-5057-4E2D-917E-4688FEA80242",
       "alert": {
         "informedEntity": [
@@ -1268,6 +1281,167 @@
           "translation": [
             {
               "text": "112 West Mall: Detour via Wellesworth Dr and Eringate Dr due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-4F42F599-F621-41CC-A147-AB00FD562403",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "8"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "905"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "117"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "986"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "201"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "904"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "86"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "102"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "129"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "154"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "16"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "116"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "903"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "133"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "131"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "68"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "20"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "38"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "12"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "69"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "21"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "17"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "902"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "43"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "9"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "939"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "113"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "135"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "57"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "343"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "386"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Line 2 Bloor-Danforth: No servic",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Line 2 Bloor-Danforth: No service between Kennedy and Warden stations while we fix a signal problem. Shuttle buses are on the way.",
               "language": "en"
             }
           ]
