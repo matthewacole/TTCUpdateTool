@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1786219950"
+    "timestamp": "1786222176"
   },
   "entity": [
     {
@@ -507,6 +507,35 @@
       }
     },
     {
+      "id": "DevAPI-830EEB29-FBC3-4333-83C9-502942A8977B",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "98"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "98 Willowdale-Senlac: Detour wes",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "98 Willowdale-Senlac: Detour westbound via Park Home Ave, Cobden St and Ellerslie Ave due to a blocked road.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-FA74DF02-B57F-4848-B386-B1E1EFA3AD1E",
       "alert": {
         "informedEntity": [
@@ -793,35 +822,6 @@
           "translation": [
             {
               "text": "395 York Mills: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-3432F609-31FB-4B38-8646-460C701B176C",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "80"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "80B Queensway: No service betwee",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "80B Queensway: No service between Park Lawn Rd at Lake Shore Blvd West and Marine Parade Dr Loop at Lake Shore Blvd West due to an event.",
               "language": "en"
             }
           ]
