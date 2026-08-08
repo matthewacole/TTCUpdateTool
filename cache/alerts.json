@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1786149022"
+    "timestamp": "1786156207"
   },
   "entity": [
     {
@@ -420,6 +420,64 @@
       }
     },
     {
+      "id": "DevAPI-8F3D9471-D479-4638-8AD2-26046316291A",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "108"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "108 Driftwood: Detour westbound",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "108 Driftwood: Detour westbound via Sentinel Rd and Finch Ave W due to a collision.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-8442B94D-B2FF-4B8A-A5EB-AC5FBEF9DCDD",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "37"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "37 Islington: Buses are not stop",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "37 Islington: Bypass between Queens Plate Dr at Harness Rd North Side and Humberwood Blvd at Hullrick Dr (South) due to a demonstration.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-D9F16C80-7AD0-48C4-9229-52C25445D8E1",
       "alert": {
         "informedEntity": [
@@ -684,6 +742,35 @@
       }
     },
     {
+      "id": "DevAPI-586FBC6B-F630-459B-97CF-E694E10B9B55",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "30"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "30 High Park North: Detour via A",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "30 High Park North: Detour via Annette St and Runnymede Rd due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-41083758-9360-454D-A376-6BFDEE4C7E28",
       "alert": {
         "informedEntity": [
@@ -931,6 +1018,84 @@
       }
     },
     {
+      "id": "DevAPI-CA3C2DDB-99F6-43D0-B5BF-F337C5DD1A71",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "40"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "40 Junction-Dundas West: Detour",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "40 Junction-Dundas West: Detour via High Park Ave, Annette St and Runnymede Rd due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-B11504BC-F951-455D-8FC8-6A358B5A5F34",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "310"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "510"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "127"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "506"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "306"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Spadina: Elevator 2B3L out of se",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Spadina: Elevator out of service between south concourse and Line 2 eastbound platform due to a technical problem.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-992D5CED-BEF6-45CB-AF4B-1095B9C3F428",
       "alert": {
         "informedEntity": [
@@ -1076,6 +1241,35 @@
           "translation": [
             {
               "text": "130 Middlefield: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-6B717F34-018B-4C4B-8CA5-BF85BEE8947D",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "84"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "84 Sheppard West: Detour westbou",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "84 Sheppard West: Detour westbound via Sentinel Rd, Finch Ave W and Jane St due to a collision.",
               "language": "en"
             }
           ]
