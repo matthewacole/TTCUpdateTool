@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1786146042"
+    "timestamp": "1786149022"
   },
   "entity": [
     {
@@ -158,12 +158,12 @@
       }
     },
     {
-      "id": "DevAPI-3087295C-CD55-4D7C-9E74-2700767363B3",
+      "id": "DevAPI-525E4372-305A-4FC1-9FF7-33A6112115E0",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "511"
+            "routeId": "154"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -171,7 +171,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "511 Bathurst: Detour southbound",
+              "text": "154 Curran Hall: Detour via Lawr",
               "language": "en"
             }
           ]
@@ -179,7 +179,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "511 Bathurst: Detour southbound via Queen St W, Spadina Ave and King St W due to a collision.",
+              "text": "154 Curran Hall: Detour via Lawrence Ave E and Orton Park Rd due to construction.",
               "language": "en"
             }
           ]
