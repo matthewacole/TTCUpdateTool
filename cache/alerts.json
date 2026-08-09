@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1786243754"
+    "timestamp": "1786248326"
   },
   "entity": [
     {
@@ -21,28 +21,38 @@
           },
           {
             "agencyId": "1",
-            "routeId": "84",
-            "stopId": "3755"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "84",
-            "stopId": "3755"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "84",
-            "stopId": "3755"
-          },
-          {
-            "agencyId": "1",
             "routeId": "104",
             "stopId": "3975"
           },
           {
             "agencyId": "1",
-            "routeId": "105",
-            "stopId": "3749"
+            "routeId": "984",
+            "stopId": "3754"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "84",
+            "stopId": "3755"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "84",
+            "stopId": "3755"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "108",
+            "stopId": "3756"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "84",
+            "stopId": "3755"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "108",
+            "stopId": "3756"
           },
           {
             "agencyId": "1",
@@ -56,23 +66,13 @@
           },
           {
             "agencyId": "1",
-            "routeId": "108",
-            "stopId": "3756"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "108",
-            "stopId": "3756"
-          },
-          {
-            "agencyId": "1",
             "routeId": "984",
             "stopId": "3750"
           },
           {
             "agencyId": "1",
-            "routeId": "984",
-            "stopId": "3754"
+            "routeId": "105",
+            "stopId": "3749"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -96,12 +96,12 @@
       }
     },
     {
-      "id": "DevAPI-69916751-8CE7-438B-932A-04A38F6D785F",
+      "id": "DevAPI-7AF0785F-EE5D-4313-8220-476CB79D6AA6",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "37"
+            "routeId": "66"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -109,7 +109,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "37 Islington: Detour via Queens",
+              "text": "66B Prince Edward: Detour via Th",
               "language": "en"
             }
           ]
@@ -117,7 +117,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "37 Islington: Detour via Queens Plate Dr and Rexdale Blvd due to a demonstration.",
+              "text": "66B Prince Edward: Detour via The Queensway, Royal York Rd, Lakeshore Blvd West and Marine Parade Dr due to construction.",
               "language": "en"
             }
           ]
@@ -159,11 +159,11 @@
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "97"
+            "routeId": "320"
           },
           {
             "agencyId": "1",
-            "routeId": "320"
+            "routeId": "97"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -221,7 +221,7 @@
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "34"
+            "routeId": "334"
           },
           {
             "agencyId": "1",
@@ -233,19 +233,19 @@
           },
           {
             "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
             "routeId": "109"
           },
           {
             "agencyId": "1",
-            "routeId": "164"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "334"
-          },
-          {
-            "agencyId": "1",
             "routeId": "363"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "164"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -332,12 +332,12 @@
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "114",
+            "routeId": "202",
             "stopId": "4277"
           },
           {
             "agencyId": "1",
-            "routeId": "202",
+            "routeId": "114",
             "stopId": "4277"
           }
         ],
@@ -391,6 +391,35 @@
       }
     },
     {
+      "id": "DevAPI-A9FEE50F-C59B-4A82-B250-9411F18ADCA2",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "66"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "66A Prince Edward: Detour via Be",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "66A Prince Edward: Detour via Berry Rd, Steven Ave and The Queensway due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-FF051547-ABF1-4CF0-8685-BBE838AF3160",
       "alert": {
         "informedEntity": [
@@ -413,6 +442,112 @@
           "translation": [
             {
               "text": "305 Dundas: Detour via Parliament St, Gerrard St W and Broadview Ave due to police activity.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-6FBA9C57-C8FA-4D78-88C7-667E52B4FB01",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "161"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "168"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "989"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "71"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "171"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "164"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "32"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "73"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "27"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "89"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "35"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Mount Dennis: Elevator 3 out of",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Mount Dennis: Elevator out of service between Eglinton avenue north side east entrance and concourse due to a technical problem.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-E6A1D990-45BB-4317-8B6B-CB71B1CC4F1F",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "507"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "507M Long Branch: Detour via The",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "507M Long Branch: Detour via The Queensway, Royal York Rd, Lakeshore Blvd West and Marine Parade Dr due to construction.",
               "language": "en"
             }
           ]
@@ -512,7 +647,7 @@
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "12"
+            "routeId": "67"
           },
           {
             "agencyId": "1",
@@ -520,19 +655,11 @@
           },
           {
             "agencyId": "1",
-            "routeId": "24"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "67"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "113"
-          },
-          {
-            "agencyId": "1",
             "routeId": "117"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "924"
           },
           {
             "agencyId": "1",
@@ -544,7 +671,15 @@
           },
           {
             "agencyId": "1",
-            "routeId": "924"
+            "routeId": "12"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "24"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "113"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -834,23 +969,15 @@
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "25"
+            "routeId": "334"
           },
           {
             "agencyId": "1",
-            "routeId": "34"
+            "routeId": "354"
           },
           {
             "agencyId": "1",
             "routeId": "54"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "72"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "100"
           },
           {
             "agencyId": "1",
@@ -862,19 +989,27 @@
           },
           {
             "agencyId": "1",
+            "routeId": "100"
+          },
+          {
+            "agencyId": "1",
             "routeId": "325"
           },
           {
             "agencyId": "1",
-            "routeId": "334"
+            "routeId": "25"
           },
           {
             "agencyId": "1",
-            "routeId": "354"
+            "routeId": "34"
           },
           {
             "agencyId": "1",
             "routeId": "925"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "72"
           },
           {
             "agencyId": "1",
@@ -998,10 +1133,6 @@
           },
           {
             "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
             "routeId": "61"
           },
           {
@@ -1010,15 +1141,19 @@
           },
           {
             "agencyId": "1",
+            "routeId": "354"
+          },
+          {
+            "agencyId": "1",
             "routeId": "74"
           },
           {
             "agencyId": "1",
-            "routeId": "97"
+            "routeId": "11"
           },
           {
             "agencyId": "1",
-            "routeId": "103"
+            "routeId": "34"
           },
           {
             "agencyId": "1",
@@ -1026,11 +1161,11 @@
           },
           {
             "agencyId": "1",
-            "routeId": "354"
+            "routeId": "103"
           },
           {
             "agencyId": "1",
-            "routeId": "11"
+            "routeId": "97"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -1092,27 +1227,7 @@
           },
           {
             "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
             "routeId": "61"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "74"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "97"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "103"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "320"
           },
           {
             "agencyId": "1",
@@ -1121,6 +1236,26 @@
           {
             "agencyId": "1",
             "routeId": "354"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "74"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "320"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "103"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "97"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -1144,16 +1279,45 @@
       }
     },
     {
+      "id": "DevAPI-2BEC5F4C-D184-439A-B2D7-8114C25F4D21",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "507"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "507 Long Branch: Detour via Roya",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "507 Long Branch: Detour via Royal York Rd and The Queensway due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-C5E449A2-537E-4FF9-B6DA-E4099A9FE61E",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "97"
+            "routeId": "320"
           },
           {
             "agencyId": "1",
-            "routeId": "320"
+            "routeId": "97"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -1170,87 +1334,6 @@
           "translation": [
             {
               "text": "North York Centre: Elevator out of service between concourse and Line 1 southbound platform due to a technical problem.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-AD86AF3E-9A59-427E-9441-F262A9FC6F71",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "29"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "96"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "101"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "104"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "118"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "119"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "120"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "160"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "165"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "184"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "329"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "396"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "929"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "996"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Line 1 Yonge-University: Delays",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Line 1 Yonge-University: Delays northbound at Wilson station while we deal with an operational problem.",
               "language": "en"
             }
           ]
