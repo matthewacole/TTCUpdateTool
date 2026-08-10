@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1786395930"
+    "timestamp": "1786398875"
   },
   "entity": [
     {
@@ -384,35 +384,6 @@
           "translation": [
             {
               "text": "305 Dundas: Detour via Parliament St, Gerrard St W and Broadview Ave due to police activity.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-FD4FCFD0-D75B-48BA-82B0-2FBCCAAF1151",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "505"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "505 Dundas: No service between B",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "505 Dundas: No service between Broadview Station at Bay 6 and Broadview Ave at Dundas St East due to a blocked track.",
               "language": "en"
             }
           ]
@@ -838,35 +809,6 @@
           "translation": [
             {
               "text": "133 Neilson: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-F4E9F66A-77B7-4CC6-8A0B-7C8A8F29FA57",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "504"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "504 King: No service between Bro",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "504 King: No service between Broadview Station at Bay 7 and King St East at Parliament St while we fix a mechanical problem.",
               "language": "en"
             }
           ]
