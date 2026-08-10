@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1786393076"
+    "timestamp": "1786395930"
   },
   "entity": [
     {
@@ -391,6 +391,35 @@
       }
     },
     {
+      "id": "DevAPI-FD4FCFD0-D75B-48BA-82B0-2FBCCAAF1151",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "505"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "505 Dundas: No service between B",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "505 Dundas: No service between Broadview Station at Bay 6 and Broadview Ave at Dundas St East due to a blocked track.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-6FBA9C57-C8FA-4D78-88C7-667E52B4FB01",
       "alert": {
         "informedEntity": [
@@ -468,35 +497,6 @@
       }
     },
     {
-      "id": "DevAPI-007B6123-0DFD-4C96-A6D3-4D7EDC929B6D",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "119"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "119 Torbarrie: Detour eastbound",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "119 Torbarrie: Detour eastbound via Sheppard Ave W, Oakdale Rd, Torbarrie Rd and Wilson Ave due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-D9F16C80-7AD0-48C4-9229-52C25445D8E1",
       "alert": {
         "informedEntity": [
@@ -548,35 +548,6 @@
           "translation": [
             {
               "text": "129 Mccowan North: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-7379410D-6261-4BE4-9E55-C8D50B68AC9A",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "996"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "996 Wilson Express: Detour via J",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "996 Wilson Express: Detour via Jethro Rd, Tobermory Dr, Oakdale Rd, Sheppard Ave W, Weston Rd and Albion Rd due to a collision.",
               "language": "en"
             }
           ]
@@ -816,35 +787,6 @@
       }
     },
     {
-      "id": "DevAPI-CDB886BD-E7F3-4640-96F0-CC6DF3010608",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "165"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "165 Weston Rd North: Detour west",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "165 Weston Rd North: Detour westbound via Jane St, Church St and Weston Rd due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-2E2A1EDF-8B91-4F3C-9639-3A42DB817738",
       "alert": {
         "informedEntity": [
@@ -903,44 +845,12 @@
       }
     },
     {
-      "id": "DevAPI-2B154AB3-17A9-4491-B508-97508F2B6EC6",
+      "id": "DevAPI-F4E9F66A-77B7-4CC6-8A0B-7C8A8F29FA57",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "13"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "26"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "310"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "510"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "127"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "94"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "506"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "306"
+            "routeId": "504"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -948,7 +858,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "St George: Elevator 1Y1L out of",
+              "text": "504 King: No service between Bro",
               "language": "en"
             }
           ]
@@ -956,36 +866,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "St George: Elevator out of service between bus platform, Bedford rd west side entrance, concourse, Line 1 centre platform and Line 2 centre platform while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-9A311385-CAB4-412A-995A-5A7A3756B958",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "96"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "96 Wilson: Detour westbound via",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "96 Wilson: Detour westbound via Jethro Rd, Torbarrie Rd, Oakdale Rd, Sheppard Ave W, Weston Rd and Albion Rd due to a collision.",
+              "text": "504 King: No service between Broadview Station at Bay 7 and King St East at Parliament St while we fix a mechanical problem.",
               "language": "en"
             }
           ]
@@ -1059,35 +940,6 @@
           "translation": [
             {
               "text": "Don Valley: Elevator out of service between concourse and Don Mills Road west side entrance due to the Ontario Line construction. Elevator is expected to be back in service February 8, 2032.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-FF3DCC0C-650A-42F4-A951-BC247C865D92",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "118"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "118 Thistle Down: Detour westbou",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "118 Thistle Down: Detour westbound via Jane St, Sheppard Ave W and Weston Rd due to a blocked road.",
               "language": "en"
             }
           ]
