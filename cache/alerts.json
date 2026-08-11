@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1786423338"
+    "timestamp": "1786426897"
   },
   "entity": [
     {
@@ -151,35 +151,6 @@
           "translation": [
             {
               "text": "North York Centre: Elevator out of service between Empress Walk entrance and concourse while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-0FBE5BD9-9F5F-485C-BB1D-4FDBE06DBACB",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "75"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "75 Sherbourne: Detour northbound",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "75 Sherbourne: Detour northbound via Lakeshore Blvd E and Lower Sherbourne St due to construction.",
               "language": "en"
             }
           ]
@@ -478,6 +449,63 @@
       }
     },
     {
+      "id": "DevAPI-353B06E3-36B9-4F8E-A835-3D0A09196708",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "149"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "48"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "73"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "315"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "66"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "76"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "15"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Royal York: Elevator 14B3L out o",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Royal York: Elevator out of service between west concourse and Line 2 eastbound platform due to a technical problem.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-5E898F48-1914-4303-824E-D58DC0E185B0",
       "alert": {
         "informedEntity": [
@@ -558,35 +586,6 @@
           "translation": [
             {
               "text": "329 Dufferin: Detour southbound via Dufferin St, Viceroy, Futurity Gt and Gerry Fitzgerald Dr due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-A5EFCAA2-0F0C-4D69-A3F6-767315CA98DF",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "32"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "32 Eglinton West: Detour via Sca",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "32 Eglinton West: Detour via Scarlett Rd, East Dr and Jane St due to police activity.",
               "language": "en"
             }
           ]
@@ -761,6 +760,63 @@
           "translation": [
             {
               "text": "395 York Mills: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-E6E3881F-BB46-4F48-A6B7-FCB37AA51C5F",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "149"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "48"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "73"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "315"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "66"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "76"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "15"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Royal York: Elevator 14B2L out o",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Royal York: Elevator out of service between west concourse and Line 2 westbound platform due to a technical problem.",
               "language": "en"
             }
           ]
@@ -1181,6 +1237,63 @@
           "translation": [
             {
               "text": "Line 5 Eglinton: No service between Leaside and Avenue stations due to a disruptive customer. Shuttle buses are on the way.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-F1840801-568D-4FE9-A1E9-3D4B67DE2D77",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "149"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "48"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "73"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "315"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "66"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "76"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "15"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Royal York: Elevator 14B1L out o",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Royal York: Elevator out of service between Royal York Rd entrance and west concourse due to a technical problem.",
               "language": "en"
             }
           ]
