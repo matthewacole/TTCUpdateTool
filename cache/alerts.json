@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1786426897"
+    "timestamp": "1786430252"
   },
   "entity": [
     {
@@ -449,63 +449,6 @@
       }
     },
     {
-      "id": "DevAPI-353B06E3-36B9-4F8E-A835-3D0A09196708",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "149"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "48"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "73"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "315"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "66"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "76"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "15"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Royal York: Elevator 14B3L out o",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Royal York: Elevator out of service between west concourse and Line 2 eastbound platform due to a technical problem.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-5E898F48-1914-4303-824E-D58DC0E185B0",
       "alert": {
         "informedEntity": [
@@ -760,63 +703,6 @@
           "translation": [
             {
               "text": "395 York Mills: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-E6E3881F-BB46-4F48-A6B7-FCB37AA51C5F",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "149"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "48"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "73"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "315"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "66"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "76"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "15"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Royal York: Elevator 14B2L out o",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Royal York: Elevator out of service between west concourse and Line 2 westbound platform due to a technical problem.",
               "language": "en"
             }
           ]
@@ -1121,35 +1007,6 @@
       }
     },
     {
-      "id": "DevAPI-80FC6EB1-4F9F-458B-A2FF-96F5B633849B",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "73"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "73 Royal York: Detour via Scarle",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "73 Royal York: Detour via Scarlett Rd, East Dr and Jane St due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-963A2A8D-A1F4-488A-B54A-B2CBEDF5D377",
       "alert": {
         "informedEntity": [
@@ -1244,63 +1101,6 @@
       }
     },
     {
-      "id": "DevAPI-F1840801-568D-4FE9-A1E9-3D4B67DE2D77",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "149"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "48"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "73"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "315"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "66"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "76"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "15"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Royal York: Elevator 14B1L out o",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Royal York: Elevator out of service between Royal York Rd entrance and west concourse due to a technical problem.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-BE8054CF-15DA-4A37-AB2D-8DF04C8A823D",
       "alert": {
         "informedEntity": [
@@ -1384,6 +1184,35 @@
           "translation": [
             {
               "text": "Eglinton: Elevator out of service between concourse and Line 1 centre platform while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-6D9AA013-7243-4F93-A657-422E705F5B17",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "334"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "334 Eglinton: Detour via Jane St",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "334 Eglinton: Detour via Jane St, East Dr and Scarlett Rd due to a blocked road.",
               "language": "en"
             }
           ]
