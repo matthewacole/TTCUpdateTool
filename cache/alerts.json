@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1786441455"
+    "timestamp": "1786444598"
   },
   "entity": [
     {
@@ -1080,35 +1080,6 @@
           "translation": [
             {
               "text": "Eglinton: Elevator out of service between concourse and Line 1 centre platform while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-6D9AA013-7243-4F93-A657-422E705F5B17",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "334"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "334 Eglinton: Detour via Jane St",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "334 Eglinton: Detour via Jane St, East Dr and Scarlett Rd due to a blocked road.",
               "language": "en"
             }
           ]
