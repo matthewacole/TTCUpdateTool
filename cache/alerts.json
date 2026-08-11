@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1786411256"
+    "timestamp": "1786418003"
   },
   "entity": [
     {
@@ -151,6 +151,35 @@
           "translation": [
             {
               "text": "North York Centre: Elevator out of service between Empress Walk entrance and concourse while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-0FBE5BD9-9F5F-485C-BB1D-4FDBE06DBACB",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "75"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "75 Sherbourne: Detour northbound",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "75 Sherbourne: Detour northbound via Lakeshore Blvd E and Lower Sherbourne St due to construction.",
               "language": "en"
             }
           ]
@@ -555,6 +584,35 @@
       }
     },
     {
+      "id": "DevAPI-02CBDF74-8AFE-41DD-973C-46EB7A5D63D9",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "73"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "73 Royal York: Detour via Scarle",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "73 Royal York: Detour via Scarlett Rd, East Dr and Jane St due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-4DE1B5E9-6394-4DC6-9BB2-A9616FE1C9E0",
       "alert": {
         "informedEntity": [
@@ -613,12 +671,12 @@
       }
     },
     {
-      "id": "DevAPI-19770281-2EF5-45E0-A299-554A51BC2A92",
+      "id": "DevAPI-A5EFCAA2-0F0C-4D69-A3F6-767315CA98DF",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "73"
+            "routeId": "32"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -626,7 +684,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "73 Royal York: Detour via Scarle",
+              "text": "32 Eglinton West: Detour via Sca",
               "language": "en"
             }
           ]
@@ -634,7 +692,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "73 Royal York: Detour via Scarlett Rd, East Dr and Jane St due to a blocked road.",
+              "text": "32 Eglinton West: Detour via Scarlett Rd, East Dr and Jane St due to police activity.",
               "language": "en"
             }
           ]
@@ -816,35 +874,6 @@
       }
     },
     {
-      "id": "DevAPI-DFE1DF92-8D62-4E71-A97E-F0A720A6F598",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "32"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "32 Eglinton West: Detour eastbou",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "32 Eglinton West: Detour eastbound via Scarlett Rd, East Dr and Jane St due to police activity.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-F92885AA-2070-4819-B78B-544D607977A2",
       "alert": {
         "informedEntity": [
@@ -940,6 +969,35 @@
           "translation": [
             {
               "text": "Don Valley: Elevator out of service between concourse and Don Mills Road west side entrance due to the Ontario Line construction. Elevator is expected to be back in service February 8, 2032.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-C8FA9C8C-1487-4775-9902-1CC913DB88A0",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "503"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "503 Kingston Rd: Detour westboun",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "503 Kingston Rd: Detour westbound via Victoria Park, Gerrard St E and Main St due to a collision.",
               "language": "en"
             }
           ]
@@ -1092,35 +1150,6 @@
           "translation": [
             {
               "text": "Line 5 Eglinton: No service between Leaside and Avenue stations due to a disruptive customer. Shuttle buses are on the way.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-DEFE9B72-3AF8-47C0-9580-E4A2D3059107",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "506"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "506 Carlton: Detour eastbound vi",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "506 Carlton: Detour eastbound via Broadview Ave, Queen St E and Coxwell Ave due to a blocked track.",
               "language": "en"
             }
           ]
