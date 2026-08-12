@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1786559782"
+    "timestamp": "1786563929"
   },
   "entity": [
     {
@@ -789,6 +789,35 @@
           "translation": [
             {
               "text": "Osgoode: Elevator out of service between Four Seasons Centre entrance and concourse while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-554F948A-71EF-4E8B-AAD8-44740783BB11",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "121"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "121 Esplanade-River: Detour west",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "121 Esplanade-River: Detour westbound via Mill St, Cherry St and Eastern Ave due to a Toronto fire investigation.",
               "language": "en"
             }
           ]
