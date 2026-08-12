@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1786511853"
+    "timestamp": "1786517263"
   },
   "entity": [
     {
@@ -21,38 +21,28 @@
           },
           {
             "agencyId": "1",
+            "routeId": "84",
+            "stopId": "3755"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "84",
+            "stopId": "3755"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "84",
+            "stopId": "3755"
+          },
+          {
+            "agencyId": "1",
             "routeId": "104",
             "stopId": "3975"
           },
           {
             "agencyId": "1",
-            "routeId": "984",
-            "stopId": "3754"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "84",
-            "stopId": "3755"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "84",
-            "stopId": "3755"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "108",
-            "stopId": "3756"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "84",
-            "stopId": "3755"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "108",
-            "stopId": "3756"
+            "routeId": "105",
+            "stopId": "3749"
           },
           {
             "agencyId": "1",
@@ -66,13 +56,23 @@
           },
           {
             "agencyId": "1",
+            "routeId": "108",
+            "stopId": "3756"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "108",
+            "stopId": "3756"
+          },
+          {
+            "agencyId": "1",
             "routeId": "984",
             "stopId": "3750"
           },
           {
             "agencyId": "1",
-            "routeId": "105",
-            "stopId": "3749"
+            "routeId": "984",
+            "stopId": "3754"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -130,11 +130,11 @@
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "320"
+            "routeId": "97"
           },
           {
             "agencyId": "1",
-            "routeId": "97"
+            "routeId": "320"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -151,6 +151,35 @@
           "translation": [
             {
               "text": "North York Centre: Elevator out of service between Empress Walk entrance and concourse while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-5994C9D2-13B0-4B95-B798-FDAA2A69524B",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "334"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "334 Eglinton: Detour via Martin",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "334 Eglinton: Detour via Martin Grove Rd, Rathburn Rd and Renforth Dr due to a Toronto fire investigation.",
               "language": "en"
             }
           ]
@@ -192,7 +221,7 @@
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "334"
+            "routeId": "34"
           },
           {
             "agencyId": "1",
@@ -204,19 +233,19 @@
           },
           {
             "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
             "routeId": "109"
           },
           {
             "agencyId": "1",
-            "routeId": "363"
+            "routeId": "164"
           },
           {
             "agencyId": "1",
-            "routeId": "164"
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "363"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -233,35 +262,6 @@
           "translation": [
             {
               "text": "Cedarvale: Elevator out of service between platform and upper concourse while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-7108E7BA-B187-4273-AD55-3B4BAD7753E3",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "32"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "32 Eglinton West: Detour via Jan",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "32 Eglinton West: Detour via Jane St and Scarlett Rd due to construction.",
               "language": "en"
             }
           ]
@@ -291,35 +291,6 @@
           "translation": [
             {
               "text": "996 Wilson Express: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-262A4773-6EFB-4AA1-A6DF-BA0324AC54E4",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "73"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "73 Royal York: Detour northbound",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "73 Royal York: Detour northbound via Scarlett Rd, East Dr and Jane St due to construction.",
               "language": "en"
             }
           ]
@@ -361,59 +332,7 @@
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "14"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "510"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "307"
-          },
-          {
-            "agencyId": "1",
             "routeId": "52"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "363"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "164"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "952"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "506"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "19"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "7"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "90"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "310"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "94"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "33"
           },
           {
             "agencyId": "1",
@@ -421,7 +340,7 @@
           },
           {
             "agencyId": "1",
-            "routeId": "306"
+            "routeId": "109"
           },
           {
             "agencyId": "1",
@@ -429,15 +348,11 @@
           },
           {
             "agencyId": "1",
-            "routeId": "63"
+            "routeId": "952"
           },
           {
             "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "127"
+            "routeId": "14"
           },
           {
             "agencyId": "1",
@@ -445,7 +360,15 @@
           },
           {
             "agencyId": "1",
-            "routeId": "13"
+            "routeId": "63"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "90"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "164"
           },
           {
             "agencyId": "1",
@@ -453,11 +376,7 @@
           },
           {
             "agencyId": "1",
-            "routeId": "126"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "26"
+            "routeId": "363"
           },
           {
             "agencyId": "1",
@@ -465,11 +384,63 @@
           },
           {
             "agencyId": "1",
-            "routeId": "109"
+            "routeId": "512"
           },
           {
             "agencyId": "1",
-            "routeId": "512"
+            "routeId": "7"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "33"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "126"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "307"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "19"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "26"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "127"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "306"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "310"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "506"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "510"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "13"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "94"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -498,12 +469,12 @@
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "202",
+            "routeId": "114",
             "stopId": "4277"
           },
           {
             "agencyId": "1",
-            "routeId": "114",
+            "routeId": "202",
             "stopId": "4277"
           }
         ],
@@ -550,35 +521,6 @@
           "translation": [
             {
               "text": "21 Brimley: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-48061415-FA47-4A88-B28A-A9961A47F169",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "52"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "52 Lawrence West: Detour eastbou",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "52 Lawrence West: Detour eastbound via Lancaster Ave, Churchill Ave, Victory Dr and Airport Rd due to a collision.",
               "language": "en"
             }
           ]
@@ -753,6 +695,35 @@
           "translation": [
             {
               "text": "329 Dufferin: Detour southbound via Dufferin St, Viceroy, Futurity Gt and Gerry Fitzgerald Dr due to a collision.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-1DA8164D-95AF-4D9A-9F23-164E666E7FE0",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "334"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "334 Eglinton: Detour via Scarlet",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "334 Eglinton: Detour via Scarlett Rd, East Dr and Jane St due to construction.",
               "language": "en"
             }
           ]
@@ -968,15 +939,23 @@
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "334"
+            "routeId": "25"
           },
           {
             "agencyId": "1",
-            "routeId": "354"
+            "routeId": "34"
           },
           {
             "agencyId": "1",
             "routeId": "54"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "72"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "100"
           },
           {
             "agencyId": "1",
@@ -988,27 +967,19 @@
           },
           {
             "agencyId": "1",
-            "routeId": "100"
-          },
-          {
-            "agencyId": "1",
             "routeId": "325"
           },
           {
             "agencyId": "1",
-            "routeId": "25"
+            "routeId": "334"
           },
           {
             "agencyId": "1",
-            "routeId": "34"
+            "routeId": "354"
           },
           {
             "agencyId": "1",
             "routeId": "925"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "72"
           },
           {
             "agencyId": "1",
@@ -1132,6 +1103,10 @@
           },
           {
             "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
             "routeId": "61"
           },
           {
@@ -1140,23 +1115,11 @@
           },
           {
             "agencyId": "1",
-            "routeId": "354"
-          },
-          {
-            "agencyId": "1",
             "routeId": "74"
           },
           {
             "agencyId": "1",
-            "routeId": "11"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "320"
+            "routeId": "97"
           },
           {
             "agencyId": "1",
@@ -1164,7 +1127,15 @@
           },
           {
             "agencyId": "1",
-            "routeId": "97"
+            "routeId": "320"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "354"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "11"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
