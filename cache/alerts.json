@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1786530732"
+    "timestamp": "1786533909"
   },
   "entity": [
     {
@@ -950,6 +950,47 @@
           "translation": [
             {
               "text": "131 Nugget: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-4B4C05FB-D223-4976-AD9F-5D240230F822",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "322"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "22"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "70"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Coxwell: Elevator 11D1L out of s",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Coxwell: Elevator out of service between Strathmore Blvd entrance, concourse and Line 2 eastbound platform while we perform maintenance.",
               "language": "en"
             }
           ]
