@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1786575456"
+    "timestamp": "1786578618"
   },
   "entity": [
     {
@@ -449,35 +449,6 @@
       }
     },
     {
-      "id": "DevAPI-A2FCDB26-5065-4BAF-AAE1-12AFEF9C9AE5",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "201"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "201 Bluffer's Park: Delays near",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "201 Bluffer's Park: Delays near Brimley Rd at Eglinton Ave East South Side due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-5E898F48-1914-4303-824E-D58DC0E185B0",
       "alert": {
         "informedEntity": [
@@ -587,6 +558,35 @@
           "translation": [
             {
               "text": "501 Queen: Detour eastbound via Spadina Ave and Adelaide St E while we respond to a medical emergency.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-B4F23A4B-52BF-4A9C-9788-9444F8097E9D",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "107"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "107 Alness-Chesswood: Detour via",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "107 Alness-Chesswood: Detour via Petrolia Rd and The Pond Rd due to a blocked road.",
               "language": "en"
             }
           ]
@@ -781,35 +781,6 @@
           "translation": [
             {
               "text": "38 Highland Creek: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-65CD4CEE-0DDE-46F0-928C-A1F2D1B8BC23",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "26"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "26 Dupont: Detour westbound via",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "26 Dupont: Detour westbound via Symington Ave due to a collision.",
               "language": "en"
             }
           ]
