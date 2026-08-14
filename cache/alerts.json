@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1786748964"
+    "timestamp": "1786750502"
   },
   "entity": [
     {
@@ -454,6 +454,35 @@
       }
     },
     {
+      "id": "DevAPI-438646D0-EBC2-4C76-94E8-9A61E47ADF47",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "510"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "510 Spadina: No service between",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "510 Spadina: No service between Queens Quay West at Lower Spadina Ave East Side and Union Station Streetcar Platform due to a collision.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-C567323F-E1C7-4A94-BB8A-246447E099F1",
       "alert": {
         "informedEntity": [
@@ -708,6 +737,35 @@
           "translation": [
             {
               "text": "501 Queen: Detour eastbound via Spadina Ave and Adelaide St E while we respond to a medical emergency.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-724AF088-8FFB-44BA-B322-E1111C061D8F",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "509"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "509 Harbourfront: No service bet",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "509 Harbourfront: No service between Queens Quay West at Lower Spadina Ave East Side and Union Station Streetcar Platform due to a collision.",
               "language": "en"
             }
           ]
