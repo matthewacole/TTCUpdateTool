@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1786715471"
+    "timestamp": "1786718596"
   },
   "entity": [
     {
@@ -674,6 +674,35 @@
           "translation": [
             {
               "text": "43 Kennedy: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-D92E9B35-28E8-4729-A467-B018D6493A4B",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "504"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "504A, 504B King: Detour eastboun",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "504A, 504B King: Detour eastbound via Dufferin St, Queen St W and Shaw St due to a blocked track.",
               "language": "en"
             }
           ]
