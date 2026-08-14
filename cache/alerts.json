@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1786681555"
+    "timestamp": "1786686983"
   },
   "entity": [
     {
@@ -666,6 +666,39 @@
           "translation": [
             {
               "text": "67 Pharmacy: Detour via Ellesmere Rd, Victoria Park Ave, Lawrence Ave E, Pharmacy Ave and Donside Dr due to a collision.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-2165AAE4-DB56-4CD5-96AE-2541637C40DB",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "75"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Sherbourne: Elevator 4D1L out of",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Sherbourne: Elevator out of service between Sherbourne Street entrance, concourse and Line 2 Kennedy (eastbound) while we perform maintenance.",
               "language": "en"
             }
           ]
