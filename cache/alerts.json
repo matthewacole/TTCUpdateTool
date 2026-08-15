@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1786821279"
+    "timestamp": "1786822685"
   },
   "entity": [
     {
@@ -1163,35 +1163,6 @@
           "translation": [
             {
               "text": "37 Islington: Detour via Queens Plate Dr and Rexdale Blvd due to a demonstration.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-30199AA5-ADE1-4971-9CC4-C7F4B07B5425",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "75"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "75 Sherbourne: Detour northbound",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "75 Sherbourne: Detour northbound via The Esplanade, Princess St and Front St E due to a collision.",
               "language": "en"
             }
           ]
