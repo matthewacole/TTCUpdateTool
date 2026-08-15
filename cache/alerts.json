@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1786816376"
+    "timestamp": "1786817998"
   },
   "entity": [
     {
@@ -750,6 +750,35 @@
       }
     },
     {
+      "id": "DevAPI-01AADAE9-2D46-4868-8BBF-00838BB50830",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "904"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "904 Sheppard-Kennedy Express: De",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "904 Sheppard-Kennedy Express: Detour southbound via Kennedy Rd, Progress Ave and Midland Ave due to a collision.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-552DEDCA-1557-491F-85CD-96B13D61B733",
       "alert": {
         "informedEntity": [
@@ -1106,35 +1135,6 @@
           "translation": [
             {
               "text": "37 Islington: Detour via Queens Plate Dr and Rexdale Blvd due to a demonstration.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-43319530-ACC5-44AC-9293-6EFA3F9AEFF1",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "505"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "505 Dundas: Detour via Mccaul St",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "505 Dundas: Detour via Mccaul St, Queen St E and Parliament St due to a collision.",
               "language": "en"
             }
           ]
