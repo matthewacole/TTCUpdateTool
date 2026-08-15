@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1786822685"
+    "timestamp": "1786823684"
   },
   "entity": [
     {
@@ -771,35 +771,6 @@
           "translation": [
             {
               "text": "There is no subway service on Line 1 Yonge-University between Sheppard West and St Clair West stations due to planned track work. Shuttle buses are running. Follow the station signs or speak to a TTC employee for help. Service will resume August 17.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-01AADAE9-2D46-4868-8BBF-00838BB50830",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "904"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "904 Sheppard-Kennedy Express: De",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "904 Sheppard-Kennedy Express: Detour southbound via Kennedy Rd, Progress Ave and Midland Ave due to a collision.",
               "language": "en"
             }
           ]
