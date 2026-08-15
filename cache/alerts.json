@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1786811092"
+    "timestamp": "1786812574"
   },
   "entity": [
     {
@@ -1048,6 +1048,35 @@
           "translation": [
             {
               "text": "37 Islington: Detour via Queens Plate Dr and Rexdale Blvd due to a demonstration.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-43319530-ACC5-44AC-9293-6EFA3F9AEFF1",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "505"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "505 Dundas: Detour via Mccaul St",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "505 Dundas: Detour via Mccaul St, Queen St E and Parliament St due to a collision.",
               "language": "en"
             }
           ]
