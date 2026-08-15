@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1786792318"
+    "timestamp": "1786793666"
   },
   "entity": [
     {
@@ -89,6 +89,35 @@
           "translation": [
             {
               "text": "Have proof of payment ready for inspection.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-3CDDCED0-AF96-4008-A1B4-74A3404B5369",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "26"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "26 Dupont: Detour via Symington",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "26 Dupont: Detour via Symington Ave, Bloor St W and Keele St due to a collision.",
               "language": "en"
             }
           ]
