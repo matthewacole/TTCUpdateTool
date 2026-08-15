@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1786831305"
+    "timestamp": "1786833146"
   },
   "entity": [
     {
@@ -859,35 +859,6 @@
           "translation": [
             {
               "text": "38 Highland Creek: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-0408BDA8-29E0-4344-9FDF-D0FA0B052D2D",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "904"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "904 Sheppard-Kennedy Express: De",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "904 Sheppard-Kennedy Express: Detour northbound via Reidmount Ave, Cardwell Ave and Kennedy Rd due to a collision.",
               "language": "en"
             }
           ]
