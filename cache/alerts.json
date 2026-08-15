@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1786768729"
+    "timestamp": "1786770087"
   },
   "entity": [
     {
@@ -151,35 +151,6 @@
           "translation": [
             {
               "text": "North York Centre: Elevator out of service between Empress Walk entrance and concourse while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-4F91A546-80C3-4FFF-AB93-7514C5437829",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "506"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "506 Carlton: Detour westbound vi",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "506 Carlton: Detour westbound via Jarvis St, Bloor St E and Yonge St due to a blocked track.",
               "language": "en"
             }
           ]
@@ -946,63 +917,6 @@
           "translation": [
             {
               "text": "82 Rosedale: Detour westbound via Glen Rd, Elm Rd and Sherbourne St due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-5356435B-9939-468C-8B19-92F2B66D7415",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "304"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "505"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "301"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "501"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "305"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "503"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "504"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "19"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Osgoode: Elevator 5Y1L out of se",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Osgoode: Elevator out of service between concourse and Line 1 centre platform while we perform maintenance.",
               "language": "en"
             }
           ]
