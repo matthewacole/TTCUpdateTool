@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1786882778"
+    "timestamp": "1786885508"
   },
   "entity": [
     {
@@ -147,35 +147,6 @@
           "translation": [
             {
               "text": "97C Yonge: Detour via Wellesley Ave, Jarvis St and Shuter St due to a Toronto fire investigation.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-0AFEB590-D624-4F47-AE1D-FF927BE0C6B6",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "320"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "320 Yonge: Detour via Shuter St,",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "320 Yonge: Detour via Shuter St, Jarvis St, Wellesley Ave and Gerrard St E due to a Toronto fire investigation.",
               "language": "en"
             }
           ]
@@ -1044,91 +1015,6 @@
           "translation": [
             {
               "text": "316 Kingston Rd-Mccowan: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-370F685C-6179-40BA-80E4-288FD018D23D",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "335"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "384"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "119"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "166"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "935"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "989"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "937"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "337"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "99"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "108"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "84"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "37"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "336"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "165"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "35"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Line 6 Finch West: No service be",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Line 6 Finch West: No service between Rowntree Mills and Driftwood stations while the maintainer fixes a switch problem. Line 6 is owned by Metrolinx, maintained by Mosaic Transit Partners Maintenance and proudly operated by the TTC.",
               "language": "en"
             }
           ]
