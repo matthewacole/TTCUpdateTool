@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1786902895"
+    "timestamp": "1786904879"
   },
   "entity": [
     {
@@ -118,6 +118,35 @@
           "translation": [
             {
               "text": "506 Carlton: Detour via Ossington Ave, Dundas St W and Bay St due to a blocked track.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-088B344D-0DF8-4037-B8B1-DC6C934E9CEC",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "19"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "19 Bay: Detour northbound via Ki",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "19 Bay: Detour northbound via King St, University Ave and College St due to an event.",
               "language": "en"
             }
           ]
@@ -467,6 +496,35 @@
           "translation": [
             {
               "text": "903 Kennedy Stn-Scarborough Express: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-FC207CC7-6120-4742-8C6C-963F15174D69",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "501"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "501 Queen: Detour westbound via",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "501 Queen: Detour westbound via Church St, King St E and Spadina Ave due to a Toronto fire investigation.",
               "language": "en"
             }
           ]
@@ -944,35 +1002,6 @@
       }
     },
     {
-      "id": "DevAPI-09E1B094-1818-4B38-9650-A8B6F528D42A",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "97"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "97 Yonge: Detour southbound via",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "97 Yonge: Detour southbound via Yonge St, Wellesley St, Jarvis St and Richmond St W due to an event.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-2E2A1EDF-8B91-4F3C-9639-3A42DB817738",
       "alert": {
         "informedEntity": [
@@ -995,35 +1024,6 @@
           "translation": [
             {
               "text": "395 York Mills: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-9534BED0-D5F3-43FB-BEBF-E37462DEB9C9",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "124"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "124 Sunnybrook: Detour eastbound",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "124 Sunnybrook: Detour eastbound via Yonge St, Lympstone Ave and Weybourne Cres due to a collision.",
               "language": "en"
             }
           ]
@@ -1191,35 +1191,6 @@
       }
     },
     {
-      "id": "DevAPI-C27F64FD-1E0F-45DA-B680-CF513D7D29A2",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "162"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "162 Lawrence-Donway: Detour east",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "162 Lawrence-Donway: Detour eastbound via Weybourne Cres, Lympstone Ave, Lawrence Cres and Mount Pleasant Rd due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-963A2A8D-A1F4-488A-B54A-B2CBEDF5D377",
       "alert": {
         "informedEntity": [
@@ -1343,6 +1314,64 @@
       }
     },
     {
+      "id": "DevAPI-AAAF3A51-1400-45AA-A0D8-A3E0E93A5A80",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "506"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "506 Carlton: Detour eastbound vi",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "506 Carlton: Detour eastbound via Dundas St W and Spadina Ave due to an event.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-A8507D0C-C6CF-4099-841F-9023B8F163D3",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "19"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "19 Bay: Detour southbound via Co",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "19 Bay: Detour southbound via College St, University Ave and Adelaide St E due to an event.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-E648C98F-786C-4EE1-A525-48D15342753C",
       "alert": {
         "informedEntity": [
@@ -1394,6 +1423,35 @@
           "translation": [
             {
               "text": "112 West Mall: Detour via Wellesworth Dr and Eringate Dr due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-A136F837-7185-4F11-A717-D3BEBAC1A0A9",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "97"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "97 Yonge: Detour southbound via",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "97 Yonge: Detour southbound via Yonge St, Wellesley St, Jarvis St and King St due to an event.",
               "language": "en"
             }
           ]
