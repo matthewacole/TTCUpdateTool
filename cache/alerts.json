@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1786923682"
+    "timestamp": "1786924613"
   },
   "entity": [
     {
@@ -681,6 +681,35 @@
           "translation": [
             {
               "text": "There is no subway service on Line 1 Yonge-University between Sheppard West and St Clair West stations due to planned track work. Shuttle buses are running. Follow the station signs or speak to a TTC employee for help. Service will resume August 17.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-9FB9900E-51EA-47FB-91C0-70E54716AE5C",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "504"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "504 King: No service between Dun",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "504 King: No service between Dundas West Station at Bay 4 and Roncesvalles Ave at Queen St West due to a blocked track.",
               "language": "en"
             }
           ]
