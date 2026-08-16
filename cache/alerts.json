@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1786906622"
+    "timestamp": "1786908270"
   },
   "entity": [
     {
@@ -21,28 +21,38 @@
           },
           {
             "agencyId": "1",
-            "routeId": "84",
-            "stopId": "3755"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "84",
-            "stopId": "3755"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "84",
-            "stopId": "3755"
-          },
-          {
-            "agencyId": "1",
             "routeId": "104",
             "stopId": "3975"
           },
           {
             "agencyId": "1",
-            "routeId": "105",
-            "stopId": "3749"
+            "routeId": "984",
+            "stopId": "3754"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "84",
+            "stopId": "3755"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "84",
+            "stopId": "3755"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "108",
+            "stopId": "3756"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "84",
+            "stopId": "3755"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "108",
+            "stopId": "3756"
           },
           {
             "agencyId": "1",
@@ -56,23 +66,13 @@
           },
           {
             "agencyId": "1",
-            "routeId": "108",
-            "stopId": "3756"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "108",
-            "stopId": "3756"
-          },
-          {
-            "agencyId": "1",
             "routeId": "984",
             "stopId": "3750"
           },
           {
             "agencyId": "1",
-            "routeId": "984",
-            "stopId": "3754"
+            "routeId": "105",
+            "stopId": "3749"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -183,41 +183,12 @@
       }
     },
     {
-      "id": "DevAPI-9382CD6B-FAA3-47F0-AB10-E3CBC0B0510D",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "97"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "97 Yonge: Detour northbound via",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "97 Yonge: Detour northbound via Yonge St, Adelaide St E, Jarvis St, Bloor St E and Church St due to an event.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-19148489-7614-42B1-B957-DD36413F9136",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "34"
+            "routeId": "334"
           },
           {
             "agencyId": "1",
@@ -229,19 +200,19 @@
           },
           {
             "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
             "routeId": "109"
           },
           {
             "agencyId": "1",
-            "routeId": "164"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "334"
-          },
-          {
-            "agencyId": "1",
             "routeId": "363"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "164"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -328,12 +299,12 @@
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "114",
+            "routeId": "202",
             "stopId": "4277"
           },
           {
             "agencyId": "1",
-            "routeId": "202",
+            "routeId": "114",
             "stopId": "4277"
           }
         ],
@@ -503,35 +474,6 @@
       }
     },
     {
-      "id": "DevAPI-FC207CC7-6120-4742-8C6C-963F15174D69",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "501"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "501 Queen: Detour westbound via",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "501 Queen: Detour westbound via Church St, King St E and Spadina Ave due to a Toronto fire investigation.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-4DE1B5E9-6394-4DC6-9BB2-A9616FE1C9E0",
       "alert": {
         "informedEntity": [
@@ -595,27 +537,7 @@
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "84"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "104"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "105"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "106"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "107"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "108"
+            "routeId": "384"
           },
           {
             "agencyId": "1",
@@ -623,67 +545,11 @@
           },
           {
             "agencyId": "1",
-            "routeId": "384"
+            "routeId": "14"
           },
           {
             "agencyId": "1",
-            "routeId": "984"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "29"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "96"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "101"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "118"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "119"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "120"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "160"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "165"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "184"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "396"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "929"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "996"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "18"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "109"
+            "routeId": "307"
           },
           {
             "agencyId": "1",
@@ -691,31 +557,11 @@
           },
           {
             "agencyId": "1",
-            "routeId": "59"
+            "routeId": "363"
           },
           {
             "agencyId": "1",
-            "routeId": "352"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "952"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "14"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "63"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "90"
+            "routeId": "104"
           },
           {
             "agencyId": "1",
@@ -723,19 +569,23 @@
           },
           {
             "agencyId": "1",
-            "routeId": "334"
+            "routeId": "184"
           },
           {
             "agencyId": "1",
-            "routeId": "363"
+            "routeId": "952"
           },
           {
             "agencyId": "1",
-            "routeId": "312"
+            "routeId": "108"
           },
           {
             "agencyId": "1",
-            "routeId": "512"
+            "routeId": "396"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "29"
           },
           {
             "agencyId": "1",
@@ -743,7 +593,79 @@
           },
           {
             "agencyId": "1",
+            "routeId": "90"
+          },
+          {
+            "agencyId": "1",
             "routeId": "33"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "107"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "120"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "929"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "59"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "106"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "101"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "119"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "984"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "352"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "63"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "160"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "84"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "18"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "996"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "118"
           },
           {
             "agencyId": "1",
@@ -751,7 +673,27 @@
           },
           {
             "agencyId": "1",
-            "routeId": "307"
+            "routeId": "312"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "109"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "165"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "512"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "105"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "96"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -855,59 +797,6 @@
           "translation": [
             {
               "text": "95 York Mills: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-C0151C75-DE3F-4F1C-A37B-0AA71E2AC697",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "312"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "512"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "7"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "33"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "90"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "126"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "307"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "St Clair West: Elevator 3S2L out",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "St Clair West: Elevator out of service between bus and streetcar platform, south concourse and Line 1 southbound platform while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -1094,23 +983,15 @@
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "25"
+            "routeId": "334"
           },
           {
             "agencyId": "1",
-            "routeId": "34"
+            "routeId": "354"
           },
           {
             "agencyId": "1",
             "routeId": "54"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "72"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "100"
           },
           {
             "agencyId": "1",
@@ -1122,19 +1003,27 @@
           },
           {
             "agencyId": "1",
+            "routeId": "100"
+          },
+          {
+            "agencyId": "1",
             "routeId": "325"
           },
           {
             "agencyId": "1",
-            "routeId": "334"
+            "routeId": "25"
           },
           {
             "agencyId": "1",
-            "routeId": "354"
+            "routeId": "34"
           },
           {
             "agencyId": "1",
             "routeId": "925"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "72"
           },
           {
             "agencyId": "1",
@@ -1258,10 +1147,6 @@
           },
           {
             "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
             "routeId": "61"
           },
           {
@@ -1270,15 +1155,19 @@
           },
           {
             "agencyId": "1",
+            "routeId": "354"
+          },
+          {
+            "agencyId": "1",
             "routeId": "74"
           },
           {
             "agencyId": "1",
-            "routeId": "97"
+            "routeId": "11"
           },
           {
             "agencyId": "1",
-            "routeId": "103"
+            "routeId": "34"
           },
           {
             "agencyId": "1",
@@ -1286,11 +1175,11 @@
           },
           {
             "agencyId": "1",
-            "routeId": "354"
+            "routeId": "103"
           },
           {
             "agencyId": "1",
-            "routeId": "11"
+            "routeId": "97"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -1452,35 +1341,6 @@
           "translation": [
             {
               "text": "112 West Mall: Detour via Wellesworth Dr and Eringate Dr due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-A136F837-7185-4F11-A717-D3BEBAC1A0A9",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "97"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "97 Yonge: Detour southbound via",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "97 Yonge: Detour southbound via Yonge St, Wellesley St, Jarvis St and King St due to an event.",
               "language": "en"
             }
           ]
