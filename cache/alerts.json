@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1786899291"
+    "timestamp": "1786900671"
   },
   "entity": [
     {
@@ -1155,6 +1155,35 @@
           "translation": [
             {
               "text": "134 Progress: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-C27F64FD-1E0F-45DA-B680-CF513D7D29A2",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "162"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "162 Lawrence-Donway: Detour east",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "162 Lawrence-Donway: Detour eastbound via Weybourne Cres, Lympstone Ave, Lawrence Cres and Mount Pleasant Rd due to a collision.",
               "language": "en"
             }
           ]
