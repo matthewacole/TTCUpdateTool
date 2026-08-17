@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1787003842"
+    "timestamp": "1787005790"
   },
   "entity": [
     {
@@ -118,35 +118,6 @@
           "translation": [
             {
               "text": "506 Carlton: Detour via Ossington Ave, Dundas St W and Bay St due to a blocked track.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-B6B83A06-26EB-4116-90E8-EDB0B91F7C45",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "504"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "504B King: Detour westbound via",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "504B King: Detour westbound via Queen St E and Church St due to a blocked track.",
               "language": "en"
             }
           ]
@@ -329,6 +300,35 @@
       }
     },
     {
+      "id": "DevAPI-2987A589-B4E0-4EC9-A733-BC720CF465FE",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "135"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "135 Gerrard: Detour westbound vi",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "135 Gerrard: Detour westbound via Danforth Ave, Birchmount Rd and Hollis Ave due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-C567323F-E1C7-4A94-BB8A-246447E099F1",
       "alert": {
         "informedEntity": [
@@ -467,35 +467,6 @@
           "translation": [
             {
               "text": "903 Kennedy Stn-Scarborough Express: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-3C16165D-EAA5-4E67-95B2-A586D8755515",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "503"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "503 Kingston Rd: Detour westboun",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "503 Kingston Rd: Detour westbound via Sumach, Eastern Ave, Front St and Berkeley due to a blocked track.",
               "language": "en"
             }
           ]
@@ -1043,35 +1014,6 @@
           "translation": [
             {
               "text": "Line 5 Eglinton: No service between Leaside and Avenue stations due to a disruptive customer. Shuttle buses are on the way.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-631D6C98-E60E-480A-82B4-B4245E28703B",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "504"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "504A King: Detour westbound via",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "504A King: Detour westbound via King St E, Queen St E, Broadview Ave, Dundas St E and Church St due to a blocked track.",
               "language": "en"
             }
           ]
