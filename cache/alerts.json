@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1786945639"
+    "timestamp": "1786947757"
   },
   "entity": [
     {
@@ -871,6 +871,35 @@
           "translation": [
             {
               "text": "38 Highland Creek: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-C3F2E206-D18F-4F0C-945D-9D1B962EFBEF",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "506"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "506 Carlton: No service between",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "506 Carlton: No service between Dundas St West at Sterling Rd and College St at Lansdowne Ave while we respond to a medical emergency.",
               "language": "en"
             }
           ]
