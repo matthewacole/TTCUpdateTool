@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1786943177"
+    "timestamp": "1786945639"
   },
   "entity": [
     {
@@ -1241,35 +1241,6 @@
           "translation": [
             {
               "text": "112 West Mall: Detour via Wellesworth Dr and Eringate Dr due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-9BF3EBF5-7B36-4588-979E-127399FEDD48",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "506"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "506 Carlton: Detour westbound vi",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "506 Carlton: Detour westbound via Bathurst St, Dundas St W and Ossington Ave due to a collision.",
               "language": "en"
             }
           ]
