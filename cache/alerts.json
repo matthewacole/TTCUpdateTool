@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1786924613"
+    "timestamp": "1786930711"
   },
   "entity": [
     {
@@ -688,12 +688,28 @@
       }
     },
     {
-      "id": "DevAPI-9FB9900E-51EA-47FB-91C0-70E54716AE5C",
+      "id": "DevAPI-4D663388-E8E6-4687-9CC2-E26FB3DFFF40",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "504"
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "354"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "74"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "103"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -701,7 +717,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "504 King: No service between Dun",
+              "text": "Mount Pleasant: Elevator ELV01-A",
               "language": "en"
             }
           ]
@@ -709,7 +725,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "504 King: No service between Dundas West Station at Bay 4 and Roncesvalles Ave at Queen St West due to a blocked track.",
+              "text": "Mount Pleasant: Elevator out of service between concourse and Line 5 centre platform while we perform maintenance. Elevator is expected to be back in service August 17, 2026.",
               "language": "en"
             }
           ]
