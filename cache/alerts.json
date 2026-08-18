@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1787032187"
+    "timestamp": "1787033898"
   },
   "entity": [
     {
@@ -125,12 +125,12 @@
       }
     },
     {
-      "id": "DevAPI-30320D5D-51DE-411A-B092-8DFA9A54E03D",
+      "id": "DevAPI-54869A81-06CB-4D85-B9C2-7E22D226B1DF",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "75"
+            "routeId": "504"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -138,7 +138,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "75 Sherbourne: Detour southbound",
+              "text": "504, 504B King: Detour via Duffe",
               "language": "en"
             }
           ]
@@ -146,7 +146,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "75 Sherbourne: Detour southbound via Front St E, Parliament St and Queens Quay E due to construction.",
+              "text": "504, 504B King: Detour via Dufferin St, Queen St W and Shaw St while we deal with a disruptive customer.",
               "language": "en"
             }
           ]
@@ -351,6 +351,59 @@
           "translation": [
             {
               "text": "135 Gerrard: Detour westbound via Danforth Ave, Birchmount Rd and Hollis Ave due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-ADAB1A45-4A9B-4A3E-8F7A-E5AE31D1B025",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "101"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "36"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "336"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "341"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "939"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "41"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "107"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Line 1 Yonge-University: Delays",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Line 1 Yonge-University: Delays northbound at Finch West station while we deal with a trespasser on the tracks.",
               "language": "en"
             }
           ]
@@ -599,35 +652,6 @@
           "translation": [
             {
               "text": "329 Dufferin: Detour southbound via Dufferin St, Viceroy, Futurity Gt and Gerry Fitzgerald Dr due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-64B10DB2-2D73-4236-B27D-21D5F03ABBE6",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "98"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "98 Willowdale-Senlac: Detour via",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "98 Willowdale-Senlac: Detour via Peckham Ave and Homewood Ave due to a Toronto fire investigation.",
               "language": "en"
             }
           ]
