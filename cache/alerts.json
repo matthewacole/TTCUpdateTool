@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1787179933"
+    "timestamp": "1787181318"
   },
   "entity": [
     {
@@ -89,35 +89,6 @@
           "translation": [
             {
               "text": "Have proof of payment ready for inspection.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-4B0C1C8B-E777-48FC-B13F-EEAB442AA73A",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "33"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "33 Forest Hill: Detour northboun",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "33 Forest Hill: Detour northbound via Spadina Ave, Burton Rd and Bathurst St due to a blocked road.",
               "language": "en"
             }
           ]
