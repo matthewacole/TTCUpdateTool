@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1787097137"
+    "timestamp": "1787100624"
   },
   "entity": [
     {
@@ -159,79 +159,6 @@
           "translation": [
             {
               "text": "Leslie: Elevator out of service between bus platform, concourse and Line 4 centre platform while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-5979C413-FE30-48E8-975C-0F077427B307",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "67"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "334"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "54"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "162"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "191"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "924"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "91"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "324"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "100"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "24"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "70"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Line 5 Eglinton: No service betw",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Line 5 Eglinton: No service between Pharmacy and Aga Khan Park & Museum stations while the maintainer fixes a track problem. Line 5 is owned by Metrolinx, maintained by Crosslinx Transit Solutions Maintenance and proudly operated by the TTC.",
               "language": "en"
             }
           ]
@@ -617,12 +544,12 @@
       }
     },
     {
-      "id": "DevAPI-B7CA0385-D3E5-4A93-A7E4-99AFF4DF5B2D",
+      "id": "DevAPI-042B07B0-7B53-4F55-BAF5-208DD87A2530",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "505"
+            "routeId": "38"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -630,7 +557,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "505 Dundas: Detour westbound via",
+              "text": "38 Highland Creek: Detour westbo",
               "language": "en"
             }
           ]
@@ -638,7 +565,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "505 Dundas: Detour westbound via Bathurst St, College St and Bay St due to a collision.",
+              "text": "38 Highland Creek: Detour westbound via Morrish Rd and Ellesmere Rd due to a blocked road.",
               "language": "en"
             }
           ]
