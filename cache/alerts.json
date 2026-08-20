@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1787205708"
+    "timestamp": "1787209215"
   },
   "entity": [
     {
@@ -351,35 +351,6 @@
           "translation": [
             {
               "text": "305 Dundas: Detour via Parliament St, Gerrard St W and Broadview Ave due to police activity.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-4465C9D5-D6F1-46B3-9DC2-D2AF7BE245BE",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "85"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "85A Sheppard East: Detour eastbo",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "85A Sheppard East: Detour eastbound via Ellesmere Rd, Kingston Rd and Port Union Rd due to a collision.",
               "language": "en"
             }
           ]
