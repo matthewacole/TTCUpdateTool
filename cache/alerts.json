@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1787349419"
+    "timestamp": "1787351362"
   },
   "entity": [
     {
@@ -154,35 +154,6 @@
       }
     },
     {
-      "id": "DevAPI-AB2CED58-B248-46D1-A243-521A149D3751",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "165"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "165 Weston Rd North: Detour west",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "165 Weston Rd North: Detour westbound via Matthew's Gate , Yorkdale Cres and Lovilla Blvd due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-2FAF432B-B9FA-4AFA-A888-325DC0E50DAA",
       "alert": {
         "informedEntity": [
@@ -205,6 +176,51 @@
           "translation": [
             {
               "text": "26 Dupont: Detour via Keele St, Bloor St W and Symington Ave due to a watermain break.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-EEBD8F0E-C8F5-4D87-93F4-434C9B0763D1",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "352"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "109"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "52"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "952"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "59"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Line 1 Yonge-University: Trains",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Line 1 Yonge-University: Bypass at Lawrence West station due to a security incident.",
               "language": "en"
             }
           ]
@@ -622,35 +638,6 @@
       }
     },
     {
-      "id": "DevAPI-673B4A4D-C544-4BBA-8281-C796E942F0E8",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "129"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "129 Mccowan North: Detour southb",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "129 Mccowan North: Detour southbound via Huntingwood Dr, Brimley Rd and Sheppard Ave E due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-4DE1B5E9-6394-4DC6-9BB2-A9616FE1C9E0",
       "alert": {
         "informedEntity": [
@@ -941,6 +928,35 @@
       }
     },
     {
+      "id": "DevAPI-01314559-54AC-49DE-9A11-F5977E55E7E3",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "110"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "110 Islington South: Detour sout",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "110 Islington South: Detour southbound via Greenland Rd and Meadowvale Dr due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-9FAF3476-CEE7-48C9-AF7E-779B7DC9EAF9",
       "alert": {
         "informedEntity": [
@@ -1036,35 +1052,6 @@
           "translation": [
             {
               "text": "Don Valley: Elevator out of service between concourse and Don Mills Road west side entrance due to the Ontario Line construction. Elevator is expected to be back in service February 8, 2032.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-A5FDBD02-801E-4321-BD3E-7E220EC6C2C7",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "939"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "939 Finch Express: Detour eastbo",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "939 Finch Express: Detour eastbound via Huntingwood Dr, Brimley Rd and Sheppard Ave E due to a collision.",
               "language": "en"
             }
           ]
