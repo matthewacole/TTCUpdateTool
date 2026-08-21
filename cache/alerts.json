@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1787324482"
+    "timestamp": "1787326969"
   },
   "entity": [
     {
@@ -293,43 +293,6 @@
           "translation": [
             {
               "text": "Please look both ways for cyclists before exiting.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-B65ABF0D-6C89-43CD-9C0B-4150AD0089FB",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "11"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "185"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "385"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Bayview: Elevator 55P4L out of s",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Bayview: Elevator out of service between Sheppard Ave E south side entrance and east concourse due to a technical problem.",
               "language": "en"
             }
           ]
