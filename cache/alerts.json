@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1787339203"
+    "timestamp": "1787340889"
   },
   "entity": [
     {
@@ -118,6 +118,35 @@
           "translation": [
             {
               "text": "506 Carlton: Detour via Ossington Ave, Dundas St W and Bay St due to a blocked track.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-D8BE9920-C66A-4124-9B32-9FB3AFE1ED7B",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "130"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "130 Middlefield: Detour southbou",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "130 Middlefield: Detour southbound via Huntingwood Dr, Brimley Rd and Sheppard Ave E due to a collision.",
               "language": "en"
             }
           ]
@@ -592,6 +621,35 @@
       }
     },
     {
+      "id": "DevAPI-673B4A4D-C544-4BBA-8281-C796E942F0E8",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "129"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "129 Mccowan North: Detour southb",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "129 Mccowan North: Detour southbound via Huntingwood Dr, Brimley Rd and Sheppard Ave E due to a collision.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-4DE1B5E9-6394-4DC6-9BB2-A9616FE1C9E0",
       "alert": {
         "informedEntity": [
@@ -759,6 +817,35 @@
           "translation": [
             {
               "text": "43 Kennedy: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-12541A88-7377-4DDC-BE20-688A6A38F46D",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "506"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "506 Carlton: No service between",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "506 Carlton: No service between Main Street Station at Bay 7 and Coxwell Ave at Lower Gerrard St East due to a collision.",
               "language": "en"
             }
           ]
@@ -948,6 +1035,35 @@
           "translation": [
             {
               "text": "316 Kingston Rd-Mccowan: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-49EC722E-0DBF-4A32-BB02-7A4AF78859D1",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "169"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "169 Huntingwood: Detour eastboun",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "169 Huntingwood: Detour eastbound via Brimley Rd, Sheppard Ave E and Mccowan Rd due to a collision.",
               "language": "en"
             }
           ]
