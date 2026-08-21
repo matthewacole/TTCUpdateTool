@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1787328736"
+    "timestamp": "1787331149"
   },
   "entity": [
     {
@@ -496,6 +496,47 @@
           "translation": [
             {
               "text": "329 Dufferin: Detour southbound via Dufferin St, Viceroy, Futurity Gt and Gerry Fitzgerald Dr due to a collision.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-1308BDA6-5BCE-446E-9B7D-1D7D98FE1A9B",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "18"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "47"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Caledonia: Elevator ELV02-B out",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Caledonia: Elevator out of service between Eglinton Avenue north side entrance and concourse while we perform maintenance.",
               "language": "en"
             }
           ]
