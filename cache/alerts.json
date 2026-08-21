@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1787334776"
+    "timestamp": "1787336788"
   },
   "entity": [
     {
@@ -118,6 +118,35 @@
           "translation": [
             {
               "text": "506 Carlton: Detour via Ossington Ave, Dundas St W and Bay St due to a blocked track.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-2FAF432B-B9FA-4AFA-A888-325DC0E50DAA",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "26"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "26 Dupont: Detour via Keele St,",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "26 Dupont: Detour via Keele St, Bloor St W and Symington Ave due to a watermain break.",
               "language": "en"
             }
           ]
@@ -258,6 +287,63 @@
           "translation": [
             {
               "text": "904 Sheppard-Kennedy Express: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-3B7BFA3B-ABD9-4043-A94B-BA3F5EA1A7CA",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "384"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "984"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "320"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "97"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "185"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "84"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "98"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "385"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Sheppard-Yonge: Elevator 51P5L o",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Sheppard-Yonge: Elevator out of service between Line 4 eastbound platform and Line 1 centre platform due to a technical problem.",
               "language": "en"
             }
           ]
