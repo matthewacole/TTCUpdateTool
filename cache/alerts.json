@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1787352835"
+    "timestamp": "1787354335"
   },
   "entity": [
     {
@@ -644,6 +644,43 @@
           "translation": [
             {
               "text": "97 Yonge: Detour southbound via Wilson Ave, Avenue Rd and Fairlawn Ave due to a collision.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-60F9601C-CA5C-4659-959F-2550F6C38C9B",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "11"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "185"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "385"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Bayview: Elevator 55P4L out of s",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Bayview: Elevator out of service between Sheppard Ave E south side entrance and east concourse while we perform maintenance.",
               "language": "en"
             }
           ]
