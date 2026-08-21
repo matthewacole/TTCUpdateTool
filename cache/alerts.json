@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1787275205"
+    "timestamp": "1787279892"
   },
   "entity": [
     {
@@ -532,12 +532,12 @@
       }
     },
     {
-      "id": "DevAPI-ED7B682E-FD56-465F-8397-88373591B770",
+      "id": "DevAPI-F935176E-3D18-4B22-B838-0F09F2169ECA",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "504"
+            "routeId": "75"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -545,7 +545,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "504A, 504B King: Detour westboun",
+              "text": "75 Sherbourne: Detour northbound",
               "language": "en"
             }
           ]
@@ -553,7 +553,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "504A, 504B King: Detour westbound via Church St, Wellington St E and York St due to a security incident.",
+              "text": "75 Sherbourne: Detour northbound via George St and Front St E due to a blocked road.",
               "language": "en"
             }
           ]
