@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1787351362"
+    "timestamp": "1787352835"
   },
   "entity": [
     {
@@ -125,35 +125,6 @@
       }
     },
     {
-      "id": "DevAPI-D8BE9920-C66A-4124-9B32-9FB3AFE1ED7B",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "130"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "130 Middlefield: Detour southbou",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "130 Middlefield: Detour southbound via Huntingwood Dr, Brimley Rd and Sheppard Ave E due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-2FAF432B-B9FA-4AFA-A888-325DC0E50DAA",
       "alert": {
         "informedEntity": [
@@ -176,51 +147,6 @@
           "translation": [
             {
               "text": "26 Dupont: Detour via Keele St, Bloor St W and Symington Ave due to a watermain break.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-EEBD8F0E-C8F5-4D87-93F4-434C9B0763D1",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "352"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "109"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "52"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "952"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "59"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Line 1 Yonge-University: Trains",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Line 1 Yonge-University: Bypass at Lawrence West station due to a security incident.",
               "language": "en"
             }
           ]
@@ -1081,35 +1007,6 @@
           "translation": [
             {
               "text": "316 Kingston Rd-Mccowan: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-49EC722E-0DBF-4A32-BB02-7A4AF78859D1",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "169"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "169 Huntingwood: Detour eastboun",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "169 Huntingwood: Detour eastbound via Brimley Rd, Sheppard Ave E and Mccowan Rd due to a collision.",
               "language": "en"
             }
           ]
