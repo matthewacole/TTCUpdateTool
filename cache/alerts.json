@@ -2,9 +2,38 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1787377458"
+    "timestamp": "1787378506"
   },
   "entity": [
+    {
+      "id": "DevAPI-44DCF47B-4EDD-4D79-B84E-F2FF289C7377",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "506"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "506 Carlton: Detour eastbound vi",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "506 Carlton: Detour eastbound via Parliament St and Queen St E while we respond to a medical emergency.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
     {
       "id": "DevAPI-A7A47D84-4C20-4E7B-A011-BE3F74D8425A",
       "alert": {
@@ -21,38 +50,28 @@
           },
           {
             "agencyId": "1",
+            "routeId": "84",
+            "stopId": "3755"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "84",
+            "stopId": "3755"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "84",
+            "stopId": "3755"
+          },
+          {
+            "agencyId": "1",
             "routeId": "104",
             "stopId": "3975"
           },
           {
             "agencyId": "1",
-            "routeId": "984",
-            "stopId": "3754"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "84",
-            "stopId": "3755"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "84",
-            "stopId": "3755"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "108",
-            "stopId": "3756"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "84",
-            "stopId": "3755"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "108",
-            "stopId": "3756"
+            "routeId": "105",
+            "stopId": "3749"
           },
           {
             "agencyId": "1",
@@ -66,13 +85,23 @@
           },
           {
             "agencyId": "1",
+            "routeId": "108",
+            "stopId": "3756"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "108",
+            "stopId": "3756"
+          },
+          {
+            "agencyId": "1",
             "routeId": "984",
             "stopId": "3750"
           },
           {
             "agencyId": "1",
-            "routeId": "105",
-            "stopId": "3749"
+            "routeId": "984",
+            "stopId": "3754"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -159,7 +188,7 @@
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "334"
+            "routeId": "34"
           },
           {
             "agencyId": "1",
@@ -171,19 +200,19 @@
           },
           {
             "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
             "routeId": "109"
           },
           {
             "agencyId": "1",
-            "routeId": "363"
+            "routeId": "164"
           },
           {
             "agencyId": "1",
-            "routeId": "164"
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "363"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -270,12 +299,12 @@
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "202",
+            "routeId": "114",
             "stopId": "4277"
           },
           {
             "agencyId": "1",
-            "routeId": "114",
+            "routeId": "202",
             "stopId": "4277"
           }
         ],
@@ -351,93 +380,6 @@
           "translation": [
             {
               "text": "305 Dundas: Detour via Parliament St, Gerrard St W and Broadview Ave due to police activity.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-32772BD9-D2F5-4252-976C-577D5FDDC6B9",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "52"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "52 Lawrence West: Detour westbou",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "52 Lawrence West: Detour westbound via Islington Ave, Dixon Rd and Kipling Ave due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-50320BA5-BC62-4E2C-9560-24ABAA095CC7",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "52"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "52 Lawrence West: Detour eastbou",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "52 Lawrence West: Detour eastbound via Hartsdale Dr, Holgate St and Islington Ave due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-4647C74A-B53A-433C-9815-62C0A5C676D8",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "504"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "504 King: Delays between King St",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "504 King: Delays between King St West at Spadina Ave West Side and King St West at Bathurst St due to traffic congestion.",
               "language": "en"
             }
           ]
@@ -735,6 +677,76 @@
       }
     },
     {
+      "id": "DevAPI-764472A3-AB1B-4753-8C94-E5174129B090",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "305"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "305 Dundas: Detour via Parliamen",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "305 Dundas: Detour via Parliament St, Gerrard St E and Broadview Ave while we respond to a medical emergency.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-6E2904D2-7E33-44B1-8CF5-B230897DDF23",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "11"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "354"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Leaside: Elevator ELV03-C out of",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Leaside: Elevator out of service between Eglinton Avenue south side entrance and concourse due to a technical problem.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-2E2A1EDF-8B91-4F3C-9639-3A42DB817738",
       "alert": {
         "informedEntity": [
@@ -798,15 +810,23 @@
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "334"
+            "routeId": "25"
           },
           {
             "agencyId": "1",
-            "routeId": "354"
+            "routeId": "34"
           },
           {
             "agencyId": "1",
             "routeId": "54"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "72"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "100"
           },
           {
             "agencyId": "1",
@@ -818,27 +838,19 @@
           },
           {
             "agencyId": "1",
-            "routeId": "100"
-          },
-          {
-            "agencyId": "1",
             "routeId": "325"
           },
           {
             "agencyId": "1",
-            "routeId": "25"
+            "routeId": "334"
           },
           {
             "agencyId": "1",
-            "routeId": "34"
+            "routeId": "354"
           },
           {
             "agencyId": "1",
             "routeId": "925"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "72"
           },
           {
             "agencyId": "1",
@@ -871,59 +883,7 @@
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "14"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "510"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "307"
-          },
-          {
-            "agencyId": "1",
             "routeId": "52"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "363"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "164"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "952"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "506"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "19"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "7"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "90"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "310"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "94"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "33"
           },
           {
             "agencyId": "1",
@@ -931,7 +891,7 @@
           },
           {
             "agencyId": "1",
-            "routeId": "306"
+            "routeId": "109"
           },
           {
             "agencyId": "1",
@@ -939,15 +899,11 @@
           },
           {
             "agencyId": "1",
-            "routeId": "63"
+            "routeId": "952"
           },
           {
             "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "127"
+            "routeId": "14"
           },
           {
             "agencyId": "1",
@@ -955,7 +911,15 @@
           },
           {
             "agencyId": "1",
-            "routeId": "13"
+            "routeId": "63"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "90"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "164"
           },
           {
             "agencyId": "1",
@@ -963,11 +927,7 @@
           },
           {
             "agencyId": "1",
-            "routeId": "126"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "26"
+            "routeId": "363"
           },
           {
             "agencyId": "1",
@@ -975,11 +935,63 @@
           },
           {
             "agencyId": "1",
-            "routeId": "109"
+            "routeId": "512"
           },
           {
             "agencyId": "1",
-            "routeId": "512"
+            "routeId": "7"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "33"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "126"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "307"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "19"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "26"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "127"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "306"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "310"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "506"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "510"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "13"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "94"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -1025,35 +1037,6 @@
           "translation": [
             {
               "text": "316 Kingston Rd-Mccowan: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-81C19071-8D76-472D-85F9-C1BF42D83645",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "26"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "26 Dupont: Detour via Keele St,",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "26 Dupont: Detour via Keele St, Bloor St W and Symington Ave due to a watermain break.",
               "language": "en"
             }
           ]
@@ -1128,6 +1111,10 @@
           },
           {
             "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
             "routeId": "61"
           },
           {
@@ -1136,23 +1123,11 @@
           },
           {
             "agencyId": "1",
-            "routeId": "354"
-          },
-          {
-            "agencyId": "1",
             "routeId": "74"
           },
           {
             "agencyId": "1",
-            "routeId": "11"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "320"
+            "routeId": "97"
           },
           {
             "agencyId": "1",
@@ -1160,7 +1135,15 @@
           },
           {
             "agencyId": "1",
-            "routeId": "97"
+            "routeId": "320"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "354"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "11"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -1177,35 +1160,6 @@
           "translation": [
             {
               "text": "Line 5 Eglinton: No service between Leaside and Avenue stations due to a disruptive customer. Shuttle buses are on the way.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-43108319-9113-4CE3-94AC-74EFD992CA4F",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "37"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "37 Islington: Detour via Queens",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "37 Islington: Detour via Queens Plate Dr and Rexdale Blvd due to a demonstration.",
               "language": "en"
             }
           ]
