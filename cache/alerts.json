@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1787375535"
+    "timestamp": "1787377458"
   },
   "entity": [
     {
@@ -118,64 +118,6 @@
           "translation": [
             {
               "text": "506 Carlton: Detour via Ossington Ave, Dundas St W and Bay St due to a blocked track.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-C349CD55-39F1-4A10-9B96-75D144012508",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "504"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "504 King: Delays between King St",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "504 King: Delays between King St West at Spadina Ave West Side and King St West at Bathurst St due to traffic congestion.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-2FAF432B-B9FA-4AFA-A888-325DC0E50DAA",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "26"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "26 Dupont: Detour via Keele St,",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "26 Dupont: Detour via Keele St, Bloor St W and Symington Ave due to a watermain break.",
               "language": "en"
             }
           ]
@@ -467,6 +409,35 @@
           "translation": [
             {
               "text": "52 Lawrence West: Detour eastbound via Hartsdale Dr, Holgate St and Islington Ave due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-4647C74A-B53A-433C-9815-62C0A5C676D8",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "504"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "504 King: Delays between King St",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "504 King: Delays between King St West at Spadina Ave West Side and King St West at Bathurst St due to traffic congestion.",
               "language": "en"
             }
           ]
@@ -822,35 +793,6 @@
       }
     },
     {
-      "id": "DevAPI-9FAF3476-CEE7-48C9-AF7E-779B7DC9EAF9",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "37"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "37 Islington: Detour via Queens",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "37 Islington: Detour via Queens Plate Dr and Rexdale Blvd due to a demonstration.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-30CFA51B-7B09-476B-BBB3-376A8BBBE2F2",
       "alert": {
         "informedEntity": [
@@ -1090,6 +1032,35 @@
       }
     },
     {
+      "id": "DevAPI-81C19071-8D76-472D-85F9-C1BF42D83645",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "26"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "26 Dupont: Detour via Keele St,",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "26 Dupont: Detour via Keele St, Bloor St W and Symington Ave due to a watermain break.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-992D5CED-BEF6-45CB-AF4B-1095B9C3F428",
       "alert": {
         "informedEntity": [
@@ -1206,6 +1177,35 @@
           "translation": [
             {
               "text": "Line 5 Eglinton: No service between Leaside and Avenue stations due to a disruptive customer. Shuttle buses are on the way.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-43108319-9113-4CE3-94AC-74EFD992CA4F",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "37"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "37 Islington: Detour via Queens",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "37 Islington: Detour via Queens Plate Dr and Rexdale Blvd due to a demonstration.",
               "language": "en"
             }
           ]
