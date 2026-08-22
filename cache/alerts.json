@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1787373932"
+    "timestamp": "1787375535"
   },
   "entity": [
     {
@@ -409,35 +409,6 @@
           "translation": [
             {
               "text": "305 Dundas: Detour via Parliament St, Gerrard St W and Broadview Ave due to police activity.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-ED7B7A1C-3815-49A7-8036-3B2586EB105B",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "25"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "25 Don Mills: Detour via Cosburn",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "25 Don Mills: Detour via Cosburn Ave and Pape Ave due to a Toronto fire investigation.",
               "language": "en"
             }
           ]
@@ -873,64 +844,6 @@
           "translation": [
             {
               "text": "37 Islington: Detour via Queens Plate Dr and Rexdale Blvd due to a demonstration.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-2889767D-8956-4ED2-91F5-F1CF5B85C60A",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "35"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "35 Jane: Detour northbound via 2",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "35 Jane: Detour northbound via 2a W Kingston Rd Ramp due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-85164E0F-990D-478D-B06C-7C441E8A9B1D",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "100"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "100 Flemingdon Park: Detour via",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "100 Flemingdon Park: Detour via Pape Ave and Cosburn Ave due to a Toronto fire investigation.",
               "language": "en"
             }
           ]
