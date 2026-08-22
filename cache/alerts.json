@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1787355771"
+    "timestamp": "1787356864"
   },
   "entity": [
     {
@@ -229,6 +229,59 @@
           "translation": [
             {
               "text": "Cedarvale: Elevator out of service between platform and upper concourse while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-18533018-9C5D-480E-B5E9-29F06D012FB7",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "396"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "73"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "336"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "46"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "337"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "927"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "45"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Line 6 Finch West: No service be",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Line 6 Finch West: No service between Albion and Mount Olive stations due to a medical emergency. Shuttle buses are on the way.",
               "language": "en"
             }
           ]
