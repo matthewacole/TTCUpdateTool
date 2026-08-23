@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1787461088"
+    "timestamp": "1787463373"
   },
   "entity": [
     {
@@ -989,12 +989,12 @@
       }
     },
     {
-      "id": "DevAPI-18C93E14-E737-428F-A560-496A2F2A6846",
+      "id": "DevAPI-0D791315-9427-4B29-AE5D-CAA1EE583264",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "84"
+            "routeId": "501"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -1002,7 +1002,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "84 Sheppard West: Detour via Duf",
+              "text": "501 Queen: Detour via Shaw St, K",
               "language": "en"
             }
           ]
@@ -1010,7 +1010,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "84 Sheppard West: Detour via Dufferin St, Finch Ave W and Keele St due to an event.",
+              "text": "501 Queen: Detour via Shaw St, King St E and Church St due to a blocked track.",
               "language": "en"
             }
           ]
@@ -1098,79 +1098,6 @@
           "translation": [
             {
               "text": "129 Mccowan North: Detour northbound via Sheppard Ave E, Shorting Rd, Nugget Ave and Mccowan Rd due to a traffic light problem.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-97EC3360-C1A4-4B7C-A793-CDBC152FA124",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "304"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "62"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "8"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "322"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "100"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "25"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "505"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "925"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "87"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "305"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "504"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Broadview: Elevator 6D1L out of",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Broadview: Elevator out of service between Broadview Ave entrance, concourse and Line 2 westbound platform due to a technical problem.",
               "language": "en"
             }
           ]
