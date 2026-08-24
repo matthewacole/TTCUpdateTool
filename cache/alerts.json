@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1787570089"
+    "timestamp": "1787571999"
   },
   "entity": [
     {
@@ -125,7 +125,7 @@
       }
     },
     {
-      "id": "DevAPI-77E58928-45F1-4AA7-8E6F-AE9B754C2A3C",
+      "id": "DevAPI-0B89AF74-7457-4C09-9C2A-F7C8D625EDEC",
       "alert": {
         "informedEntity": [
           {
@@ -146,7 +146,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "505 Dundas: Detour eastbound via Dundas St E, Church St, King St E and Parliament St due to a blocked track.",
+              "text": "505 Dundas: Detour eastbound via Church St, King St E, Queen St E and Broadview Ave due to a blocked track.",
               "language": "en"
             }
           ]
@@ -323,35 +323,6 @@
       }
     },
     {
-      "id": "DevAPI-ADA9033A-1705-4E59-B84D-9BC3C566371A",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "506"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "506 Carlton: Detour westbound vi",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "506 Carlton: Detour westbound via College St, Parliament St, Queen St W, Church St, Richmond St W, York St, Queen St W and Spadina Ave due to tree down blocking roadway.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-A669C5C7-A773-400C-8786-4D674D5CEC88",
       "alert": {
         "informedEntity": [
@@ -445,6 +416,35 @@
       }
     },
     {
+      "id": "DevAPI-D034CAD3-A3D1-460C-BA30-C8B68A9E009F",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "505"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "505 Dundas: Detour westbound via",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "505 Dundas: Detour westbound via Broadview Ave, Queen St E and King St E due to a blocked track.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-D9F16C80-7AD0-48C4-9229-52C25445D8E1",
       "alert": {
         "informedEntity": [
@@ -496,6 +496,35 @@
           "translation": [
             {
               "text": "129 Mccowan North: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-C86E41E8-5C7C-4717-B40C-5C2FA6CBAA19",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "506"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "506 Carlton: Detour via Spadina",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "506 Carlton: Detour via Spadina Ave, King St E, Queen St W and Broadview Ave due to tree down blocking roadway.",
               "language": "en"
             }
           ]
@@ -764,35 +793,6 @@
       }
     },
     {
-      "id": "DevAPI-2F26583F-D5A7-4574-98E6-B2EA9E0665E5",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "505"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "505 Dundas: Detour westbound via",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "505 Dundas: Detour westbound via Parliament St, King St E and Spadina Ave due to a blocked track.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-F92885AA-2070-4819-B78B-544D607977A2",
       "alert": {
         "informedEntity": [
@@ -815,35 +815,6 @@
           "translation": [
             {
               "text": "133 Neilson: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-CD0E57C3-53F2-4C41-B66B-FE9DC77739FD",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "506"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "506 Carlton: Detour eastbound vi",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "506 Carlton: Detour eastbound via Spadina Ave, Adelaide St E, Church St, Queen St E, Parliament St and Dundas St E due to tree down blocking roadway.",
               "language": "en"
             }
           ]
