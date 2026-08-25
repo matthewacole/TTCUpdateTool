@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1787660795"
+    "timestamp": "1787664518"
   },
   "entity": [
     {
@@ -880,16 +880,28 @@
       }
     },
     {
-      "id": "DevAPI-0C8CBCC3-F879-4F3E-BF6B-B7FE0268A1DF",
+      "id": "DevAPI-DCBF67C7-F7E7-496E-A6AD-B6A91701163D",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "304"
+            "routeId": "61"
           },
           {
             "agencyId": "1",
-            "routeId": "505"
+            "routeId": "354"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "74"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "14"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
           },
           {
             "agencyId": "1",
@@ -897,23 +909,19 @@
           },
           {
             "agencyId": "1",
-            "routeId": "301"
+            "routeId": "34"
           },
           {
             "agencyId": "1",
-            "routeId": "501"
+            "routeId": "28"
           },
           {
             "agencyId": "1",
-            "routeId": "305"
+            "routeId": "88"
           },
           {
             "agencyId": "1",
-            "routeId": "503"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "506"
+            "routeId": "82"
           },
           {
             "agencyId": "1",
@@ -921,15 +929,31 @@
           },
           {
             "agencyId": "1",
-            "routeId": "306"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "504"
-          },
-          {
-            "agencyId": "1",
             "routeId": "19"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "13"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "312"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "11"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "512"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "103"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -937,7 +961,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Queen: Elevator 9Y1L out of serv",
+              "text": "Line 1 Yonge-University: Delays",
               "language": "en"
             }
           ]
@@ -945,7 +969,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "Queen: Elevator out of service between underpass, Line 1 northbound platform, Line 1 southbound platform, and south concourse due to a technical problem.",
+              "text": "Line 1 Yonge-University: Delays southbound from Eglinton to Bloor-Yonge stations due to a reduced speed zone.",
               "language": "en"
             }
           ]
