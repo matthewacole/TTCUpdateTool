@@ -2,38 +2,9 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1787670739"
+    "timestamp": "1787673690"
   },
   "entity": [
-    {
-      "id": "DevAPI-AF1C4A98-DE8B-49FF-A5BC-69D052CF8159",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "133"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "133 Neilson: Detour southbound v",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "133 Neilson: Detour southbound via Military Trl and Ellesmere Rd due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
     {
       "id": "DevAPI-A7A47D84-4C20-4E7B-A011-BE3F74D8425A",
       "alert": {
@@ -205,35 +176,6 @@
           "translation": [
             {
               "text": "16 Mccowan: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-3994CA73-AFC6-4ED6-A5B7-39448E79E388",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "37"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "37 Islington: Detour southbound",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "37 Islington: Detour southbound via Finch Ave W, Kipling Ave, Rexdale Blvd and Bergamot Ave due to a collision.",
               "language": "en"
             }
           ]
@@ -474,35 +416,6 @@
       }
     },
     {
-      "id": "DevAPI-E4A4E842-02E0-41E9-9E7E-0178CA9990FE",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "506"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "506 Carlton: Detour via Spadina",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "506 Carlton: Detour via Spadina Ave, King St W, King St E and Parliament St due to a blocked track.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-822F14F4-17D0-404D-8FDD-C5CB457C3E01",
       "alert": {
         "informedEntity": [
@@ -735,35 +648,6 @@
       }
     },
     {
-      "id": "DevAPI-7F75A651-6BD3-4280-A1AE-E7532A6CBBB2",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "505"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "505 Dundas: Detour westbound via",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "505 Dundas: Detour westbound via Queen St E, Church St, Richmond St W, York St, Queen St W and Spadina Ave due to a blocked track.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-E4AFDA05-3263-4D28-9106-1B155F079A77",
       "alert": {
         "informedEntity": [
@@ -902,35 +786,6 @@
           "translation": [
             {
               "text": "395 York Mills: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-4C59C4DD-6D51-4E35-A89A-7818A1AD506A",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "505"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "505 Dundas: Detour eastbound via",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "505 Dundas: Detour eastbound via Spadina Ave, Adelaide St E, Church St, Queen St E and Broadview Ave due to a blocked track.",
               "language": "en"
             }
           ]
