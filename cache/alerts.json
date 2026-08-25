@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1787623274"
+    "timestamp": "1787627260"
   },
   "entity": [
     {
@@ -1185,35 +1185,6 @@
           "translation": [
             {
               "text": "129 Mccowan North: Detour northbound via Sheppard Ave E, Shorting Rd, Nugget Ave and Mccowan Rd due to a traffic light problem.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-B6F30B7A-3074-447F-8512-04BB1F5A0EB3",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "160"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "160 Bathurst North: Detour north",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "160 Bathurst North: Detour northbound via Promenade Cir, North Promenade and Centre St due to construction.",
               "language": "en"
             }
           ]
