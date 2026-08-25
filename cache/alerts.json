@@ -2,38 +2,9 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1787639565"
+    "timestamp": "1787642835"
   },
   "entity": [
-    {
-      "id": "DevAPI-E4C36927-8D03-4AC2-A4CB-EF8566E64FE1",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "506"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "506 Carlton: Detour via Spadina",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "506 Carlton: Detour via Spadina Ave, King St W and Parliament St due to a blocked track.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
     {
       "id": "DevAPI-A7A47D84-4C20-4E7B-A011-BE3F74D8425A",
       "alert": {
@@ -147,6 +118,35 @@
           "translation": [
             {
               "text": "506 Carlton: Detour via Ossington Ave, Dundas St W and Bay St due to a blocked track.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-4CE33B62-A9B4-4E3F-8D40-16FE41BE2A28",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "305"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "305 Dundas: Detour via Adelaide",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "305 Dundas: Detour via Adelaide St E due to Tree down blocking roadway.",
               "language": "en"
             }
           ]
@@ -590,35 +590,6 @@
       }
     },
     {
-      "id": "DevAPI-4B601504-D22A-4AFB-8DFD-2F1853C4D548",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "505"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "505 Dundas: Detour via Broadview",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "505 Dundas: Detour via Broadview Ave, Queen St W, King St W and Spadina Ave due to a blocked track.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-552DEDCA-1557-491F-85CD-96B13D61B733",
       "alert": {
         "informedEntity": [
@@ -677,35 +648,6 @@
       }
     },
     {
-      "id": "DevAPI-D783ECD6-2FFE-4570-B1A0-F5AAF2CA7322",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "43"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "43 Kennedy: Detour southbound vi",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "43 Kennedy: Detour southbound via Midland Ave, Passmore Ave, Miliken Blvd and Mcnicoll Ave due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-41083758-9360-454D-A376-6BFDEE4C7E28",
       "alert": {
         "informedEntity": [
@@ -735,12 +677,12 @@
       }
     },
     {
-      "id": "DevAPI-1CA19FD2-FBFA-4943-95D7-5C26B9923779",
+      "id": "DevAPI-DAFE480B-70DF-4916-812D-6677A076ECF7",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "305"
+            "routeId": "306"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -748,7 +690,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "305 Dundas: Detour via 2a W King",
+              "text": "306 Carlton: Detour via Spadina",
               "language": "en"
             }
           ]
@@ -756,7 +698,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "305 Dundas: Detour via 2a W Kingston Rd Ramp due to Tree down blocking roadway.",
+              "text": "306 Carlton: Detour via Spadina Ave, King St W, King St E and Parliament St due to a blocked track.",
               "language": "en"
             }
           ]
