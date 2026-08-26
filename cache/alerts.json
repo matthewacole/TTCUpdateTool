@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1787711886"
+    "timestamp": "1787715478"
   },
   "entity": [
     {
@@ -823,6 +823,35 @@
           "translation": [
             {
               "text": "43 Kennedy: Detour southbound via Midland Ave and Mcnicoll Ave due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-FF4E1AE5-D60C-45F1-AC16-57FBCC5AA062",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "73"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "73 Royal York: No service southb",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "73 Royal York: No service southbound from Jane St at Eglinton Ave West North Side to Emmett Ave at Jane St due to construction.",
               "language": "en"
             }
           ]
