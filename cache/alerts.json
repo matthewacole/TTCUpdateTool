@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1787702035"
+    "timestamp": "1787706332"
   },
   "entity": [
     {
@@ -743,44 +743,12 @@
       }
     },
     {
-      "id": "DevAPI-761D012A-3E19-4F4B-9523-4B482E5031BB",
+      "id": "DevAPI-F46721F2-5D57-45F2-938E-D3D51B56C46B",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "13"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "26"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "310"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "510"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "127"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "94"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "506"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "306"
+            "routeId": "43"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -788,7 +756,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "St George: Elevator 1Y1L out of",
+              "text": "43 Kennedy: Detour southbound vi",
               "language": "en"
             }
           ]
@@ -796,7 +764,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "St George: Elevator out of service between bus platform, Bedford rd west side entrance, concourse, Line 1 centre platform and Line 2 centre platform while we perform maintenance.",
+              "text": "43 Kennedy: Detour southbound via Midland Ave and Mcnicoll Ave due to construction.",
               "language": "en"
             }
           ]
@@ -923,47 +891,6 @@
           "translation": [
             {
               "text": "133 Neilson: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-3A1D93F2-2D02-4FB4-BBE6-395DB191F55B",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "77"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "79"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "71"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Runnymede: Elevator 11B2L out of",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Runnymede: Elevator out of service between concourse and Line 2 westbound platform while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -1102,12 +1029,44 @@
       }
     },
     {
-      "id": "DevAPI-2D49ED4B-F88E-4A1A-9A31-75AD97054C8B",
+      "id": "DevAPI-F5EE1616-D750-497C-AA42-079701686189",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "43"
+            "routeId": "13"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "61"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "354"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "74"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "320"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "103"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "97"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -1115,7 +1074,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "43 Kennedy: Detour southbound vi",
+              "text": "Eglinton: Elevator 7 out of serv",
               "language": "en"
             }
           ]
@@ -1123,7 +1082,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "43 Kennedy: Detour southbound via Midland Ave and Mcnicoll Ave due to construction.",
+              "text": "Eglinton: Elevator out of service between Line 1 concourse and line 5 upper concourse east side while we perform maintenance.",
               "language": "en"
             }
           ]
