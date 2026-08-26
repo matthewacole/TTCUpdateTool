@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1787723113"
+    "timestamp": "1787725215"
   },
   "entity": [
     {
@@ -96,6 +96,35 @@
       }
     },
     {
+      "id": "DevAPI-2966D1B5-6450-4AE9-86FA-34FC8A7ECBE4",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "343"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "343 Kennedy: Detour southbound v",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "343 Kennedy: Detour southbound via Midland Ave and Mcnicoll Ave due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-C1BAAE76-9AB5-482E-A239-FC623D9C5E9B",
       "alert": {
         "informedEntity": [
@@ -118,35 +147,6 @@
           "translation": [
             {
               "text": "506 Carlton: Detour via Ossington Ave, Dundas St W and Bay St due to a blocked track.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-F1D2F639-D5C4-49DF-A8B8-CB0BECB08BF0",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "73"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "73 Royal York: No service southb",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "73 Royal York: No service southbound from Jane St at Eglinton Ave West North Side to Emmett Ave at Jane St due to construction.",
               "language": "en"
             }
           ]
@@ -956,6 +956,35 @@
       }
     },
     {
+      "id": "DevAPI-6A65D869-9707-40CC-9E99-88E6AA8FD66A",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "41"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "41 Keele: Detour via St Regis Cr",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "41 Keele: Detour via St Regis Cres, Ceramic Rd and Ashwarren Rd due to a Toronto fire investigation.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-30CFA51B-7B09-476B-BBB3-376A8BBBE2F2",
       "alert": {
         "informedEntity": [
@@ -1051,6 +1080,35 @@
           "translation": [
             {
               "text": "316 Kingston Rd-Mccowan: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-96C783EF-1FA2-466D-8C0E-1A6B04243898",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "341"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "341 Keele: Detour via St Regis C",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "341 Keele: Detour via St Regis Cres, Ceramic Rd and Ashwarren Rd due to a Toronto fire investigation.",
               "language": "en"
             }
           ]
