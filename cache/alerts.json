@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1787725215"
+    "timestamp": "1787728487"
   },
   "entity": [
     {
@@ -474,6 +474,35 @@
       }
     },
     {
+      "id": "DevAPI-12F4A4B8-25A8-4432-8164-35EB3527D738",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "341"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "341 Keele: Detour via Sheppard A",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "341 Keele: Detour via Sheppard Ave W, Tuscan Gt, St Regis Cres, Ceramic Rd and Lepage Crt due to a Toronto fire investigation.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-4DE1B5E9-6394-4DC6-9BB2-A9616FE1C9E0",
       "alert": {
         "informedEntity": [
@@ -554,35 +583,6 @@
           "translation": [
             {
               "text": "300 Bloor-Danforth: Detour via Spadina Ave, Dupont St, Davenport Rd and Bay St due to a Toronto fire investigation.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-E08E6368-1524-4485-8209-E884F7A3632E",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "43"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "43 Kennedy: Detour southbound vi",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "43 Kennedy: Detour southbound via Midland Ave and Mcnicoll Ave due to construction.",
               "language": "en"
             }
           ]
@@ -743,35 +743,6 @@
       }
     },
     {
-      "id": "DevAPI-290B03E0-8C7F-4FDF-AB58-631F32F52A49",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "93"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "93 Parkview Hills: Detour northb",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "93 Parkview Hills: Detour northbound via St Clair Ave E and O'connor Dr due to a watermain break.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-9E889281-D220-4E5C-B735-8EA04D9797A4",
       "alert": {
         "informedEntity": [
@@ -830,103 +801,6 @@
       }
     },
     {
-      "id": "DevAPI-DCBF67C7-F7E7-496E-A6AD-B6A91701163D",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "61"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "354"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "74"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "14"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "320"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "28"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "88"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "82"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "97"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "19"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "13"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "334"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "312"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "11"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "512"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "103"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Line 1 Yonge-University: Delays",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Line 1 Yonge-University: Delays southbound from Eglinton to Bloor-Yonge stations due to a reduced speed zone.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-F92885AA-2070-4819-B78B-544D607977A2",
       "alert": {
         "informedEntity": [
@@ -949,35 +823,6 @@
           "translation": [
             {
               "text": "133 Neilson: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-6A65D869-9707-40CC-9E99-88E6AA8FD66A",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "41"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "41 Keele: Detour via St Regis Cr",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "41 Keele: Detour via St Regis Cres, Ceramic Rd and Ashwarren Rd due to a Toronto fire investigation.",
               "language": "en"
             }
           ]
@@ -1080,35 +925,6 @@
           "translation": [
             {
               "text": "316 Kingston Rd-Mccowan: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-96C783EF-1FA2-466D-8C0E-1A6B04243898",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "341"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "341 Keele: Detour via St Regis C",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "341 Keele: Detour via St Regis Cres, Ceramic Rd and Ashwarren Rd due to a Toronto fire investigation.",
               "language": "en"
             }
           ]
