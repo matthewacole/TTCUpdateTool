@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1787715478"
+    "timestamp": "1787718139"
   },
   "entity": [
     {
@@ -125,6 +125,35 @@
       }
     },
     {
+      "id": "DevAPI-F1D2F639-D5C4-49DF-A8B8-CB0BECB08BF0",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "73"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "73 Royal York: No service southb",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "73 Royal York: No service southbound from Jane St at Eglinton Ave West North Side to Emmett Ave at Jane St due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-20DBE903-2332-49D4-8DDD-C0E3052144BC",
       "alert": {
         "informedEntity": [
@@ -147,35 +176,6 @@
           "translation": [
             {
               "text": "16 Mccowan: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-E6F2089D-D9F5-44DC-B4E3-4E233B1A49FD",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "202"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "202 Cherry Beach: Detour eastbou",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "202 Cherry Beach: Detour eastbound via Parliament St, King St E, Sumach St and Cherry St due to police activity.",
               "language": "en"
             }
           ]
@@ -772,35 +772,6 @@
       }
     },
     {
-      "id": "DevAPI-441950AA-7FD6-4CD2-AE33-10C420E77C08",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "121"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "121 Esplanade-River: Detour east",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "121 Esplanade-River: Detour eastbound via Parliament St, King St E, Sumach St and Cherry St due to police activity.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-F46721F2-5D57-45F2-938E-D3D51B56C46B",
       "alert": {
         "informedEntity": [
@@ -823,35 +794,6 @@
           "translation": [
             {
               "text": "43 Kennedy: Detour southbound via Midland Ave and Mcnicoll Ave due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-FF4E1AE5-D60C-45F1-AC16-57FBCC5AA062",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "73"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "73 Royal York: No service southb",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "73 Royal York: No service southbound from Jane St at Eglinton Ave West North Side to Emmett Ave at Jane St due to construction.",
               "language": "en"
             }
           ]
