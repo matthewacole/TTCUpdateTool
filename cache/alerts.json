@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1787756180"
+    "timestamp": "1787761256"
   },
   "entity": [
     {
@@ -791,6 +791,35 @@
       }
     },
     {
+      "id": "DevAPI-E288D49E-FAF6-4CF0-AE69-10A7F3D5B70B",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "510"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "510 Spadina: No service between",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "510 Spadina: No service between Queens Quay Loop at Lower Spadina Ave and Union Station Streetcar Platform due to the CNE.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-2E2A1EDF-8B91-4F3C-9639-3A42DB817738",
       "alert": {
         "informedEntity": [
@@ -878,35 +907,6 @@
       }
     },
     {
-      "id": "DevAPI-46C79275-A527-4B37-A7FB-FAD66E1F01E6",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "107"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "107 Alness-Chesswood: Detour nor",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "107 Alness-Chesswood: Detour northbound via Sheppard Ave W and Kodiak Cres due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-88ED0667-5E69-419C-B7E2-72949F41B441",
       "alert": {
         "informedEntity": [
@@ -977,67 +977,6 @@
       }
     },
     {
-      "id": "DevAPI-5FF2F5CC-B2C8-4F30-A585-12F0A76F1169",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "13"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "61"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "334"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "354"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "74"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "320"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "103"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "97"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Eglinton: Elevator 6 out of serv",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Eglinton: Elevator out of service between Line 5 upper concourse east side and Line 5 centre platform while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-992D5CED-BEF6-45CB-AF4B-1095B9C3F428",
       "alert": {
         "informedEntity": [
@@ -1060,127 +999,6 @@
           "translation": [
             {
               "text": "134 Progress: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-F1237B03-A71E-4582-96F3-699053BC4292",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "131"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "20"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "905"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "38"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "12"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "986"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "21"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "201"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "43"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "904"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "86"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "334"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "939"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "129"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "154"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "113"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "116"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "57"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "343"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "903"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "386"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "133"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Kennedy: Elevator out of service",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Kennedy: Elevator out of service between concourse and Line 5 centre platform west side while we perform maintenance.",
               "language": "en"
             }
           ]
