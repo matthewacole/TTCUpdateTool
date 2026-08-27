@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1787805419"
+    "timestamp": "1787844601"
   },
   "entity": [
     {
@@ -118,6 +118,35 @@
           "translation": [
             {
               "text": "506 Carlton: Detour via Ossington Ave, Dundas St W and Bay St due to a blocked track.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-F231E8C5-3972-48E0-93BD-01D4D92DC5FB",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "107"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "107 Alness-Chesswood: Detour nor",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "107 Alness-Chesswood: Detour northbound via Kodiak Cres and Whitehorse Rd due to construction.",
               "language": "en"
             }
           ]
@@ -445,125 +474,6 @@
       }
     },
     {
-      "id": "DevAPI-4A1895D2-EF25-4305-B10F-34E29ECB70A0",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "13"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "26"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "310"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "510"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "127"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "94"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "506"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "306"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "St George: Elevator 1Y1L out of",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "St George: Elevator out of service between bus platform, Bedford rd west side entrance, concourse, Line 1 centre platform and Line 2 centre platform while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-4E1AE02F-B1A7-40E1-843F-8F19CCA55D7B",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "83"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "83 Jones: Detour via Gerrard St",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "83 Jones: Detour via Gerrard St E, Greenwood Ave and Danforth Ave due to sink hole repairs.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-C8141FFB-8269-4280-942E-342AC17A8A0C",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "60"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "60 Steeles West: Detour via Giho",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "60 Steeles West: Detour via Gihon Spring Dr, Martin Grove Rd and Royalcrest Rd due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-4DE1B5E9-6394-4DC6-9BB2-A9616FE1C9E0",
       "alert": {
         "informedEntity": [
@@ -622,6 +532,35 @@
       }
     },
     {
+      "id": "DevAPI-A3B9D4D9-E4C7-4FEA-B267-0F18AAFEF884",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "156"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "156 Millwood: Detour southbound",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "156 Millwood: Detour southbound via Vanderhoof Ave and Laird Dr due to a Toronto fire investigation.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-552DEDCA-1557-491F-85CD-96B13D61B733",
       "alert": {
         "informedEntity": [
@@ -644,35 +583,6 @@
           "translation": [
             {
               "text": "501 Queen: Detour eastbound via Spadina Ave and Adelaide St E while we respond to a medical emergency.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-8B691572-96D0-4ABF-B2CE-5F897EE76550",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "46"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "46 Martin Grove: Detour via Giho",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "46 Martin Grove: Detour via Gihon Spring Dr, Mount Olive Dr and Silverstone Dr due to a collision.",
               "language": "en"
             }
           ]
@@ -825,12 +735,12 @@
       }
     },
     {
-      "id": "DevAPI-43500B02-903E-4F8E-B81A-5C71C56922C0",
+      "id": "DevAPI-E448380F-524A-4BC7-BF99-276F1B4117A4",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "149"
+            "routeId": "510"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -838,7 +748,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "149 Etobicoke-Bloor: No service",
+              "text": "510 Spadina: No service between",
               "language": "en"
             }
           ]
@@ -846,7 +756,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "149 Etobicoke-Bloor: No service near Bloor St West at Old Mill Trail due to a blocked road.",
+              "text": "510 Spadina: No service between Queens Quay Loop at Lower Spadina Ave and Union Station Streetcar Platform due to the CNE.",
               "language": "en"
             }
           ]
@@ -927,35 +837,6 @@
       }
     },
     {
-      "id": "DevAPI-58B43873-19C5-41DA-B788-BB9E93A6DBB8",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "927"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "927 Highway 27 Express: Detour v",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "927 Highway 27 Express: Detour via Royalcrest Rd, Highway 27 N and Steeles Ave W due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-F92885AA-2070-4819-B78B-544D607977A2",
       "alert": {
         "informedEntity": [
@@ -985,12 +866,12 @@
       }
     },
     {
-      "id": "DevAPI-87C030B6-CD8A-468C-8DCA-E4C8319D36E9",
+      "id": "DevAPI-394CD4A8-0291-4DE9-83FC-AE3ADAF7FA68",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "93"
+            "routeId": "88"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -998,7 +879,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "93 Parkview Hills: Detour via Sa",
+              "text": "88B South Leaside: Detour westbo",
               "language": "en"
             }
           ]
@@ -1006,7 +887,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "93 Parkview Hills: Detour via Sandra Rd, St Clair Ave E and O'connor Dr due to a watermain break.",
+              "text": "88B South Leaside: Detour westbound via Vanderhoof Ave and Laird Dr due to a Toronto fire investigation.",
               "language": "en"
             }
           ]
@@ -1195,67 +1076,6 @@
       }
     },
     {
-      "id": "DevAPI-0B86A0BB-1520-45D7-9057-44D12569CA77",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "13"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "61"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "334"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "354"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "74"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "320"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "103"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "97"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Eglinton: Elevator 4 out of serv",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Eglinton: Elevator out of service between Eglinton Avenue south side entrance, Line 1 concourse, and Line 5 upper concourse west side while we perform maintenance. Elevator is expected to be back in service August 27, 2026.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-E648C98F-786C-4EE1-A525-48D15342753C",
       "alert": {
         "informedEntity": [
@@ -1387,44 +1207,12 @@
       }
     },
     {
-      "id": "DevAPI-531B07C6-582B-498B-A648-00E5DC1E500B",
+      "id": "DevAPI-364043B1-CFE0-4C50-84D2-CE3CB01D2564",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "13"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "61"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "334"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "354"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "74"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "320"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "103"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "97"
+            "routeId": "83"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -1432,7 +1220,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Eglinton: Elevator 3 out of serv",
+              "text": "83 Jones: Detour via Gerrard St",
               "language": "en"
             }
           ]
@@ -1440,7 +1228,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "Eglinton: Elevator out of service between Line 1 centre platform and Line 5 centre platform while we perform maintenance.",
+              "text": "83 Jones: Detour via Gerrard St E, Greenwood Ave and Danforth Ave due to ongoing sinkhole repairs.",
               "language": "en"
             }
           ]
