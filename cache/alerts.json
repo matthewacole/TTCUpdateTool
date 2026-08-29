@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1787975101"
+    "timestamp": "1787999243"
   },
   "entity": [
     {
@@ -89,6 +89,35 @@
           "translation": [
             {
               "text": "Have proof of payment ready for inspection.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-0DBF1441-3DE5-46A0-94E0-D63307080120",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "160"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "160 Bathurst North: Detour north",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "160 Bathurst North: Detour northbound via Promenade Cir, Centre St and New Westminster Dr due to construction.",
               "language": "en"
             }
           ]
@@ -300,6 +329,35 @@
       }
     },
     {
+      "id": "DevAPI-7FB8609C-E2AB-42ED-80A6-B2DD590FD1F8",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "334"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "334 Eglinton: Detour via Scarlet",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "334 Eglinton: Detour via Scarlett Rd, East Dr and Jane St due to police activity.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-C567323F-E1C7-4A94-BB8A-246447E099F1",
       "alert": {
         "informedEntity": [
@@ -503,12 +561,24 @@
       }
     },
     {
-      "id": "DevAPI-F249863F-220E-4A5A-91E1-C2F83DA62754",
+      "id": "DevAPI-11A578EF-7DC5-4E7B-AA85-5AEA3D32D4D4",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "501"
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "65"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "365"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "94"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -516,7 +586,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "501 Queen: No service between Qu",
+              "text": "Castle Frank: Elevator 5D2L out",
               "language": "en"
             }
           ]
@@ -524,7 +594,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "501 Queen: No service between Queen St East at Kingston Rd and Queen St East at Neville Park Blvd while we respond to a medical emergency.",
+              "text": "Castle Frank: Elevator out of service between Castle Frank Rd entrance and Line 2 Kennedy (eastbound) platform while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -612,35 +682,6 @@
           "translation": [
             {
               "text": "95 York Mills: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-211ACDC5-717D-4A21-B58F-C986E19C1FE9",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "510"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "510 Spadina: No service between",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "510 Spadina: No service between Queens Quay Loop at Lower Spadina Ave and Union Station Streetcar Platform due to the CNE.",
               "language": "en"
             }
           ]
@@ -1215,35 +1256,6 @@
           "translation": [
             {
               "text": "Don Valley: Elevator out of service between concourse and Don Mills Road east side entrance and bus terminal while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-B35649FF-CB36-4C01-A6F2-C6532A77BE11",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "129"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "129 Mccowan North: Detour via Hi",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "129 Mccowan North: Detour via Highway 7, Kennedy Rd and Carlton Rd due to a blocked road.",
               "language": "en"
             }
           ]
