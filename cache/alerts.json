@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1788052901"
+    "timestamp": "1788072991"
   },
   "entity": [
     {
@@ -96,35 +96,6 @@
       }
     },
     {
-      "id": "DevAPI-0DBF1441-3DE5-46A0-94E0-D63307080120",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "160"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "160 Bathurst North: Detour north",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "160 Bathurst North: Detour northbound via Promenade Cir, Centre St and New Westminster Dr due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-C1BAAE76-9AB5-482E-A239-FC623D9C5E9B",
       "alert": {
         "informedEntity": [
@@ -147,35 +118,6 @@
           "translation": [
             {
               "text": "506 Carlton: Detour via Ossington Ave, Dundas St W and Bay St due to a blocked track.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-930926E2-40AD-427B-9900-7F12AA2DB753",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "903"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "903 Kennedy Stn-Scarborough Expr",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "903 Kennedy Stn-Scarborough Express: Detour southbound via Midland Ave, Lawrence Ave W and Kennedy Rd due to construction.",
               "language": "en"
             }
           ]
@@ -351,35 +293,6 @@
           "translation": [
             {
               "text": "Please look both ways for cyclists before exiting.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-1DBF6CC2-63F8-4F21-8D1E-558B2B63D120",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "510"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "510 Spadina: No service between",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "510 Spadina: No service between Queens Quay Loop at Lower Spadina Ave and Union Station Streetcar Platform daily from 9:30 a.m. to 11:59 p.m., Aug. 21 to Sept. 7, due to the CNE. To continue to Union Station, transfer to the 509 Harbourfront at Queens Quay",
               "language": "en"
             }
           ]
@@ -583,35 +496,6 @@
           "translation": [
             {
               "text": "329 Dufferin: Detour southbound via Dufferin St, Viceroy, Futurity Gt and Gerry Fitzgerald Dr due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-67B5C00F-2D38-4626-A65C-68B39735C61C",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "35"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "35A Jane: Detour via Finch Ave W",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "35A Jane: Detour via Finch Ave W and Driftwood Ave due to a collision.",
               "language": "en"
             }
           ]
@@ -866,64 +750,6 @@
       }
     },
     {
-      "id": "DevAPI-153FE6EA-C868-42DA-96E9-0EC7D4BA4C03",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "35"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "35B Jane: Detour via Yorkgate Bl",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "35B Jane: Detour via Yorkgate Blvd and Finch Ave W due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-BB2AAB88-0121-4FEC-AC1D-47AC3909A0E5",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "511"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "511 Bathurst: Delays between Exh",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "511 Bathurst: Delays between Exhibition Loop and Bathurst Station at Bay 6 due to traffic congestion.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-F92885AA-2070-4819-B78B-544D607977A2",
       "alert": {
         "informedEntity": [
@@ -1105,67 +931,6 @@
       }
     },
     {
-      "id": "DevAPI-350A9CCD-6C0B-4E83-8448-813155DC2190",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "13"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "26"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "310"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "510"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "127"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "94"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "506"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "306"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "St George: Elevator 1Y1L out of",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "St George: Elevator out of service between bus platform, Bedford rd west side entrance, concourse, Line 1 centre platform and Line 2 centre platform while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-BE8054CF-15DA-4A37-AB2D-8DF04C8A823D",
       "alert": {
         "informedEntity": [
@@ -1319,63 +1084,6 @@
           "translation": [
             {
               "text": "Don Valley: Elevator out of service between concourse and Don Mills Road east side entrance and bus terminal while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-7F481E3D-4D3D-4BD4-A701-9711493C63B2",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "304"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "340"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "168"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "505"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "40"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "305"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "504"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Dundas West: Elevator 8B1L out o",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Dundas West: Elevator out of service between Dundas St W entrance and bus platform, concourse and Line 2 eastbound platform while we perform maintenance.",
               "language": "en"
             }
           ]
