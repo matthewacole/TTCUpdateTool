@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1788093596"
+    "timestamp": "1788109077"
   },
   "entity": [
     {
@@ -258,6 +258,83 @@
           "translation": [
             {
               "text": "904 Sheppard-Kennedy Express: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-A3574E04-A16A-419E-BF5E-DCB75F08D4D5",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "61"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "354"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "74"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "320"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "88"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "97"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "13"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "156"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "51"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "11"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "103"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Line 5 Eglinton: No service betw",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Line 5 Eglinton: No service between Laird and Eglinton stations due to Toronto Fire Investigation at Leaside. Shuttle buses are running between Eglinton and Laird.",
               "language": "en"
             }
           ]
@@ -641,6 +718,35 @@
           "translation": [
             {
               "text": "38 Highland Creek: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-2057D5FE-53AF-41FC-8DA5-62F206A51C28",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "510"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "510 Spadina: No service between",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "510 Spadina: No service between Queens Quay Loop at Lower Spadina Ave and Union Station Streetcar Platform due to the CNE.",
               "language": "en"
             }
           ]
