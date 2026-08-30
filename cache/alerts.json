@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1788045667"
+    "timestamp": "1788052901"
   },
   "entity": [
     {
@@ -323,35 +323,6 @@
       }
     },
     {
-      "id": "DevAPI-11BD36D4-147E-4332-936B-DF71D56C9E5B",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "35"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "35 Jane: Detour northbound via Y",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "35 Jane: Detour northbound via Yorkgate Blvd, Gosford Blvd and Milo Park Gt due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-A669C5C7-A773-400C-8786-4D674D5CEC88",
       "alert": {
         "informedEntity": [
@@ -619,6 +590,35 @@
       }
     },
     {
+      "id": "DevAPI-67B5C00F-2D38-4626-A65C-68B39735C61C",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "35"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "35A Jane: Detour via Finch Ave W",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "35A Jane: Detour via Finch Ave W and Driftwood Ave due to a collision.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-552DEDCA-1557-491F-85CD-96B13D61B733",
       "alert": {
         "informedEntity": [
@@ -764,35 +764,6 @@
       }
     },
     {
-      "id": "DevAPI-228AFC93-364B-4100-9A2F-245A2C07599E",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "935"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "935 Jane Express: Detour northbo",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "935 Jane Express: Detour northbound via Yorkgate Blvd, Gosford Blvd and Milo Park Gt due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-2E2A1EDF-8B91-4F3C-9639-3A42DB817738",
       "alert": {
         "informedEntity": [
@@ -888,6 +859,35 @@
           "translation": [
             {
               "text": "Don Valley: Elevator out of service between concourse and Don Mills Road west side entrance due to the Ontario Line construction. Elevator is expected to be back in service February 8, 2032.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-153FE6EA-C868-42DA-96E9-0EC7D4BA4C03",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "35"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "35B Jane: Detour via Yorkgate Bl",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "35B Jane: Detour via Yorkgate Blvd and Finch Ave W due to a collision.",
               "language": "en"
             }
           ]
