@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1788281843"
+    "timestamp": "1788292097"
   },
   "entity": [
     {
@@ -89,6 +89,47 @@
           "translation": [
             {
               "text": "Have proof of payment ready for inspection.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-F5A1D628-0ECD-4B91-AEA7-821638F33F76",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "7"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "511"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "307"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Bathurst: Elevator 3B1L out of s",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Bathurst: Elevator out of service between Bathurst St east side entrance, concourse and Line 2 westbound platform while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -265,47 +306,6 @@
       }
     },
     {
-      "id": "DevAPI-45E67CE5-E9CD-40DC-9EE0-F0D7A8614B0A",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "320"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "82"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "97"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "19"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Rosedale: Elevator 14Y1L out of",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Rosedale: Elevator out of service between Cresent Road entrance and Line 1 sourthbound platform while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-A669C5C7-A773-400C-8786-4D674D5CEC88",
       "alert": {
         "informedEntity": [
@@ -399,16 +399,40 @@
       }
     },
     {
-      "id": "DevAPI-500C8109-6C5E-4EE7-9E7C-C1F25EE9D145",
+      "id": "DevAPI-917E5028-2D67-4D2D-9446-841D97A13C68",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "320"
+            "routeId": "396"
           },
           {
             "agencyId": "1",
-            "routeId": "97"
+            "routeId": "37"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "996"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "336"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "46"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "906"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "96"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "927"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -416,7 +440,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "North York Centre: Elevator 23Y2",
+              "text": "Line 6 Finch West: No service be",
               "language": "en"
             }
           ]
@@ -424,7 +448,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "North York Centre: Elevator out of service between concourse and Line 1 southbound platform while we perform maintenance.",
+              "text": "Line 6 Finch West: No service between Martin Grove and Humber College stations while the maintainer fixes a switch problem. Line 6 is owned by Metrolinx, maintained by Mosaic Transit Partners Maintenance and proudly operated by the TTC.",
               "language": "en"
             }
           ]
@@ -519,6 +543,59 @@
       }
     },
     {
+      "id": "DevAPI-4AF61EBA-44AA-48CC-A531-E062FD62CAC7",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "80"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "341"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "989"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "189"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "41"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "89"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Keele: Elevator 9B1L out of serv",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Keele: Elevator out of service between Keele St entrance and bus platform to Line 2 Kipling (Westbound) while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-4DE1B5E9-6394-4DC6-9BB2-A9616FE1C9E0",
       "alert": {
         "informedEntity": [
@@ -577,20 +654,16 @@
       }
     },
     {
-      "id": "DevAPI-6B9A7402-373D-43DE-9D51-B06CE06FFF2A",
+      "id": "DevAPI-34BBFD43-E952-4DD7-8725-AE3432F4D261",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "149"
+            "routeId": "13"
           },
           {
             "agencyId": "1",
-            "routeId": "49"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "111"
+            "routeId": "26"
           },
           {
             "agencyId": "1",
@@ -598,35 +671,27 @@
           },
           {
             "agencyId": "1",
-            "routeId": "112"
+            "routeId": "310"
           },
           {
             "agencyId": "1",
-            "routeId": "46"
+            "routeId": "510"
           },
           {
             "agencyId": "1",
-            "routeId": "40"
+            "routeId": "127"
           },
           {
             "agencyId": "1",
-            "routeId": "123"
+            "routeId": "94"
           },
           {
             "agencyId": "1",
-            "routeId": "900"
+            "routeId": "506"
           },
           {
             "agencyId": "1",
-            "routeId": "927"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "44"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "45"
+            "routeId": "306"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -634,7 +699,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Kipling: Elevator 16B2L out of s",
+              "text": "St George: Elevator 1Y1L out of",
               "language": "en"
             }
           ]
@@ -642,7 +707,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "Kipling: Elevator out of service between bus platform and Line 2 centre platform due to a technical problem.",
+              "text": "St George: Elevator out of service between bus platform, Bedford rd west side entrance, concourse, Line 1 centre platform and Line 2 centre platform while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -701,47 +766,6 @@
           "translation": [
             {
               "text": "939 Finch Express: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-4DB34AD3-C80F-4AB7-97F1-9759B21261A2",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "320"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "82"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "97"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "19"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Rosedale: Elevator 14Y2L out of",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Rosedale: Elevator out of service between Cresent Road and Line 1 northbound platform while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -935,6 +959,35 @@
           "translation": [
             {
               "text": "Finch: Elevator out of service between fares concourse and Line 1 centre platform while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-C5A9CEFC-95DE-400A-8950-D44018E31633",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "37"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "37 Islington: Buses are not stop",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "37 Islington: Bypass near Woodbine Racetrack Loop (Main Entrance) due to a demonstration.",
               "language": "en"
             }
           ]
