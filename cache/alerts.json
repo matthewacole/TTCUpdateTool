@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1788292097"
+    "timestamp": "1788300369"
   },
   "entity": [
     {
@@ -96,47 +96,6 @@
       }
     },
     {
-      "id": "DevAPI-F5A1D628-0ECD-4B91-AEA7-821638F33F76",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "7"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "511"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "307"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Bathurst: Elevator 3B1L out of s",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Bathurst: Elevator out of service between Bathurst St east side entrance, concourse and Line 2 westbound platform while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-C1BAAE76-9AB5-482E-A239-FC623D9C5E9B",
       "alert": {
         "informedEntity": [
@@ -159,6 +118,43 @@
           "translation": [
             {
               "text": "506 Carlton: Detour via Ossington Ave, Dundas St W and Bay St due to a blocked track.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-0A7B64B8-65A1-48BE-88A5-89322F9D49B8",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "11"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "185"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "385"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Bayview: Elevator 55P4L out of s",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Bayview: Elevator out of service between Sheppard Ave E south side entrance and east concourse due to a technical problem.",
               "language": "en"
             }
           ]
@@ -399,63 +395,6 @@
       }
     },
     {
-      "id": "DevAPI-917E5028-2D67-4D2D-9446-841D97A13C68",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "396"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "37"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "996"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "336"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "46"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "906"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "96"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "927"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Line 6 Finch West: No service be",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Line 6 Finch West: No service between Martin Grove and Humber College stations while the maintainer fixes a switch problem. Line 6 is owned by Metrolinx, maintained by Mosaic Transit Partners Maintenance and proudly operated by the TTC.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-D9F16C80-7AD0-48C4-9229-52C25445D8E1",
       "alert": {
         "informedEntity": [
@@ -654,12 +593,20 @@
       }
     },
     {
-      "id": "DevAPI-34BBFD43-E952-4DD7-8725-AE3432F4D261",
+      "id": "DevAPI-740DB18C-EB73-4A03-9260-8FAB21788E8F",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "13"
+            "routeId": "55"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "335"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "149"
           },
           {
             "agencyId": "1",
@@ -671,27 +618,11 @@
           },
           {
             "agencyId": "1",
-            "routeId": "310"
+            "routeId": "935"
           },
           {
             "agencyId": "1",
-            "routeId": "510"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "127"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "94"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "506"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "306"
+            "routeId": "27"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -699,7 +630,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "St George: Elevator 1Y1L out of",
+              "text": "Jane: Elevator 12B1L out of serv",
               "language": "en"
             }
           ]
@@ -707,7 +638,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "St George: Elevator out of service between bus platform, Bedford rd west side entrance, concourse, Line 1 centre platform and Line 2 centre platform while we perform maintenance.",
+              "text": "Jane: Elevator out of service between Jane St entrance and concourse while we perform maintenance.",
               "language": "en"
             }
           ]
