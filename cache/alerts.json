@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1788248029"
+    "timestamp": "1788266606"
   },
   "entity": [
     {
@@ -258,6 +258,47 @@
           "translation": [
             {
               "text": "904 Sheppard-Kennedy Express: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-45E67CE5-E9CD-40DC-9EE0-F0D7A8614B0A",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "320"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "82"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "97"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "19"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Rosedale: Elevator 14Y1L out of",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Rosedale: Elevator out of service between Cresent Road entrance and Line 1 sourthbound platform while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -594,6 +635,47 @@
       }
     },
     {
+      "id": "DevAPI-4DB34AD3-C80F-4AB7-97F1-9759B21261A2",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "320"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "82"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "97"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "19"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Rosedale: Elevator 14Y2L out of",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Rosedale: Elevator out of service between Cresent Road and Line 1 northbound platform while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-41083758-9360-454D-A376-6BFDEE4C7E28",
       "alert": {
         "informedEntity": [
@@ -918,6 +1000,35 @@
       }
     },
     {
+      "id": "DevAPI-2AFF6EAB-69EE-433C-9879-51888B8201FE",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "116"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "116 Morningside: Detour westboun",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "116 Morningside: Detour westbound via Galloway Rd and Kingston Rd due to a collision.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-992D5CED-BEF6-45CB-AF4B-1095B9C3F428",
       "alert": {
         "informedEntity": [
@@ -940,6 +1051,35 @@
           "translation": [
             {
               "text": "134 Progress: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-592C83C6-1C6D-4488-A0B1-B634FC083106",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "122"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "122 Graydon Hall: Detour westbou",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "122 Graydon Hall: Detour westbound via Lynedock Cres and Roywood Dr due to construction.",
               "language": "en"
             }
           ]
@@ -1121,67 +1261,6 @@
           "translation": [
             {
               "text": "112 West Mall: Detour via Wellesworth Dr and Eringate Dr due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-5963B995-5D1A-4C60-B2E8-3A47E523748F",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "13"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "61"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "334"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "354"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "74"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "320"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "103"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "97"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Eglinton: Elevator 9 out of serv",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Eglinton: Elevator out of service between line 5 upper concourse east side and NE corner development while we perform maintenance. Elevator is expected to be back in service September 1, 2026.",
               "language": "en"
             }
           ]
