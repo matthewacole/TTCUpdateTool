@@ -2,9 +2,50 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1788339519"
+    "timestamp": "1788355904"
   },
   "entity": [
+    {
+      "id": "DevAPI-ABB56D31-0396-42FF-B7BD-271AF67FD3E9",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "19"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "82"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "97"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "320"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Rosedale: Elevator 14Y2L out of",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Rosedale: Elevator out of service between Cresent Road and Line 1 northbound platform while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
     {
       "id": "DevAPI-A7A47D84-4C20-4E7B-A011-BE3F74D8425A",
       "alert": {
@@ -21,38 +62,28 @@
           },
           {
             "agencyId": "1",
+            "routeId": "84",
+            "stopId": "3755"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "84",
+            "stopId": "3755"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "84",
+            "stopId": "3755"
+          },
+          {
+            "agencyId": "1",
             "routeId": "104",
             "stopId": "3975"
           },
           {
             "agencyId": "1",
-            "routeId": "984",
-            "stopId": "3754"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "84",
-            "stopId": "3755"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "84",
-            "stopId": "3755"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "108",
-            "stopId": "3756"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "84",
-            "stopId": "3755"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "108",
-            "stopId": "3756"
+            "routeId": "105",
+            "stopId": "3749"
           },
           {
             "agencyId": "1",
@@ -66,13 +97,23 @@
           },
           {
             "agencyId": "1",
+            "routeId": "108",
+            "stopId": "3756"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "108",
+            "stopId": "3756"
+          },
+          {
+            "agencyId": "1",
             "routeId": "984",
             "stopId": "3750"
           },
           {
             "agencyId": "1",
-            "routeId": "105",
-            "stopId": "3749"
+            "routeId": "984",
+            "stopId": "3754"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -125,56 +166,12 @@
       }
     },
     {
-      "id": "DevAPI-1DC0CB64-B56E-4E5C-844E-02E0D8C0FB96",
+      "id": "DevAPI-095DA388-9686-4069-9922-7822BFBFE51E",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "304"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "62"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "8"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "322"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "100"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "25"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "505"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "925"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "87"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "305"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "504"
+            "routeId": "510"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -182,7 +179,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Broadview: Elevator 6D2L out of",
+              "text": "510 Spadina: No service between",
               "language": "en"
             }
           ]
@@ -190,7 +187,36 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "Broadview: Elevator out of service between concourse and Line 2 eastbound platform while we perform maintenance.",
+              "text": "510 Spadina: No service between Queens Quay Loop at Lower Spadina Ave and Union Station Streetcar Platform due to the CNE.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-B02904FD-C2DA-4932-BDB2-195E201824B5",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "122"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "122 Graydon Hall: Detour westbou",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "122 Graydon Hall: Detour westbound via Fenside Dr and Lynedock Cres due to construction.",
               "language": "en"
             }
           ]
@@ -232,7 +258,7 @@
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "334"
+            "routeId": "34"
           },
           {
             "agencyId": "1",
@@ -244,19 +270,19 @@
           },
           {
             "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
             "routeId": "109"
           },
           {
             "agencyId": "1",
-            "routeId": "363"
+            "routeId": "164"
           },
           {
             "agencyId": "1",
-            "routeId": "164"
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "363"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -343,12 +369,12 @@
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "202",
+            "routeId": "114",
             "stopId": "4277"
           },
           {
             "agencyId": "1",
-            "routeId": "114",
+            "routeId": "202",
             "stopId": "4277"
           }
         ],
@@ -605,51 +631,6 @@
       }
     },
     {
-      "id": "DevAPI-89601611-B61F-478E-87DE-29339E9988F5",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "334"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "7"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "307"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "33"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Forest Hill: Elevator ELV01-A ou",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Forest Hill: Elevator out of service between concourse and Line 5 centre platform while we perform maintenance. Elevator is expected to be back in service September 2, 2026.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-5E3F49FD-909A-41F6-B36D-748E827818C4",
       "alert": {
         "informedEntity": [
@@ -713,11 +694,7 @@
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "320"
+            "routeId": "19"
           },
           {
             "agencyId": "1",
@@ -725,7 +702,11 @@
           },
           {
             "agencyId": "1",
-            "routeId": "19"
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "320"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -807,6 +788,127 @@
       }
     },
     {
+      "id": "DevAPI-5122BD2F-3199-4246-8A9B-1704C82B2CD1",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "12"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "20"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "21"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "38"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "43"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "57"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "86"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "113"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "116"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "129"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "131"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "133"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "154"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "201"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "343"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "386"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "903"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "904"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "905"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "939"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "986"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Kennedy: Elevator out of service",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Kennedy: Elevator out of service between concourse and Line 5 centre platform west side due to a technical problem.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-2E2A1EDF-8B91-4F3C-9639-3A42DB817738",
       "alert": {
         "informedEntity": [
@@ -841,15 +943,23 @@
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "334"
+            "routeId": "25"
           },
           {
             "agencyId": "1",
-            "routeId": "354"
+            "routeId": "34"
           },
           {
             "agencyId": "1",
             "routeId": "54"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "72"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "100"
           },
           {
             "agencyId": "1",
@@ -861,27 +971,19 @@
           },
           {
             "agencyId": "1",
-            "routeId": "100"
-          },
-          {
-            "agencyId": "1",
             "routeId": "325"
           },
           {
             "agencyId": "1",
-            "routeId": "25"
+            "routeId": "334"
           },
           {
             "agencyId": "1",
-            "routeId": "34"
+            "routeId": "354"
           },
           {
             "agencyId": "1",
             "routeId": "925"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "72"
           },
           {
             "agencyId": "1",
@@ -902,6 +1004,35 @@
           "translation": [
             {
               "text": "Don Valley: Elevator out of service between concourse and Don Mills Road west side entrance due to the Ontario Line construction. Elevator is expected to be back in service February 8, 2032.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-72E7F8C4-F680-47C3-BF24-66C2489FE358",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "154"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "154 Curran Hall: Detour via Lawr",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "154 Curran Hall: Detour via Lawrence Ave E and Orton Park Rd due to a flood.",
               "language": "en"
             }
           ]
@@ -938,12 +1069,24 @@
       }
     },
     {
-      "id": "DevAPI-91183E86-22DE-40C2-852B-BD0EF5BDE2A8",
+      "id": "DevAPI-19F71B31-FAD7-4063-A014-A95DC71F6314",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "339"
+            "routeId": "19"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "82"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "97"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "320"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -951,7 +1094,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "339 Finch East: Detour via Kenne",
+              "text": "Rosedale: Elevator 14Y1L out of",
               "language": "en"
             }
           ]
@@ -959,7 +1102,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "339 Finch East: Detour via Kenneth Ave, Bishop Ave and Maxome Ave due to a Toronto fire investigation.",
+              "text": "Rosedale: Elevator out of service between Cresent Road entrance and Line 1 sourthbound platform while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -1063,6 +1206,10 @@
           },
           {
             "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
             "routeId": "61"
           },
           {
@@ -1071,23 +1218,11 @@
           },
           {
             "agencyId": "1",
-            "routeId": "354"
-          },
-          {
-            "agencyId": "1",
             "routeId": "74"
           },
           {
             "agencyId": "1",
-            "routeId": "11"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "320"
+            "routeId": "97"
           },
           {
             "agencyId": "1",
@@ -1095,7 +1230,15 @@
           },
           {
             "agencyId": "1",
-            "routeId": "97"
+            "routeId": "320"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "354"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "11"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
