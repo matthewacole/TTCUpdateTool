@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1788300369"
+    "timestamp": "1788307666"
   },
   "entity": [
     {
@@ -733,6 +733,47 @@
       }
     },
     {
+      "id": "DevAPI-70D1692F-F8E6-42B1-B16D-DA33DA80BDA1",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "320"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "97"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "19"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Bloor-Yonge: Elevator out of ser",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Bloor-Yonge: Elevator out of service between Bloor St E south side entrance and south concourse while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-9553B793-EC2A-482F-9A9A-80773CD62355",
       "alert": {
         "informedEntity": [
@@ -999,6 +1040,39 @@
       }
     },
     {
+      "id": "DevAPI-5219E3E1-B5FC-4C1E-A80B-38937BE63DC4",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "18"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "109"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Line 1 Yonge-University: Trains",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Line 1 Yonge-University: Bypass at Yorkdale station due to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-F92885AA-2070-4819-B78B-544D607977A2",
       "alert": {
         "informedEntity": [
@@ -1086,12 +1160,64 @@
       }
     },
     {
-      "id": "DevAPI-592C83C6-1C6D-4488-A0B1-B634FC083106",
+      "id": "DevAPI-4CD4B923-134C-4B50-8F08-ADE2D1BC5373",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "122"
+            "routeId": "101"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "119"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "329"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "104"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "160"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "184"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "396"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "996"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "29"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "118"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "165"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "96"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "120"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "929"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -1099,7 +1225,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "122 Graydon Hall: Detour westbou",
+              "text": "Line 1 Yonge-University: Trains",
               "language": "en"
             }
           ]
@@ -1107,7 +1233,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "122 Graydon Hall: Detour westbound via Lynedock Cres and Roywood Dr due to construction.",
+              "text": "Line 1 Yonge-University: Bypass at Wilson station due to a security incident.",
               "language": "en"
             }
           ]
