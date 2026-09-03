@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1788455491"
+    "timestamp": "1788465025"
   },
   "entity": [
     {
@@ -125,35 +125,6 @@
       }
     },
     {
-      "id": "DevAPI-4FC5AC64-D390-4A69-B077-5C02091D3BB9",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "34"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "34 Eglinton: Detour eastbound vi",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "34 Eglinton: Detour eastbound via Duplex Ave, Orchard View Blvd, Yonge St, Berwick Ave and Eglinton Ave due to a blocked road.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-0659CD86-A907-4CCA-A34C-917B128E3D6C",
       "alert": {
         "informedEntity": [
@@ -176,6 +147,35 @@
           "translation": [
             {
               "text": "996 Wilson Express: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-356661B3-CF08-4A6E-B845-A47995119D91",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "62"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "62 Mortimer: No service between",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "62 Mortimer: No service between Broadview Ave at Erindale Ave and Broadview Ave at Browning Ave due to a collision.",
               "language": "en"
             }
           ]
@@ -269,6 +269,35 @@
           "translation": [
             {
               "text": "129 Mccowan North: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-BA09C14A-AFCE-4EC2-B1EA-5517B94C0EE2",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "501"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "501 Queen: Detour eastbound via",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "501 Queen: Detour eastbound via King St W and Shaw St while we respond to a medical emergency.",
               "language": "en"
             }
           ]
@@ -545,6 +574,59 @@
       }
     },
     {
+      "id": "DevAPI-2BE1E0F2-AC4C-474D-85AB-D93EEB66218F",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "335"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "336"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "935"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "35"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "99"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "108"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "84"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Line 6 Finch West: No service be",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Line 6 Finch West: No service between Norfinch Oakdale and Driftwood stations while the maintainer fixes a switch problem. Line 6 is owned by Metrolinx, maintained by Mosaic Transit Partners Maintenance and proudly operated by the TTC.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-8B51FDF9-5D12-442D-BE13-936F1B4832CC",
       "alert": {
         "informedEntity": [
@@ -625,6 +707,59 @@
           "translation": [
             {
               "text": "38 Highland Creek: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-0818F44F-8C4D-44A4-B29C-2CF564C0A5D1",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "304"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "301"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "501"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "503"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "97"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "504"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "19"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "St Andrew: Elevator 6Y2L out of",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "St Andrew: Elevator out of service between concourse and Line 1 centre platform while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -734,35 +869,6 @@
       }
     },
     {
-      "id": "DevAPI-BE34295E-3FB3-421E-8B59-CAAC1F9B5712",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "34"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "34 Eglinton: Detour eastbound vi",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "34 Eglinton: Detour eastbound via Berwick Ave and Yonge St due to a blocked road.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-139A7EDD-8D0D-4C1C-8ED9-4FBFDD0C071E",
       "alert": {
         "informedEntity": [
@@ -814,104 +920,6 @@
           "translation": [
             {
               "text": "316 Kingston Rd-Mccowan: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-B7F505C3-B266-4990-A856-EE249D3440EA",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "101"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "106"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "36"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "336"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "341"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "939"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "41"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "107"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Line 6 Finch West: Delays betwee",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Line 6 Finch West: Delays between Finch West and Tobermory stations while the maintainer fixes an overhead power issue. Line 6 is owned by Metrolinx, maintained by Mosaic Transit Partners Maintenance and proudly operated by the TTC.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-4652A0EF-B13F-4025-AE11-FD7BA3C9DD01",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "320"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "82"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "97"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "19"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Rosedale: Elevator 14Y2L out of",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Rosedale: Elevator out of service between Cresent Road and Line 1 northbound platform while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -1006,40 +1014,12 @@
       }
     },
     {
-      "id": "DevAPI-626B2CD2-A3B6-429E-8A55-7D6E8943F648",
+      "id": "DevAPI-BCD57972-43A3-4653-8B2D-14865CB41CB6",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "304"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "505"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "301"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "501"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "305"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "503"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "504"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "19"
+            "routeId": "34"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -1047,7 +1027,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Osgoode: Elevator out of service",
+              "text": "34 Eglinton: Detour westbound vi",
               "language": "en"
             }
           ]
@@ -1055,7 +1035,36 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "Osgoode: Elevator out of service between Four Seasons Centre entrance and concourse while we perform maintenance.",
+              "text": "34 Eglinton: Detour westbound via Yonge St and Berwick Ave due to a blocked road.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-F9BF621B-F271-487A-B21D-6E4822E9EFF3",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "37"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "37 Islington: Buses are not stop",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "37 Islington: Bypass near Woodbine Racetrack Loop (Main Entrance) due to a demonstration.",
               "language": "en"
             }
           ]
@@ -1121,16 +1130,12 @@
       }
     },
     {
-      "id": "DevAPI-CE3FF14D-14AA-47DF-A6A4-DBBF5DFBE9D5",
+      "id": "DevAPI-FA356F9F-0DEB-4715-BDBD-88AC54AE8D5A",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "185"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "385"
+            "routeId": "34"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -1138,7 +1143,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Bessarion: Elevator 57P1L out of",
+              "text": "34 Eglinton: Detour eastbound vi",
               "language": "en"
             }
           ]
@@ -1146,48 +1151,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "Bessarion: Elevator out of service between Sheppard Ave E south side entrance and concourse while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-8AB618D7-C941-4101-AF5A-7DB67F13F9E1",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "320"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "82"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "97"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "19"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Rosedale: Elevator 14Y1L out of",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Rosedale: Elevator out of service between Cresent Road entrance and Line 1 sourthbound platform while we perform maintenance.",
+              "text": "34 Eglinton: Detour eastbound via Duplex Ave due to a blocked road.",
               "language": "en"
             }
           ]
@@ -1621,52 +1585,20 @@
       }
     },
     {
-      "id": "DevAPI-412956F2-BF3E-415C-BC82-6D81DFA7B2EB",
+      "id": "DevAPI-08E458EF-47CD-437B-AF34-4F2CFB9F8C8A",
       "alert": {
         "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "304"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "202"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "509"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "114"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "310"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "510"
-          },
           {
             "agencyId": "1",
             "routeId": "320"
           },
           {
             "agencyId": "1",
-            "routeId": "121"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "503"
+            "routeId": "82"
           },
           {
             "agencyId": "1",
             "routeId": "97"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "504"
           },
           {
             "agencyId": "1",
@@ -1678,7 +1610,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Union: Elevator 7Y1L out of serv",
+              "text": "Rosedale: Elevator 14Y1L out of",
               "language": "en"
             }
           ]
@@ -1686,7 +1618,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "Union: Elevator out of service between concourse and Line 1 Vaughan platform while we perform maintenance.",
+              "text": "Rosedale: Elevator out of service between Cresent Road entrance and Line 1 sourthbound platform while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -1752,12 +1684,12 @@
       }
     },
     {
-      "id": "DevAPI-7178A776-EDFE-4349-BEC1-D7243F5766C5",
+      "id": "DevAPI-3CD305E8-DCB2-4EAD-A07F-5AD144058E6C",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "55"
+            "routeId": "8"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -1765,7 +1697,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "55 Warren Park: Detour via Gooch",
+              "text": "8 Broadview: No service between",
               "language": "en"
             }
           ]
@@ -1773,7 +1705,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "55 Warren Park: Detour via Gooch Ave and Magwood Crt due to a blocked road.",
+              "text": "8 Broadview: No service between Broadview Ave at Erindale Ave and Broadview Ave at Browning Ave due to a collision.",
               "language": "en"
             }
           ]
