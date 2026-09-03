@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1788387025"
+    "timestamp": "1788394586"
   },
   "entity": [
     {
@@ -96,40 +96,12 @@
       }
     },
     {
-      "id": "DevAPI-273A71C2-5F6E-438C-AED9-2CDC08041AE4",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Vaughan Metropolitan Centre: Ele",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Vaughan Metropolitan Centre: Elevator out of service between Millway Ave west side entrance and concourse while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-C1BAAE76-9AB5-482E-A239-FC623D9C5E9B",
+      "id": "DevAPI-631F5D56-5F4E-4F76-BD7A-2712CF1D7F12",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "506"
+            "routeId": "184"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -137,7 +109,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "506 Carlton: Detour via Ossingto",
+              "text": "184 Ancaster Park: Detour eastbo",
               "language": "en"
             }
           ]
@@ -145,7 +117,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "506 Carlton: Detour via Ossington Ave, Dundas St W and Bay St due to a blocked track.",
+              "text": "184 Ancaster Park: Detour eastbound via Plewes Rd and Ancaster Rd due to a blocked road.",
               "language": "en"
             }
           ]
@@ -175,371 +147,6 @@
           "translation": [
             {
               "text": "510 Spadina: No service between Queens Quay Loop at Lower Spadina Ave and Union Station Streetcar Platform due to the CNE.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-72ECFC00-E0BF-42E4-84F9-C0FB32D08C88",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "384"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "106"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "101"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "329"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "119"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "984"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "104"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "160"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "184"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "84"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "108"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "396"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "996"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "29"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "118"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "165"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "105"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "96"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "107"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "120"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "929"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Line 1 Yonge-University: No serv",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Line 1 Yonge-University: No service between Wilson and Sheppard West stations while we deal with an operational problem. Shuttle buses are on the way.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-B02904FD-C2DA-4932-BDB2-195E201824B5",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "122"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "122 Graydon Hall: Detour westbou",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "122 Graydon Hall: Detour westbound via Fenside Dr and Lynedock Cres due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-20DBE903-2332-49D4-8DDD-C0E3052144BC",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "16"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "16 Mccowan: Buses are not stoppi",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "16 Mccowan: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-A9226D2F-ADAC-47A5-9F65-057DD08271F6",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "384"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "36"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "341"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "935"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "337"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "906"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "108"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "45"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "396"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "37"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "73"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "336"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "46"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "107"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "335"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "101"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "106"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "119"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "166"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "989"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "937"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "41"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "99"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "84"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "996"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "939"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "165"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "35"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "927"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "96"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Line 6 Finch West: No service be",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Line 6 Finch West: No service between Finch West and Humber College stations due to debris on the tracks.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-19148489-7614-42B1-B957-DD36413F9136",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "334"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "63"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "90"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "109"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "363"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "164"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Cedarvale: Elevator 06-ELV-B out",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Cedarvale: Elevator out of service between platform and upper concourse while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -605,6 +212,35 @@
       }
     },
     {
+      "id": "DevAPI-2F29B6D6-297D-4B8B-8967-6953814C8BBA",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "59"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "59 Maple Leaf: Detour via Keele",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "59 Maple Leaf: Detour via Keele St and Lawrence Ave W due to a flood.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-A669C5C7-A773-400C-8786-4D674D5CEC88",
       "alert": {
         "informedEntity": [
@@ -640,12 +276,12 @@
       }
     },
     {
-      "id": "DevAPI-C567323F-E1C7-4A94-BB8A-246447E099F1",
+      "id": "DevAPI-DB31FC30-5CA2-44F5-BA5F-D2F0E884BF5D",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "21"
+            "routeId": "33"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -653,7 +289,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "21 Brimley: Buses are not stoppi",
+              "text": "33 Forest Hill: Detour via Old F",
               "language": "en"
             }
           ]
@@ -661,65 +297,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "21 Brimley: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-FF051547-ABF1-4CF0-8685-BBE838AF3160",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "305"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "305 Dundas: Detour via Parliamen",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "305 Dundas: Detour via Parliament St, Gerrard St W and Broadview Ave due to police activity.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-D9F16C80-7AD0-48C4-9229-52C25445D8E1",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "132"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "132 Milner: Buses are not stoppi",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "132 Milner: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "text": "33 Forest Hill: Detour via Old Forest Hill Rd, Spadina Ave and Eglinton Ave E due to a flood.",
               "language": "en"
             }
           ]
@@ -756,12 +334,12 @@
       }
     },
     {
-      "id": "DevAPI-5E898F48-1914-4303-824E-D58DC0E185B0",
+      "id": "DevAPI-1A196341-0903-4987-8067-491C2586F231",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "903"
+            "routeId": "70"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -769,7 +347,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "903 Kennedy Stn-Scarborough Expr",
+              "text": "70 O'connor: Detour via Amsterda",
               "language": "en"
             }
           ]
@@ -777,36 +355,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "903 Kennedy Stn-Scarborough Express: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-7FA3351F-A1EC-48DC-A16E-FA71C4752FA6",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "511"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "511 Bathurst: Detour southbound",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "511 Bathurst: Detour southbound via Bathurst St, College St, Spadina Ave and King St E due to a blocked track.",
+              "text": "70 O'connor: Detour via Amsterdam Ave, Victoria Park Ave and O'connor Dr due to a flood.",
               "language": "en"
             }
           ]
@@ -843,6 +392,35 @@
       }
     },
     {
+      "id": "DevAPI-2451F8BD-504A-4B08-ADED-02EE1902EAB6",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "72"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "72 Pape: Detour via Overlea Blvd",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "72 Pape: Detour via Overlea Blvd and Don Mills Rd due to a flood.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-DAF9EE30-A85F-4423-93A5-541DD6013E69",
       "alert": {
         "informedEntity": [
@@ -872,12 +450,12 @@
       }
     },
     {
-      "id": "DevAPI-F39463B9-4DEE-47E6-8F47-748E7CEFC1AA",
+      "id": "DevAPI-50ED2F41-A62A-4371-9956-D44FC19B4E81",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "118"
+            "routeId": "101"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -885,7 +463,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "118 Thistle Down: Detour eastbou",
+              "text": "101 Downsview Park: Detour south",
               "language": "en"
             }
           ]
@@ -893,7 +471,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "118 Thistle Down: Detour eastbound via Islington Ave, Barker Ave and Albion Rd due to a blocked road.",
+              "text": "101 Downsview Park: Detour southbound via Keele St and Ashwarren Rd due to a blocked road.",
               "language": "en"
             }
           ]
@@ -923,35 +501,6 @@
           "translation": [
             {
               "text": "501 Queen: Detour eastbound via Spadina Ave and Adelaide St E while we respond to a medical emergency.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-5E3F49FD-909A-41F6-B36D-748E827818C4",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "939"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "939 Finch Express: Buses are not",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "939 Finch Express: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
               "language": "en"
             }
           ]
@@ -1010,6 +559,35 @@
           "translation": [
             {
               "text": "43 Kennedy: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-6EF14088-8B8A-4A33-BDD4-1CAEE6EE9CA9",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "52"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "52 Lawrence West: Detour via Eag",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "52 Lawrence West: Detour via Eaglemount, Glencairn Ave and Bathurst St due to wire down.",
               "language": "en"
             }
           ]
@@ -1112,35 +690,6 @@
           "translation": [
             {
               "text": "Broadview: Elevator out of service between Broadview Ave entrance, concourse and Line 2 westbound platform while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-128AFFDF-A14F-4F76-828C-113EFC5C0547",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "46"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "46 Martin Grove: Detour northbou",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "46 Martin Grove: Detour northbound via Llyod Manor and Princess Margaret Blvd due to a blocked road.",
               "language": "en"
             }
           ]
@@ -1269,12 +818,12 @@
       }
     },
     {
-      "id": "DevAPI-2E2A1EDF-8B91-4F3C-9639-3A42DB817738",
+      "id": "DevAPI-8156AA91-23BA-4E24-8789-33F41DB1AAA8",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "395"
+            "routeId": "72"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -1282,7 +831,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "395 York Mills: Buses are not st",
+              "text": "72 Pape: Buses are not stopping",
               "language": "en"
             }
           ]
@@ -1290,7 +839,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "395 York Mills: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "text": "72 Pape: Bypass between Overlea Blvd at Thorncliffe Park Dr (West) and Thorncliffe Park Dr (East) at Overlea Blvd due to a flood.",
               "language": "en"
             }
           ]
@@ -1298,12 +847,12 @@
       }
     },
     {
-      "id": "DevAPI-25676A39-61A6-41D2-A20B-A730E67CBD60",
+      "id": "DevAPI-8FD28CE0-C66D-4EE3-B48E-98A27331F4FC",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "203"
+            "routeId": "61"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -1311,7 +860,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "203 High Park: No service betwee",
+              "text": "61 Avenue Rd North: Detour via D",
               "language": "en"
             }
           ]
@@ -1319,7 +868,36 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "203 High Park: No service between Colborne Lodge Dr at Centre Rd and High Park Station at High Park Ave due to a blocked road.",
+              "text": "61 Avenue Rd North: Detour via Duplex Ave and Glencairn Ave due to a flood.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-9240E9E5-A268-423D-A86C-F0B6A6A14EC4",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "106"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "106 Sentinel: Detour via Keele S",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "106 Sentinel: Detour via Keele St and Dovehouse Ave due to a flood.",
               "language": "en"
             }
           ]
@@ -1400,12 +978,12 @@
       }
     },
     {
-      "id": "DevAPI-F92885AA-2070-4819-B78B-544D607977A2",
+      "id": "DevAPI-DD15590C-63F6-482D-8083-86DC56899726",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "133"
+            "routeId": "18"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -1413,7 +991,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "133 Neilson: Buses are not stopp",
+              "text": "18 Caledonia: Detour via Duffiel",
               "language": "en"
             }
           ]
@@ -1421,7 +999,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "133 Neilson: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "text": "18 Caledonia: Detour via Duffield Rd, Orfus Rd and Caledonia due to a flood.",
               "language": "en"
             }
           ]
@@ -1429,7 +1007,7 @@
       }
     },
     {
-      "id": "DevAPI-68555D21-3F85-4AB6-963D-65C99FA0C144",
+      "id": "DevAPI-0AD8B15E-FE44-4D68-9F78-0564A5F60C35",
       "alert": {
         "informedEntity": [
           {
@@ -1446,7 +1024,27 @@
           },
           {
             "agencyId": "1",
+            "routeId": "354"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "74"
+          },
+          {
+            "agencyId": "1",
             "routeId": "34"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "320"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "103"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "97"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -1454,7 +1052,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Avenue: Elevator ELV02-B out of",
+              "text": "Eglinton: Elevator 4 out of serv",
               "language": "en"
             }
           ]
@@ -1462,7 +1060,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "Avenue: Elevator out of service between Eglinton Avenue north side, west entrance and concourse while we perform maintenance.",
+              "text": "Eglinton: Elevator out of service between Eglinton Avenue south side entrance, Line 1 concourse, and Line 5 upper concourse west side while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -1520,6 +1118,67 @@
           "translation": [
             {
               "text": "Line 1 Yonge-University: Bypass at St Patrick station due to flooding.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-DB6338E9-BE62-40DE-B7DF-E47B632AED6A",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "13"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "61"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "354"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "74"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "320"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "103"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "97"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Eglinton: Elevator 3 out of serv",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Eglinton: Elevator out of service between Line 1 centre platform and Line 5 centre platform while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -1614,6 +1273,991 @@
       }
     },
     {
+      "id": "DevAPI-EC447964-92CB-42CD-B040-D4A0613419A9",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "14"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "14 Glencairn: Detour westbound v",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "14 Glencairn: Detour westbound via Avenue Rd, Eglinton Ave W and Bathurst St due to a blocked road.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-BE8054CF-15DA-4A37-AB2D-8DF04C8A823D",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "130"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "130 Middlefield: Buses are not s",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "130 Middlefield: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-626B2CD2-A3B6-429E-8A55-7D6E8943F648",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "304"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "505"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "301"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "501"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "305"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "503"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "504"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "19"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Osgoode: Elevator out of service",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Osgoode: Elevator out of service between Four Seasons Centre entrance and concourse while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-85F53381-7A5E-4B2F-AEBF-7A8AC5E1919A",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "129"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "129 Mccowan North: Detour northb",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "129 Mccowan North: Detour northbound via Sheppard Ave E, Shorting Rd, Nugget Ave and Mccowan Rd due to a traffic light problem.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-8AD50B99-02A7-4EC9-AA69-AABDE764CE99",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "103"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "103 Mount Pleasant North: Detour",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "103 Mount Pleasant North: Detour via Mount Pleasant Rd and Lawrence Ave E due to police activity.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-273A71C2-5F6E-438C-AED9-2CDC08041AE4",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Vaughan Metropolitan Centre: Ele",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Vaughan Metropolitan Centre: Elevator out of service between Millway Ave west side entrance and concourse while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-C1BAAE76-9AB5-482E-A239-FC623D9C5E9B",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "506"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "506 Carlton: Detour via Ossingto",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "506 Carlton: Detour via Ossington Ave, Dundas St W and Bay St due to a blocked track.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-20DBE903-2332-49D4-8DDD-C0E3052144BC",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "16"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "16 Mccowan: Buses are not stoppi",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "16 Mccowan: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-19148489-7614-42B1-B957-DD36413F9136",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "63"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "90"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "109"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "363"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "164"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Cedarvale: Elevator 06-ELV-B out",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Cedarvale: Elevator out of service between platform and upper concourse while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-D0635FA3-B3E9-4BDA-A0E5-73EDB84A04FB",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "156"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "354"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "51"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "88"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Laird: Elevator ELV02-B out of s",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Laird: Elevator out of service between Eglinton Avenue south side entrance and concourse while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-3256A36D-BEC3-44ED-8B56-880EBE8315EA",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "100"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "100 Flemingdon Park: Detour via",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "100 Flemingdon Park: Detour via Gateway Blvd and Don Mills Rd due to a flood.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-2DE465EA-308A-4C21-86C9-D73E291568BB",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "304"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "202"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "509"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "114"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "310"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "510"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "320"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "121"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "503"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "97"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "504"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "19"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Line 1 Yonge-University: Trains",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Line 1 Yonge-University: Bypass northbound at Union station towards Finch due to flooding.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-C567323F-E1C7-4A94-BB8A-246447E099F1",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "21"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "21 Brimley: Buses are not stoppi",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "21 Brimley: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-FF051547-ABF1-4CF0-8685-BBE838AF3160",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "305"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "305 Dundas: Detour via Parliamen",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "305 Dundas: Detour via Parliament St, Gerrard St W and Broadview Ave due to police activity.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-D9F16C80-7AD0-48C4-9229-52C25445D8E1",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "132"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "132 Milner: Buses are not stoppi",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "132 Milner: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-5E898F48-1914-4303-824E-D58DC0E185B0",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "903"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "903 Kennedy Stn-Scarborough Expr",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "903 Kennedy Stn-Scarborough Express: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-F39463B9-4DEE-47E6-8F47-748E7CEFC1AA",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "118"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "118 Thistle Down: Detour eastbou",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "118 Thistle Down: Detour eastbound via Islington Ave, Barker Ave and Albion Rd due to a blocked road.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-3E6DE107-0DD7-4BEE-A1BD-22908CA9E18F",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "11"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "11 Bayview: Detour northbound vi",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "11 Bayview: Detour northbound via Lawrence Ave E, Yonge St and York Mills Rd due to a Toronto fire investigation.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-5E3F49FD-909A-41F6-B36D-748E827818C4",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "939"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "939 Finch Express: Buses are not",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "939 Finch Express: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-128AFFDF-A14F-4F76-828C-113EFC5C0547",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "46"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "46 Martin Grove: Detour northbou",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "46 Martin Grove: Detour northbound via Llyod Manor and Princess Margaret Blvd due to a blocked road.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-73EAD05D-D80E-4D2E-ABF7-CF6CD0DEA3F4",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "509"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "509 Harbourfront: No service bet",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "509 Harbourfront: No service between Queens Quay West at Lower Spadina Ave East Side and Union Station Streetcar Platform due to flooding.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-E955CBB9-94AE-4FA8-9D0E-13B85B658DEB",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "55"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "55 Warren Park: Detour southboun",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "55 Warren Park: Detour southbound via Gooch Ave, Magwood Crt and Varcity due to a blocked road.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-2E2A1EDF-8B91-4F3C-9639-3A42DB817738",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "395"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "395 York Mills: Buses are not st",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "395 York Mills: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-25676A39-61A6-41D2-A20B-A730E67CBD60",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "203"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "203 High Park: No service betwee",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "203 High Park: No service between Colborne Lodge Dr at Centre Rd and High Park Station at High Park Ave due to a blocked road.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-13FBC57E-6BE7-4C12-8FEA-5DEF39666DC0",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "41"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "41 Keele: Detour via The Pond Rd",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "41 Keele: Detour via The Pond Rd and Ian Macdonald Blvd due to a flood.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-F92885AA-2070-4819-B78B-544D607977A2",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "133"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "133 Neilson: Buses are not stopp",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "133 Neilson: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-0B50277A-A686-463C-AA81-2011C2728994",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "28"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "28 Bayview South: No service bet",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "28 Bayview South: No service between Davisville Station at Bus Bay 5 and 550 Bayview Ave - Evergreen Brick Works due to a flood.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-D970393B-C990-4CB8-99B2-CE34B04BDD9C",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "72"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "72 Pape: Buses are not stopping",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "72 Pape: Bypass near Overlea Blvd at Thorncliffe Park Dr (West) due to a flood.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-DEE529C5-32F1-4CDE-A07D-0FC6A32B2BA4",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "11"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "11 Bayview: Detour northbound vi",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "11 Bayview: Detour northbound via Lawrence Ave E, Yonge St and York Mills Rd due to a blocked road.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-07C0B3B0-523C-43AE-835B-602893679B16",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "63"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "63 Ossington: Detour via Dupont",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "63 Ossington: Detour via Dupont St, Dovercourt Rd, Davenport Rd and Oakwood Ave due to a flood.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-5A2369D3-A41B-48B6-8A84-8EB753670D73",
       "alert": {
         "informedEntity": [
@@ -1679,12 +2323,12 @@
       }
     },
     {
-      "id": "DevAPI-EC447964-92CB-42CD-B040-D4A0613419A9",
+      "id": "DevAPI-678005C9-8F6D-47A5-A867-4445B1D7F4FA",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "14"
+            "routeId": "127"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -1692,7 +2336,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "14 Glencairn: Detour westbound v",
+              "text": "127 Davenport: Detour via Syming",
               "language": "en"
             }
           ]
@@ -1700,65 +2344,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "14 Glencairn: Detour westbound via Avenue Rd, Eglinton Ave W and Bathurst St due to a blocked road.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-BE8054CF-15DA-4A37-AB2D-8DF04C8A823D",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "130"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "130 Middlefield: Buses are not s",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "130 Middlefield: Bypass near Scarborough Centre Station at Bus Bay 9 while we respond to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-E648C98F-786C-4EE1-A525-48D15342753C",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "305"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "305 Dundas: No service between D",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "305 Dundas: No service between Dundas St West at Lansdowne Ave and Dundas St West at Bloor St West while we respond to a medical emergency.",
+              "text": "127 Davenport: Detour via Symington Ave, Dupont St, Dupont St and Lansdowne Ave due to a flood.",
               "language": "en"
             }
           ]
@@ -1795,12 +2381,12 @@
       }
     },
     {
-      "id": "DevAPI-85F53381-7A5E-4B2F-AEBF-7A8AC5E1919A",
+      "id": "DevAPI-E648C98F-786C-4EE1-A525-48D15342753C",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "129"
+            "routeId": "305"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -1808,7 +2394,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "129 Mccowan North: Detour northb",
+              "text": "305 Dundas: No service between D",
               "language": "en"
             }
           ]
@@ -1816,7 +2402,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "129 Mccowan North: Detour northbound via Sheppard Ave E, Shorting Rd, Nugget Ave and Mccowan Rd due to a traffic light problem.",
+              "text": "305 Dundas: No service between Dundas St West at Lansdowne Ave and Dundas St West at Bloor St West while we respond to a medical emergency.",
               "language": "en"
             }
           ]
