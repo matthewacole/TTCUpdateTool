@@ -2,9 +2,38 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1788557185"
+    "timestamp": "1788563498"
   },
   "entity": [
+    {
+      "id": "DevAPI-C20EBD14-AA35-41DA-AB6B-34F198BFEED8",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "68"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "68B Warden: Detour southbound vi",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "68B Warden: Detour southbound via Major Mackenzie Dr E, Woodbine Ave and 16th Ave due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
     {
       "id": "DevAPI-A7A47D84-4C20-4E7B-A011-BE3F74D8425A",
       "alert": {
@@ -118,6 +147,35 @@
           "translation": [
             {
               "text": "122 Graydon Hall: Detour via Fenside Dr and Lynedock Cres due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-82CF2D6F-9C4F-4BC6-A03E-A677D38F38FE",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "134"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "134 Progress: Detour northbound",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "134 Progress: Detour northbound via Progress Ave, Malvern Ave, Mammoth Hall Trl and Washburn Way due to a collision.",
               "language": "en"
             }
           ]
@@ -404,6 +462,35 @@
       }
     },
     {
+      "id": "DevAPI-5020E2A2-77BD-4629-8612-DB3EECC0D697",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "7"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "7 Bathurst: Detour northbound vi",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "7 Bathurst: Detour northbound via St Clair Ave W, Spadina Ave and Eglinton Ave W due to a collision.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-71C32972-1E85-4F23-BEF9-7C7F203B20C2",
       "alert": {
         "informedEntity": [
@@ -482,12 +569,12 @@
       }
     },
     {
-      "id": "DevAPI-938688CD-9422-49C9-9E07-DFB1AEFC7843",
+      "id": "DevAPI-CFF53152-059E-403C-8B6B-4EEA0AD12CAD",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "82"
+            "routeId": "7"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -495,7 +582,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "82 Rosedale: Detour westbound vi",
+              "text": "7 Bathurst: Detour southbound vi",
               "language": "en"
             }
           ]
@@ -503,7 +590,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "82 Rosedale: Detour westbound via Roxborough Dr, Mount Pleasant Rd and South Dr due to a blocked road.",
+              "text": "7 Bathurst: Detour southbound via St Clair Ave W, Spadina Ave and Eglinton Ave W due to a collision.",
               "language": "en"
             }
           ]
@@ -568,117 +655,6 @@
           "translation": [
             {
               "text": "203 High Park: No service between Colborne Lodge Dr at Centre Rd and High Park Station at High Park Ave due to a blocked road.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-6A69C7AD-8381-454F-9082-153D1D7B179E",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "320"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "97"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "19"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Line 1 Yonge-University: Trains",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Line 1 Yonge-University: Bypass at Bloor-Yonge station due to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-B802B3C2-3BE4-4D1D-BE4E-7316F9DC39B6",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "320"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "97"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "19"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Line 2 Bloor-Danforth: Trains ar",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Line 2 Bloor-Danforth: Bypass at Bloor-Yonge station due to a security incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-F6715564-1243-406D-9141-4A7466542AE2",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "82"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "82 Rosedale: Detour eastbound vi",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "82 Rosedale: Detour eastbound via Yonge St, Aylmer Ave, Park St, Meredith Cres, Mount Pleasant Rd, Roxborough Dr and Highland Ave due to a blocked road.",
               "language": "en"
             }
           ]
