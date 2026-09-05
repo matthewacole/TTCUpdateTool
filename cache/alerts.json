@@ -2,9 +2,38 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1788599897"
+    "timestamp": "1788612575"
   },
   "entity": [
+    {
+      "id": "DevAPI-B6052409-BE06-4CB2-8ED6-FFBD4214BEC9",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "68"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "68B Warden: Detour via 16th Ave,",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "68B Warden: Detour via 16th Ave, Kennedy Rd and Major Mackenzie Dr E due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
     {
       "id": "DevAPI-A7A47D84-4C20-4E7B-A011-BE3F74D8425A",
       "alert": {
@@ -96,12 +125,36 @@
       }
     },
     {
-      "id": "DevAPI-3B4D8B4B-3AA8-44C5-83C5-92B9B5C166F3",
+      "id": "DevAPI-708D738C-A74D-4B2D-A657-4C7B221E5687",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
             "routeId": "304"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "301"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "501"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "503"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "97"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "504"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "19"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -109,7 +162,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "304 King: Delays between Broadvi",
+              "text": "St Andrew: Elevator out of servi",
               "language": "en"
             }
           ]
@@ -117,7 +170,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "304 King: Delays between Broadview Ave at Danforth Ave and Roncesvalles Ave at Boustead Ave North Side due to traffic congestion.",
+              "text": "St Andrew: Elevator out of service between 145 King St W entrance and concourse while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -155,6 +208,59 @@
           "translation": [
             {
               "text": "Bayview: Elevator out of service between Sheppard Ave E south side entrance and east concourse while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-19148489-7614-42B1-B957-DD36413F9136",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "63"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "90"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "109"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "363"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "164"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Cedarvale: Elevator 06-ELV-B out",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Cedarvale: Elevator out of service between platform and upper concourse while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -235,59 +341,6 @@
       }
     },
     {
-      "id": "DevAPI-19148489-7614-42B1-B957-DD36413F9136",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "334"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "63"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "90"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "109"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "363"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "164"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Cedarvale: Elevator 06-ELV-B out",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Cedarvale: Elevator out of service between platform and upper concourse while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-D0635FA3-B3E9-4BDA-A0E5-73EDB84A04FB",
       "alert": {
         "informedEntity": [
@@ -330,6 +383,200 @@
           "translation": [
             {
               "text": "Laird: Elevator out of service between Eglinton Avenue south side entrance and concourse while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-A669C5C7-A773-400C-8786-4D674D5CEC88",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "202",
+            "stopId": "4277"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "114",
+            "stopId": "4277"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Please look both ways",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Please look both ways for cyclists before exiting.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-AEDED24E-2421-46F1-BDD4-9722C431DF92",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "304"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "62"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "8"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "322"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "100"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "25"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "505"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "925"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "87"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "305"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "504"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Broadview: Elevator 6D2L out of",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Broadview: Elevator out of service between concourse and Line 2 eastbound platform while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-D88CEF4A-EEF4-4DE6-97A9-4D411DFAD1EB",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "43"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "43 Kennedy: Detour southbound vi",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "43 Kennedy: Detour southbound via Silver Star Blvd and Passmore Ave due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-FF0A9760-AE5F-4AA9-8BF5-C8A271CA2896",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "101"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "106"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "36"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "336"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "341"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "939"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "41"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "107"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Line 6 Finch West: No service be",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Line 6 Finch West: No service between Finch West and Tobermory stations due to police activity. Shuttle buses are running between Finch West and Jane and Finch.",
               "language": "en"
             }
           ]
@@ -511,18 +758,12 @@
       }
     },
     {
-      "id": "DevAPI-A669C5C7-A773-400C-8786-4D674D5CEC88",
+      "id": "DevAPI-6521581A-F551-4FDB-B8D9-CAB0743E1204",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "202",
-            "stopId": "4277"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "114",
-            "stopId": "4277"
+            "routeId": "184"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -530,7 +771,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Please look both ways",
+              "text": "184 Ancaster Park: Detour westbo",
               "language": "en"
             }
           ]
@@ -538,7 +779,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "Please look both ways for cyclists before exiting.",
+              "text": "184 Ancaster Park: Detour westbound via Piewes Rd, Ancaster Rd and Gilley Rd due to a fallen tree blocking roadway.",
               "language": "en"
             }
           ]
