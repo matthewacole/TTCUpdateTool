@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1788629941"
+    "timestamp": "1788636637"
   },
   "entity": [
     {
@@ -178,12 +178,12 @@
       }
     },
     {
-      "id": "DevAPI-B81E15EE-583A-488C-974B-F1E578BF582F",
+      "id": "DevAPI-49BF0489-0EA5-4AA9-B35D-81934A83B849",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "510"
+            "routeId": "37"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -191,7 +191,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "510 Spadina: No service between",
+              "text": "37 Islington: Detour via Queens",
               "language": "en"
             }
           ]
@@ -199,7 +199,36 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "510 Spadina: No service between Queens Quay Loop at Lower Spadina Ave and Union Station Streetcar Platform due to the CNE.",
+              "text": "37 Islington: Detour via Queens Plate Dr and Rexdale Blvd due to a demonstration.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-C420D805-4472-4231-8B91-F4413B29EDCE",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "34 Eglinton: Detour westbound vi",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "34 Eglinton: Detour westbound via Keele St, Rogers Rd, Weston Rd and Black Creek Dr due to a collision.",
               "language": "en"
             }
           ]
@@ -237,6 +266,59 @@
           "translation": [
             {
               "text": "Bayview: Elevator out of service between Sheppard Ave E south side entrance and east concourse while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-19148489-7614-42B1-B957-DD36413F9136",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "63"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "90"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "109"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "363"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "164"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Cedarvale: Elevator 06-ELV-B out",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Cedarvale: Elevator out of service between platform and upper concourse while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -317,59 +399,6 @@
       }
     },
     {
-      "id": "DevAPI-19148489-7614-42B1-B957-DD36413F9136",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "334"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "63"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "90"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "109"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "363"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "164"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Cedarvale: Elevator 06-ELV-B out",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Cedarvale: Elevator out of service between platform and upper concourse while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-D0635FA3-B3E9-4BDA-A0E5-73EDB84A04FB",
       "alert": {
         "informedEntity": [
@@ -412,6 +441,123 @@
           "translation": [
             {
               "text": "Laird: Elevator out of service between Eglinton Avenue south side entrance and concourse while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-A669C5C7-A773-400C-8786-4D674D5CEC88",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "202",
+            "stopId": "4277"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "114",
+            "stopId": "4277"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Please look both ways",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Please look both ways for cyclists before exiting.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-B81E15EE-583A-488C-974B-F1E578BF582F",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "510"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "510 Spadina: No service between",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "510 Spadina: No service between Queens Quay Loop at Lower Spadina Ave and Union Station Streetcar Platform due to the CNE.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-54B57769-8488-4D42-A9D1-7633C619C694",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "126"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "7"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "90"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "312"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "307"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "512"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "33"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "St Clair West: Elevator 3S1L out",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "St Clair West: Elevator out of service between Heath St W north side entrance and north concourse while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -562,41 +708,6 @@
           "translation": [
             {
               "text": "184 Ancaster Park: Detour westbound via Piewes Rd, Ancaster Rd and Gilley Rd due to a fallen tree blocking roadway.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-A669C5C7-A773-400C-8786-4D674D5CEC88",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "202",
-            "stopId": "4277"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "114",
-            "stopId": "4277"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Please look both ways",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Please look both ways for cyclists before exiting.",
               "language": "en"
             }
           ]
