@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1788644238"
+    "timestamp": "1788650245"
   },
   "entity": [
     {
@@ -207,6 +207,35 @@
       }
     },
     {
+      "id": "DevAPI-BA3FDA02-4BB7-4132-9A8A-304F298EC842",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "960"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "960 Steeles West Express: Detour",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "960 Steeles West Express: Detour eastbound via Alness St, Dolomite Dr and Dufferin St due to a collision.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-1AD42104-00A1-45C3-8173-5020EB07531E",
       "alert": {
         "informedEntity": [
@@ -244,24 +273,12 @@
       }
     },
     {
-      "id": "DevAPI-F17AFFB7-A8FA-4DE2-9672-920AD1388A6F",
+      "id": "DevAPI-36E1F4B5-D2E3-4C39-92C3-E77E5F6D2EDF",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "320"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "82"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "97"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "19"
+            "routeId": "60"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -269,7 +286,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Rosedale: Elevator 14Y1L out of",
+              "text": "60 Steeles West: Detour via Alne",
               "language": "en"
             }
           ]
@@ -277,7 +294,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "Rosedale: Elevator out of service between Cresent Road entrance and Line 1 sourthbound platform while we perform maintenance.",
+              "text": "60 Steeles West: Detour via Alness St, Dolomite Dr and Dufferin St due to a collision.",
               "language": "en"
             }
           ]
@@ -517,6 +534,64 @@
           "translation": [
             {
               "text": "510 Spadina: No service between Queens Quay Loop at Lower Spadina Ave and Union Station Streetcar Platform due to the CNE.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-FBC30335-FEC3-4250-835B-5B858B5C7D7A",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "511"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "511 Bathurst: No service between",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "511 Bathurst: No service between Exhibition Loop and Fleet St at Strachan Ave due to a collision.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-B0528343-CE9F-465E-80EA-F77BE70ECF7B",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "509"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "509 Harbourfront: No service bet",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "509 Harbourfront: No service between Fleet St at Strachan Ave and Exhibition Loop at Manitoba Dr due to a collision.",
               "language": "en"
             }
           ]
