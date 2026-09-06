@@ -2,38 +2,9 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1788650245"
+    "timestamp": "1788656678"
   },
   "entity": [
-    {
-      "id": "DevAPI-B6052409-BE06-4CB2-8ED6-FFBD4214BEC9",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "68"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "68B Warden: Detour via 16th Ave,",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "68B Warden: Detour via 16th Ave, Kennedy Rd and Major Mackenzie Dr E due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
     {
       "id": "DevAPI-A7A47D84-4C20-4E7B-A011-BE3F74D8425A",
       "alert": {
@@ -178,6 +149,35 @@
       }
     },
     {
+      "id": "DevAPI-142E1AAA-4041-492B-A5DD-1912FAC2A447",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "68"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "68B Warden: Detour via 16th Ave,",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "68B Warden: Detour via 16th Ave, Kennedy Rd and Major Mackenzie Dr E due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-49BF0489-0EA5-4AA9-B35D-81934A83B849",
       "alert": {
         "informedEntity": [
@@ -200,35 +200,6 @@
           "translation": [
             {
               "text": "37 Islington: Detour via Queens Plate Dr and Rexdale Blvd due to a demonstration.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-BA3FDA02-4BB7-4132-9A8A-304F298EC842",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "960"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "960 Steeles West Express: Detour",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "960 Steeles West Express: Detour eastbound via Alness St, Dolomite Dr and Dufferin St due to a collision.",
               "language": "en"
             }
           ]
@@ -266,35 +237,6 @@
           "translation": [
             {
               "text": "Bayview: Elevator out of service between Sheppard Ave E south side entrance and east concourse while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-36E1F4B5-D2E3-4C39-92C3-E77E5F6D2EDF",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "60"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "60 Steeles West: Detour via Alne",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "60 Steeles West: Detour via Alness St, Dolomite Dr and Dufferin St due to a collision.",
               "language": "en"
             }
           ]
@@ -348,6 +290,35 @@
           "translation": [
             {
               "text": "Cedarvale: Elevator out of service between platform and upper concourse while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-95E115D1-EA59-4614-9D1E-DD57C5B40F08",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "506"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "506 Carlton: Detour westbound vi",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "506 Carlton: Detour westbound via Coxwell Ave, Queen St E, Broadview Ave, Dundas St E and Parliament St due to a collision.",
               "language": "en"
             }
           ]
@@ -541,12 +512,36 @@
       }
     },
     {
-      "id": "DevAPI-FBC30335-FEC3-4250-835B-5B858B5C7D7A",
+      "id": "DevAPI-3ED4EC19-B093-4C3E-AA8E-FBBF76BB3799",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "511"
+            "routeId": "55"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "335"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "149"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "26"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "935"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "27"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -554,7 +549,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "511 Bathurst: No service between",
+              "text": "Jane: Elevator 12B1L out of serv",
               "language": "en"
             }
           ]
@@ -562,36 +557,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "511 Bathurst: No service between Exhibition Loop and Fleet St at Strachan Ave due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-B0528343-CE9F-465E-80EA-F77BE70ECF7B",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "509"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "509 Harbourfront: No service bet",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "509 Harbourfront: No service between Fleet St at Strachan Ave and Exhibition Loop at Manitoba Dr due to a collision.",
+              "text": "Jane: Elevator out of service between Jane St entrance and concourse while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -713,6 +679,47 @@
           "translation": [
             {
               "text": "Kennedy: Elevator out of service between concourse and Line 5 centre platform west side due to a technical problem.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-4DBE8AC0-5460-4E65-86E7-F2EBD38C0A14",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "335"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "353"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "341"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "41"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Line 1 Yonge-University: Delays",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Line 1 Yonge-University: Delays northbound at York University station while we respond to an emergency alarm.",
               "language": "en"
             }
           ]
