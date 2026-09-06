@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1788719517"
+    "timestamp": "1788727538"
   },
   "entity": [
     {
@@ -178,12 +178,36 @@
       }
     },
     {
-      "id": "DevAPI-E2BB96FF-27A1-48E4-854D-47F743957D07",
+      "id": "DevAPI-19148489-7614-42B1-B957-DD36413F9136",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "68"
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "63"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "90"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "109"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "363"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "164"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -191,7 +215,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "68 Warden: Detour northbound via",
+              "text": "Cedarvale: Elevator 06-ELV-B out",
               "language": "en"
             }
           ]
@@ -199,7 +223,36 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "68 Warden: Detour northbound via Glenbourne Park Dr due to a blocked road.",
+              "text": "Cedarvale: Elevator out of service between platform and upper concourse while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-4C3A046C-A67B-4D3B-A772-906C4256153F",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "37"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "37 Islington: Buses are not stop",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "37 Islington: Bypass near Woodbine Racetrack Loop (Main Entrance) due to Protest.",
               "language": "en"
             }
           ]
@@ -280,36 +333,12 @@
       }
     },
     {
-      "id": "DevAPI-19148489-7614-42B1-B957-DD36413F9136",
+      "id": "DevAPI-B7047318-F7EE-489A-A288-51F773E9B622",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "334"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "63"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "90"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "109"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "363"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "164"
+            "routeId": "505"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -317,7 +346,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Cedarvale: Elevator 06-ELV-B out",
+              "text": "505 Dundas: Detour eastbound via",
               "language": "en"
             }
           ]
@@ -325,7 +354,36 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "Cedarvale: Elevator out of service between platform and upper concourse while we perform maintenance.",
+              "text": "505 Dundas: Detour eastbound via Spadina Ave, Queen St E, York St, Adelaide St E and Church St while we respond to a medical emergency.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-BE6D6E4F-2E79-4266-8633-7DBDEE5B3E09",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "506"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "506 Carlton: Detour eastbound vi",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "506 Carlton: Detour eastbound via Spadina Ave, Queen St E, York St, Adelaide St E and Church St while we respond to a medical emergency.",
               "language": "en"
             }
           ]
@@ -375,6 +433,70 @@
           "translation": [
             {
               "text": "Laird: Elevator out of service between Eglinton Avenue south side entrance and concourse while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-A669C5C7-A773-400C-8786-4D674D5CEC88",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "202",
+            "stopId": "4277"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "114",
+            "stopId": "4277"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Please look both ways",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Please look both ways for cyclists before exiting.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-E2BB96FF-27A1-48E4-854D-47F743957D07",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "68"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "68 Warden: Detour northbound via",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "68 Warden: Detour northbound via Glenbourne Park Dr due to a blocked road.",
               "language": "en"
             }
           ]
@@ -503,6 +625,47 @@
       }
     },
     {
+      "id": "DevAPI-1EFEA2B3-F06F-43B9-ADF0-424414641745",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "7"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "511"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "307"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Bathurst: Elevator 3B1L out of s",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Bathurst: Elevator out of service between Bathurst St east side entrance, concourse and Line 2 westbound platform while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-AE5BA991-24C1-4AB7-AC72-FD2EA00F6950",
       "alert": {
         "informedEntity": [
@@ -532,18 +695,12 @@
       }
     },
     {
-      "id": "DevAPI-A669C5C7-A773-400C-8786-4D674D5CEC88",
+      "id": "DevAPI-8DE4F8D2-1DF0-42B5-A0FC-F82F2D14FB7F",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "202",
-            "stopId": "4277"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "114",
-            "stopId": "4277"
+            "routeId": "90"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -551,7 +708,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Please look both ways",
+              "text": "90 Vaughan: Detour northbound vi",
               "language": "en"
             }
           ]
@@ -559,7 +716,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "Please look both ways for cyclists before exiting.",
+              "text": "90 Vaughan: Detour northbound via St Clair Ave W and Oakwood Ave due to a collision.",
               "language": "en"
             }
           ]
