@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1788656678"
+    "timestamp": "1788673972"
   },
   "entity": [
     {
@@ -149,12 +149,12 @@
       }
     },
     {
-      "id": "DevAPI-142E1AAA-4041-492B-A5DD-1912FAC2A447",
+      "id": "DevAPI-8598BBE0-51DF-4ECB-9BFE-504B582D8C7B",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "68"
+            "routeId": "41"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -162,7 +162,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "68B Warden: Detour via 16th Ave,",
+              "text": "41 Keele: Detour northbound via",
               "language": "en"
             }
           ]
@@ -170,7 +170,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "68B Warden: Detour via 16th Ave, Kennedy Rd and Major Mackenzie Dr E due to construction.",
+              "text": "41 Keele: Detour northbound via Weston Rd and Rogers Rd due to police activity.",
               "language": "en"
             }
           ]
@@ -178,12 +178,12 @@
       }
     },
     {
-      "id": "DevAPI-49BF0489-0EA5-4AA9-B35D-81934A83B849",
+      "id": "DevAPI-35120CF3-84D3-44A2-9894-559449C46687",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "37"
+            "routeId": "83"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -191,7 +191,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "37 Islington: Detour via Queens",
+              "text": "83 Jones: Detour via Danforth Av",
               "language": "en"
             }
           ]
@@ -199,7 +199,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "37 Islington: Detour via Queens Plate Dr and Rexdale Blvd due to a demonstration.",
+              "text": "83 Jones: Detour via Danforth Ave, Greenwood Ave and Gerrard St E due to a collision.",
               "language": "en"
             }
           ]
@@ -237,88 +237,6 @@
           "translation": [
             {
               "text": "Bayview: Elevator out of service between Sheppard Ave E south side entrance and east concourse while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-19148489-7614-42B1-B957-DD36413F9136",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "334"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "63"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "90"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "109"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "363"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "164"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Cedarvale: Elevator 06-ELV-B out",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Cedarvale: Elevator out of service between platform and upper concourse while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-95E115D1-EA59-4614-9D1E-DD57C5B40F08",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "506"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "506 Carlton: Detour westbound vi",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "506 Carlton: Detour westbound via Coxwell Ave, Queen St E, Broadview Ave, Dundas St E and Parliament St due to a collision.",
               "language": "en"
             }
           ]
@@ -399,6 +317,59 @@
       }
     },
     {
+      "id": "DevAPI-19148489-7614-42B1-B957-DD36413F9136",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "63"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "90"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "109"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "363"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "164"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Cedarvale: Elevator 06-ELV-B out",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Cedarvale: Elevator out of service between platform and upper concourse while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-D0635FA3-B3E9-4BDA-A0E5-73EDB84A04FB",
       "alert": {
         "informedEntity": [
@@ -441,123 +412,6 @@
           "translation": [
             {
               "text": "Laird: Elevator out of service between Eglinton Avenue south side entrance and concourse while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-A669C5C7-A773-400C-8786-4D674D5CEC88",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "202",
-            "stopId": "4277"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "114",
-            "stopId": "4277"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Please look both ways",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Please look both ways for cyclists before exiting.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-B81E15EE-583A-488C-974B-F1E578BF582F",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "510"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "510 Spadina: No service between",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "510 Spadina: No service between Queens Quay Loop at Lower Spadina Ave and Union Station Streetcar Platform due to the CNE.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-3ED4EC19-B093-4C3E-AA8E-FBBF76BB3799",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "55"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "335"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "149"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "26"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "935"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "27"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Jane: Elevator 12B1L out of serv",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Jane: Elevator out of service between Jane St entrance and concourse while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -686,24 +540,18 @@
       }
     },
     {
-      "id": "DevAPI-4DBE8AC0-5460-4E65-86E7-F2EBD38C0A14",
+      "id": "DevAPI-A669C5C7-A773-400C-8786-4D674D5CEC88",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "335"
+            "routeId": "202",
+            "stopId": "4277"
           },
           {
             "agencyId": "1",
-            "routeId": "353"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "341"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "41"
+            "routeId": "114",
+            "stopId": "4277"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -711,7 +559,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Line 1 Yonge-University: Delays",
+              "text": "Please look both ways",
               "language": "en"
             }
           ]
@@ -719,36 +567,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "Line 1 Yonge-University: Delays northbound at York University station while we respond to an emergency alarm.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-6521581A-F551-4FDB-B8D9-CAB0743E1204",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "184"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "184 Ancaster Park: Detour westbo",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "184 Ancaster Park: Detour westbound via Piewes Rd, Ancaster Rd and Gilley Rd due to a fallen tree blocking roadway.",
+              "text": "Please look both ways for cyclists before exiting.",
               "language": "en"
             }
           ]
