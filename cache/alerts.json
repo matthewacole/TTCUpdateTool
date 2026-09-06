@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1788689173"
+    "timestamp": "1788701910"
   },
   "entity": [
     {
@@ -149,20 +149,12 @@
       }
     },
     {
-      "id": "DevAPI-1AD42104-00A1-45C3-8173-5020EB07531E",
+      "id": "DevAPI-63FBB882-8EBF-4ED6-92D2-CC4FB07D54F7",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "11"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "185"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "385"
+            "routeId": "184"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -170,7 +162,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Bayview: Elevator 55P4L out of s",
+              "text": "184 Ancaster Park: Detour via Pl",
               "language": "en"
             }
           ]
@@ -178,7 +170,36 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "Bayview: Elevator out of service between Sheppard Ave E south side entrance and east concourse while we perform maintenance.",
+              "text": "184 Ancaster Park: Detour via Plewes Rd, Ancaster Rd and Gilley Rd due to a blocked road.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-E2BB96FF-27A1-48E4-854D-47F743957D07",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "68"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "68 Warden: Detour northbound via",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "68 Warden: Detour northbound via Glenbourne Park Dr due to a blocked road.",
               "language": "en"
             }
           ]
@@ -475,6 +496,35 @@
           "translation": [
             {
               "text": "Kennedy: Elevator out of service between concourse and Line 5 centre platform west side due to a technical problem.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-AE5BA991-24C1-4AB7-AC72-FD2EA00F6950",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "510"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "510 Spadina: No service between",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "510 Spadina: No service between Queens Quay Loop at Lower Spadina Ave and Union Station Streetcar Platform due to the CNE.",
               "language": "en"
             }
           ]
