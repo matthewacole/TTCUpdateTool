@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1788711941"
+    "timestamp": "1788719517"
   },
   "entity": [
     {
@@ -149,35 +149,6 @@
       }
     },
     {
-      "id": "DevAPI-3F91C45A-CC78-471D-8C07-6D8E893D293E",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "7"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "7 Bathurst: Detour via Davenport",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "7 Bathurst: Detour via Davenport Rd, Walmer Rd, Austin Ter, Spadina Rd and Tichester Rd due to a Toronto fire investigation.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-63FBB882-8EBF-4ED6-92D2-CC4FB07D54F7",
       "alert": {
         "informedEntity": [
@@ -207,12 +178,12 @@
       }
     },
     {
-      "id": "DevAPI-4410B1B1-1648-496A-B6D8-EF551B275981",
+      "id": "DevAPI-E2BB96FF-27A1-48E4-854D-47F743957D07",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "90"
+            "routeId": "68"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -220,7 +191,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "90 Vaughan: Detour southbound vi",
+              "text": "68 Warden: Detour northbound via",
               "language": "en"
             }
           ]
@@ -228,89 +199,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "90 Vaughan: Detour southbound via Vaughan Rd, Bathurst St, Davenport Rd, Walmer Rd and Spadina Rd due to a Toronto fire investigation.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-AA76DDB1-772E-4BE7-B273-4B19EE0F383F",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "512"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "512 St Clair: No service between",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "512 St Clair: No service between St Clair West Station at Bay 4 and St Clair Ave West at Oakwood Ave due to a Toronto fire investigation.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-19148489-7614-42B1-B957-DD36413F9136",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "334"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "63"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "90"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "109"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "363"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "164"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Cedarvale: Elevator 06-ELV-B out",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Cedarvale: Elevator out of service between platform and upper concourse while we perform maintenance.",
+              "text": "68 Warden: Detour northbound via Glenbourne Park Dr due to a blocked road.",
               "language": "en"
             }
           ]
@@ -391,6 +280,59 @@
       }
     },
     {
+      "id": "DevAPI-19148489-7614-42B1-B957-DD36413F9136",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "63"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "90"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "109"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "363"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "164"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Cedarvale: Elevator 06-ELV-B out",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Cedarvale: Elevator out of service between platform and upper concourse while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-D0635FA3-B3E9-4BDA-A0E5-73EDB84A04FB",
       "alert": {
         "informedEntity": [
@@ -433,148 +375,6 @@
           "translation": [
             {
               "text": "Laird: Elevator out of service between Eglinton Avenue south side entrance and concourse while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-A669C5C7-A773-400C-8786-4D674D5CEC88",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "202",
-            "stopId": "4277"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "114",
-            "stopId": "4277"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Please look both ways",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Please look both ways for cyclists before exiting.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-853E1D1B-7747-474A-97C8-F6DDE8884408",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "126"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "126 Christie: Detour northbound",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "126 Christie: Detour northbound via Davenport Rd, Walmer Rd and Spadina Rd due to a Toronto fire investigation.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-2FDD83E1-6A95-43D3-BF5B-47D52D2EE811",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "310"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "510"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "127"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "506"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "306"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Spadina: Elevator 2B1L out of se",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Spadina: Elevator out of service between Spadina Rd east side entrance and concourse due to a technical problem.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-E2BB96FF-27A1-48E4-854D-47F743957D07",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "68"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "68 Warden: Detour northbound via",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "68 Warden: Detour northbound via Glenbourne Park Dr due to a blocked road.",
               "language": "en"
             }
           ]
@@ -732,12 +532,18 @@
       }
     },
     {
-      "id": "DevAPI-D8FD238A-E5BA-49D4-A335-23A6C26F9229",
+      "id": "DevAPI-A669C5C7-A773-400C-8786-4D674D5CEC88",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "33"
+            "routeId": "202",
+            "stopId": "4277"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "114",
+            "stopId": "4277"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -745,7 +551,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "33 Forest Hill: Detour via Spadi",
+              "text": "Please look both ways",
               "language": "en"
             }
           ]
@@ -753,7 +559,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "33 Forest Hill: Detour via Spadina Rd, Austin Ter, Walmer Rd and Davenport Rd due to a Toronto fire investigation.",
+              "text": "Please look both ways for cyclists before exiting.",
               "language": "en"
             }
           ]
