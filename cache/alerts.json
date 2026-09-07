@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1788733574"
+    "timestamp": "1788739946"
   },
   "entity": [
     {
@@ -417,6 +417,59 @@
       }
     },
     {
+      "id": "DevAPI-280070C4-C16D-4ED5-97BD-8E0471165E3A",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "384"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "119"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "336"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "166"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "989"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "165"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "373"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Line 6 Finch West: Delays westbo",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Line 6 Finch West: Delays westbound at Emery station while the maintainer fixes a mechanical problem. Line 6 is owned by Metrolinx, maintained by Mosaic Transit Partners Maintenance and proudly operated by the TTC.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-E2BB96FF-27A1-48E4-854D-47F743957D07",
       "alert": {
         "informedEntity": [
@@ -439,6 +492,59 @@
           "translation": [
             {
               "text": "68 Warden: Detour northbound via Glenbourne Park Dr due to a blocked road.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-14AF53DE-7786-4B51-8BA2-52F084AF5109",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "941"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "341"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "158"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "41"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "164"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Line 5 Eglinton: Delays westboun",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Line 5 Eglinton: Delays westbound at Keelesdale station due to a security incident.",
               "language": "en"
             }
           ]
@@ -560,47 +666,6 @@
           "translation": [
             {
               "text": "Kennedy: Elevator out of service between concourse and Line 5 centre platform west side due to a technical problem.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-1EFEA2B3-F06F-43B9-ADF0-424414641745",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "7"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "511"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "307"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Bathurst: Elevator 3B1L out of s",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Bathurst: Elevator out of service between Bathurst St east side entrance, concourse and Line 2 westbound platform while we perform maintenance.",
               "language": "en"
             }
           ]
