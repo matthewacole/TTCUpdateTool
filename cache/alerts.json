@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1788756433"
+    "timestamp": "1788774368"
   },
   "entity": [
     {
@@ -142,35 +142,6 @@
           "translation": [
             {
               "text": "St Andrew: Elevator out of service between 145 King St W entrance and concourse while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-C653680E-87B2-46A4-9E78-DF394F07FDCA",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "184"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "184 Ancaster Park: Detour via Pl",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "184 Ancaster Park: Detour via Plewes Rd, Ancaster Rd and Gilley Rd due to a blocked road.",
               "language": "en"
             }
           ]
@@ -502,83 +473,6 @@
           "translation": [
             {
               "text": "Please look both ways for cyclists before exiting.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-0CCA3D09-C785-474B-BF23-7F0BE16A73F5",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "161"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "168"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "989"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "71"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "171"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "164"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "32"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "73"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "334"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "27"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "89"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "35"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Mount Dennis: Elevator ELV01-A o",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Mount Dennis: Elevator out of service between Line 5 platform and Line 5 concourse while we perform maintenance. Elevator is expected to be back in service September 7, 2026.",
               "language": "en"
             }
           ]
