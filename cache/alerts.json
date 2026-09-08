@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1788874847"
+    "timestamp": "1788888709"
   },
   "entity": [
     {
@@ -149,20 +149,12 @@
       }
     },
     {
-      "id": "DevAPI-EE28B9B1-037F-4E11-86F3-53AB0C51401F",
+      "id": "DevAPI-8FAD59A9-FA4B-4F77-B4B5-4C38C1FD9AEE",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "11"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "185"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "385"
+            "routeId": "37"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -170,7 +162,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Bayview: Elevator 55P4L out of s",
+              "text": "37 Islington: Buses are not stop",
               "language": "en"
             }
           ]
@@ -178,7 +170,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "Bayview: Elevator out of service between Sheppard Ave E south side entrance and east concourse while we perform maintenance.",
+              "text": "37 Islington: Bypass between Rexdale Blvd at Queen's Plate Dr (East) and Woodbine Racetrack Loop (Main Entrance) due to a demonstration.",
               "language": "en"
             }
           ]
@@ -441,6 +433,67 @@
           "translation": [
             {
               "text": "Laird: Elevator out of service between Eglinton Avenue south side entrance and concourse while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-42EABFFD-1952-4695-A347-3B318803DBFA",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "13"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "26"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "310"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "510"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "127"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "94"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "506"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "306"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "St George: Elevator 1Y1L out of",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "St George: Elevator out of service between bus platform, Bedford rd west side entrance, concourse, Line 1 centre platform and Line 2 centre platform while we perform maintenance.",
               "language": "en"
             }
           ]
