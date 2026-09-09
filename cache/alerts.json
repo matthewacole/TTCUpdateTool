@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1788984224"
+    "timestamp": "1788993000"
   },
   "entity": [
     {
@@ -154,6 +154,43 @@
       }
     },
     {
+      "id": "DevAPI-F7075403-4F64-4E5B-B77A-62D8F1E5CB3E",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "11"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "185"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "385"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Bayview: Elevator 55P4L out of s",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Bayview: Elevator out of service between Sheppard Ave E south side entrance and east concourse due to a technical problem.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-8B0DF393-07CB-456F-B4FB-80D70C58230E",
       "alert": {
         "informedEntity": [
@@ -205,76 +242,6 @@
           "translation": [
             {
               "text": "29C Dufferin: No service between Princes' Gates Loop at Canada Blvd - CNE East Entrance and Dufferin St at Springhurst Ave due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-4A0D862D-BA38-4E6F-861B-861C04925E9B",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "7"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "511"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "307"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Bathurst: Elevator 3B1L out of s",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Bathurst: Elevator out of service between Bathurst St east side entrance, concourse and Line 2 westbound platform due to a technical problem.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-D0C4A2AD-112C-42D9-8406-EC00938FD4A1",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "97"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "97 Yonge: Detour via Yonge St, P",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "97 Yonge: Detour via Yonge St, Pleasant Blvd, Hilda Ave and Steeles Ave W due to construction.",
               "language": "en"
             }
           ]
@@ -572,6 +539,35 @@
           "translation": [
             {
               "text": "145 Belfield: Detour southbound via Kipling Ave, Dundas St W, Aukland Rd and Kipling Station due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-16AAF7A5-28CB-49EB-BAC3-AFE73BAF26CC",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "97"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "97 Yonge: Detour via Yonge St, P",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "97 Yonge: Detour via Yonge St, Pleasant Blvd, Hilda Ave and Steeles Ave W due to construction.",
               "language": "en"
             }
           ]
