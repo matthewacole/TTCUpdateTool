@@ -2,9 +2,38 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1788947608"
+    "timestamp": "1788962813"
   },
   "entity": [
+    {
+      "id": "DevAPI-5BB2C38E-6B4D-480F-8A73-C92D3901A0E8",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "506"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "506 Carlton: No service between",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "506 Carlton: No service between Main Street Station at Bay 7 and Coxwell Ave at Lower Gerrard St East due to a watermain break. Shuttle buses are running between Main Street Station at Bay 7 and Coxwell Ave at Lower Gerrard St East.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
     {
       "id": "DevAPI-A7A47D84-4C20-4E7B-A011-BE3F74D8425A",
       "alert": {
@@ -96,7 +125,36 @@
       }
     },
     {
-      "id": "DevAPI-708D738C-A74D-4B2D-A657-4C7B221E5687",
+      "id": "DevAPI-3A8219C6-6CC1-4E5A-89F7-C689BD4DD2D7",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "29"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "29C Dufferin: No service between",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "29C Dufferin: No service between Princes' Gates Loop at Canada Blvd - CNE East Entrance and Dufferin St at Springhurst Ave due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-2C346AE2-A16D-4F61-98E7-F977421E87ED",
       "alert": {
         "informedEntity": [
           {
@@ -105,27 +163,35 @@
           },
           {
             "agencyId": "1",
-            "routeId": "301"
+            "routeId": "340"
           },
           {
             "agencyId": "1",
-            "routeId": "501"
+            "routeId": "300"
           },
           {
             "agencyId": "1",
-            "routeId": "503"
+            "routeId": "168"
           },
           {
             "agencyId": "1",
-            "routeId": "97"
+            "routeId": "505"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "512"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "40"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "305"
           },
           {
             "agencyId": "1",
             "routeId": "504"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "19"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -133,7 +199,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "St Andrew: Elevator out of servi",
+              "text": "Dundas West: Elevator 8B1L out o",
               "language": "en"
             }
           ]
@@ -141,7 +207,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "St Andrew: Elevator out of service between 145 King St W entrance and concourse while we perform maintenance.",
+              "text": "Dundas West: Elevator out of service between Dundas St W entrance and bus platform, concourse and Line 2 eastbound platform while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -149,12 +215,12 @@
       }
     },
     {
-      "id": "DevAPI-7E8E9DE8-0CD7-4F64-BAC8-9CB438EA66E5",
+      "id": "DevAPI-8B0DF393-07CB-456F-B4FB-80D70C58230E",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "329"
+            "routeId": "42"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -162,7 +228,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "329 Dufferin: No service between",
+              "text": "42 Cummer: Detour eastbound via",
               "language": "en"
             }
           ]
@@ -170,7 +236,36 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "329 Dufferin: No service between Dufferin Gate Loop and Dufferin St at Springhurst Ave due to construction.",
+              "text": "42 Cummer: Detour eastbound via Bishop Ave and Willowdale Ave due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-4DCAE91A-829B-415B-854C-B42076EFC3F7",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "97"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "97 Yonge: Detour via Yonge St, P",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "97 Yonge: Detour via Yonge St, Pleasant Blvd, Hilda Ave and Steeles Ave W due to police activity.",
               "language": "en"
             }
           ]
@@ -467,88 +562,6 @@
           "translation": [
             {
               "text": "Kennedy: Elevator out of service between concourse and Line 5 centre platform west side due to a technical problem.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-8A21C9BF-719F-4362-B6FC-58897C065BC3",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "126"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "7"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "90"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "312"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "307"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "512"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "33"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "St Clair West: Elevator 3S1L out",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "St Clair West: Elevator out of service between Heath St W north side entrance and north concourse while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-FDACB16E-7BD3-4D58-A2BA-C88A5AD7DF30",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "506"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "506 Carlton: No service between",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "506 Carlton: No service between Main Street Station at Bay 7 and Coxwell Ave at Lower Gerrard St East due to a watermain break. Shuttle buses are on the way.",
               "language": "en"
             }
           ]
