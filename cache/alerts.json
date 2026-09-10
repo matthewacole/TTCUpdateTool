@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1789000262"
+    "timestamp": "1789016989"
   },
   "entity": [
     {
@@ -125,47 +125,6 @@
       }
     },
     {
-      "id": "DevAPI-393640E7-F883-4710-AB39-DC9BA9591A1E",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "322"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "22"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "70"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Coxwell: Elevator 11D1L out of s",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Coxwell: Elevator out of service between Strathmore Blvd entrance, concourse and Line 2 eastbound platform due to a technical problem.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-81D8AA62-A531-45AA-98D9-AF1E92CC4C1F",
       "alert": {
         "informedEntity": [
@@ -195,72 +154,6 @@
       }
     },
     {
-      "id": "DevAPI-E075E3D0-35FD-4759-B99C-C85EF48BC130",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "169"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "169 Huntingwood: Detour westboun",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "169 Huntingwood: Detour westbound via Birchmount Rd, Finch Ave E and Warden Ave due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-F7075403-4F64-4E5B-B77A-62D8F1E5CB3E",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "11"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "185"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "385"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Bayview: Elevator 55P4L out of s",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Bayview: Elevator out of service between Sheppard Ave E south side entrance and east concourse due to a technical problem.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-A736BF86-4768-4F6C-8797-A3B687C7BC7E",
       "alert": {
         "informedEntity": [
@@ -283,35 +176,6 @@
           "translation": [
             {
               "text": "29C Dufferin: No service between Princes' Gates Loop at Canada Blvd - CNE East Entrance and Dufferin St at Springhurst Ave due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-7B93D090-B701-4DCE-86F7-499B278380EB",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "21"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "21 Brimley: Detour via Midland A",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "21 Brimley: Detour via Midland Ave, Danforth Ave and Brimley Rd due to a collision.",
               "language": "en"
             }
           ]
@@ -361,6 +225,35 @@
           "translation": [
             {
               "text": "Laird: Elevator out of service between Eglinton Avenue south side entrance and concourse while we perform maintenance. Elevator is expected to be back in service September 30, 2026.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-B0A3CF1E-A5CA-4391-949E-5FC145C773A8",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "169"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "169 Huntingwood: Detour westboun",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "169 Huntingwood: Detour westbound via Birchmount Rd, Finch Ave E and Warden Ave due to construction.",
               "language": "en"
             }
           ]
@@ -494,60 +387,36 @@
       }
     },
     {
-      "id": "DevAPI-7C642A89-37B4-4BC3-97A5-E9AB389EC739",
+      "id": "DevAPI-08CA769D-E787-40A8-9AE2-F6BA1B6344EB",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "320"
+            "routeId": "941"
           },
           {
             "agencyId": "1",
-            "routeId": "301"
+            "routeId": "334"
           },
           {
             "agencyId": "1",
-            "routeId": "305"
+            "routeId": "341"
           },
           {
             "agencyId": "1",
-            "routeId": "506"
+            "routeId": "34"
           },
           {
             "agencyId": "1",
-            "routeId": "97"
+            "routeId": "158"
           },
           {
             "agencyId": "1",
-            "routeId": "504"
+            "routeId": "41"
           },
           {
             "agencyId": "1",
-            "routeId": "19"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "508"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "304"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "505"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "501"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "503"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "306"
+            "routeId": "164"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -555,7 +424,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Queen: Elevator 9Y1L out of serv",
+              "text": "Keelesdale: Elevator ELV02-B out",
               "language": "en"
             }
           ]
@@ -563,36 +432,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "Queen: Elevator out of service between underpass, Line 1 northbound platform, Line 1 southbound platform, and south concourse while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-7B6E2581-E936-4B67-8891-56A8D7457BD1",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "42"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "42 Cummer: Detour eastbound via",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "42 Cummer: Detour eastbound via Bishop Ave and Willowdale Ave due to construction.",
+              "text": "Keelesdale: Elevator out of service between Keele Street north east side entrance and concourse while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -635,36 +475,7 @@
       }
     },
     {
-      "id": "DevAPI-B472F7DD-9F69-415F-B490-8C7E7461B8F8",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "12"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "12 Kingston Rd: Detour via Briml",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "12 Kingston Rd: Detour via Brimley Rd, Danforth Rd, Midland Ave and Eglinton Ave E due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-96E0F971-D33D-40E2-BD62-79A3B78110C7",
+      "id": "DevAPI-9AC9CB8C-E9B0-4B83-8299-E6D6639642F5",
       "alert": {
         "informedEntity": [
           {
@@ -693,36 +504,7 @@
       }
     },
     {
-      "id": "DevAPI-77E3DCEC-F5B9-4A0E-8A35-F17A5713F09C",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "57"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "57 Midland: Detour southbound vi",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "57 Midland: Detour southbound via South Shields Ave, Alexmuir Blvd and Finch Ave E due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-16AAF7A5-28CB-49EB-BAC3-AFE73BAF26CC",
+      "id": "DevAPI-3656C8D9-3BB3-436F-8929-EA35E3B53A80",
       "alert": {
         "informedEntity": [
           {
@@ -735,7 +517,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "97 Yonge: Detour via Yonge St, P",
+              "text": "97A Yonge: Detour northbound via",
               "language": "en"
             }
           ]
@@ -743,7 +525,84 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "97 Yonge: Detour via Yonge St, Pleasant Blvd, Hilda Ave and Steeles Ave W due to construction.",
+              "text": "97A Yonge: Detour northbound via Yonge St, Pleasant Blvd, Hilda Ave and Steeles Ave W due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-2251DB85-FC88-49BB-9056-77FCEBE7495D",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "74"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "320"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "88"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "82"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "506"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "97"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "19"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "13"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "312"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "512"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "94"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "306"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Line 1 Yonge-University: There i",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "There is no subway service on Line 1 Yonge-University between St Clair and College stations due to planned track work. Shuttle buses are running. Follow the station signs or speak to a TTC employee for help. Service will resume September 10.",
               "language": "en"
             }
           ]
@@ -951,35 +810,6 @@
           "translation": [
             {
               "text": "St Patrick: Elevator out of service between concourse and Line 1 centre platform while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-68515159-BCC3-40DC-A270-C7DB2EF2AFB4",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "86"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "86 Scarborough: Detour westbound",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "86 Scarborough: Detour westbound via Danforth Rd, Kennedy Rd and Eglinton Ave E due to a collision.",
               "language": "en"
             }
           ]
