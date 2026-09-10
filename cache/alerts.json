@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1788993000"
+    "timestamp": "1789000262"
   },
   "entity": [
     {
@@ -125,6 +125,76 @@
       }
     },
     {
+      "id": "DevAPI-393640E7-F883-4710-AB39-DC9BA9591A1E",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "322"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "22"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "70"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Coxwell: Elevator 11D1L out of s",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Coxwell: Elevator out of service between Strathmore Blvd entrance, concourse and Line 2 eastbound platform due to a technical problem.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-81D8AA62-A531-45AA-98D9-AF1E92CC4C1F",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "112"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "112 West Mall: Detour southbound",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "112 West Mall: Detour southbound via St Albans Rd, Kipling Ave and Dundas St W due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-E075E3D0-35FD-4759-B99C-C85EF48BC130",
       "alert": {
         "informedEntity": [
@@ -191,35 +261,6 @@
       }
     },
     {
-      "id": "DevAPI-8B0DF393-07CB-456F-B4FB-80D70C58230E",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "42"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "42 Cummer: Detour eastbound via",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "42 Cummer: Detour eastbound via Bishop Ave and Willowdale Ave due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-A736BF86-4768-4F6C-8797-A3B687C7BC7E",
       "alert": {
         "informedEntity": [
@@ -242,6 +283,35 @@
           "translation": [
             {
               "text": "29C Dufferin: No service between Princes' Gates Loop at Canada Blvd - CNE East Entrance and Dufferin St at Springhurst Ave due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-7B93D090-B701-4DCE-86F7-499B278380EB",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "21"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "21 Brimley: Detour via Midland A",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "21 Brimley: Detour via Midland Ave, Danforth Ave and Brimley Rd due to a collision.",
               "language": "en"
             }
           ]
@@ -424,6 +494,112 @@
       }
     },
     {
+      "id": "DevAPI-7C642A89-37B4-4BC3-97A5-E9AB389EC739",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "320"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "301"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "305"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "506"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "97"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "504"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "19"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "508"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "304"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "505"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "501"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "503"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "306"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Queen: Elevator 9Y1L out of serv",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Queen: Elevator out of service between underpass, Line 1 northbound platform, Line 1 southbound platform, and south concourse while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-7B6E2581-E936-4B67-8891-56A8D7457BD1",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "42"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "42 Cummer: Detour eastbound via",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "42 Cummer: Detour eastbound via Bishop Ave and Willowdale Ave due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-A669C5C7-A773-400C-8786-4D674D5CEC88",
       "alert": {
         "informedEntity": [
@@ -459,12 +635,12 @@
       }
     },
     {
-      "id": "DevAPI-A134FC9E-DC55-4F74-9A32-A123B62712C0",
+      "id": "DevAPI-B472F7DD-9F69-415F-B490-8C7E7461B8F8",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "45"
+            "routeId": "12"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -472,7 +648,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "45 Kipling: Detour southbound vi",
+              "text": "12 Kingston Rd: Detour via Briml",
               "language": "en"
             }
           ]
@@ -480,7 +656,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "45 Kipling: Detour southbound via Kipling Ave, Dundas St W, Aukland Rd and Kipling Station due to construction.",
+              "text": "12 Kingston Rd: Detour via Brimley Rd, Danforth Rd, Midland Ave and Eglinton Ave E due to a collision.",
               "language": "en"
             }
           ]
@@ -517,12 +693,12 @@
       }
     },
     {
-      "id": "DevAPI-FACB72C4-6436-428A-A0D1-09616FA3054E",
+      "id": "DevAPI-77E3DCEC-F5B9-4A0E-8A35-F17A5713F09C",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "145"
+            "routeId": "57"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -530,7 +706,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "145 Belfield: Detour southbound",
+              "text": "57 Midland: Detour southbound vi",
               "language": "en"
             }
           ]
@@ -538,7 +714,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "145 Belfield: Detour southbound via Kipling Ave, Dundas St W, Aukland Rd and Kipling Station due to construction.",
+              "text": "57 Midland: Detour southbound via South Shields Ave, Alexmuir Blvd and Finch Ave E due to a collision.",
               "language": "en"
             }
           ]
@@ -696,12 +872,12 @@
       }
     },
     {
-      "id": "DevAPI-A8AA095D-2A39-48BB-9004-8797ED2B9F48",
+      "id": "DevAPI-D699E21B-C1EB-4593-8290-0D55053B0FFF",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "112"
+            "routeId": "45"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -709,7 +885,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "112 West Mall: Detour southbound",
+              "text": "45 Kipling: Detour southbound vi",
               "language": "en"
             }
           ]
@@ -717,7 +893,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "112 West Mall: Detour southbound via St Albans Rd, Kipling Ave and Dundas St W due to construction.",
+              "text": "45 Kipling: Detour southbound via Kipling Ave, Dundas St W, Aukland Rd and Kipling Station due to construction.",
               "language": "en"
             }
           ]
@@ -775,6 +951,35 @@
           "translation": [
             {
               "text": "St Patrick: Elevator out of service between concourse and Line 1 centre platform while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-68515159-BCC3-40DC-A270-C7DB2EF2AFB4",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "86"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "86 Scarborough: Detour westbound",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "86 Scarborough: Detour westbound via Danforth Rd, Kennedy Rd and Eglinton Ave E due to a collision.",
               "language": "en"
             }
           ]
