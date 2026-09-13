@@ -2,37 +2,9 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1789316262"
+    "timestamp": "1789325417"
   },
   "entity": [
-    {
-      "id": "DevAPI-54000D06-6826-4B10-8448-68463BE931A8",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "On Line 6 Finch West, at opening",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "On Line 6 Finch West, at opening there will be no service between Humber College Station and Duncanwoods Stop while City of Toronto crews effect emergency repairs to nearby traffic pole. Shuttle buses will operate. ",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
     {
       "id": "DevAPI-A7A47D84-4C20-4E7B-A011-BE3F74D8425A",
       "alert": {
@@ -474,63 +446,6 @@
       }
     },
     {
-      "id": "DevAPI-FB196969-8207-41EA-93DF-BF1FC48B0C06",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "508"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "304"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "301"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "501"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "503"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "97"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "504"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "19"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "St Andrew: Elevator 6Y2L out of",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "St Andrew: Elevator out of service between concourse and Line 1 centre platform due to a technical problem.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-A669C5C7-A773-400C-8786-4D674D5CEC88",
       "alert": {
         "informedEntity": [
@@ -566,44 +481,12 @@
       }
     },
     {
-      "id": "DevAPI-67252EED-859D-4C3B-A008-D95AB3FAF213",
+      "id": "DevAPI-167BECB9-9C58-42CE-A945-E1279B11B67F",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "13"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "26"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "310"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "510"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "127"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "94"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "506"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "306"
+            "routeId": "52"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -611,7 +494,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "St George: Elevator 1Y1L out of",
+              "text": "52D Lawrence West: No service we",
               "language": "en"
             }
           ]
@@ -619,7 +502,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "St George: Elevator out of service between bus platform, Bedford rd west side entrance, concourse, Line 1 centre platform and Line 2 centre platform due to a technical problem.",
+              "text": "52D Lawrence West: No service westbound from Pearson Airport Terminal 1 (Ground Level Column R4) to Victory Cres at McNaughton Ave due to a demonstration.",
               "language": "en"
             }
           ]
