@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1789466295"
+    "timestamp": "1789483807"
   },
   "entity": [
     {
@@ -89,6 +89,43 @@
           "translation": [
             {
               "text": "Have proof of payment ready for inspection.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-5D86379C-EB48-4B32-90BB-BF6800967AB7",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "51"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "83"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Donlands: Elevator 9D2L out of s",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Donlands: Elevator out of service between concourse and Line 2 westbound platform while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -306,7 +343,7 @@
       }
     },
     {
-      "id": "DevAPI-03A426C8-575D-4DB4-8B74-969648E95D46",
+      "id": "DevAPI-1B08ADEB-826E-4580-AA58-A2BEB8A2CCE5",
       "alert": {
         "informedEntity": [
           {
@@ -355,7 +392,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "St Patrick: Elevator out of service between concourse and Line 1 centre platform while we perform maintenance.",
+              "text": "St Patrick: Elevator out of service between concourse and Line 1 centre platform due to a technical problem. Elevator is expected to be back in service October 9, 2026.",
               "language": "en"
             }
           ]
