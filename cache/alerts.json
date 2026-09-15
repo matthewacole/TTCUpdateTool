@@ -1,0 +1,501 @@
+{
+  "header": {
+    "gtfsRealtimeVersion": "2.0",
+    "incrementality": "FULL_DATASET",
+    "timestamp": "1789448394"
+  },
+  "entity": [
+    {
+      "id": "DevAPI-8BE90A7F-5CDD-4E54-AD7F-F368FF6F2955",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "41"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "41 Keele: Detour northbound via",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "41 Keele: Detour northbound via Keele St, Junction Rd and Old Weston Rd due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-1453E635-3AEF-401C-B903-E489B23E98A5",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "74"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "320"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "88"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "82"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "506"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "97"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "19"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "13"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "312"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "512"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "94"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "306"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Line 1 Yonge-University: There i",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "There is no subway service on Line 1 Yonge-University between St Clair and College stations due to planned track work. Shuttle buses are running. Follow the station signs or speak to a TTC employee for help. Service will resume September 15.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-A7A47D84-4C20-4E7B-A011-BE3F74D8425A",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "7",
+            "stopId": "3718"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "84",
+            "stopId": "3748"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "104",
+            "stopId": "3975"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "984",
+            "stopId": "3754"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "84",
+            "stopId": "3755"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "84",
+            "stopId": "3755"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "108",
+            "stopId": "3756"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "84",
+            "stopId": "3755"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "108",
+            "stopId": "3756"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "106",
+            "stopId": "3751"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "107",
+            "stopId": "3753"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "984",
+            "stopId": "3750"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "105",
+            "stopId": "3749"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Have proof of payment ready for",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Have proof of payment ready for inspection.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-84C8B8AF-E01D-4B26-87F8-22C3ED7D2324",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "501"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "501 Queen: Delays between Queen",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "501 Queen: Delays between Queen St East at Neville Park Blvd and Queen St East at Coxwell Ave due to Streetcar infrastructure work.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-C66C73FC-56A4-4D56-9446-A782EB594C77",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "156"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "354"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "51"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "88"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Laird: Elevator ELV02-B out of s",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Laird: Elevator out of service between Eglinton Avenue south side entrance and concourse while we perform maintenance. Elevator is expected to be back in service September 30, 2026.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-F1A9E02D-51A5-4130-A5F9-7993A9EAB5D3",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "354"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "54"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "162"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "191"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "100"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "325"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "25"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "925"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "72"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "954"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Don Valley: Elevator ELV03-C out",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Don Valley: Elevator out of service between concourse and Don Mills Road west side entrance due to the Ontario Line construction. Elevator is expected to be back in service February 8, 2032.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-19148489-7614-42B1-B957-DD36413F9136",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "63"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "90"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "109"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "363"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "164"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Cedarvale: Elevator 06-ELV-B out",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Cedarvale: Elevator out of service between platform and upper concourse while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-A669C5C7-A773-400C-8786-4D674D5CEC88",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "202",
+            "stopId": "4277"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "114",
+            "stopId": "4277"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Please look both ways",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Please look both ways for cyclists before exiting.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-03A426C8-575D-4DB4-8B74-969648E95D46",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "13"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "505"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "301"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "501"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "305"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "506"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "306"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "19"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "St Patrick: Elevator 4Y1L out of",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "St Patrick: Elevator out of service between concourse and Line 1 centre platform while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
