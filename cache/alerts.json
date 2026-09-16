@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1789541457"
+    "timestamp": "1789561052"
   },
   "entity": [
     {
@@ -96,60 +96,88 @@
       }
     },
     {
-      "id": "DevAPI-AD7AE2ED-83F2-4460-A7E8-75F8E6032220",
+      "id": "DevAPI-31F85F84-A99C-4DF2-82D5-C9FAFEA1A97E",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "74"
+            "routeId": "131"
           },
           {
             "agencyId": "1",
-            "routeId": "300"
+            "routeId": "316"
           },
           {
             "agencyId": "1",
-            "routeId": "320"
+            "routeId": "395"
           },
           {
             "agencyId": "1",
-            "routeId": "88"
+            "routeId": "38"
           },
           {
             "agencyId": "1",
-            "routeId": "82"
+            "routeId": "95"
           },
           {
             "agencyId": "1",
-            "routeId": "506"
+            "routeId": "134"
           },
           {
             "agencyId": "1",
-            "routeId": "97"
+            "routeId": "21"
           },
           {
             "agencyId": "1",
-            "routeId": "19"
+            "routeId": "130"
           },
           {
             "agencyId": "1",
-            "routeId": "13"
+            "routeId": "132"
           },
           {
             "agencyId": "1",
-            "routeId": "312"
+            "routeId": "43"
           },
           {
             "agencyId": "1",
-            "routeId": "512"
+            "routeId": "904"
           },
           {
             "agencyId": "1",
-            "routeId": "94"
+            "routeId": "996"
           },
           {
             "agencyId": "1",
-            "routeId": "306"
+            "routeId": "9"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "939"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "129"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "169"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "16"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "938"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "903"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "133"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -157,7 +185,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Line 1 Yonge-University: There i",
+              "text": "Scarborough Centre: Elevator 6RT",
               "language": "en"
             }
           ]
@@ -165,36 +193,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "There is no subway service on Line 1 Yonge-University between St Clair and College stations due to planned track work. Shuttle buses are running. Follow the station signs or speak to a TTC employee for help. Service will resume September 16.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-C94E4F34-829A-4E23-A815-6EC736DBE04E",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "506"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "506 Carlton: No service between",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "506 Carlton: No service between High Park Loop and College St at Lansdowne Ave due to a collision.",
+              "text": "Scarborough Centre: Elevator out of service between concourse and Scarborough Town Centre entrance and bus platform due to a technical problem.",
               "language": "en"
             }
           ]
@@ -377,6 +376,67 @@
       }
     },
     {
+      "id": "DevAPI-202C2A81-3D46-482E-93B4-ABE9D0909749",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "13"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "61"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "354"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "74"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "320"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "103"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "97"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Eglinton: Elevator 18Y1L out of",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Eglinton: Elevator out of service between Yonge St west side entrance and Line 1 centre platform due to a technical problem.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-A669C5C7-A773-400C-8786-4D674D5CEC88",
       "alert": {
         "informedEntity": [
@@ -462,6 +522,35 @@
           "translation": [
             {
               "text": "St Patrick: Elevator out of service between concourse and Line 1 centre platform due to a technical problem. Elevator is expected to be back in service October 9, 2026.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-7A15472F-B75D-4A6D-81E6-E4989A1BEAE6",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "75"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "75 Sherbourne: Detour northbound",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "75 Sherbourne: Detour northbound via Lakeshore Blvd E and Sherbourne St due to a collision.",
               "language": "en"
             }
           ]
