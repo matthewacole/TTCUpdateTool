@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1789803869"
+    "timestamp": "1789819460"
   },
   "entity": [
     {
@@ -96,12 +96,12 @@
       }
     },
     {
-      "id": "DevAPI-D3E561BA-1094-44AD-8CDA-3C4E7D8D4CE8",
+      "id": "DevAPI-E670C064-ECF6-4395-AFD0-CF481345AA5B",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "32"
+            "routeId": "36"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -109,7 +109,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "32 Eglinton West: Detour via Jan",
+              "text": "36 Finch West: Delays near Finch",
               "language": "en"
             }
           ]
@@ -117,7 +117,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "32 Eglinton West: Detour via Jane St, East Dr and Scarlett Rd due to construction.",
+              "text": "36 Finch West: Delays near Finch Ave West at Yonge St West Side due to a road closure.",
               "language": "en"
             }
           ]
@@ -125,12 +125,12 @@
       }
     },
     {
-      "id": "DevAPI-4B33F713-F7FC-4A58-92E2-C7FBF8DE28CC",
+      "id": "DevAPI-A0F419AB-221F-4140-AEA7-FBEA00E40EDD",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "324"
+            "routeId": "43"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -138,7 +138,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "324 Victoria Park: Detour southb",
+              "text": "43 Kennedy: Detour southbound vi",
               "language": "en"
             }
           ]
@@ -146,7 +146,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "324 Victoria Park: Detour southbound via Gibson St, Ferrier Ave and Steeles Ave E due to police activity.",
+              "text": "43 Kennedy: Detour southbound via Steeles Ave E, Silver Star Blvd and Passmore Ave due to construction.",
               "language": "en"
             }
           ]
@@ -154,12 +154,40 @@
       }
     },
     {
-      "id": "DevAPI-F382A9B1-F12B-41CD-B5E0-49BED40D1278",
+      "id": "DevAPI-955A9DA0-C176-4C5E-990E-FCE02AEF0B53",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "37"
+            "routeId": "13"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "505"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "301"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "501"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "305"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "506"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "306"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "19"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -167,7 +195,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "37 Islington: No service near Wo",
+              "text": "St Patrick: Elevator out of serv",
               "language": "en"
             }
           ]
@@ -175,7 +203,84 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "37 Islington: No service near Woodbine Racetrack Loop (Main Entrance) due to a blocked road.",
+              "text": "St Patrick: Elevator out of service between 480 University Ave entrance and concourse while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-6FC5AC59-129F-4494-9E9C-917C44DDA9E6",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "74"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "320"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "88"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "82"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "506"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "97"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "19"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "13"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "312"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "512"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "94"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "306"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Line 1 Yonge-University: There i",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "There is no subway service on Line 1 Yonge-University between St Clair and College stations due to planned track work. Shuttle buses are running. Follow the station signs or speak to a TTC employee for help. Service will resume September 21.",
               "language": "en"
             }
           ]
@@ -285,59 +390,6 @@
       }
     },
     {
-      "id": "DevAPI-19148489-7614-42B1-B957-DD36413F9136",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "334"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "63"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "90"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "109"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "363"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "164"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Cedarvale: Elevator 06-ELV-B out",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Cedarvale: Elevator out of service between platform and upper concourse while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-F1A9E02D-51A5-4130-A5F9-7993A9EAB5D3",
       "alert": {
         "informedEntity": [
@@ -411,12 +463,36 @@
       }
     },
     {
-      "id": "DevAPI-28795ACF-6761-40A8-8892-CB674845D475",
+      "id": "DevAPI-19148489-7614-42B1-B957-DD36413F9136",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "340"
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "63"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "90"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "109"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "363"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "164"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -424,7 +500,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "340 Junction: Detour via Dufferi",
+              "text": "Cedarvale: Elevator 06-ELV-B out",
               "language": "en"
             }
           ]
@@ -432,7 +508,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "340 Junction: Detour via Dufferin St, Davenport Rd and Oakwood Ave due to police activity.",
+              "text": "Cedarvale: Elevator out of service between platform and upper concourse while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -468,121 +544,6 @@
           "translation": [
             {
               "text": "Please look both ways for cyclists before exiting.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-955A9DA0-C176-4C5E-990E-FCE02AEF0B53",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "13"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "505"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "301"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "501"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "305"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "506"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "306"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "19"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "St Patrick: Elevator out of serv",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "St Patrick: Elevator out of service between 480 University Ave entrance and concourse while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-0ACBF640-CC01-45FC-820E-34D96F1CE2E4",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "334"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "334 Eglinton: Detour via Jane St",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "334 Eglinton: Detour via Jane St, East Dr and Scarlett Rd due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-9E26D13F-185F-4AB6-9FF7-B8580BB0A1B3",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "320"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "320 Yonge: Detour via Bay St, Ha",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "320 Yonge: Detour via Bay St, Harbour St and Yonge St due to construction.",
               "language": "en"
             }
           ]
