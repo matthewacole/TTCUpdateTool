@@ -2,38 +2,9 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1790091930"
+    "timestamp": "1790104577"
   },
   "entity": [
-    {
-      "id": "DevAPI-882CDB7E-B531-4C70-BDA8-BBF7A29DFB99",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "47"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "47 Lansdowne: Detour via Davenpo",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "47 Lansdowne: Detour via Davenport Rd and Caledonia Park Rd due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
     {
       "id": "DevAPI-A7A47D84-4C20-4E7B-A011-BE3F74D8425A",
       "alert": {
@@ -125,12 +96,36 @@
       }
     },
     {
-      "id": "DevAPI-BE5E2AFC-F16B-42D3-856A-F16BDD287512",
+      "id": "DevAPI-3664AD32-474A-420F-BF35-4A5520FAF75E",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "501"
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "63"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "90"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "109"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "363"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "164"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -138,7 +133,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "501 Queen: No service between Hu",
+              "text": "Cedarvale: Elevator ELV02-B out",
               "language": "en"
             }
           ]
@@ -146,7 +141,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "501 Queen: No service between Humber Loop at the Queensway and Queen St West at Roncesvalles Ave East Side while we respond to a medical emergency.",
+              "text": "Cedarvale: Elevator out of service between Line 5 platform, Line 1 northbound platform/east concourse, and upper concourse while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -154,12 +149,12 @@
       }
     },
     {
-      "id": "DevAPI-4B1EE1D8-2CFF-4F08-B4CF-6EEB3FDFCC56",
+      "id": "DevAPI-F36BC202-2CE5-4B92-80D2-0B265CB8F146",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "507"
+            "routeId": "101"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -167,7 +162,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "507 Long Branch: Detour via Lake",
+              "text": "101 Downsview Park: Detour via B",
               "language": "en"
             }
           ]
@@ -175,7 +170,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "507 Long Branch: Detour via Lake Shore Blvd W, Marine Parade Dr, Park Lawn and Lake Shore Blvd W while we respond to a medical emergency.",
+              "text": "101 Downsview Park: Detour via Bakersfield St due to construction.",
               "language": "en"
             }
           ]
@@ -285,59 +280,6 @@
       }
     },
     {
-      "id": "DevAPI-19148489-7614-42B1-B957-DD36413F9136",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "334"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "63"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "90"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "109"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "363"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "164"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Cedarvale: Elevator 06-ELV-B out",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Cedarvale: Elevator out of service between platform and upper concourse while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-F1A9E02D-51A5-4130-A5F9-7993A9EAB5D3",
       "alert": {
         "informedEntity": [
@@ -411,72 +353,20 @@
       }
     },
     {
-      "id": "DevAPI-C1982FBE-9C24-40F3-87B3-18EAAB63EC17",
+      "id": "DevAPI-19148489-7614-42B1-B957-DD36413F9136",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "905"
+            "routeId": "334"
           },
           {
             "agencyId": "1",
-            "routeId": "986"
+            "routeId": "63"
           },
           {
             "agencyId": "1",
-            "routeId": "201"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "904"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "86"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "129"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "154"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "116"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "938"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "903"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "133"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "131"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "20"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "38"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "12"
+            "routeId": "90"
           },
           {
             "agencyId": "1",
@@ -484,35 +374,15 @@
           },
           {
             "agencyId": "1",
-            "routeId": "21"
+            "routeId": "109"
           },
           {
             "agencyId": "1",
-            "routeId": "43"
+            "routeId": "363"
           },
           {
             "agencyId": "1",
-            "routeId": "334"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "939"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "113"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "57"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "343"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "386"
+            "routeId": "164"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -520,7 +390,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Kennedy: Elevator 16D2L out of s",
+              "text": "Cedarvale: Elevator 06-ELV-B out",
               "language": "en"
             }
           ]
@@ -528,7 +398,65 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "Kennedy: Elevator out of service between concourse and Line 2 centre platform while we perform maintenance.",
+              "text": "Cedarvale: Elevator out of service between platform and upper concourse while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-4F29D9DF-40B3-48B7-ABC0-8471D30BBD7D",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "108"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "108 Driftwood: Detour via St Reg",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "108 Driftwood: Detour via St Regis Cres, Bakersfield St and Sheppard Ave W due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-F836B2FB-10BC-4F5E-9118-7E1AF0B5B9D9",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "905"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "905 Eglinton East Express: Detou",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "905 Eglinton East Express: Detour eastbound via Conlins Rd, Canmore Blvd, Morrish Rd and Ellesmere Rd due to a collision.",
               "language": "en"
             }
           ]
@@ -564,192 +492,6 @@
           "translation": [
             {
               "text": "Please look both ways for cyclists before exiting.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-AFB513D7-0C59-4174-8BC6-90C170FFE519",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "322"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "22"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "70"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Coxwell: Elevator 11D1L out of s",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Coxwell: Elevator out of service between Strathmore Blvd entrance, concourse and Line 2 eastbound platform while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-3045AAE9-23B9-4E25-AFF2-789F4504512C",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "67"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "67 Pharmacy: Detour northbound v",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "67 Pharmacy: Detour northbound via Eglinton Ave E, Hakimi Ave and Ashtonbee Rd due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-F36BC202-2CE5-4B92-80D2-0B265CB8F146",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "101"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "101 Downsview Park: Detour via B",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "101 Downsview Park: Detour via Bakersfield St due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-E82F9514-5ECA-4DEE-904A-80F7873FC4AC",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "512"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "512 St Clair: Detour via Lansdow",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "512 St Clair: Detour via Lansdowne Avenue, Davenport and Caledonia due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-83604405-24DA-4AE9-9673-5AAC0F80C17B",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "66"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "66A Prince Edward: No service be",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "66A Prince Edward: No service between Park Lawn Rd at The Queensway South Side and Humber Loop at The Queensway due to police activity.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-4F29D9DF-40B3-48B7-ABC0-8471D30BBD7D",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "108"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "108 Driftwood: Detour via St Reg",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "108 Driftwood: Detour via St Regis Cres, Bakersfield St and Sheppard Ave W due to construction.",
               "language": "en"
             }
           ]
@@ -807,96 +549,6 @@
           "translation": [
             {
               "text": "St Patrick: Elevator out of service between concourse and Line 1 centre platform due to a technical problem. Elevator is expected to be back in service October 9, 2026.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-D5111268-2EF4-4BF9-B419-D8BEC7812680",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "384"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "984"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "320"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "97"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "185"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "84"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "98"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "385"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Sheppard-Yonge: Elevator 51P5L o",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Sheppard-Yonge: Elevator out of service between Line 4 eastbound platform and Line 1 centre platform while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-62430B78-E2B4-42CF-BFB2-8DAAE04B478B",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "320"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "97"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "North York Centre: Elevator 23Y2",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "North York Centre: Elevator out of service between concourse and Line 1 southbound platform while we perform maintenance.",
               "language": "en"
             }
           ]
