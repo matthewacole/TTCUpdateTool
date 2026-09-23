@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1790140428"
+    "timestamp": "1790157789"
   },
   "entity": [
     {
@@ -96,12 +96,36 @@
       }
     },
     {
-      "id": "DevAPI-433127F6-0DFB-4ED0-8173-99349456190C",
+      "id": "DevAPI-3664AD32-474A-420F-BF35-4A5520FAF75E",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "113"
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "63"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "90"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "109"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "363"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "164"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -109,7 +133,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "113 Danforth: Detour westbound v",
+              "text": "Cedarvale: Elevator ELV02-B out",
               "language": "en"
             }
           ]
@@ -117,7 +141,48 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "113 Danforth: Detour westbound via Corvette Ave, Magnolia Ave and Danforth Ave due to a collision.",
+              "text": "Cedarvale: Elevator out of service between Line 5 platform, Line 1 northbound platform/east concourse, and upper concourse while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-9D2D6F1C-6F84-4767-9D13-B75FDB50F4D4",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "7"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "511"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "307"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Bathurst: Elevator 3B1L out of s",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Bathurst: Elevator out of service between Bathurst St east side entrance, concourse and Line 2 westbound platform due to a technical problem.",
               "language": "en"
             }
           ]
@@ -178,35 +243,6 @@
       }
     },
     {
-      "id": "DevAPI-9111329B-2688-4A62-8D88-8A95D3E61D0E",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "108"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "108 Driftwood: Detour via St Reg",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "108 Driftwood: Detour via St Regis Cres, Bakersfield St and Sheppard Ave W due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-C66C73FC-56A4-4D56-9446-A782EB594C77",
       "alert": {
         "informedEntity": [
@@ -249,59 +285,6 @@
           "translation": [
             {
               "text": "Laird: Elevator out of service between Eglinton Avenue south side entrance and concourse while we perform maintenance. Elevator is expected to be back in service September 30, 2026.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-19148489-7614-42B1-B957-DD36413F9136",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "334"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "63"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "90"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "109"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "363"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "164"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Cedarvale: Elevator 06-ELV-B out",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Cedarvale: Elevator out of service between platform and upper concourse while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -382,71 +365,7 @@
       }
     },
     {
-      "id": "DevAPI-A669C5C7-A773-400C-8786-4D674D5CEC88",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "202",
-            "stopId": "4277"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "114",
-            "stopId": "4277"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Please look both ways",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Please look both ways for cyclists before exiting.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-A4F91FEC-420E-49AC-9F3B-E4FD4CBEEE2C",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "101"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "101 Downsview Park: Detour via B",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "101 Downsview Park: Detour via Bakersfield St due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-3664AD32-474A-420F-BF35-4A5520FAF75E",
+      "id": "DevAPI-19148489-7614-42B1-B957-DD36413F9136",
       "alert": {
         "informedEntity": [
           {
@@ -483,7 +402,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Cedarvale: Elevator ELV02-B out",
+              "text": "Cedarvale: Elevator 06-ELV-B out",
               "language": "en"
             }
           ]
@@ -491,7 +410,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "Cedarvale: Elevator out of service between Line 5 platform, Line 1 northbound platform/east concourse, and upper concourse while we perform maintenance.",
+              "text": "Cedarvale: Elevator out of service between platform and upper concourse while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -499,12 +418,18 @@
       }
     },
     {
-      "id": "DevAPI-4668AD72-3B3F-4360-B52C-54A8E62D446C",
+      "id": "DevAPI-A669C5C7-A773-400C-8786-4D674D5CEC88",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "14"
+            "routeId": "202",
+            "stopId": "4277"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "114",
+            "stopId": "4277"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -512,7 +437,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "14 Glencairn: Detour eastbound v",
+              "text": "Please look both ways",
               "language": "en"
             }
           ]
@@ -520,125 +445,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "14 Glencairn: Detour eastbound via Glenmount Ave and Hillmount Ave due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-7A252FB1-7A15-4C29-BFF1-84516D680A25",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "74"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "320"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "88"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "82"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "506"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "97"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "19"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "13"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "312"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "512"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "94"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "306"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Line 1 Yonge-University: There i",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "There is no subway service on Line 1 Yonge-University between St Clair and College stations due to planned track work. Shuttle buses are running. Follow the station signs or speak to a TTC employee for help. Service will resume September 23.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-9D2D6F1C-6F84-4767-9D13-B75FDB50F4D4",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "7"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "511"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "307"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Bathurst: Elevator 3B1L out of s",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Bathurst: Elevator out of service between Bathurst St east side entrance, concourse and Line 2 westbound platform due to a technical problem.",
+              "text": "Please look both ways for cyclists before exiting.",
               "language": "en"
             }
           ]
