@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1790313786"
+    "timestamp": "1790331664"
   },
   "entity": [
     {
@@ -96,60 +96,12 @@
       }
     },
     {
-      "id": "DevAPI-3194F703-146C-4AC3-BA25-4F0F06938FC6",
+      "id": "DevAPI-2B203F6A-92BA-407B-A6F8-79C927A6F0C1",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "74"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "320"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "88"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "82"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "506"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "97"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "19"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "13"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "312"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "512"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "94"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "306"
+            "routeId": "504"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -157,7 +109,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Line 1 Yonge-University: There i",
+              "text": "504 King: Detour via Bathurst St",
               "language": "en"
             }
           ]
@@ -165,36 +117,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "There is no subway service on Line 1 Yonge-University between St Clair and College stations due to planned track work. Shuttle buses are running. Follow the station signs or speak to a TTC employee for help. Service will resume September 25.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-4AD19F83-AE31-4416-AEC1-615241598D55",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "11"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "11 Bayview: Delays between Davis",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "11 Bayview: Delays between Davisville Station at Bus Bay 5 and due to construction.",
+              "text": "504 King: Detour via Bathurst St, Queens Quay W and Spadina Ave due to police activity.",
               "language": "en"
             }
           ]
@@ -304,36 +227,12 @@
       }
     },
     {
-      "id": "DevAPI-19148489-7614-42B1-B957-DD36413F9136",
+      "id": "DevAPI-7AA49AD5-D838-41DB-89C0-1022C400C2E9",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "334"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "63"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "90"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "109"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "363"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "164"
+            "routeId": "511"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -341,7 +240,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Cedarvale: Elevator 06-ELV-B out",
+              "text": "511 Bathurst: Delays between Exh",
               "language": "en"
             }
           ]
@@ -349,7 +248,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "Cedarvale: Elevator out of service between platform and upper concourse while we perform maintenance.",
+              "text": "511 Bathurst: Delays between Exhibition Loop and Bathurst Station at Bay 6 due to police investigation.",
               "language": "en"
             }
           ]
@@ -430,71 +329,7 @@
       }
     },
     {
-      "id": "DevAPI-A669C5C7-A773-400C-8786-4D674D5CEC88",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "202",
-            "stopId": "4277"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "114",
-            "stopId": "4277"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Please look both ways",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Please look both ways for cyclists before exiting.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-645FF5B1-7468-4B72-A98A-6F20E11465DC",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "96"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "96 Wilson: Detour via Islington",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "96 Wilson: Detour via Islington Ave, Irwin Ave and Albion Rd due to police activity.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-3664AD32-474A-420F-BF35-4A5520FAF75E",
+      "id": "DevAPI-19148489-7614-42B1-B957-DD36413F9136",
       "alert": {
         "informedEntity": [
           {
@@ -531,7 +366,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Cedarvale: Elevator ELV02-B out",
+              "text": "Cedarvale: Elevator 06-ELV-B out",
               "language": "en"
             }
           ]
@@ -539,7 +374,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "Cedarvale: Elevator out of service between Line 5 platform, Line 1 northbound platform/east concourse, and upper concourse while we perform maintenance.",
+              "text": "Cedarvale: Elevator out of service between platform and upper concourse while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -547,12 +382,18 @@
       }
     },
     {
-      "id": "DevAPI-141CADAD-4D58-4F53-B088-C7A15729E980",
+      "id": "DevAPI-A669C5C7-A773-400C-8786-4D674D5CEC88",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "31"
+            "routeId": "202",
+            "stopId": "4277"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "114",
+            "stopId": "4277"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -560,7 +401,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "31 Greenwood: No service near Gr",
+              "text": "Please look both ways",
               "language": "en"
             }
           ]
@@ -568,36 +409,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "31 Greenwood: No service near Greenwood Station at Bus Bay 2 due to an emergency truck incident.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-8883A331-FC02-4607-933E-56956D00FD10",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "107"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "107 Alness-Chesswood: Detour via",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "107 Alness-Chesswood: Detour via Kodiak Cres due to construction.",
+              "text": "Please look both ways for cyclists before exiting.",
               "language": "en"
             }
           ]
