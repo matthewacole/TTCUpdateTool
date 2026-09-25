@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1790296619"
+    "timestamp": "1790313786"
   },
   "entity": [
     {
@@ -89,6 +89,83 @@
           "translation": [
             {
               "text": "Have proof of payment ready for inspection.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-3194F703-146C-4AC3-BA25-4F0F06938FC6",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "74"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "320"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "88"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "82"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "506"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "97"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "19"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "13"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "312"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "512"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "94"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "306"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Line 1 Yonge-University: There i",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "There is no subway service on Line 1 Yonge-University between St Clair and College stations due to planned track work. Shuttle buses are running. Follow the station signs or speak to a TTC employee for help. Service will resume September 25.",
               "language": "en"
             }
           ]
@@ -388,35 +465,6 @@
       }
     },
     {
-      "id": "DevAPI-28C07127-BEC6-48A1-9EB6-C3CF43979E5D",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "29"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "29, 29C Dufferin: No service bet",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "29, 29C Dufferin: No service between Princes' Gates Loop at Canada Blvd - CNE East Entrance and Dufferin St at Springhurst Ave due to an event.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-645FF5B1-7468-4B72-A98A-6F20E11465DC",
       "alert": {
         "informedEntity": [
@@ -499,28 +547,12 @@
       }
     },
     {
-      "id": "DevAPI-351E48FD-FB71-4B05-8731-63EFFB4F3D5D",
+      "id": "DevAPI-141CADAD-4D58-4F53-B088-C7A15729E980",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "329"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "334"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "29"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "929"
+            "routeId": "31"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -528,7 +560,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Fairbank: Elevator ELV02-B out o",
+              "text": "31 Greenwood: No service near Gr",
               "language": "en"
             }
           ]
@@ -536,7 +568,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "Fairbank: Elevator out of service between Eglinton Avenue south east side entrance and concourse while we perform maintenance.",
+              "text": "31 Greenwood: No service near Greenwood Station at Bus Bay 2 due to an emergency truck incident.",
               "language": "en"
             }
           ]
