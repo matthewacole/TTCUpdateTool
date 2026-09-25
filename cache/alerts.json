@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1790288363"
+    "timestamp": "1790296619"
   },
   "entity": [
     {
@@ -388,28 +388,12 @@
       }
     },
     {
-      "id": "DevAPI-987525F7-7702-4B01-BDC9-9D07C9746A3C",
+      "id": "DevAPI-28C07127-BEC6-48A1-9EB6-C3CF43979E5D",
       "alert": {
         "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "329"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "334"
-          },
           {
             "agencyId": "1",
             "routeId": "29"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "929"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -417,7 +401,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Fairbank: Elevator ELV02-B out o",
+              "text": "29, 29C Dufferin: No service bet",
               "language": "en"
             }
           ]
@@ -425,36 +409,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "Fairbank: Elevator out of service between Eglinton Avenue south east side entrance and concourse while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-0FA7C43F-B14D-4F3D-8BE1-FD52A2ED64CA",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "8"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "8 Broadview: Delays near O'Conno",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "8 Broadview: Delays near O'Connor Dr at St Clair Ave East due to construction.",
+              "text": "29, 29C Dufferin: No service between Princes' Gates Loop at Canada Blvd - CNE East Entrance and Dufferin St at Springhurst Ave due to an event.",
               "language": "en"
             }
           ]
@@ -611,64 +566,6 @@
           "translation": [
             {
               "text": "107 Alness-Chesswood: Detour via Kodiak Cres due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-5874EB4F-985F-4756-B5BF-CA40959B30C7",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "70"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "70 O'connor: Delays near O'Conno",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "70 O'connor: Delays near O'Connor Dr at St Clair Ave East due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-86D5EA90-03B4-425C-A486-1B099FDDDAD8",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "9"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "9 Bellamy: Delays near O'Connor",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "9 Bellamy: Delays near O'Connor Dr at St Clair Ave East due to construction.",
               "language": "en"
             }
           ]
