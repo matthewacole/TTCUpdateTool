@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1790492834"
+    "timestamp": "1790513939"
   },
   "entity": [
     {
@@ -96,7 +96,7 @@
       }
     },
     {
-      "id": "DevAPI-FEBECC1C-56AA-4426-A09C-FDBD14106AB6",
+      "id": "DevAPI-DC03676D-0197-47E8-BDA6-0B2187BF59B0",
       "alert": {
         "informedEntity": [
           {
@@ -109,7 +109,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "37A Islington: Buses are not sto",
+              "text": "37 Islington: No service near Wo",
               "language": "en"
             }
           ]
@@ -117,7 +117,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "37A Islington: Bypass near Woodbine Racetrack Loop (Main Entrance) due to a Protest.",
+              "text": "37 Islington: No service near Woodbine Race Track Loop (Main Entrance) due to a demonstration.",
               "language": "en"
             }
           ]
@@ -125,41 +125,28 @@
       }
     },
     {
-      "id": "DevAPI-643C71CA-CE28-409A-8A57-E10253A55BC6",
+      "id": "DevAPI-09C9451B-2400-48C7-9CAE-75B3FB56979C",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "29"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "29C Dufferin: No service between",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "29C Dufferin: No service between Princes' Gates Loop at Canada Blvd - CNE East Entrance and Dufferin St at Springhurst Ave due to an event.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-B3BC6A68-11BB-4E9C-A2EE-F65C3B3C3B1C",
-      "alert": {
-        "informedEntity": [
+            "routeId": "384"
+          },
           {
             "agencyId": "1",
-            "routeId": "300"
+            "routeId": "125"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "36"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "984"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "960"
           },
           {
             "agencyId": "1",
@@ -167,11 +154,55 @@
           },
           {
             "agencyId": "1",
+            "routeId": "60"
+          },
+          {
+            "agencyId": "1",
             "routeId": "97"
           },
           {
             "agencyId": "1",
-            "routeId": "19"
+            "routeId": "84"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "385"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "953"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "336"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "939"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "339"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "39"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "53"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "42"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "185"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "98"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -179,7 +210,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Bloor-Yonge: Elevator out of ser",
+              "text": "Line 1 Yonge-University: There i",
               "language": "en"
             }
           ]
@@ -187,7 +218,36 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "Bloor-Yonge: Elevator out of service between Bloor St E south side entrance and south concourse while we perform maintenance.",
+              "text": "There is no subway service on Line 1 Yonge-University between Finch and Sheppard-Yonge stations due to planned signal work. Shuttle buses are running. Follow the station signs or speak to a TTC employee for help. Service will resume September 28.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-19E87F36-AFF2-408F-ACFC-235A79F812FD",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "506"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "506 Carlton: No service between",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "506 Carlton: No service between College St at Spadina Ave and Spadina Station at Bus Bay 2 due to an event.",
               "language": "en"
             }
           ]
@@ -290,6 +350,79 @@
           "translation": [
             {
               "text": "Laird: Elevator out of service between Eglinton Avenue south side entrance and concourse while we perform maintenance. Elevator is expected to be back in service September 30, 2026.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-F1A9E02D-51A5-4130-A5F9-7993A9EAB5D3",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "354"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "54"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "162"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "191"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "100"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "325"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "25"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "925"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "72"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "954"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Don Valley: Elevator ELV03-C out",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Don Valley: Elevator out of service between concourse and Don Mills Road west side entrance due to the Ontario Line construction. Elevator is expected to be back in service February 8, 2032.",
               "language": "en"
             }
           ]
@@ -475,56 +608,12 @@
       }
     },
     {
-      "id": "DevAPI-F1A9E02D-51A5-4130-A5F9-7993A9EAB5D3",
+      "id": "DevAPI-E120C4F1-1D2A-43F6-9557-81598B15E0E2",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "334"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "354"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "54"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "162"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "191"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "100"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "325"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "25"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "925"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "72"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "954"
+            "routeId": "29"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -532,7 +621,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Don Valley: Elevator ELV03-C out",
+              "text": "29C Dufferin: Detour southbound",
               "language": "en"
             }
           ]
@@ -540,7 +629,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "Don Valley: Elevator out of service between concourse and Don Mills Road west side entrance due to the Ontario Line construction. Elevator is expected to be back in service February 8, 2032.",
+              "text": "29C Dufferin: Detour southbound via Manitoba Dr due to a road closure.",
               "language": "en"
             }
           ]
@@ -576,136 +665,6 @@
           "translation": [
             {
               "text": "Please look both ways for cyclists before exiting.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-09C9451B-2400-48C7-9CAE-75B3FB56979C",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "384"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "125"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "36"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "984"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "960"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "320"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "60"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "97"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "84"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "385"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "953"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "336"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "939"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "339"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "39"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "53"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "42"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "185"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "98"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Line 1 Yonge-University: There i",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "There is no subway service on Line 1 Yonge-University between Finch and Sheppard-Yonge stations due to planned signal work. Shuttle buses are running. Follow the station signs or speak to a TTC employee for help. Service will resume September 28.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-CC5A0328-91A5-4114-99D8-2B6C4CA9BD74",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "504"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "504A King: No service between Ki",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "504A King: No service between King St East at Parliament St and Distillery Loop while we respond to a medical emergency.",
               "language": "en"
             }
           ]
