@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1790644724"
+    "timestamp": "1790665284"
   },
   "entity": [
     {
@@ -124,44 +124,20 @@
       }
     },
     {
-      "id": "DevAPI-96F768BC-D5E4-4C41-9841-D63CD3380026",
+      "id": "DevAPI-56958871-AD21-4A00-AE0C-4D16956D8E9D",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "13"
+            "routeId": "335"
           },
           {
             "agencyId": "1",
-            "routeId": "61"
+            "routeId": "341"
           },
           {
             "agencyId": "1",
-            "routeId": "334"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "354"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "74"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "320"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "103"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "97"
+            "routeId": "41"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -169,7 +145,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Eglinton: Elevator 18Y2L out of",
+              "text": "York University: Elevator 12S2L",
               "language": "en"
             }
           ]
@@ -177,7 +153,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "Eglinton: Elevator out of service between concourse and Line 1 centre platform while we perform maintenance.",
+              "text": "York University: Elevator out of service between York Blvd south side entrance and concourse due to a technical problem.",
               "language": "en"
             }
           ]
@@ -333,47 +309,6 @@
           "translation": [
             {
               "text": "Cedarvale: Elevator out of service between platform and upper concourse while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-D3B05166-0C2B-4513-A115-CB32D0E0D514",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "65"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "365"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "94"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Castle Frank: Elevator 5D1L out",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Castle Frank: Elevator out of service between Castle Frank Rd entrance and Line 2 Kipling (westbound) platform while we perform maintenance.",
               "language": "en"
             }
           ]
