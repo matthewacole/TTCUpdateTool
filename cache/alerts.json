@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1790632189"
+    "timestamp": "1790644724"
   },
   "entity": [
     {
@@ -117,6 +117,67 @@
           "translation": [
             {
               "text": "Queen's Quay: Elevator out of service between Bay Street west side entrance and westbound streetcars while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-96F768BC-D5E4-4C41-9841-D63CD3380026",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "13"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "61"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "354"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "74"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "320"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "103"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "97"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Eglinton: Elevator 18Y2L out of",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Eglinton: Elevator out of service between concourse and Line 1 centre platform while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -279,52 +340,24 @@
       }
     },
     {
-      "id": "DevAPI-6D07CE18-17DE-4FEA-9F96-162CBE039AAC",
+      "id": "DevAPI-D3B05166-0C2B-4513-A115-CB32D0E0D514",
       "alert": {
         "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "304"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "62"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "8"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "322"
-          },
           {
             "agencyId": "1",
             "routeId": "300"
           },
           {
             "agencyId": "1",
-            "routeId": "25"
+            "routeId": "65"
           },
           {
             "agencyId": "1",
-            "routeId": "505"
+            "routeId": "365"
           },
           {
             "agencyId": "1",
-            "routeId": "925"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "87"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "305"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "504"
+            "routeId": "94"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -332,7 +365,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Broadview: Elevator 6D1L out of",
+              "text": "Castle Frank: Elevator 5D1L out",
               "language": "en"
             }
           ]
@@ -340,7 +373,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "Broadview: Elevator out of service between Broadview Ave entrance, concourse and Line 2 westbound platform while we perform maintenance.",
+              "text": "Castle Frank: Elevator out of service between Castle Frank Rd entrance and Line 2 Kipling (westbound) platform while we perform maintenance.",
               "language": "en"
             }
           ]
