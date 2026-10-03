@@ -2,9 +2,70 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1791043794"
+    "timestamp": "1791054785"
   },
   "entity": [
+    {
+      "id": "DevAPI-0E58B77B-2FE4-42F6-A82B-D4C743556E74",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "13"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "26"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "310"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "510"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "127"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "94"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "506"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "306"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "St George: Elevator 1Y1L out of",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "St George: Elevator out of service between bus platform, Bedford rd west side entrance, concourse, Line 1 centre platform and Line 2 centre platform due to a technical problem.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
     {
       "id": "DevAPI-A7A47D84-4C20-4E7B-A011-BE3F74D8425A",
       "alert": {
@@ -96,6 +157,35 @@
       }
     },
     {
+      "id": "DevAPI-AA553719-C7A7-4B52-9A62-25B05E5FC5C5",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "73"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "73 Royal York: Detour southbound",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "73 Royal York: Detour southbound via Dixon Rd and Lawrence Ave W due to a collision.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-301E6C2D-C284-4BB8-BF2E-ABC7F80D241B",
       "alert": {
         "informedEntity": [
@@ -130,6 +220,35 @@
           "translation": [
             {
               "text": "Bloor-Yonge: Elevator out of service between Bloor St E south side entrance and south concourse while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-6C03952E-0A64-4C6A-AD08-5AA307AC139A",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "29"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "29 Dufferin: No service between",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "29 Dufferin: No service between Princes' Gates Loop at Canada Blvd - CNE East Entrance and Dufferin Gate Loop due to a blocked road.",
               "language": "en"
             }
           ]
@@ -289,47 +408,6 @@
           "translation": [
             {
               "text": "43 Kennedy: Detour southbound via Passmore Ave, Milliken Blvd and Mcnicoll Ave due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-361C87A5-CC48-44D1-9087-3F0667AF6B6B",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "77"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "79"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "71"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Runnymede: Elevator 11B3L out of",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Runnymede: Elevator out of service between concourse and Line 2 eastbound platform due to a technical problem.",
               "language": "en"
             }
           ]
