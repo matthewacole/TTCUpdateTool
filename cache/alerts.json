@@ -1,0 +1,333 @@
+{
+  "header": {
+    "gtfsRealtimeVersion": "2.0",
+    "incrementality": "FULL_DATASET",
+    "timestamp": "1791154899"
+  },
+  "entity": [
+    {
+      "id": "DevAPI-A7A47D84-4C20-4E7B-A011-BE3F74D8425A",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "7",
+            "stopId": "3718"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "84",
+            "stopId": "3748"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "104",
+            "stopId": "3975"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "984",
+            "stopId": "3754"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "84",
+            "stopId": "3755"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "84",
+            "stopId": "3755"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "108",
+            "stopId": "3756"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "84",
+            "stopId": "3755"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "108",
+            "stopId": "3756"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "106",
+            "stopId": "3751"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "107",
+            "stopId": "3753"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "984",
+            "stopId": "3750"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "105",
+            "stopId": "3749"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Have proof of payment ready for",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Have proof of payment ready for inspection.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-5E30BE73-234E-4FDB-BA49-838E7E549035",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "149"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "49"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "112"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "123"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "945"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "900"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "145"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "45"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "111"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "46"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "944"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "40"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "927"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "44"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "345"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Kipling: Elevator 16B1L out of s",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Kipling: Elevator out of service between Aukland Rd entrance, bus platform, and concourse while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-19148489-7614-42B1-B957-DD36413F9136",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "63"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "90"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "109"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "363"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "164"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Cedarvale: Elevator 06-ELV-B out",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Cedarvale: Elevator out of service between platform and upper concourse while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-A669C5C7-A773-400C-8786-4D674D5CEC88",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "202",
+            "stopId": "4277"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "114",
+            "stopId": "4277"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Please look both ways",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Please look both ways for cyclists before exiting.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-1B08ADEB-826E-4580-AA58-A2BEB8A2CCE5",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "13"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "505"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "301"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "501"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "305"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "506"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "306"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "19"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "St Patrick: Elevator 4Y1L out of",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "St Patrick: Elevator out of service between concourse and Line 1 centre platform due to a technical problem. Elevator is expected to be back in service October 9, 2026.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
