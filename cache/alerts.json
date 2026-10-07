@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1791354755"
+    "timestamp": "1791380983"
   },
   "entity": [
     {
@@ -173,6 +173,35 @@
       }
     },
     {
+      "id": "DevAPI-0BA335D9-CAAE-47EC-86B9-53C2091F92B7",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "7"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "7 Bathurst: Detour northbound vi",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "7 Bathurst: Detour northbound via Bathurst St and Steeles Ave W due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-61450CA8-3654-4F5F-860B-C1A9763A9A0A",
       "alert": {
         "informedEntity": [
@@ -230,65 +259,20 @@
       }
     },
     {
-      "id": "DevAPI-7E2A2645-8D2E-44AB-85F7-96AD47E4871D",
+      "id": "DevAPI-BF5001B5-EBE8-4B44-BC96-D33FD4661DAD",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "82"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "82 Rosedale: Detour via Glen Rd,",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "82 Rosedale: Detour via Glen Rd, Maple Ave, Sherbourne St, Bloor St E, Church St, Yonge St and Crescent Rd due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-E0C84AA4-347B-4E81-B2D0-668769478D30",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "384"
+            "routeId": "51"
           },
           {
             "agencyId": "1",
-            "routeId": "984"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "320"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "97"
+            "routeId": "151"
           },
           {
             "agencyId": "1",
             "routeId": "185"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "84"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "98"
           },
           {
             "agencyId": "1",
@@ -300,7 +284,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Sheppard-Yonge: Elevator 51P5L o",
+              "text": "Leslie: Elevator 59P1L out of se",
               "language": "en"
             }
           ]
@@ -308,7 +292,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "Sheppard-Yonge: Elevator out of service between Line 4 eastbound platform and Line 1 centre platform due to a technical problem.",
+              "text": "Leslie: Elevator out of service between bus platform, concourse and Line 4 centre platform while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -369,24 +353,32 @@
       }
     },
     {
-      "id": "DevAPI-5530470D-151E-48EB-BFF9-34243248AF17",
+      "id": "DevAPI-567885F5-2428-4F7D-B631-3030F572AB8C",
       "alert": {
         "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "7"
-          },
           {
             "agencyId": "1",
             "routeId": "300"
           },
           {
             "agencyId": "1",
-            "routeId": "511"
+            "routeId": "310"
           },
           {
             "agencyId": "1",
-            "routeId": "307"
+            "routeId": "510"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "127"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "506"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "306"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -394,7 +386,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Bathurst: Elevator 3B1L out of s",
+              "text": "Spadina: Elevator 2B1L out of se",
               "language": "en"
             }
           ]
@@ -402,7 +394,68 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "Bathurst: Elevator out of service between Bathurst St east side entrance, concourse and Line 2 westbound platform while we perform maintenance.",
+              "text": "Spadina: Elevator out of service between Spadina Rd east side entrance and concourse while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-18196430-BAF5-4CFB-BF39-7CEFF64D3CFC",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "67"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "20"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "117"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "924"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "324"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "12"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "24"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "113"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Victoria Park: Elevator 14D1L ou",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Victoria Park: Elevator out of service between overpass, Victoria Park Ave entrance and concourse while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -499,6 +552,92 @@
           "translation": [
             {
               "text": "Please look both ways for cyclists before exiting.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-4F03AF70-3CC8-459D-91ED-72E38ED91BCE",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "82"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "82 Rosedale: Detour via South Dr",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "82 Rosedale: Detour via South Dr, Sherbourne St, Bloor St E, Church St, Yonge St and Crescent Rd due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-E0C84AA4-347B-4E81-B2D0-668769478D30",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "384"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "984"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "320"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "97"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "185"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "84"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "98"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "385"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Sheppard-Yonge: Elevator 51P5L o",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Sheppard-Yonge: Elevator out of service between Line 4 eastbound platform and Line 1 centre platform due to a technical problem.",
               "language": "en"
             }
           ]
