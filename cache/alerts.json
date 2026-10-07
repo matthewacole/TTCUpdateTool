@@ -2,86 +2,9 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1791380983"
+    "timestamp": "1791401770"
   },
   "entity": [
-    {
-      "id": "DevAPI-4F5F017A-F8AE-4C34-A626-224BCAF2A014",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "125"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "36"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "960"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "320"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "60"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "97"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "953"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "336"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "939"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "339"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "39"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "53"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "42"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Finch: Elevator 22Y4L out of ser",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Finch: Elevator out of service between Passenger Pick-up and Drop-off entrance and fares concourse due to a technical problem.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
     {
       "id": "DevAPI-A7A47D84-4C20-4E7B-A011-BE3F74D8425A",
       "alert": {
@@ -259,24 +182,12 @@
       }
     },
     {
-      "id": "DevAPI-BF5001B5-EBE8-4B44-BC96-D33FD4661DAD",
+      "id": "DevAPI-1D6F6824-9617-42DF-B5DF-C6FB3D777050",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "51"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "151"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "185"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "385"
+            "routeId": "112"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -284,7 +195,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Leslie: Elevator 59P1L out of se",
+              "text": "112 West Mall: Detour via Eringa",
               "language": "en"
             }
           ]
@@ -292,7 +203,129 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "Leslie: Elevator out of service between bus platform, concourse and Line 4 centre platform while we perform maintenance.",
+              "text": "112 West Mall: Detour via Eringate Dr and Renforth Dr due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-A03CE11A-4637-49D1-BC7B-5FF9E96063D2",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "941"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "101"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "106"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "36"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "336"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "341"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "939"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "41"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "107"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Line 6 Finch West: No service be",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Line 6 Finch West: No service between Finch West and Tobermory stations due to a security incident.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-F4321B4D-7CED-4973-BF41-72B97033C1AD",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "13"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "26"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "310"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "510"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "127"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "94"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "506"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "306"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "St George: Elevator 1Y1L out of",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "St George: Elevator out of service between bus platform, Bedford rd west side entrance, concourse, Line 1 centre platform and Line 2 centre platform while we perform maintenance. Elevator is expected to be back in service October 9, 2026.",
               "language": "en"
             }
           ]
@@ -353,32 +386,40 @@
       }
     },
     {
-      "id": "DevAPI-567885F5-2428-4F7D-B631-3030F572AB8C",
+      "id": "DevAPI-EF8F65C2-F323-4566-A514-7A7641C6CDEC",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "300"
+            "routeId": "941"
           },
           {
             "agencyId": "1",
-            "routeId": "310"
+            "routeId": "101"
           },
           {
             "agencyId": "1",
-            "routeId": "510"
+            "routeId": "36"
           },
           {
             "agencyId": "1",
-            "routeId": "127"
+            "routeId": "336"
           },
           {
             "agencyId": "1",
-            "routeId": "506"
+            "routeId": "341"
           },
           {
             "agencyId": "1",
-            "routeId": "306"
+            "routeId": "939"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "41"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "107"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -386,7 +427,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Spadina: Elevator 2B1L out of se",
+              "text": "Line 1 Yonge-University: Trains",
               "language": "en"
             }
           ]
@@ -394,7 +435,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "Spadina: Elevator out of service between Spadina Rd east side entrance and concourse while we perform maintenance.",
+              "text": "Line 1 Yonge-University: Bypass at Finch West station due to police activity.",
               "language": "en"
             }
           ]
@@ -402,44 +443,24 @@
       }
     },
     {
-      "id": "DevAPI-18196430-BAF5-4CFB-BF39-7CEFF64D3CFC",
+      "id": "DevAPI-6E27FC2E-F78C-4C48-BFCF-DC057CA97ABE",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "67"
+            "routeId": "51"
           },
           {
             "agencyId": "1",
-            "routeId": "20"
+            "routeId": "151"
           },
           {
             "agencyId": "1",
-            "routeId": "117"
+            "routeId": "185"
           },
           {
             "agencyId": "1",
-            "routeId": "924"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "324"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "12"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "24"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "113"
+            "routeId": "385"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -447,7 +468,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Victoria Park: Elevator 14D1L ou",
+              "text": "Leslie: Elevator 59P2L out of se",
               "language": "en"
             }
           ]
@@ -455,68 +476,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "Victoria Park: Elevator out of service between overpass, Victoria Park Ave entrance and concourse while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-EA23B114-99DD-41CE-A691-6A2A54DB60F0",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "13"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "26"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "310"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "510"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "127"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "94"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "506"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "306"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "St George: Elevator 1Y1L out of",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "St George: Elevator out of service between bus platform, Bedford rd west side entrance, concourse, Line 1 centre platform and Line 2 centre platform while we perform maintenance.",
+              "text": "Leslie: Elevator out of service between Leslie St entrance and Line 4 centre platform while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -552,92 +512,6 @@
           "translation": [
             {
               "text": "Please look both ways for cyclists before exiting.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-4F03AF70-3CC8-459D-91ED-72E38ED91BCE",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "82"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "82 Rosedale: Detour via South Dr",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "82 Rosedale: Detour via South Dr, Sherbourne St, Bloor St E, Church St, Yonge St and Crescent Rd due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-E0C84AA4-347B-4E81-B2D0-668769478D30",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "384"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "984"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "320"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "97"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "185"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "84"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "98"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "385"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Sheppard-Yonge: Elevator 51P5L o",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Sheppard-Yonge: Elevator out of service between Line 4 eastbound platform and Line 1 centre platform due to a technical problem.",
               "language": "en"
             }
           ]
@@ -695,6 +569,35 @@
           "translation": [
             {
               "text": "St Patrick: Elevator out of service between concourse and Line 1 centre platform due to a technical problem. Elevator is expected to be back in service October 9, 2026.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-4F03AF70-3CC8-459D-91ED-72E38ED91BCE",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "82"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "82 Rosedale: Detour via South Dr",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "82 Rosedale: Detour via South Dr, Sherbourne St, Bloor St E, Church St, Yonge St and Crescent Rd due to construction.",
               "language": "en"
             }
           ]
