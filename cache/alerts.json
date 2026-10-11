@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1791750193"
+    "timestamp": "1791762504"
   },
   "entity": [
     {
@@ -21,38 +21,28 @@
           },
           {
             "agencyId": "1",
+            "routeId": "84",
+            "stopId": "3755"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "84",
+            "stopId": "3755"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "84",
+            "stopId": "3755"
+          },
+          {
+            "agencyId": "1",
             "routeId": "104",
             "stopId": "3975"
           },
           {
             "agencyId": "1",
-            "routeId": "984",
-            "stopId": "3754"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "84",
-            "stopId": "3755"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "84",
-            "stopId": "3755"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "108",
-            "stopId": "3756"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "84",
-            "stopId": "3755"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "108",
-            "stopId": "3756"
+            "routeId": "105",
+            "stopId": "3749"
           },
           {
             "agencyId": "1",
@@ -66,13 +56,23 @@
           },
           {
             "agencyId": "1",
+            "routeId": "108",
+            "stopId": "3756"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "108",
+            "stopId": "3756"
+          },
+          {
+            "agencyId": "1",
             "routeId": "984",
             "stopId": "3750"
           },
           {
             "agencyId": "1",
-            "routeId": "105",
-            "stopId": "3749"
+            "routeId": "984",
+            "stopId": "3754"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -96,16 +96,12 @@
       }
     },
     {
-      "id": "DevAPI-840E60A0-E6EF-4683-9B4E-445976861980",
+      "id": "DevAPI-5F9EB812-2D48-4211-A269-F8B768FC8EB7",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "320"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "97"
+            "routeId": "18"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -113,7 +109,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Summerhill: Elevator 15Y1L out o",
+              "text": "18 Caledonia: Detour southbound",
               "language": "en"
             }
           ]
@@ -121,468 +117,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "Summerhill: Elevator out of service between Shaftesbury Avenue (East) and Line 1 southbound platform while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-4805F69B-7D30-4923-8F8B-F6BFAE4663C4",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "13"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "505"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "301"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "501"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "305"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "506"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "306"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "19"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "St Patrick: Elevator 4Y1L out of",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "St Patrick: Elevator out of service between concourse and Line 1 centre platform due to a technical problem. Elevator is expected to be back in service October 16, 2026.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-5637FFFB-69C5-47EB-8801-A7047CA03223",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "49"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "66"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "112"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "935"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "337"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "15"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "900"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "45"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "37"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "73"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "315"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "111"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "46"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "76"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "345"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "55"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "335"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "149"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "50"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "110"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "937"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "123"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "945"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "145"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "48"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "26"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "944"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "27"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "40"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "927"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "373"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "44"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Line 2 Bloor-Danforth: There is",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "There is no subway service on Line 2 Bloor-Danforth between Kipling and Jane stations due to planned track work. Shuttle buses are running. Follow the station signs or speak to a TTC employee for help. Service will resume October 12.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-19148489-7614-42B1-B957-DD36413F9136",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "334"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "63"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "90"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "109"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "363"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "164"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Cedarvale: Elevator 06-ELV-B out",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Cedarvale: Elevator out of service between platform and upper concourse while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-610A17C6-C7F3-4C8E-8D5A-2F0380928FE3",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "149"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "49"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "112"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "123"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "945"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "900"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "145"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "45"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "111"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "46"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "944"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "40"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "927"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "44"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "345"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Kipling: Elevator 16B1L out of s",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Kipling: Elevator out of service between Aukland Rd entrance, bus platform, and concourse due to a technical problem.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-A669C5C7-A773-400C-8786-4D674D5CEC88",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "202",
-            "stopId": "4277"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "114",
-            "stopId": "4277"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Please look both ways",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Please look both ways for cyclists before exiting.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-BC010FEA-1D53-4212-970B-3FA4D447E0EC",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "123"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "123 Sherway: Detour via The East",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "123 Sherway: Detour via The East Mall due to a Toronto fire investigation.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-0491031F-B5E5-4CA0-B5A3-34147797AE9E",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "320"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "97"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "19"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Bloor-Yonge: Elevator 13Y1L out",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Bloor-Yonge: Elevator out of service between north concourse and Line 1 southbound platform while we perform maintenance.",
+              "text": "18 Caledonia: Detour southbound via Glencairn Ave, Dufferin St and Eglinton Ave W due to a collision.",
               "language": "en"
             }
           ]
@@ -619,6 +154,39 @@
       }
     },
     {
+      "id": "DevAPI-840E60A0-E6EF-4683-9B4E-445976861980",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "97"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "320"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Summerhill: Elevator 15Y1L out o",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Summerhill: Elevator out of service between Shaftesbury Avenue (East) and Line 1 southbound platform while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-D1750B97-CEAF-4565-853F-ED0EF28D6185",
       "alert": {
         "informedEntity": [
@@ -628,7 +196,27 @@
           },
           {
             "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
             "routeId": "61"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "74"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "97"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "103"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "320"
           },
           {
             "agencyId": "1",
@@ -637,26 +225,6 @@
           {
             "agencyId": "1",
             "routeId": "354"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "74"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "320"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "103"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "97"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -673,6 +241,334 @@
           "translation": [
             {
               "text": "Eglinton: Elevator out of service between Line 5 platform, Line 5 concourse, and Line 1 platform while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-4805F69B-7D30-4923-8F8B-F6BFAE4663C4",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "301"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "305"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "306"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "501"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "505"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "506"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "13"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "19"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "St Patrick: Elevator 4Y1L out of",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "St Patrick: Elevator out of service between concourse and Line 1 centre platform due to a technical problem. Elevator is expected to be back in service October 16, 2026.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-5637FFFB-69C5-47EB-8801-A7047CA03223",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "40"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "44"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "45"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "46"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "49"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "111"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "112"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "123"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "145"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "149"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "345"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "900"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "927"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "944"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "945"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "37"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "50"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "110"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "337"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "937"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "15"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "48"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "66"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "73"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "76"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "315"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "373"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "26"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "27"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "55"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "335"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "935"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Line 2 Bloor-Danforth: There is",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "There is no subway service on Line 2 Bloor-Danforth between Kipling and Jane stations due to planned track work. Shuttle buses are running. Follow the station signs or speak to a TTC employee for help. Service will resume October 12.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-02364F62-E39D-41C8-A153-4622A368DCD8",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "301"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "304"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "305"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "501"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "503"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "504"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "505"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "508"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "19"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Osgoode: Elevator 5Y1L out of se",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Osgoode: Elevator out of service between concourse and Line 1 centre platform due to a technical problem.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-19148489-7614-42B1-B957-DD36413F9136",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "63"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "90"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "109"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "164"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "363"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Cedarvale: Elevator 06-ELV-B out",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Cedarvale: Elevator out of service between platform and upper concourse while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -709,56 +605,47 @@
       }
     },
     {
+      "id": "DevAPI-A669C5C7-A773-400C-8786-4D674D5CEC88",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "114",
+            "stopId": "4277"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "202",
+            "stopId": "4277"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Please look both ways",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Please look both ways for cyclists before exiting.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-A9575FEC-782B-497D-A082-96A381C3F125",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "905"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "986"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "201"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "904"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "86"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "129"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "154"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "116"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "938"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "903"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "133"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "131"
+            "routeId": "12"
           },
           {
             "agencyId": "1",
@@ -766,15 +653,7 @@
           },
           {
             "agencyId": "1",
-            "routeId": "38"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "12"
+            "routeId": "21"
           },
           {
             "agencyId": "1",
@@ -782,7 +661,7 @@
           },
           {
             "agencyId": "1",
-            "routeId": "21"
+            "routeId": "38"
           },
           {
             "agencyId": "1",
@@ -790,11 +669,11 @@
           },
           {
             "agencyId": "1",
-            "routeId": "334"
+            "routeId": "57"
           },
           {
             "agencyId": "1",
-            "routeId": "939"
+            "routeId": "86"
           },
           {
             "agencyId": "1",
@@ -802,7 +681,35 @@
           },
           {
             "agencyId": "1",
-            "routeId": "57"
+            "routeId": "116"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "129"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "131"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "133"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "154"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "201"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "334"
           },
           {
             "agencyId": "1",
@@ -811,6 +718,30 @@
           {
             "agencyId": "1",
             "routeId": "386"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "903"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "904"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "905"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "938"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "939"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "986"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
