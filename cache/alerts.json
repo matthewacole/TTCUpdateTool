@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1791772865"
+    "timestamp": "1791798386"
   },
   "entity": [
     {
@@ -219,12 +219,12 @@
       }
     },
     {
-      "id": "DevAPI-2636223B-FFA3-45EF-B548-D964B900522F",
+      "id": "DevAPI-9910A231-221C-46A1-88C7-0B39B5BD3B66",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "54"
+            "routeId": "354"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -232,7 +232,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "54 Lawrence East: Detour via Law",
+              "text": "354 Lawrence East: Detour via Sc",
               "language": "en"
             }
           ]
@@ -240,7 +240,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "54 Lawrence East: Detour via Lawrence Ave W, Orton Park Rd, Brimorton Dr and Scarborough Golf Club Rd due to a collision.",
+              "text": "354 Lawrence East: Detour via Scarborough Golf Club Rd, Brimorton Dr and Orton Park Rd due to a collision.",
               "language": "en"
             }
           ]
@@ -298,163 +298,6 @@
           "translation": [
             {
               "text": "St Patrick: Elevator out of service between concourse and Line 1 centre platform due to a technical problem. Elevator is expected to be back in service October 16, 2026.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-5637FFFB-69C5-47EB-8801-A7047CA03223",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "49"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "66"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "112"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "935"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "337"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "15"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "900"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "45"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "37"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "73"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "315"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "111"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "46"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "76"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "345"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "55"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "335"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "149"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "50"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "110"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "937"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "123"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "945"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "145"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "48"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "26"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "944"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "27"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "40"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "927"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "373"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "44"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Line 2 Bloor-Danforth: There is",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "There is no subway service on Line 2 Bloor-Danforth between Kipling and Jane stations due to planned track work. Shuttle buses are running. Follow the station signs or speak to a TTC employee for help. Service will resume October 12.",
               "language": "en"
             }
           ]
