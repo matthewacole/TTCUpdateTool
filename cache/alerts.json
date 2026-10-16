@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1792173480"
+    "timestamp": "1792183991"
   },
   "entity": [
     {
@@ -89,6 +89,47 @@
           "translation": [
             {
               "text": "Have proof of payment ready for inspection.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-D06A12B2-29F8-45CC-89A2-ED1B9B2666C6",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "77"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "79"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "71"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Runnymede: Elevator 11B1L out of",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Runnymede: Elevator out of service between Runnymede Rd entrance and concourse due to a technical problem.",
               "language": "en"
             }
           ]
@@ -186,35 +227,6 @@
       }
     },
     {
-      "id": "DevAPI-1708776A-DF89-40F8-8201-1C93351BAB43",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "24"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "24 Victoria Park: Detour via Con",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "24 Victoria Park: Detour via Consumers Rd due to a blocked road.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-0C5F8530-C576-4427-A9BB-D5316B4C6197",
       "alert": {
         "informedEntity": [
@@ -290,6 +302,35 @@
           "translation": [
             {
               "text": "Cedarvale: Elevator out of service between platform and upper concourse while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-1E2DB8FF-B614-4CB2-B42C-A68309293A1E",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "47"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "47 Lansdowne: Detour northbound",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "47 Lansdowne: Detour northbound via St Clair Ave E, Old Weston Rd and Rogers Rd due to police activity.",
               "language": "en"
             }
           ]
@@ -427,43 +468,6 @@
           "translation": [
             {
               "text": "Please look both ways for cyclists before exiting.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-B8E55DFC-4026-45BF-9299-F13EFE0E9813",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "11"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "185"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "385"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Bayview: Elevator 55P2L out of s",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Bayview: Elevator out of service between west concourse and Line 4 centre platform while we perform maintenance.",
               "language": "en"
             }
           ]
