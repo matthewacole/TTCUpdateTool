@@ -2,38 +2,9 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1792215812"
+    "timestamp": "1792230166"
   },
   "entity": [
-    {
-      "id": "DevAPI-8DC1BB4E-4D43-45D2-9FFD-3667409B9C90",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "47"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "47 Lansdowne: Detour northbound",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "47 Lansdowne: Detour northbound via Davenport Rd and Caledonia Rd due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
     {
       "id": "DevAPI-A7A47D84-4C20-4E7B-A011-BE3F74D8425A",
       "alert": {
@@ -125,6 +96,93 @@
       }
     },
     {
+      "id": "DevAPI-2F55F4C1-7078-4C36-B5BA-970528D3D746",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "19"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "19 Bay: Detour due to an event.",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "19 Bay: Detour due to an event.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-BBF6EDC7-4889-4E11-8BFA-13AD8440DA53",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "11"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "11 Bayview: Detour via Acacia Av",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "11 Bayview: Detour via Acacia Ave, Millwood Rd and Belle Ayre Blvd due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-512ABEA4-76C8-49F1-BA3E-A3F78A90BA89",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "202"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "202 Cherry Beach: Detour via due",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "202 Cherry Beach: Detour via due to an event.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-D1750B97-CEAF-4565-853F-ED0EF28D6185",
       "alert": {
         "informedEntity": [
@@ -179,64 +237,6 @@
           "translation": [
             {
               "text": "Eglinton: Elevator out of service between Line 5 platform, Line 5 concourse, and Line 1 platform while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-D13F6F9C-3C62-4C65-8641-682098C9D165",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "57"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "57 Midland: Detour via Lawrence",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "57 Midland: Detour via Lawrence Ave E, Kennedy Ave and Eglinton Ave E due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-B4502BE9-F07D-44F5-A7F9-ED76F62B2104",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "512"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "512 St Clair: Detour westbound v",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "512 St Clair: Detour westbound via Davenport Rd and Caledonia Park Rd due to construction.",
               "language": "en"
             }
           ]
