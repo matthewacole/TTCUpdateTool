@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1792439456"
+    "timestamp": "1792451473"
   },
   "entity": [
     {
@@ -96,12 +96,12 @@
       }
     },
     {
-      "id": "DevAPI-483A62F6-483C-4C35-BA6C-FC83547B87E1",
+      "id": "DevAPI-1E60ABB8-7028-4879-9CAF-12910F55693D",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "107"
+            "routeId": "75"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -109,7 +109,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "107 Alness-Chesswood: No service",
+              "text": "75 Sherbourne: Detour southbound",
               "language": "en"
             }
           ]
@@ -117,7 +117,56 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "107 Alness-Chesswood: No service northbound from 23 Kodiak Cres to Kodiak Cres at Whitehorse Rd due to construction.",
+              "text": "75 Sherbourne: Detour southbound via Wellesley St E, Jarvis St and Carlton St due to a road closure.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-EB9F536F-CFA2-4656-B45A-5FCF885AEDED",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "310"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "510"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "127"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "506"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "306"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Spadina: Elevator 2B1L out of se",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Spadina: Elevator out of service between Spadina Rd east side entrance and concourse while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -147,35 +196,6 @@
           "translation": [
             {
               "text": "37A Islington: Bypass near WOODBINE RACETRACK LOOP (MAIN ENTRANCE) due to a blocked road.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-A8E4CC1A-75A3-47F9-B7E8-EB4752A2CBEA",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "101"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "101 Downsview Park: Detour via K",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "101 Downsview Park: Detour via Keele St, Ashworth Ave and Ceramic Rd due to a Toronto fire investigation.",
               "language": "en"
             }
           ]
