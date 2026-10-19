@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1792366507"
+    "timestamp": "1792373896"
   },
   "entity": [
     {
@@ -96,7 +96,36 @@
       }
     },
     {
-      "id": "DevAPI-AE7882F9-D487-4561-8C6E-5627F8DC19D4",
+      "id": "DevAPI-0A515B7C-776F-4E8B-803B-9CE1EDDDE6F2",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "61"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "61 Avenue Rd North: Detour via A",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "61 Avenue Rd North: Detour via Avenue Rd, Ridley Blvd and Wilson Ave due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-D701A2C0-2D29-4116-8104-8464080350B5",
       "alert": {
         "informedEntity": [
           {
@@ -147,35 +176,6 @@
           "translation": [
             {
               "text": "504 King: Detour westbound via Church St, Richmond St E, York St, Queen St E and Spadina Ave due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-0C5F8530-C576-4427-A9BB-D5316B4C6197",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "19"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "19 Bay: Detour via due to an eve",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "19 Bay: Detour via due to an event.",
               "language": "en"
             }
           ]
