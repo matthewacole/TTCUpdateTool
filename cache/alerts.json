@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1792392568"
+    "timestamp": "1792418686"
   },
   "entity": [
     {
@@ -89,6 +89,64 @@
           "translation": [
             {
               "text": "Have proof of payment ready for inspection.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-483A62F6-483C-4C35-BA6C-FC83547B87E1",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "107"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "107 Alness-Chesswood: No service",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "107 Alness-Chesswood: No service northbound from 23 Kodiak Cres to Kodiak Cres at Whitehorse Rd due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-9810FBD3-83CD-43CC-B3F3-26D46A550B64",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "37"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "37A Islington: Buses are not sto",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "37A Islington: Bypass near WOODBINE RACETRACK LOOP (MAIN ENTRANCE) due to a blocked road.",
               "language": "en"
             }
           ]
@@ -244,6 +302,67 @@
           "translation": [
             {
               "text": "Don Valley: Elevator out of service between concourse and Don Mills Road east side entrance and bus terminal due to a technical problem.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-1F54C24B-2627-4B44-A18F-0E1AE07F3E93",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "384"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "106"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "329"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "984"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "104"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "105"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "107"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "84"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "108"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Sheppard West: Elevator 9S2L out",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Sheppard West: Elevator out of service between bus platform, concourse and Line 1 platform while we perform maintenance.",
               "language": "en"
             }
           ]
