@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1792566062"
+    "timestamp": "1792587095"
   },
   "entity": [
     {
@@ -173,104 +173,36 @@
       }
     },
     {
-      "id": "DevAPI-6D4AC9C8-D952-43F9-AFFC-F644CEFCEC2D",
+      "id": "DevAPI-D0F57FE4-9ED4-4BAB-8F8D-ED31EEF84164",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "61"
+            "routeId": "55"
           },
           {
             "agencyId": "1",
-            "routeId": "354"
+            "routeId": "335"
           },
           {
             "agencyId": "1",
-            "routeId": "74"
+            "routeId": "149"
           },
           {
             "agencyId": "1",
-            "routeId": "395"
+            "routeId": "26"
           },
           {
             "agencyId": "1",
-            "routeId": "352"
+            "routeId": "300"
           },
           {
             "agencyId": "1",
-            "routeId": "34"
+            "routeId": "935"
           },
           {
             "agencyId": "1",
-            "routeId": "320"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "95"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "52"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "115"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "952"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "97"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "995"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "396"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "13"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "996"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "334"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "124"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "162"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "78"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "122"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "165"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "103"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "96"
+            "routeId": "27"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -278,7 +210,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Line 1 Yonge-University: There i",
+              "text": "Jane: Elevator 12B2L out of serv",
               "language": "en"
             }
           ]
@@ -286,7 +218,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "There is no subway service on Line 1 Yonge-University between York Mills and Eglinton stations due to planned track work. Shuttle buses are running. Follow the station signs or speak to a TTC employee for help. Service will resume October 21.",
+              "text": "Jane: Elevator out of service between concourse and Line 2 eastbound platform while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -294,36 +226,12 @@
       }
     },
     {
-      "id": "DevAPI-94B2FA2A-0614-490B-93FE-FA0DAF29858E",
+      "id": "DevAPI-1EDF0122-8D58-46AA-9A84-A991E458AB39",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "126"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "7"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "90"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "312"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "307"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "512"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "33"
+            "routeId": "505"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -331,7 +239,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "St Clair West: Elevator 3S3L out",
+              "text": "505 Dundas: Detour westbound via",
               "language": "en"
             }
           ]
@@ -339,7 +247,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "St Clair West: Elevator out of service between south concourse and Line 1 northbound platform while we perform maintenance.",
+              "text": "505 Dundas: Detour westbound via College St and Spadina Ave due to a blocked track.",
               "language": "en"
             }
           ]
@@ -369,6 +277,35 @@
           "translation": [
             {
               "text": "504 King: Detour westbound via Church St, Richmond St E, York St, Queen St E and Spadina Ave due to a collision.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-FEE3F6B7-7610-4384-BD75-9DECFC7371C2",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "107"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "107 Alness-Chesswood: Detour nor",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "107 Alness-Chesswood: Detour northbound via Kodiak Cres and Whitehorse Rd due to construction.",
               "language": "en"
             }
           ]
