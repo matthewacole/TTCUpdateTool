@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1792626910"
+    "timestamp": "1792639876"
   },
   "entity": [
     {
@@ -173,108 +173,12 @@
       }
     },
     {
-      "id": "DevAPI-70E80CB9-7C0B-4B56-AFD5-E2D2EE6864A8",
+      "id": "DevAPI-5DAD5173-132C-425A-A8D0-1DF8FD4CA066",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "905"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "986"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "201"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "904"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "86"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "129"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "154"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "116"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "938"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "903"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "133"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "131"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "20"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "38"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "12"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "21"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "43"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "334"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "939"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "113"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "57"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "343"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "386"
+            "routeId": "51"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -282,7 +186,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Kennedy: Elevator 16D1L out of s",
+              "text": "51 Leslie: Detour northbound via",
               "language": "en"
             }
           ]
@@ -290,60 +194,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "Kennedy: Elevator out of service between Transway Cresent entrance and bus platform B and concourse while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-2E08D1F6-B99C-44FC-8E7C-5777C719345E",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "126"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "7"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "90"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "312"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "307"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "512"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "33"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "St Clair West: Elevator 3S2L out",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "St Clair West: Elevator out of service between bus and streetcar platform, south concourse and Line 1 southbound platform while we perform maintenance.",
+              "text": "51 Leslie: Detour northbound via Millwood Rd and Mcrae Dr due to police activity.",
               "language": "en"
             }
           ]
@@ -380,12 +231,12 @@
       }
     },
     {
-      "id": "DevAPI-FEE3F6B7-7610-4384-BD75-9DECFC7371C2",
+      "id": "DevAPI-7C0C8FF2-6D25-4C65-B646-2BA02CE6FB44",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "107"
+            "routeId": "50"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -393,7 +244,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "107 Alness-Chesswood: Detour nor",
+              "text": "50 Burnhamthorpe: No service bet",
               "language": "en"
             }
           ]
@@ -401,7 +252,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "107 Alness-Chesswood: Detour northbound via Kodiak Cres and Whitehorse Rd due to construction.",
+              "text": "50 Burnhamthorpe: No service between Mill Rd at Burnhamthorpe Loop and Burnhamthorpe Rd at Old Burnhamthorpe Rd (West) due to construction.",
               "language": "en"
             }
           ]
@@ -563,6 +414,35 @@
           "translation": [
             {
               "text": "Please look both ways for cyclists before exiting.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-5A25C71E-C8F5-4DDD-9F98-57D016EB54D7",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "51"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "51 Leslie: Detour southbound via",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "51 Leslie: Detour southbound via Mcrae Dr, Millwood Rd and Laird Dr due to police activity.",
               "language": "en"
             }
           ]
