@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1792782208"
+    "timestamp": "1792793015"
   },
   "entity": [
     {
@@ -21,28 +21,38 @@
           },
           {
             "agencyId": "1",
-            "routeId": "84",
-            "stopId": "3755"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "84",
-            "stopId": "3755"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "84",
-            "stopId": "3755"
-          },
-          {
-            "agencyId": "1",
             "routeId": "104",
             "stopId": "3975"
           },
           {
             "agencyId": "1",
-            "routeId": "105",
-            "stopId": "3749"
+            "routeId": "984",
+            "stopId": "3754"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "84",
+            "stopId": "3755"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "84",
+            "stopId": "3755"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "108",
+            "stopId": "3756"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "84",
+            "stopId": "3755"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "108",
+            "stopId": "3756"
           },
           {
             "agencyId": "1",
@@ -56,23 +66,13 @@
           },
           {
             "agencyId": "1",
-            "routeId": "108",
-            "stopId": "3756"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "108",
-            "stopId": "3756"
-          },
-          {
-            "agencyId": "1",
             "routeId": "984",
             "stopId": "3750"
           },
           {
             "agencyId": "1",
-            "routeId": "984",
-            "stopId": "3754"
+            "routeId": "105",
+            "stopId": "3749"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -89,116 +89,6 @@
           "translation": [
             {
               "text": "Have proof of payment ready for inspection.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-4D20E6DD-6131-464E-AE50-5357D20CC4A5",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "14"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "109"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Glencairn: Elevator 5S2L out of",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Glencairn: Elevator out of service between concourse and Line 1 centre platform while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-95F64986-AD06-4BE0-88FD-6E63BA7BD875",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "304"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "310"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "503"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "504"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "508"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "509"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "510"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "19"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "97"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "114"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "121"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "202"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "320"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Union: Elevator 7Y1L out of serv",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Union: Elevator out of service between concourse and Line 1 Vaughan platform while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -235,120 +125,12 @@
       }
     },
     {
-      "id": "DevAPI-4B2FCF89-4290-4765-8CFA-DD721A50F38F",
+      "id": "DevAPI-0D862486-71F7-4031-BABB-36350577C906",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "41"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "80"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "89"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "189"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "341"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "941"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "989"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "304"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "305"
-          },
-          {
-            "agencyId": "1",
             "routeId": "504"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "505"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "512"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "40"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "168"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "340"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "47"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "29"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "161"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "329"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "929"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "63"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "94"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "363"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "126"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "511"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "7"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "307"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -356,7 +138,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Line 2 Bloor-Danforth: Delays ea",
+              "text": "504A King: Detour eastbound via",
               "language": "en"
             }
           ]
@@ -364,7 +146,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "Line 2 Bloor-Danforth: Delays eastbound from Keele to Bathurst stations while we fix a signal problem.",
+              "text": "504A King: Detour eastbound via King St E, Dufferin St, Queen St W and Shaw St due to police activity.",
               "language": "en"
             }
           ]
@@ -406,7 +188,7 @@
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "34"
+            "routeId": "334"
           },
           {
             "agencyId": "1",
@@ -418,19 +200,19 @@
           },
           {
             "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
             "routeId": "109"
           },
           {
             "agencyId": "1",
-            "routeId": "164"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "334"
-          },
-          {
-            "agencyId": "1",
             "routeId": "363"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "164"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -454,17 +236,46 @@
       }
     },
     {
+      "id": "DevAPI-D66A821D-DC6D-43D8-9BE9-58CD0EFCC533",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "94"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "94 Wellesley: Detour westbound v",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "94 Wellesley: Detour westbound via Parliament St, Carlton St and Sherbourne St due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-A669C5C7-A773-400C-8786-4D674D5CEC88",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "114",
+            "routeId": "202",
             "stopId": "4277"
           },
           {
             "agencyId": "1",
-            "routeId": "202",
+            "routeId": "114",
             "stopId": "4277"
           }
         ],
