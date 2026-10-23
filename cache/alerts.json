@@ -2,38 +2,9 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1792706103"
+    "timestamp": "1792715076"
   },
   "entity": [
-    {
-      "id": "DevAPI-3272D3DF-6A52-4B02-9F98-664C349046EA",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "508"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "508 Lake Shore: Detour via Shaw",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "508 Lake Shore: Detour via Shaw St and Queen St W due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
     {
       "id": "DevAPI-A7A47D84-4C20-4E7B-A011-BE3F74D8425A",
       "alert": {
@@ -202,24 +173,12 @@
       }
     },
     {
-      "id": "DevAPI-809D8AFA-7125-43B4-8046-66D64F559A1A",
+      "id": "DevAPI-406673DD-7476-4942-B72E-75306601F96F",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "320"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "97"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "19"
+            "routeId": "24"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -227,7 +186,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Bloor-Yonge: Elevator 3D1L out o",
+              "text": "24 Victoria Park: Detour northbo",
               "language": "en"
             }
           ]
@@ -235,7 +194,36 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "Bloor-Yonge: Elevator out of service between Line 1 northbound platform and Line 2 centre platform while we perform maintenance.",
+              "text": "24 Victoria Park: Detour northbound via Steeles Ave E, Gordon Baker Rd and Victoria Park Ave due to a collision.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-A6F6CC13-D603-45F9-8786-294D3E1188D3",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "57"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "57 Midland: Detour via Mcnicoll",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "57 Midland: Detour via Mcnicoll Ave, Steeles Ave E and Kennedy Rd due to construction.",
               "language": "en"
             }
           ]
@@ -265,35 +253,6 @@
           "translation": [
             {
               "text": "504 King: Detour westbound via Church St, Richmond St E, York St, Queen St E and Spadina Ave due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-A6369B32-2CC9-4274-A584-7286C51A2C1C",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "504"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "504, 504A King: Detour via Shaw",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "504, 504A King: Detour via Shaw St and Queen St W due to a collision.",
               "language": "en"
             }
           ]
@@ -347,6 +306,35 @@
           "translation": [
             {
               "text": "Cedarvale: Elevator out of service between platform and upper concourse while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-25BC2914-7D22-4F11-BEDE-1E37F2FA9868",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "28"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "28 Bayview South: Detour via Mt",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "28 Bayview South: Detour via Mt Pleasant Rd and Moore Ave due to a collision.",
               "language": "en"
             }
           ]
@@ -484,35 +472,6 @@
           "translation": [
             {
               "text": "Please look both ways for cyclists before exiting.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-2F6CE708-687D-4F18-B698-FCB4893C376E",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "504"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "504, 504B King: Detour via Shaw",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "504, 504B King: Detour via Shaw St, Queen St W and Dufferin St due to a collision.",
               "language": "en"
             }
           ]
