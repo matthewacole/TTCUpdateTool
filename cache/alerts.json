@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1792715076"
+    "timestamp": "1792732249"
   },
   "entity": [
     {
@@ -96,6 +96,35 @@
       }
     },
     {
+      "id": "DevAPI-01D8C519-A512-4042-98F9-FA63EE3A4D56",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "42"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "42 Cummer: Detour westbound via",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "42 Cummer: Detour westbound via Kennedy Rd, Finch Ave E and Brimley Rd due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-A6313A05-5FE8-40AD-BA30-09D49CF32B95",
       "alert": {
         "informedEntity": [
@@ -173,12 +202,12 @@
       }
     },
     {
-      "id": "DevAPI-406673DD-7476-4942-B72E-75306601F96F",
+      "id": "DevAPI-CAC7F647-B253-48D1-A770-98DAF8877AA5",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "24"
+            "routeId": "42"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -186,7 +215,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "24 Victoria Park: Detour northbo",
+              "text": "42 Cummer: Detour eastbound via",
               "language": "en"
             }
           ]
@@ -194,7 +223,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "24 Victoria Park: Detour northbound via Steeles Ave E, Gordon Baker Rd and Victoria Park Ave due to a collision.",
+              "text": "42 Cummer: Detour eastbound via Kennedy Rd, Finch Ave E and Midland Ave due to construction.",
               "language": "en"
             }
           ]
@@ -202,12 +231,140 @@
       }
     },
     {
-      "id": "DevAPI-A6F6CC13-D603-45F9-8786-294D3E1188D3",
+      "id": "DevAPI-5298535B-19B9-42F1-9DBA-43106710A254",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "57"
+            "routeId": "49"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "66"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "112"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "935"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "337"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "15"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "900"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "45"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "37"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "73"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "315"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "111"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "46"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "76"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "345"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "55"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "335"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "149"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "50"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "110"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "937"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "123"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "945"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "145"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "48"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "26"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "944"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "27"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "40"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "927"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "373"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "44"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -215,7 +372,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "57 Midland: Detour via Mcnicoll",
+              "text": "Line 2 Bloor-Danforth: There is",
               "language": "en"
             }
           ]
@@ -223,7 +380,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "57 Midland: Detour via Mcnicoll Ave, Steeles Ave E and Kennedy Rd due to construction.",
+              "text": "There is no subway service on Line 2 Bloor-Danforth between Kipling and Jane stations due to planned track work. Shuttle buses are running. Follow the station signs or speak to a TTC employee for help. Service will resume October 23.",
               "language": "en"
             }
           ]
@@ -253,6 +410,127 @@
           "translation": [
             {
               "text": "504 King: Detour westbound via Church St, Richmond St E, York St, Queen St E and Spadina Ave due to a collision.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-C430DEF6-20E1-4149-AF55-10DB884F4B4B",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "61"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "354"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "74"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "395"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "352"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "320"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "95"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "52"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "115"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "952"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "97"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "995"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "396"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "13"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "996"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "124"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "162"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "78"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "122"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "165"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "103"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "96"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Line 1 Yonge-University: There i",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "There is no subway service on Line 1 Yonge-University between York Mills and Eglinton stations due to planned infrastructure work. Shuttle buses are running. Follow the station signs or speak to a TTC employee for help. Service will resume October 23.",
               "language": "en"
             }
           ]
@@ -306,64 +584,6 @@
           "translation": [
             {
               "text": "Cedarvale: Elevator out of service between platform and upper concourse while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-25BC2914-7D22-4F11-BEDE-1E37F2FA9868",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "28"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "28 Bayview South: Detour via Mt",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "28 Bayview South: Detour via Mt Pleasant Rd and Moore Ave due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-2B99D29A-992E-45DC-8D2B-C9344A381644",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "61"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "61 Avenue Rd North: Detour via D",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "61 Avenue Rd North: Detour via Duplex Ave and Roselawn Ave due to a collision.",
               "language": "en"
             }
           ]
