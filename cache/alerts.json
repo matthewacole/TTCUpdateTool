@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1792817959"
+    "timestamp": "1792833876"
   },
   "entity": [
     {
@@ -96,65 +96,7 @@
       }
     },
     {
-      "id": "DevAPI-C41CA7D7-70E9-4CA2-B4EF-F0578EF9C986",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "42"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "42 Cummer: Detour via Kennedy Rd",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "42 Cummer: Detour via Kennedy Rd, Finch Ave E and Brimley Rd due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-B4BF8983-B705-46A7-975B-7BCE1CF79B49",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "75"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "75 Sherbourne: Detour southbound",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "75 Sherbourne: Detour southbound via Dundas St E, Parliament St and Gerrard St E due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-95DD2686-E357-4326-9FEE-300CECD8FEB6",
+      "id": "DevAPI-31D1B2FF-D12A-4567-A2E4-C071E408E182",
       "alert": {
         "informedEntity": [
           {
@@ -303,7 +245,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "There is no subway service on Line 2 Bloor-Danforth between Kipling and Jane stations due to planned track work. Shuttle buses are running. Follow the station signs or speak to a TTC employee for help. Service will resume October 24.",
+              "text": "There is no subway service on Line 2 Bloor-Danforth between Kipling and Jane stations due to planned infrastructure work. Shuttle buses are running. Follow the station signs or speak to a TTC employee for help. Service will resume October 25.",
               "language": "en"
             }
           ]
@@ -311,12 +253,12 @@
       }
     },
     {
-      "id": "DevAPI-F015F7F7-F080-4437-99E7-82A8551EDEEE",
+      "id": "DevAPI-22E1CD32-1516-4F7C-999B-D7343B6A5883",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "57"
+            "routeId": "304"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -324,7 +266,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "57 Midland: Detour southbound vi",
+              "text": "304 King: Delays between King St",
               "language": "en"
             }
           ]
@@ -332,7 +274,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "57 Midland: Detour southbound via Steeles Ave E, Kennedy Rd and Finch Ave E due to construction.",
+              "text": "304 King: Delays between King St West at Bathurst St East Side and King St West at Spadina Ave East Side due to planned work and congestion.",
               "language": "en"
             }
           ]
@@ -369,12 +311,36 @@
       }
     },
     {
-      "id": "DevAPI-ADDA5F93-5BB3-4E52-BD6A-D2DE2624DED1",
+      "id": "DevAPI-5BDEA507-FC16-404D-817B-F8C1B7E51587",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "75"
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "63"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "90"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "109"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "363"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "164"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -382,7 +348,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "75 Sherbourne: Detour northbound",
+              "text": "Cedarvale: Elevator ELV01-A out",
               "language": "en"
             }
           ]
@@ -390,7 +356,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "75 Sherbourne: Detour northbound via Dundas St E, Parliament St and Gerrard St E due to construction.",
+              "text": "Cedarvale: Elevator out of service between Line 5 platform, Line 1 southbound platform/west concourse, and upper concourse due to a technical problem.",
               "language": "en"
             }
           ]
@@ -479,35 +445,6 @@
           "translation": [
             {
               "text": "Please look both ways for cyclists before exiting.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-144AA781-9469-4E31-8AA5-01EEE75F82F5",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "501"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "501 Queen: Detour via Spadina Av",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "501 Queen: Detour via Spadina Ave, King St W and Church St while we respond to a medical emergency.",
               "language": "en"
             }
           ]
