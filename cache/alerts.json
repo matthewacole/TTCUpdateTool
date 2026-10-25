@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1792885284"
+    "timestamp": "1792892432"
   },
   "entity": [
     {
@@ -89,6 +89,131 @@
           "translation": [
             {
               "text": "Have proof of payment ready for inspection.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-3C78B0FD-2FCB-4819-8553-9F8638D4ADF9",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "8"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "510"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "320"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "506"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "19"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "310"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "505"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "94"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "925"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "306"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "322"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "127"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "365"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "25"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "97"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "305"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "504"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "13"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "304"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "62"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "26"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "75"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "65"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "87"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Line 2 Bloor-Danforth: No servic",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Line 2 Bloor-Danforth: No service between Chester and St George stations due to a trespasser at track level.",
               "language": "en"
             }
           ]
@@ -282,12 +407,12 @@
       }
     },
     {
-      "id": "DevAPI-A0C42102-195F-44CA-A164-82A420B0E0A0",
+      "id": "DevAPI-1E3CFFEA-C411-443C-BB43-07AA4BD7F6DE",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "925"
+            "routeId": "504"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -295,7 +420,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "925 Don Mills Express: Detour vi",
+              "text": "504 King: Detour westbound via C",
               "language": "en"
             }
           ]
@@ -303,7 +428,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "925 Don Mills Express: Detour via Donlands Ave, O'connor Dr and Don Mills Rd due to police activity.",
+              "text": "504 King: Detour westbound via Church St, Richmond St E, York St, Queen St E and Spadina Ave due to a collision.",
               "language": "en"
             }
           ]
@@ -311,12 +436,12 @@
       }
     },
     {
-      "id": "DevAPI-11A8393E-E78E-4939-B07E-B20C6025D4DD",
+      "id": "DevAPI-B5356300-C6D8-4BAA-8362-21BDC7046DEE",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "100"
+            "routeId": "13"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -324,7 +449,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "100 Flemingdon Park: Detour nort",
+              "text": "13 Avenue Rd: Detour via Davenpo",
               "language": "en"
             }
           ]
@@ -332,36 +457,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "100 Flemingdon Park: Detour northbound via O'connor Dr and Don Mills Rd due to police activity.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-22E1CD32-1516-4F7C-999B-D7343B6A5883",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "304"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "304 King: Delays between King St",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "304 King: Delays between King St West at Bathurst St East Side and King St West at Spadina Ave East Side due to planned work and congestion.",
+              "text": "13 Avenue Rd: Detour via Davenport Rd and Dupont St due to a demonstration.",
               "language": "en"
             }
           ]
@@ -422,35 +518,6 @@
       }
     },
     {
-      "id": "DevAPI-AA695AF5-DC94-4B86-BFB7-8010045A760F",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "51"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "51 Leslie: Detour via O'connor D",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "51 Leslie: Detour via O'connor Dr, Don Mills Rd and Overlea Blvd due to police activity.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-A669C5C7-A773-400C-8786-4D674D5CEC88",
       "alert": {
         "informedEntity": [
@@ -486,67 +553,41 @@
       }
     },
     {
-      "id": "DevAPI-F6D2D1C9-EF69-477C-AD2E-A365FE423FBA",
+      "id": "DevAPI-0AE64DF6-A730-426C-BF7A-A9CF011A61F5",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "72"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "72 Pape: Detour northbound via O",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "72 Pape: Detour northbound via O'connor Dr, Don Mills Rd and Overlea Blvd due to police activity.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-362B1C43-11C1-4369-AED8-26164687FB0D",
-      "alert": {
-        "informedEntity": [
+            "routeId": "304"
+          },
           {
             "agencyId": "1",
-            "routeId": "25"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "25 Don Mills: Detour via Donland",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "25 Don Mills: Detour via Donlands Ave, O'connor Dr and Don Mills Rd due to police activity.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-1E3CFFEA-C411-443C-BB43-07AA4BD7F6DE",
-      "alert": {
-        "informedEntity": [
+            "routeId": "340"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "168"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "505"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "512"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "40"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "305"
+          },
           {
             "agencyId": "1",
             "routeId": "504"
@@ -557,7 +598,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "504 King: Detour westbound via C",
+              "text": "Dundas West: Elevator 8B2L out o",
               "language": "en"
             }
           ]
@@ -565,65 +606,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "504 King: Detour westbound via Church St, Richmond St E, York St, Queen St E and Spadina Ave due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-B5356300-C6D8-4BAA-8362-21BDC7046DEE",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "13"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "13 Avenue Rd: Detour via Davenpo",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "13 Avenue Rd: Detour via Davenport Rd and Dupont St due to a demonstration.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-A5A79E63-7834-4982-B8B9-13C7411F6C3B",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "114"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "114 Queens Quay East: Detour wes",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "114 Queens Quay East: Detour westbound via Yonge St, Wellington St W and Bay St due to a blocked road.",
+              "text": "Dundas West: Elevator out of service between concourse and Line 2 westbound platform while we perform maintenance.",
               "language": "en"
             }
           ]
