@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1793023710"
+    "timestamp": "1793044573"
   },
   "entity": [
     {
@@ -96,88 +96,12 @@
       }
     },
     {
-      "id": "DevAPI-38F3CC2B-733C-48A2-B3F5-EC96E15B096A",
+      "id": "DevAPI-CD7FE259-6C31-40B5-B387-FAD1A77A3014",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "131"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "316"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "395"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "38"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "95"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "134"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "21"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "130"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "132"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "43"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "904"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "996"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "9"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "939"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "129"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "169"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "16"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "938"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "903"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "133"
+            "routeId": "98"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -185,7 +109,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Scarborough Centre: Elevator 6RT",
+              "text": "98 Willowdale-Senlac: Detour wes",
               "language": "en"
             }
           ]
@@ -193,7 +117,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "Scarborough Centre: Elevator out of service between concourse and Scarborough Town Centre entrance and bus platform while we perform maintenance.",
+              "text": "98 Willowdale-Senlac: Detour westbound via Spring Garden Ave, Longmore St and Empress Ave due to a collision.",
               "language": "en"
             }
           ]
@@ -201,12 +125,12 @@
       }
     },
     {
-      "id": "DevAPI-C2CD213B-B9E1-4748-8D73-9F614FDDDAD5",
+      "id": "DevAPI-E026A687-1AF3-4897-9CF9-6C29C2873047",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "97"
+            "routeId": "13"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -214,7 +138,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "97 Yonge: Detour northbound via",
+              "text": "13B Avenue Rd: Detour via Gerrar",
               "language": "en"
             }
           ]
@@ -222,7 +146,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "97 Yonge: Detour northbound via Yonge St and Steeles Ave E due to police activity.",
+              "text": "13B Avenue Rd: Detour via Gerrard St W, Elizabeth St and College St due to construction.",
               "language": "en"
             }
           ]
@@ -230,12 +154,12 @@
       }
     },
     {
-      "id": "DevAPI-91281882-2A26-4145-89FA-3F11BABD0CCD",
+      "id": "DevAPI-EBE65565-9E1A-408B-9EDF-D8ED43A082DD",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "960"
+            "routeId": "107"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -243,7 +167,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "960 Steeles West Express: Detour",
+              "text": "107 Alness-Chesswood: Detour nor",
               "language": "en"
             }
           ]
@@ -251,7 +175,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "960 Steeles West Express: Detour via Moore Park Ave, Hilda Ave and Steeles Ave W due to police activity.",
+              "text": "107 Alness-Chesswood: Detour northbound via Sheppard Ave W and Kodiak Cres due to construction.",
               "language": "en"
             }
           ]
@@ -281,6 +205,35 @@
           "translation": [
             {
               "text": "504 King: Detour westbound via Church St, Richmond St E, York St, Queen St E and Spadina Ave due to a collision.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-6F3B843C-E4CF-40D9-B797-EE05F76246B7",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "98"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "98 Willowdale-Senlac: Detour eas",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "98 Willowdale-Senlac: Detour eastbound via Empress Ave, Dudley Ave and Spring Garden Ave due to a collision.",
               "language": "en"
             }
           ]
@@ -334,35 +287,6 @@
           "translation": [
             {
               "text": "Cedarvale: Elevator out of service between platform and upper concourse while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-5564D496-F6E1-4097-9939-635AE13D076D",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "501"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "501 Queen: Detour via Spadina Av",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "501 Queen: Detour via Spadina Ave, King St W and Shaw St due to police activity.",
               "language": "en"
             }
           ]
@@ -427,35 +351,6 @@
           "translation": [
             {
               "text": "504 King: Delays between RONCESVALLES AVE AT QUEEN ST WEST and Queen St East at Broadview Ave due to traffic congestion.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-6A7459AD-E123-405F-87A0-7765777F1BE5",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "60"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "60 Steeles West: Detour via Moor",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "60 Steeles West: Detour via Moore Park Ave, Hilda Ave and Steeles Ave W due to police activity.",
               "language": "en"
             }
           ]
