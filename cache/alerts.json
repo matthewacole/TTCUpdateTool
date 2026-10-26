@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1793044573"
+    "timestamp": "1793057870"
   },
   "entity": [
     {
@@ -205,35 +205,6 @@
           "translation": [
             {
               "text": "504 King: Detour westbound via Church St, Richmond St E, York St, Queen St E and Spadina Ave due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-6F3B843C-E4CF-40D9-B797-EE05F76246B7",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "98"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "98 Willowdale-Senlac: Detour eas",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "98 Willowdale-Senlac: Detour eastbound via Empress Ave, Dudley Ave and Spring Garden Ave due to a collision.",
               "language": "en"
             }
           ]
