@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1793374548"
+    "timestamp": "1793390793"
   },
   "entity": [
     {
@@ -89,175 +89,6 @@
           "translation": [
             {
               "text": "Have proof of payment ready for inspection.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-34A24213-5239-4074-9E87-BE3CD51C9710",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "31"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "8"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "91"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "510"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "320"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "506"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "19"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "51"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "310"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "505"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "94"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "925"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "72"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "306"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "322"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "93"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "127"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "365"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "25"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "97"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "305"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "504"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "13"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "304"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "62"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "92"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "26"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "75"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "65"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "100"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "325"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "83"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "22"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "87"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "70"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Line 2 Bloor-Danforth: No servic",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Line 2 Bloor-Danforth: No service between St George and Woodbine stations due to a trespasser at track level.",
               "language": "en"
             }
           ]
@@ -371,6 +202,75 @@
       }
     },
     {
+      "id": "DevAPI-11A88FB3-3CBD-410B-A66C-00D78E4AC4EF",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "304"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "62"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "8"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "322"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "25"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "505"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "925"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "87"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "305"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "504"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Broadview: Elevator 6D2L out of",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Broadview: Elevator out of service between concourse and Line 2 eastbound platform due to a technical problem.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-347E70AE-CF39-4AA2-AF54-A7D100538043",
       "alert": {
         "informedEntity": [
@@ -446,47 +346,6 @@
           "translation": [
             {
               "text": "Cedarvale: Elevator out of service between platform and upper concourse while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-DCEDD76E-5B50-4950-A6B5-752CA7A5BFDA",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "320"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "82"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "97"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "19"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Rosedale: Elevator 14Y1L out of",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Rosedale: Elevator out of service between Cresent Road entrance and Line 1 sourthbound platform while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -585,6 +444,39 @@
           "translation": [
             {
               "text": "95 York Mills: Detour westbound via Kennedy Rd, Sheppard Ave E and Birchmount Rd due to a Toronto fire investigation.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-B916523B-A78E-45CE-A12B-353A53DFC59A",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "185"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "385"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Bessarion: Elevator 57P1L out of",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Bessarion: Elevator out of service between Sheppard Ave E south side entrance and concourse while we perform maintenance.",
               "language": "en"
             }
           ]
