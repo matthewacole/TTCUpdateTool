@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1793436967"
+    "timestamp": "1793459374"
   },
   "entity": [
     {
@@ -89,6 +89,55 @@
           "translation": [
             {
               "text": "Have proof of payment ready for inspection.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-09732CEC-6372-4CFB-9EE0-153A6D592A94",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "310"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "510"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "127"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "506"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "306"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Spadina: Elevator 2B1L out of se",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Spadina: Elevator out of service between Spadina Rd east side entrance and concourse due to a technical problem.",
               "language": "en"
             }
           ]
@@ -284,12 +333,12 @@
       }
     },
     {
-      "id": "DevAPI-4E0D87ED-10EC-4111-A900-3ABBC0BC741B",
+      "id": "DevAPI-9314B7B7-0E01-4688-A815-BD38A240A1EF",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "304"
+            "routeId": "68"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -297,7 +346,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "304 King: Delays between King St",
+              "text": "68 Warden: Detour southbound via",
               "language": "en"
             }
           ]
@@ -305,7 +354,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "304 King: Delays between King St West at Bathurst St East Side and King St West at Spadina Ave East Side due to traffic congestion.",
+              "text": "68 Warden: Detour southbound via Comstock Rd, Birchmount Rd, Danforth Ave and Warden Ave due to police activity.",
               "language": "en"
             }
           ]
