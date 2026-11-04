@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1793783016"
+    "timestamp": "1793812087"
   },
   "entity": [
     {
@@ -96,48 +96,56 @@
       }
     },
     {
-      "id": "DevAPI-B5EDF4BC-2EDB-4908-9EF0-EE488028E06C",
+      "id": "DevAPI-CA4E5E4D-F5EB-47D9-846F-A2FCEFB95515",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "62"
+            "routeId": "904"
           },
           {
             "agencyId": "1",
-            "routeId": "20"
+            "routeId": "985"
           },
           {
             "agencyId": "1",
-            "routeId": "23"
+            "routeId": "169"
           },
           {
             "agencyId": "1",
-            "routeId": "300"
+            "routeId": "24"
           },
           {
             "agencyId": "1",
-            "routeId": "64"
+            "routeId": "325"
           },
           {
             "agencyId": "1",
-            "routeId": "113"
+            "routeId": "25"
           },
           {
             "agencyId": "1",
-            "routeId": "87"
+            "routeId": "167"
           },
           {
             "agencyId": "1",
-            "routeId": "135"
+            "routeId": "10"
           },
           {
             "agencyId": "1",
-            "routeId": "506"
+            "routeId": "925"
           },
           {
             "agencyId": "1",
-            "routeId": "306"
+            "routeId": "85"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "185"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "385"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -145,7 +153,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Main Street: Elevator 13D2L out",
+              "text": "Don Mills: Elevator 61P3L out of",
               "language": "en"
             }
           ]
@@ -153,7 +161,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "Main Street: Elevator out of service between concourse and Line 2 westbound platform due to a technical problem.",
+              "text": "Don Mills: Elevator out of service between concourse and Line 4 platform while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -161,24 +169,12 @@
       }
     },
     {
-      "id": "DevAPI-840924BD-4EFF-45AD-8EE6-FDD47B460F38",
+      "id": "DevAPI-05B7E219-F3E6-435F-B140-142EA49F33AF",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "334"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "14"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "33"
+            "routeId": "13"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -186,7 +182,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Chaplin: Elevator ELV02-B out of",
+              "text": "13 Avenue Rd: Detour via Queen's",
               "language": "en"
             }
           ]
@@ -194,7 +190,109 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "Chaplin: Elevator out of service between Eglinton Avenue north side entrance and concourse while we perform maintenance. Elevator is expected to be back in service November 4, 2026.",
+              "text": "13 Avenue Rd: Detour via Queen's Pk due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-BF289BAD-80C7-440D-A507-05E3EBEB0F26",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "100"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "325"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "83"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "72"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Pape: Elevator 8D1L out of servi",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Pape: Elevator out of service between Pape Ave entrance, concourse and Line 2 westbound platform while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-7325665D-A930-49AF-B0BF-9E57AC75A684",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "505"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "505 Dundas: Delays near Dundas S",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "505 Dundas: Delays near Dundas St West at University Ave - St Patrick Station due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-02FF272A-C9DE-4A45-8CDF-3ED0318ABF80",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Highway 407: Elevator 14S2L out",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Highway 407: Elevator out of service between parking lot entrance, concourse and bus platform while we perform maintenance.",
               "language": "en"
             }
           ]
