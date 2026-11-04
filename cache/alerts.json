@@ -2,38 +2,9 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1793757908"
+    "timestamp": "1793783016"
   },
   "entity": [
-    {
-      "id": "DevAPI-5DB2DDFA-E179-4C37-A1D2-08DF0A74A38C",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "73"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "73 Royal York: Detour northbound",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "73 Royal York: Detour northbound via Jane St, Lambton Ave and Western due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
     {
       "id": "DevAPI-A7A47D84-4C20-4E7B-A011-BE3F74D8425A",
       "alert": {
@@ -125,56 +96,48 @@
       }
     },
     {
-      "id": "DevAPI-91D8B7E5-B161-4185-98C1-75523DA0AACB",
+      "id": "DevAPI-B5EDF4BC-2EDB-4908-9EF0-EE488028E06C",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "904"
+            "routeId": "62"
           },
           {
             "agencyId": "1",
-            "routeId": "985"
+            "routeId": "20"
           },
           {
             "agencyId": "1",
-            "routeId": "169"
+            "routeId": "23"
           },
           {
             "agencyId": "1",
-            "routeId": "24"
+            "routeId": "300"
           },
           {
             "agencyId": "1",
-            "routeId": "325"
+            "routeId": "64"
           },
           {
             "agencyId": "1",
-            "routeId": "25"
+            "routeId": "113"
           },
           {
             "agencyId": "1",
-            "routeId": "167"
+            "routeId": "87"
           },
           {
             "agencyId": "1",
-            "routeId": "10"
+            "routeId": "135"
           },
           {
             "agencyId": "1",
-            "routeId": "925"
+            "routeId": "506"
           },
           {
             "agencyId": "1",
-            "routeId": "85"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "185"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "385"
+            "routeId": "306"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -182,7 +145,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Don Mills: Elevator 61P2L out of",
+              "text": "Main Street: Elevator 13D2L out",
               "language": "en"
             }
           ]
@@ -190,68 +153,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "Don Mills: Elevator out of service between bus platform and concourse while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-7FD7734B-64DA-4B24-9211-C89FBBD59D09",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "384"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "106"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "329"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "984"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "104"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "105"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "107"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "84"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "108"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Sheppard West: Elevator 9S3L out",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Sheppard West: Elevator out of service between Sheppard Ave W north side entrance and concourse while we perform maintenance.",
+              "text": "Main Street: Elevator out of service between concourse and Line 2 westbound platform due to a technical problem.",
               "language": "en"
             }
           ]
@@ -322,35 +224,6 @@
           "translation": [
             {
               "text": "504 King: Detour westbound via Church St, Richmond St E, York St, Queen St E and Spadina Ave due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-480C789E-E07A-4D69-91D5-0B7741F2D076",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "35"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "35A, 35B Jane: Detour southbound",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "35A, 35B Jane: Detour southbound via Weston Rd due to a collision.",
               "language": "en"
             }
           ]
@@ -463,35 +336,6 @@
           "translation": [
             {
               "text": "53 Steeles East: Detour via Maxome Ave, Newton Dr and Bayview Ave due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-DBC07C9E-027C-4952-8FCC-1FC97F379AA8",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "82"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "82 Rosedale: Detour via Rosedale",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "82 Rosedale: Detour via Rosedale Rd, Yonge St, Roxborough Dr and Wrentham Pl due to construction.",
               "language": "en"
             }
           ]
