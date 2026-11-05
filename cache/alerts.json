@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1793901005"
+    "timestamp": "1793919389"
   },
   "entity": [
     {
@@ -96,56 +96,12 @@
       }
     },
     {
-      "id": "DevAPI-2AFC565E-7EB6-4D4C-AC44-339867A4CA7D",
+      "id": "DevAPI-CE5F3EF7-13E7-4D67-80C6-B08C0F874BF3",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "335"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "106"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "353"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "341"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "166"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "935"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "960"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "41"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "35"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "60"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "84"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "108"
+            "routeId": "82"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -153,7 +109,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Pioneer Village: Elevator 13S2L",
+              "text": "82 Rosedale: Detour via Crescent",
               "language": "en"
             }
           ]
@@ -161,7 +117,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "Pioneer Village: Elevator out of service between north concourse and Line 1 centre platform while we perform maintenance.",
+              "text": "82 Rosedale: Detour via Crescent Rd, Yonge St, Church St, Bloor St W, Sherbourne St, South Dr and Glen Rd due to construction.",
               "language": "en"
             }
           ]
@@ -227,6 +183,35 @@
       }
     },
     {
+      "id": "DevAPI-93A22ABF-4A9A-47C5-8B95-1E9E5A8C6BB9",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "37"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "37 Islington: Detour via Queens",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "37 Islington: Detour via Queens Plate Dr due to a demonstration.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-19148489-7614-42B1-B957-DD36413F9136",
       "alert": {
         "informedEntity": [
@@ -273,51 +258,6 @@
           "translation": [
             {
               "text": "Cedarvale: Elevator out of service between platform and upper concourse while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-D3E81800-240B-4907-964A-206F9D636037",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "100"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "325"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "83"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "72"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Pape: Elevator 8D1L out of servi",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Pape: Elevator out of service between Pape Ave entrance, concourse and Line 2 westbound platform while we perform maintenance.",
               "language": "en"
             }
           ]
