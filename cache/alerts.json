@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1793963380"
+    "timestamp": "1793987792"
   },
   "entity": [
     {
@@ -96,35 +96,6 @@
       }
     },
     {
-      "id": "DevAPI-81621ECA-D74D-4446-9C65-672BEBB76406",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "395"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "395 York Mills: Detour via Bayvi",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "395 York Mills: Detour via Bayview Ave, Heathcote Ave and Banbury Rd due to a Toronto fire investigation.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-BEC76EDB-1A91-4F18-91A3-8771A441883B",
       "alert": {
         "informedEntity": [
@@ -195,6 +166,35 @@
           "translation": [
             {
               "text": "Finch: Elevator out of service between GO and YRT bus platform and fares concourse while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-7482620E-1B5C-4C05-A2D7-7E9A4C8A53F1",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "504"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "504C King: No service eastbound",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "504C King: No service eastbound from King St East at Sumach St to Cherry St at Front St East South Side due to Movie shoot.",
               "language": "en"
             }
           ]
@@ -277,6 +277,35 @@
           "translation": [
             {
               "text": "Cedarvale: Elevator out of service between platform and upper concourse while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-F19F075E-93FC-42B2-ACD2-A0A31EEFE8E9",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "121"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "121 Esplanade-River: Detour east",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "121 Esplanade-River: Detour eastbound via Eastern Ave and Old Foundry due to Movie Shoot.",
               "language": "en"
             }
           ]
