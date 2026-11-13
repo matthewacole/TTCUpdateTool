@@ -2,38 +2,9 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1794595420"
+    "timestamp": "1794614137"
   },
   "entity": [
-    {
-      "id": "DevAPI-59B26933-A992-4885-8F6D-AF4F2DDA0B31",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "71"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "71 Runnymede: Detour northbound",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "71 Runnymede: Detour northbound via Runnymede Rd, St Clair Ave W and Castleton Ave due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
     {
       "id": "DevAPI-A7A47D84-4C20-4E7B-A011-BE3F74D8425A",
       "alert": {
@@ -200,64 +171,6 @@
           "translation": [
             {
               "text": "79 Scarlett Rd: Detour northbound via Runnymede Rd, St Clair Ave W and Castleton Ave due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-96F4EAA0-6FDF-4047-86D4-D54BF6DF4197",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "24"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "24B Victoria Park: Detour via Yo",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "24B Victoria Park: Detour via Yorkland Rd and Sheppard Ave E due to a blocked road.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-1D55D8EF-CC22-49AF-B583-CF8622CCCC40",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "79"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "79 Scarlett Rd: Detour southboun",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "79 Scarlett Rd: Detour southbound via Castleton Ave and Liverpool St due to construction.",
               "language": "en"
             }
           ]
@@ -527,6 +440,47 @@
       }
     },
     {
+      "id": "DevAPI-4D4A03CD-1921-4690-9313-D531BC105422",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "354"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "11"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Leaside: Elevator ELV02-B out of",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Leaside: Elevator out of service between Eglinton Avenue north side entrance and concourse while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-B92AA726-C18D-4D57-9DDB-7198D18222D9",
       "alert": {
         "informedEntity": [
@@ -692,12 +646,36 @@
       }
     },
     {
-      "id": "DevAPI-D77FD514-182A-4EBA-8D62-BB90A2B8C5BA",
+      "id": "DevAPI-3F7B35A7-1AEA-43C6-A988-2D69E5A809F3",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "71"
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "63"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "90"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "109"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "363"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "164"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -705,7 +683,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "71 Runnymede: Detour southbound",
+              "text": "Oakwood: Elevator ELV02-B out of",
               "language": "en"
             }
           ]
@@ -713,7 +691,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "71 Runnymede: Detour southbound via Castleton Ave and Liverpool St due to construction.",
+              "text": "Oakwood: Elevator out of service between concourse and Eglinton Avenue north side entrance while we perform maintenance. Elevator is expected to be back in service November 16, 2026.",
               "language": "en"
             }
           ]
