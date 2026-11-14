@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1794614137"
+    "timestamp": "1794633798"
   },
   "entity": [
     {
@@ -89,6 +89,35 @@
           "translation": [
             {
               "text": "Have proof of payment ready for inspection.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-D823D705-5462-41EB-98CF-86D0CC54A42D",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "38"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "38 Highland Creek: Detour via El",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "38 Highland Creek: Detour via Ellesmere Rd, Kennedy Ave and Lawrence Ave E due to a collision.",
               "language": "en"
             }
           ]
@@ -276,6 +305,35 @@
       }
     },
     {
+      "id": "DevAPI-466D1F41-017A-45B9-8B59-232A894DB83B",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "131"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "131 Nugget: Detour via Ellesmere",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "131 Nugget: Detour via Ellesmere Rd, Kennedy Ave and Lawrence Ave E due to a collision.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-2E5932AC-53EA-43F8-85BD-40FBBDF71AC1",
       "alert": {
         "informedEntity": [
@@ -309,28 +367,12 @@
       }
     },
     {
-      "id": "DevAPI-C7972B77-743D-4205-BC4B-EAA99EC9B65D",
+      "id": "DevAPI-4B3D34D8-BBDC-4CE5-B106-EEB01D6A566A",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "100"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "325"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "83"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "72"
+            "routeId": "43"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -338,7 +380,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Pape: Elevator 8D1L out of servi",
+              "text": "43 Kennedy: Detour southbound vi",
               "language": "en"
             }
           ]
@@ -346,7 +388,36 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "Pape: Elevator out of service between Pape Ave entrance, concourse and Line 2 westbound platform while we perform maintenance.",
+              "text": "43 Kennedy: Detour southbound via Midland Ave and Mcnicoll Ave due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-98136C1F-B799-44FA-9EE2-801DEC764BF8",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "300 Bloor-Danforth: Detour via B",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "300 Bloor-Danforth: Detour via Bay St, Davenport Rd and Church St due to construction.",
               "language": "en"
             }
           ]
@@ -440,24 +511,12 @@
       }
     },
     {
-      "id": "DevAPI-4D4A03CD-1921-4690-9313-D531BC105422",
+      "id": "DevAPI-2576FA09-2F2D-41A0-8864-99F010B2B11B",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "334"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "354"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "11"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "34"
+            "routeId": "512"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -465,7 +524,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Leaside: Elevator ELV02-B out of",
+              "text": "512 St Clair: No service between",
               "language": "en"
             }
           ]
@@ -473,7 +532,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "Leaside: Elevator out of service between Eglinton Avenue north side entrance and concourse while we perform maintenance.",
+              "text": "512 St Clair: No service between St Clair West Station at Bay 3 and St Clair Station at Bay 2 while we complete track work.",
               "language": "en"
             }
           ]
@@ -588,6 +647,35 @@
       }
     },
     {
+      "id": "DevAPI-49820C7A-29C4-4A51-B305-ECF9C55BC147",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "129"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "129 Mccowan North: Detour via El",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "129 Mccowan North: Detour via Ellesmere Rd, Kennedy Ave and Lawrence Ave E due to a collision.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-1E3CFFEA-C411-443C-BB43-07AA4BD7F6DE",
       "alert": {
         "informedEntity": [
@@ -610,6 +698,35 @@
           "translation": [
             {
               "text": "504 King: Detour westbound via Church St, Richmond St E, York St, Queen St E and Spadina Ave due to a collision.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-E61258B1-6C42-47CA-AE30-D6A67529DE09",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "133"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "133 Neilson: Detour via Ellesmer",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "133 Neilson: Detour via Ellesmere Rd, Kennedy Ave and Lawrence Ave E due to a collision.",
               "language": "en"
             }
           ]
