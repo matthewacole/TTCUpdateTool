@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1794633798"
+    "timestamp": "1794658964"
   },
   "entity": [
     {
@@ -89,35 +89,6 @@
           "translation": [
             {
               "text": "Have proof of payment ready for inspection.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-D823D705-5462-41EB-98CF-86D0CC54A42D",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "38"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "38 Highland Creek: Detour via El",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "38 Highland Creek: Detour via Ellesmere Rd, Kennedy Ave and Lawrence Ave E due to a collision.",
               "language": "en"
             }
           ]
@@ -305,35 +276,6 @@
       }
     },
     {
-      "id": "DevAPI-466D1F41-017A-45B9-8B59-232A894DB83B",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "131"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "131 Nugget: Detour via Ellesmere",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "131 Nugget: Detour via Ellesmere Rd, Kennedy Ave and Lawrence Ave E due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-2E5932AC-53EA-43F8-85BD-40FBBDF71AC1",
       "alert": {
         "informedEntity": [
@@ -360,35 +302,6 @@
           "translation": [
             {
               "text": "503 Kingston Rd buses are diverting to Eastern Avenue between Leslie Street and Emdaabiimok / Coxwell Avenue due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-4B3D34D8-BBDC-4CE5-B106-EEB01D6A566A",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "43"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "43 Kennedy: Detour southbound vi",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "43 Kennedy: Detour southbound via Midland Ave and Mcnicoll Ave due to construction.",
               "language": "en"
             }
           ]
@@ -511,12 +424,12 @@
       }
     },
     {
-      "id": "DevAPI-2576FA09-2F2D-41A0-8864-99F010B2B11B",
+      "id": "DevAPI-1582A5BF-9C4A-47B7-A2F8-915058DC17A9",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "512"
+            "routeId": "73"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -524,7 +437,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "512 St Clair: No service between",
+              "text": "73B Royal York: Detour via Eglin",
               "language": "en"
             }
           ]
@@ -532,7 +445,36 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "512 St Clair: No service between St Clair West Station at Bay 3 and St Clair Station at Bay 2 while we complete track work.",
+              "text": "73B Royal York: Detour via Eglinton Ave W due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-3E7F08B5-6004-4533-9679-3D4A25AD32EE",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "94"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "94 Wellesley: Detour via Church",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "94 Wellesley: Detour via Church St, Maitland St and Jarvis St due to construction.",
               "language": "en"
             }
           ]
@@ -647,12 +589,160 @@
       }
     },
     {
-      "id": "DevAPI-49820C7A-29C4-4A51-B305-ECF9C55BC147",
+      "id": "DevAPI-58AC1A6E-CECA-44B4-9268-BD7CA649DDC6",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
+            "routeId": "8"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "905"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "117"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "324"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "986"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "943"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "67"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "86"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "102"
+          },
+          {
+            "agencyId": "1",
             "routeId": "129"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "154"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "24"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "968"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "16"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "116"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "938"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "903"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "133"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "131"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "68"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "20"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "924"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "38"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "12"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "69"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "21"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "17"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "902"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "43"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "9"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "113"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "135"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "57"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "343"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "386"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -660,7 +750,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "129 Mccowan North: Detour via El",
+              "text": "Line 2 Bloor-Danforth: There is",
               "language": "en"
             }
           ]
@@ -668,7 +758,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "129 Mccowan North: Detour via Ellesmere Rd, Kennedy Ave and Lawrence Ave E due to a collision.",
+              "text": "There is no subway service on Line 2 Bloor-Danforth between Victoria Park and Kennedy stations due to planned track work. Shuttle buses are running. Follow the station signs or speak to a TTC employee for help. Service will resume November 16.",
               "language": "en"
             }
           ]
@@ -698,35 +788,6 @@
           "translation": [
             {
               "text": "504 King: Detour westbound via Church St, Richmond St E, York St, Queen St E and Spadina Ave due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-E61258B1-6C42-47CA-AE30-D6A67529DE09",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "133"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "133 Neilson: Detour via Ellesmer",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "133 Neilson: Detour via Ellesmere Rd, Kennedy Ave and Lawrence Ave E due to a collision.",
               "language": "en"
             }
           ]
