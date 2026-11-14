@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1794658964"
+    "timestamp": "1794680499"
   },
   "entity": [
     {
@@ -89,6 +89,39 @@
           "translation": [
             {
               "text": "Have proof of payment ready for inspection.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-2CD4E75D-A72D-443A-92BE-493B76AE455A",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "185"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "385"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Bessarion: Elevator 57P1L out of",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Bessarion: Elevator out of service between Sheppard Ave E south side entrance and concourse while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -309,12 +342,12 @@
       }
     },
     {
-      "id": "DevAPI-98136C1F-B799-44FA-9EE2-801DEC764BF8",
+      "id": "DevAPI-40268F2F-4220-44C6-8FFA-E7A5CE47D64E",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "300"
+            "routeId": "73"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -322,7 +355,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "300 Bloor-Danforth: Detour via B",
+              "text": "73B Royal York: Detour via Eglin",
               "language": "en"
             }
           ]
@@ -330,7 +363,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "300 Bloor-Danforth: Detour via Bay St, Davenport Rd and Church St due to construction.",
+              "text": "73B Royal York: Detour via Eglinton Ave W due to construction.",
               "language": "en"
             }
           ]
@@ -391,6 +424,55 @@
       }
     },
     {
+      "id": "DevAPI-F9BEEED7-A9B0-40C3-B1D7-E976AA48D163",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "384"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "101"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "106"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "984"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "84"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "108"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Downsview Park: Elevator 10S3L o",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Downsview Park: Elevator out of service between GO Station entrance and concourse while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-C0180909-F90B-4388-A64B-96336133339E",
       "alert": {
         "informedEntity": [
@@ -417,35 +499,6 @@
           "translation": [
             {
               "text": "501B Queen buses are diverting both ways to Eastern Avenue between Leslie Street and Emdaabiimok / Coxwell Avenue due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-1582A5BF-9C4A-47B7-A2F8-915058DC17A9",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "73"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "73B Royal York: Detour via Eglin",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "73B Royal York: Detour via Eglinton Ave W due to construction.",
               "language": "en"
             }
           ]
@@ -870,6 +923,35 @@
           "translation": [
             {
               "text": "Oakwood: Elevator out of service between concourse and Eglinton Avenue north side entrance while we perform maintenance. Elevator is expected to be back in service November 16, 2026.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-6AF298BD-4B75-496D-8A81-C0ED723FCC49",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "31"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "31 Greenwood: Detour via Gerrard",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "31 Greenwood: Detour via Gerrard St E and Jones Ave due to a collision.",
               "language": "en"
             }
           ]
