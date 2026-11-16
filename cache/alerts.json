@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1794815538"
+    "timestamp": "1794851033"
   },
   "entity": [
     {
@@ -137,12 +137,12 @@
       }
     },
     {
-      "id": "DevAPI-C0998F20-0DC9-43C6-90EE-FF90737DBA3D",
+      "id": "DevAPI-FDD948B3-599F-42CE-913D-7C2F0EA40EAF",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "301"
+            "routeId": "71"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -150,7 +150,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "301 Queen: Detour eastbound via",
+              "text": "71 Runnymede: Detour via St Clai",
               "language": "en"
             }
           ]
@@ -158,7 +158,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "301 Queen: Detour eastbound via Shaw St, King St W and Church St due to a blocked track.",
+              "text": "71 Runnymede: Detour via St Clair Ave W and Castleton Ave due to construction.",
               "language": "en"
             }
           ]
@@ -326,6 +326,96 @@
       }
     },
     {
+      "id": "DevAPI-E9FB27BF-5992-4483-B628-984C31474715",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "149"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "48"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "73"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "315"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "66"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "76"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "15"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "373"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Royal York: Elevator 14B1L out o",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Royal York: Elevator out of service between Royal York Rd entrance and west concourse while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-29291410-E7ED-4CD5-8BE0-E1DD9CB9D391",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "76"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "76 Royal York South: Detour sout",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "76 Royal York South: Detour southbound via Buckingham St and Newcastle St due to an active fire.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-19148489-7614-42B1-B957-DD36413F9136",
       "alert": {
         "informedEntity": [
@@ -412,88 +502,6 @@
       }
     },
     {
-      "id": "DevAPI-A55CF6AB-4F00-4CB3-8ED8-F2605591394A",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "301"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "301 Queen: Detour westbound via",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "301 Queen: Detour westbound via Church St, King St E and Spadina Ave due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-8B392E6E-9C7C-4A70-A385-40298B76DA70",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "941"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "334"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "341"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "158"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "41"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "164"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Keelesdale: Elevator ELV01-A out",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Keelesdale: Elevator out of service between concourse and Line 5 centre platform while we perform maintenance. Elevator is expected to be back in service November 16, 2026.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-B92AA726-C18D-4D57-9DDB-7198D18222D9",
       "alert": {
         "informedEntity": [
@@ -517,6 +525,35 @@
           "translation": [
             {
               "text": "Please look both ways for cyclists before exiting.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-DA38CF08-EE9C-4C7F-998B-D49AFBDD4CB1",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "79"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "79 Scarlett Rd: Detour northboun",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "79 Scarlett Rd: Detour northbound via St Clair Ave W and Castleton Ave due to construction.",
               "language": "en"
             }
           ]
@@ -601,12 +638,12 @@
       }
     },
     {
-      "id": "DevAPI-2B104A13-F969-425C-AA97-8F735954320F",
+      "id": "DevAPI-F719604D-7363-4C20-8F08-FCA4562404DB",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "301"
+            "routeId": "79"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -614,7 +651,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "301 Queen: Detour eastbound via",
+              "text": "79 Scarlett Rd: Detour southboun",
               "language": "en"
             }
           ]
@@ -622,7 +659,52 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "301 Queen: Detour eastbound via Spadina Ave, Adelaide St W and Church St due to a collision.",
+              "text": "79 Scarlett Rd: Detour southbound via Liverpool St and Runnymede Rd due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-22617B29-F880-4E0D-B1DA-9683306A2E20",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "161"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "329"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "29"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "929"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Dufferin: Elevator 6B1L out of s",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Dufferin: Elevator out of service between Dufferin St west side entrance and concourse while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -659,51 +741,6 @@
       }
     },
     {
-      "id": "DevAPI-7665CEB6-B270-49A3-AC11-22CA992FB9FD",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "329"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "334"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "29"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "929"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Fairbank: Elevator ELV02-B out o",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Fairbank: Elevator out of service between Eglinton Avenue south east side entrance and concourse while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-FF08376A-C618-41EA-B025-4E8E1A43EA7A",
       "alert": {
         "informedEntity": [
@@ -733,36 +770,12 @@
       }
     },
     {
-      "id": "DevAPI-3F7B35A7-1AEA-43C6-A988-2D69E5A809F3",
+      "id": "DevAPI-356575FF-0D0C-4BA3-85EC-8A2D99B65640",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "334"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "63"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "90"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "109"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "363"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "164"
+            "routeId": "97"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -770,7 +783,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Oakwood: Elevator ELV02-B out of",
+              "text": "97 Yonge: No service between 34",
               "language": "en"
             }
           ]
@@ -778,7 +791,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "Oakwood: Elevator out of service between concourse and Eglinton Avenue north side entrance while we perform maintenance. Elevator is expected to be back in service November 16, 2026.",
+              "text": "97 Yonge: No service between 34 Moore Park Ave and Hilda Ave at Steeles Ave West due to construction.",
               "language": "en"
             }
           ]
