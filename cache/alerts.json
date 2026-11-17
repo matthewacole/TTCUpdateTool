@@ -2,9 +2,50 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1794851033"
+    "timestamp": "1794877527"
   },
   "entity": [
+    {
+      "id": "DevAPI-03FEEB8A-7D77-4816-9915-A8503A64C6E4",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "37"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "336"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "937"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "337"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Line 6 Finch West: No service be",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Line 6 Finch West: No service between Duncanwoods and Rowntree Mills stations due to autos in collision. Shuttle buses are running between Duncanwoods and Rowntree Mills. Thank you for your patience.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
     {
       "id": "DevAPI-A7A47D84-4C20-4E7B-A011-BE3F74D8425A",
       "alert": {
@@ -130,35 +171,6 @@
           "translation": [
             {
               "text": "Caledonia: Elevator out of service between concourse and Line 5 centre platform while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-FDD948B3-599F-42CE-913D-7C2F0EA40EAF",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "71"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "71 Runnymede: Detour via St Clai",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "71 Runnymede: Detour via St Clair Ave W and Castleton Ave due to construction.",
               "language": "en"
             }
           ]
@@ -326,96 +338,6 @@
       }
     },
     {
-      "id": "DevAPI-E9FB27BF-5992-4483-B628-984C31474715",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "149"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "48"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "73"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "315"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "66"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "76"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "15"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "373"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Royal York: Elevator 14B1L out o",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Royal York: Elevator out of service between Royal York Rd entrance and west concourse while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-29291410-E7ED-4CD5-8BE0-E1DD9CB9D391",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "76"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "76 Royal York South: Detour sout",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "76 Royal York South: Detour southbound via Buckingham St and Newcastle St due to an active fire.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-19148489-7614-42B1-B957-DD36413F9136",
       "alert": {
         "informedEntity": [
@@ -532,12 +454,20 @@
       }
     },
     {
-      "id": "DevAPI-DA38CF08-EE9C-4C7F-998B-D49AFBDD4CB1",
+      "id": "DevAPI-E8F35BBA-A907-4CF9-90E9-EEC700673039",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "79"
+            "routeId": "335"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "341"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "41"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -545,7 +475,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "79 Scarlett Rd: Detour northboun",
+              "text": "York University: Elevator 12S1L",
               "language": "en"
             }
           ]
@@ -553,7 +483,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "79 Scarlett Rd: Detour northbound via St Clair Ave W and Castleton Ave due to construction.",
+              "text": "York University: Elevator out of service between concourse and Line 1 centre platform while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -638,12 +568,12 @@
       }
     },
     {
-      "id": "DevAPI-F719604D-7363-4C20-8F08-FCA4562404DB",
+      "id": "DevAPI-CDFFFB95-9A7C-4D4E-9DC4-2EC632FFB4BA",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "79"
+            "routeId": "34"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -651,7 +581,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "79 Scarlett Rd: Detour southboun",
+              "text": "34 Eglinton: Detour eastbound vi",
               "language": "en"
             }
           ]
@@ -659,52 +589,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "79 Scarlett Rd: Detour southbound via Liverpool St and Runnymede Rd due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-22617B29-F880-4E0D-B1DA-9683306A2E20",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "161"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "329"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "29"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "929"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Dufferin: Elevator 6B1L out of s",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Dufferin: Elevator out of service between Dufferin St west side entrance and concourse while we perform maintenance.",
+              "text": "34 Eglinton: Detour eastbound via Lebovic Ave, Comstock Rd and Warden Ave due to a collision.",
               "language": "en"
             }
           ]
