@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1795062446"
+    "timestamp": "1795095922"
   },
   "entity": [
     {
@@ -96,104 +96,12 @@
       }
     },
     {
-      "id": "DevAPI-C1DC9ABA-F329-442E-88D2-1D415AABE1E1",
+      "id": "DevAPI-2133BDEC-6910-497B-9CEC-3FDBEE8AC6D8",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "61"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "354"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "74"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "395"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "352"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "320"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "95"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "52"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "115"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "952"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "97"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "995"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "396"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "13"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "996"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "334"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "162"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "11"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "78"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "122"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "165"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "103"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "96"
+            "routeId": "14"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -201,7 +109,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Line 1 Yonge-University: There i",
+              "text": "14 Glencairn: Detour via Shermou",
               "language": "en"
             }
           ]
@@ -209,36 +117,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "There is no subway service on Line 1 Yonge-University between York Mills and Eglinton stations due to structural maintenance. Shuttle buses are running. Follow the station signs or speak to a TTC employee for help. Service will resume November 19.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-0B03B752-4B60-4EB0-804C-89D9580873FD",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "86"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "86 Scarborough: Detour eastbound",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "86 Scarborough: Detour eastbound via Markham Rd and Kingston Rd due to a collision.",
+              "text": "14 Glencairn: Detour via Shermount Ave, Hillmount Ave and Englemount Ave due to a blocked road.",
               "language": "en"
             }
           ]
@@ -268,6 +147,35 @@
           "translation": [
             {
               "text": "79 Scarlett Rd: Detour northbound via Runnymede Rd, St Clair Ave W and Castleton Ave due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-941860F3-E1D6-437B-A481-0AEF351EEFE7",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "59"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "59B Maple Leaf: Detour via Churc",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "59B Maple Leaf: Detour via Church St, Pine Ave and Dalbeattie Ave due to construction.",
               "language": "en"
             }
           ]
@@ -373,12 +281,36 @@
       }
     },
     {
-      "id": "DevAPI-6BF04C3E-C9B0-46FC-990B-7EB6DF7FD6FC",
+      "id": "DevAPI-C4EBCCBB-1164-49FB-AEF4-06C6F6324242",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "85"
+            "routeId": "126"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "7"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "90"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "312"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "307"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "512"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "33"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -386,7 +318,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "85 Sheppard East: Detour via Nei",
+              "text": "St Clair West: Elevator 3S2L out",
               "language": "en"
             }
           ]
@@ -394,36 +326,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "85 Sheppard East: Detour via Neilson Ave, Wickson Trl and Brenyon Way due to wires being down.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-5D1B7B58-51BC-403F-B1D1-6A4E916B6AA1",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "116"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "116 Morningside: Detour eastboun",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "116 Morningside: Detour eastbound via Markham Rd and Kingston Rd due to a collision.",
+              "text": "St Clair West: Elevator out of service between bus and streetcar platform, south concourse and Line 1 southbound platform while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -484,12 +387,40 @@
       }
     },
     {
-      "id": "DevAPI-91261F5B-6F53-4EDF-8D6A-38D7FF392217",
+      "id": "DevAPI-D70C17E9-FB98-4CF1-86F0-2DFE87BF69CD",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "116"
+            "routeId": "941"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "101"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "36"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "336"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "341"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "939"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "41"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "107"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -497,7 +428,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "116 Morningside: Detour eastboun",
+              "text": "Finch West: Elevator 11S2L out o",
               "language": "en"
             }
           ]
@@ -505,7 +436,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "116 Morningside: Detour eastbound via Sewells Rd, Littles Rd and Old Finch Ave due to a collision.",
+              "text": "Finch West: Elevator out of service between Keele St west side entrance and concourse while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -536,92 +467,6 @@
           "translation": [
             {
               "text": "Please look both ways for cyclists before exiting.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-A488A9BD-35BD-4568-A7D1-C817A0481EBA",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "304"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "340"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "168"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "505"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "40"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "305"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "504"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Dundas West: Elevator 8B1L out o",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Dundas West: Elevator out of service between Dundas St W entrance and bus platform, concourse and Line 2 eastbound platform while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-4F395564-63C6-42F3-B4B8-1D1023F730A1",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "43"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "43 Kennedy: Detour southbound vi",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "43 Kennedy: Detour southbound via Mcnicoll Ave and Kennedy Rd due to construction.",
               "language": "en"
             }
           ]
@@ -687,123 +532,6 @@
       }
     },
     {
-      "id": "DevAPI-F9060D07-42DE-419C-B102-38BF26125CB1",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "335"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "941"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "384"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "106"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "101"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "36"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "329"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "341"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "984"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "166"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "935"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "960"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "41"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "104"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "60"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "84"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "108"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "353"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "336"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "939"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "35"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "105"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "107"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Line 1 Yonge-University: There i",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Line 1 Yonge-University: There is limited subway service between Pioneer Village and Sheppard West stations for tunnel improvements. Thank you for your patience.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-CCC4120B-4AA5-4F09-926D-2E77D3FCA591",
       "alert": {
         "informedEntity": [
@@ -826,47 +554,6 @@
           "translation": [
             {
               "text": "53 Steeles East: Detour via Maxome Ave, Newton Dr and Bayview Ave due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-150C3FFD-2CC2-4202-BF9F-E33C8C07EC6F",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "92"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "93"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "91"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Woodbine: Elevator 12D2L out of",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Woodbine: Elevator out of service between concourse and Line 2 westbound platform while we perform maintenance.",
               "language": "en"
             }
           ]
