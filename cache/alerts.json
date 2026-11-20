@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1795125073"
+    "timestamp": "1795142663"
   },
   "entity": [
     {
@@ -118,6 +118,35 @@
           "translation": [
             {
               "text": "79 Scarlett Rd: Detour northbound via Runnymede Rd, St Clair Ave W and Castleton Ave due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-C2A35264-CFC7-418F-84AA-6871E1BEFEE3",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "20"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "20 Cliffside: Detour westbound v",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "20 Cliffside: Detour westbound via Victoria Park Ave, Gerrard St E and Main St due to construction.",
               "language": "en"
             }
           ]
@@ -252,12 +281,12 @@
       }
     },
     {
-      "id": "DevAPI-B011932D-273A-4794-94DE-4448E4F8B224",
+      "id": "DevAPI-CB6D861E-7D35-447B-B469-E79CB78B9E62",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "301"
+            "routeId": "7"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -265,7 +294,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "301 Queen: No service near Lake",
+              "text": "7 Bathurst: Detour via Joicey Bl",
               "language": "en"
             }
           ]
@@ -273,7 +302,119 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "301 Queen: No service near Lake Shore Blvd West at Kipling Ave while we respond to a medical emergency.",
+              "text": "7 Bathurst: Detour via Joicey Blvd, Falkirk St and Brooke Ave due to a collision.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-19148489-7614-42B1-B957-DD36413F9136",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "63"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "90"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "109"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "363"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "164"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Cedarvale: Elevator 06-ELV-B out",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Cedarvale: Elevator out of service between platform and upper concourse while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-06DA9041-7A47-4D03-9403-46E5BC068C8E",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "113"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "113 Danforth: Detour westbound v",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "113 Danforth: Detour westbound via Victoria Park Ave, Gerrard St E and Main St due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-B92AA726-C18D-4D57-9DDB-7198D18222D9",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "114",
+            "stopId": "4277"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Please look both ways",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Please look both ways for cyclists before exiting.",
               "language": "en"
             }
           ]
@@ -354,6 +495,35 @@
       }
     },
     {
+      "id": "DevAPI-B011932D-273A-4794-94DE-4448E4F8B224",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "301"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "301 Queen: No service near Lake",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "301 Queen: No service near Lake Shore Blvd West at Kipling Ave while we respond to a medical emergency.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-1E3CFFEA-C411-443C-BB43-07AA4BD7F6DE",
       "alert": {
         "informedEntity": [
@@ -383,36 +553,12 @@
       }
     },
     {
-      "id": "DevAPI-19148489-7614-42B1-B957-DD36413F9136",
+      "id": "DevAPI-DC1DB604-26C6-4ECC-A1BF-2AA0A1EA17C0",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "334"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "63"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "90"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "109"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "363"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "164"
+            "routeId": "43"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -420,7 +566,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Cedarvale: Elevator 06-ELV-B out",
+              "text": "43 Kennedy: Detour southbound vi",
               "language": "en"
             }
           ]
@@ -428,7 +574,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "Cedarvale: Elevator out of service between platform and upper concourse while we perform maintenance.",
+              "text": "43 Kennedy: Detour southbound via Midland Ave and Mcnicoll Ave due to construction.",
               "language": "en"
             }
           ]
@@ -458,36 +604,6 @@
           "translation": [
             {
               "text": "53 Steeles East: Detour via Maxome Ave, Newton Dr and Bayview Ave due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-B92AA726-C18D-4D57-9DDB-7198D18222D9",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "114",
-            "stopId": "4277"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Please look both ways",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Please look both ways for cyclists before exiting.",
               "language": "en"
             }
           ]
