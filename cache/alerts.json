@@ -2,38 +2,9 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1795334369"
+    "timestamp": "1795363773"
   },
   "entity": [
-    {
-      "id": "DevAPI-C2D79270-407D-40D7-AA0E-9FDA51C7FE39",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "95"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "95 York Mills: Detour via Midlan",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "95 York Mills: Detour via Midland Ave, Progress Ave and Brimley Rd due to a Toronto Police investigation.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
     {
       "id": "DevAPI-A7A47D84-4C20-4E7B-A011-BE3F74D8425A",
       "alert": {
@@ -118,112 +89,6 @@
           "translation": [
             {
               "text": "Have proof of payment ready for inspection.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-3F1055D0-8D79-4DFB-89A8-39A8B2083889",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "125"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "36"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "960"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "320"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "60"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "97"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "953"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "336"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "939"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "339"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "39"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "53"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "42"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Finch: Elevator 22Y3L out of ser",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Finch: Elevator out of service between bus platform and bus concourse while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-CA20F29D-D189-4619-887B-55D4B35DA599",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "116"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "116 Morningside: Detour via King",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "116 Morningside: Detour via Kingston Rd and Lawrence Ave E due to construction.",
               "language": "en"
             }
           ]
@@ -358,12 +223,12 @@
       }
     },
     {
-      "id": "DevAPI-B011932D-273A-4794-94DE-4448E4F8B224",
+      "id": "DevAPI-1FD2265D-0A96-4DD3-9431-B4807B3ABA06",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "301"
+            "routeId": "95"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -371,7 +236,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "301 Queen: No service near Lake",
+              "text": "95 York Mills: Detour via Brimle",
               "language": "en"
             }
           ]
@@ -379,7 +244,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "301 Queen: No service near Lake Shore Blvd West at Kipling Ave while we respond to a medical emergency.",
+              "text": "95 York Mills: Detour via Brimley Rd, Progress Ave and Midland Ave due to police activity.",
               "language": "en"
             }
           ]
@@ -387,12 +252,12 @@
       }
     },
     {
-      "id": "DevAPI-1E3CFFEA-C411-443C-BB43-07AA4BD7F6DE",
+      "id": "DevAPI-28FBA612-E78D-4095-AC39-27AEAACA4F5B",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "504"
+            "routeId": "131"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -400,7 +265,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "504 King: Detour westbound via C",
+              "text": "131 Nugget: Detour via Brimley R",
               "language": "en"
             }
           ]
@@ -408,7 +273,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "504 King: Detour westbound via Church St, Richmond St E, York St, Queen St E and Spadina Ave due to a collision.",
+              "text": "131 Nugget: Detour via Brimley Rd, Progress Ave and Midland Ave due to police activity.",
               "language": "en"
             }
           ]
@@ -469,12 +334,12 @@
       }
     },
     {
-      "id": "DevAPI-CCC4120B-4AA5-4F09-926D-2E77D3FCA591",
+      "id": "DevAPI-CB7BF848-D6CF-4B27-A498-9BF0D72A216B",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "53"
+            "routeId": "903"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -482,7 +347,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "53 Steeles East: Detour via Maxo",
+              "text": "903 Kennedy-Progress Express: De",
               "language": "en"
             }
           ]
@@ -490,7 +355,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "53 Steeles East: Detour via Maxome Ave, Newton Dr and Bayview Ave due to construction.",
+              "text": "903 Kennedy-Progress Express: Detour via Midland Ave, Progress Ave, Brimley Rd and Triton Rd due to police activity.",
               "language": "en"
             }
           ]
@@ -521,6 +386,294 @@
           "translation": [
             {
               "text": "Please look both ways for cyclists before exiting.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-FDD7B360-15B0-4811-9E53-30938623B026",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "133"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "133 Neilson: Detour via Brimley",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "133 Neilson: Detour via Brimley Rd, Progress Ave and Midland Ave due to police activity.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-3F1055D0-8D79-4DFB-89A8-39A8B2083889",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "125"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "36"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "960"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "320"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "60"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "97"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "953"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "336"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "939"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "339"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "39"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "53"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "42"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Finch: Elevator 22Y3L out of ser",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Finch: Elevator out of service between bus platform and bus concourse while we perform maintenance.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-7733A52D-A6F6-423E-9D42-7194DE6A2A69",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "995"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "995 York Mills Express: Detour v",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "995 York Mills Express: Detour via Brimley Rd, Progress Ave and Midland Ave due to police activity.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-B011932D-273A-4794-94DE-4448E4F8B224",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "301"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "301 Queen: No service near Lake",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "301 Queen: No service near Lake Shore Blvd West at Kipling Ave while we respond to a medical emergency.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-1E3CFFEA-C411-443C-BB43-07AA4BD7F6DE",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "504"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "504 King: Detour westbound via C",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "504 King: Detour westbound via Church St, Richmond St E, York St, Queen St E and Spadina Ave due to a collision.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-7071FD04-CB3E-4299-B5A0-9FF6E3AA4376",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "116"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "116 Morningside: Detour via Coro",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "116 Morningside: Detour via Coronation Dr, Poplar Ave and Cumber Ave due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-534597FB-F9D9-4D0A-BAFF-E3E36105F24D",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "51"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "83"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Donlands: Elevator 9D1L out of s",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "Donlands: Elevator out of service between Donlands Ave entrance, concourse and Line 2 eastbound platform due to a technical problem.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-CCC4120B-4AA5-4F09-926D-2E77D3FCA591",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "53"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "53 Steeles East: Detour via Maxo",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "53 Steeles East: Detour via Maxome Ave, Newton Dr and Bayview Ave due to construction.",
               "language": "en"
             }
           ]
