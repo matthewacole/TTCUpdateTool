@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1795363773"
+    "timestamp": "1795383932"
   },
   "entity": [
     {
@@ -118,6 +118,35 @@
           "translation": [
             {
               "text": "79 Scarlett Rd: Detour northbound via Runnymede Rd, St Clair Ave W and Castleton Ave due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-B32F8346-DEBD-47A4-9C54-0E2A98949C43",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "504"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "504 King: Delays near King St Ea",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "504 King: Delays near King St East at Parliament St due to an event.",
               "language": "en"
             }
           ]
@@ -334,35 +363,6 @@
       }
     },
     {
-      "id": "DevAPI-CB7BF848-D6CF-4B27-A498-9BF0D72A216B",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "903"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "903 Kennedy-Progress Express: De",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "903 Kennedy-Progress Express: Detour via Midland Ave, Progress Ave, Brimley Rd and Triton Rd due to police activity.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-B92AA726-C18D-4D57-9DDB-7198D18222D9",
       "alert": {
         "informedEntity": [
@@ -386,35 +386,6 @@
           "translation": [
             {
               "text": "Please look both ways for cyclists before exiting.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-FDD7B360-15B0-4811-9E53-30938623B026",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "133"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "133 Neilson: Detour via Brimley",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "133 Neilson: Detour via Brimley Rd, Progress Ave and Midland Ave due to police activity.",
               "language": "en"
             }
           ]
@@ -499,12 +470,12 @@
       }
     },
     {
-      "id": "DevAPI-7733A52D-A6F6-423E-9D42-7194DE6A2A69",
+      "id": "DevAPI-38F99625-61C6-4A32-84CF-6E89444397C0",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "995"
+            "routeId": "503"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -512,7 +483,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "995 York Mills Express: Detour v",
+              "text": "503 Kingston Rd: Delays near Kin",
               "language": "en"
             }
           ]
@@ -520,7 +491,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "995 York Mills Express: Detour via Brimley Rd, Progress Ave and Midland Ave due to police activity.",
+              "text": "503 Kingston Rd: Delays near King St East at Parliament St due to an event.",
               "language": "en"
             }
           ]
@@ -557,6 +528,35 @@
       }
     },
     {
+      "id": "DevAPI-DF60F175-9117-47DF-8075-FE62117EAFFC",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "116"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "116 Morningside: Detour via Cumb",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "116 Morningside: Detour via Cumber Ave, Dearham Wood, Galloway Rd and Coronation Dr due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-1E3CFFEA-C411-443C-BB43-07AA4BD7F6DE",
       "alert": {
         "informedEntity": [
@@ -579,72 +579,6 @@
           "translation": [
             {
               "text": "504 King: Detour westbound via Church St, Richmond St E, York St, Queen St E and Spadina Ave due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-7071FD04-CB3E-4299-B5A0-9FF6E3AA4376",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "116"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "116 Morningside: Detour via Coro",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "116 Morningside: Detour via Coronation Dr, Poplar Ave and Cumber Ave due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-534597FB-F9D9-4D0A-BAFF-E3E36105F24D",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "51"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "83"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Donlands: Elevator 9D1L out of s",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Donlands: Elevator out of service between Donlands Ave entrance, concourse and Line 2 eastbound platform due to a technical problem.",
               "language": "en"
             }
           ]
