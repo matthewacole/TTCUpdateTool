@@ -2,38 +2,9 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1795570476"
+    "timestamp": "1795602366"
   },
   "entity": [
-    {
-      "id": "DevAPI-6B66267D-879D-45B7-87C5-319CFB3FD5D0",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "17"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "17 Birchmount: Detour via Allanf",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "17 Birchmount: Detour via Allanford Rd and Sheppard Ave E due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
     {
       "id": "DevAPI-A7A47D84-4C20-4E7B-A011-BE3F74D8425A",
       "alert": {
@@ -147,35 +118,6 @@
           "translation": [
             {
               "text": "79 Scarlett Rd: Detour northbound via Runnymede Rd, St Clair Ave W and Castleton Ave due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-F8D486E2-ADD5-4D87-BD22-02A5645C8A8F",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "113"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "113 Danforth: Detour westbound v",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "113 Danforth: Detour westbound via Victoria Park Ave, Gerrard St E, Main St and Main Street Station due to construction.",
               "language": "en"
             }
           ]
@@ -334,24 +276,12 @@
       }
     },
     {
-      "id": "DevAPI-6715C8FD-D098-457E-9800-89682D08D727",
+      "id": "DevAPI-06E4159B-0482-4BA0-9476-CDF8CE7AB3A6",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "320"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "97"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "19"
+            "routeId": "113"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -359,7 +289,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Bloor-Yonge: Elevator 3D1L out o",
+              "text": "113 Danforth: Detour via Pharmac",
               "language": "en"
             }
           ]
@@ -367,7 +297,36 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "Bloor-Yonge: Elevator out of service between Line 1 northbound platform and Line 2 centre platform while we perform maintenance.",
+              "text": "113 Danforth: Detour via Pharmacy Ave, Denton Ave, Victoria Park Ave, Gerrard St E and Main St due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-BFABA041-758B-4B9B-8EDC-3BD664E3D1EF",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "20"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "20 Cliffside: Detour via Pharmac",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "20 Cliffside: Detour via Pharmacy Ave, Denton Ave, Victoria Park Ave, Gerrard St E and Main St due to construction.",
               "language": "en"
             }
           ]
@@ -540,35 +499,6 @@
       }
     },
     {
-      "id": "DevAPI-AE410C85-7648-46A4-A930-35D673CBD6A0",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "47"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "47 Lansdowne: Detour via Eglinto",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "47 Lansdowne: Detour via Eglinton Ave W, Keele St and Rogers Rd due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-1E3CFFEA-C411-443C-BB43-07AA4BD7F6DE",
       "alert": {
         "informedEntity": [
@@ -598,6 +528,35 @@
       }
     },
     {
+      "id": "DevAPI-64B8DFA4-ABAA-43D4-ADC0-ECE8C49A6198",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "300 Bloor-Danforth: Detour via P",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "300 Bloor-Danforth: Detour via Pharmacy Ave, Denton Ave, Victoria Park Ave, Gerrard St E and Main St due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-CCC4120B-4AA5-4F09-926D-2E77D3FCA591",
       "alert": {
         "informedEntity": [
@@ -620,35 +579,6 @@
           "translation": [
             {
               "text": "53 Steeles East: Detour via Maxome Ave, Newton Dr and Bayview Ave due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-5A2DDDCF-1699-44C6-B04B-162E8493E92D",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "20"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "20 Cliffside: Detour westbound v",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "20 Cliffside: Detour westbound via Victoria Park Ave, Gerrard St E, Main St and Main Street Station due to construction.",
               "language": "en"
             }
           ]
