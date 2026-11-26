@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1795636973"
+    "timestamp": "1795661140"
   },
   "entity": [
     {
@@ -96,12 +96,12 @@
       }
     },
     {
-      "id": "DevAPI-C23DDC8E-E920-4143-9790-51EF047EBC1F",
+      "id": "DevAPI-A20D61BB-19D8-4BF4-B500-9F9D47E8095B",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "113"
+            "routeId": "501"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -109,7 +109,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "113 Danforth: Detour eastbound v",
+              "text": "501 Queen: Detour westbound via",
               "language": "en"
             }
           ]
@@ -117,7 +117,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "113 Danforth: Detour eastbound via Pharmacy Ave, Denton Ave, Victoria Park Ave, Gerrard St E and Main St due to construction.",
+              "text": "501 Queen: Detour westbound via Church St, King St E and Spadina Ave while we respond to a medical emergency.",
               "language": "en"
             }
           ]
@@ -188,35 +188,6 @@
           "translation": [
             {
               "text": "Runnymede: Elevator out of service between concourse and Line 2 eastbound platform while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-42359A77-B52C-4D63-8C3F-9100998C2123",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "127"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "127 Davenport: Detour eastbound",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "127 Davenport: Detour eastbound via Bathurst St and Dupont St due to construction.",
               "language": "en"
             }
           ]
@@ -322,6 +293,35 @@
       }
     },
     {
+      "id": "DevAPI-5266ACAF-562A-4D60-A85D-BE39FB4AC360",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "47"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "47 Lansdowne: Detour via Rogers",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "47 Lansdowne: Detour via Rogers Rd, Keele St and Eglinton Ave W due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-19148489-7614-42B1-B957-DD36413F9136",
       "alert": {
         "informedEntity": [
@@ -375,35 +375,6 @@
       }
     },
     {
-      "id": "DevAPI-BFDBFFD9-94F6-4660-8C1E-D6B044BB9FD0",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "47"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "47 Lansdowne: Detour via Rogers",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "47 Lansdowne: Detour via Rogers Rd, Keele St and Eglinton Ave W due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-B92AA726-C18D-4D57-9DDB-7198D18222D9",
       "alert": {
         "informedEntity": [
@@ -434,12 +405,24 @@
       }
     },
     {
-      "id": "DevAPI-24FCC1E6-5FF6-4B81-B1D5-E192B8D1282A",
+      "id": "DevAPI-70F3ADDC-BE8F-4F8F-BD4A-53898D81A5DD",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "505"
+            "routeId": "7"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "511"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "307"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -447,7 +430,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "505 Dundas: Detour westbound via",
+              "text": "Bathurst: Elevator 3B1L out of s",
               "language": "en"
             }
           ]
@@ -455,7 +438,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "505 Dundas: Detour westbound via Bay St, College St and Spadina Ave due to a collision.",
+              "text": "Bathurst: Elevator out of service between Bathurst St east side entrance, concourse and Line 2 westbound platform while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -463,60 +446,12 @@
       }
     },
     {
-      "id": "DevAPI-AB79B3C8-E955-4679-A246-64EC23DD08AB",
+      "id": "DevAPI-F13C9F04-14D9-4153-949B-70666DDD37B6",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "161"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "168"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "989"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "34"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "71"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "171"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "164"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "32"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "73"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "334"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "27"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "89"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "35"
+            "routeId": "23"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -524,7 +459,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "Mount Dennis: Elevator ELV03-C o",
+              "text": "23 Dawes: Detour northbound via",
               "language": "en"
             }
           ]
@@ -532,7 +467,36 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "Mount Dennis: Elevator out of service between Line 5 concourse and grade (PPUDO entrance) while we perform maintenance. Elevator is expected to be back in service November 25, 2026.",
+              "text": "23 Dawes: Detour northbound via Main St, Doncaster Ave, Barrington Ave and Secord Ave due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-F53ABD3F-E017-4BEB-9056-3BF9EFE95129",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "20"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "20 Cliffside: Detour eastbound v",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "20 Cliffside: Detour eastbound via Pharmacy Ave, Denton Ave, Victoria Park Ave, Gerrard St E and Main St due to construction.",
               "language": "en"
             }
           ]
@@ -569,6 +533,35 @@
       }
     },
     {
+      "id": "DevAPI-F2F7655D-AA28-4C7F-933D-68EBDEA3E18D",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "113"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "113 Danforth: Detour eastbound v",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "113 Danforth: Detour eastbound via Pharmacy Ave, Denton Ave, Victoria Park Ave, Gerrard St E and Main St due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-B011932D-273A-4794-94DE-4448E4F8B224",
       "alert": {
         "informedEntity": [
@@ -591,35 +584,6 @@
           "translation": [
             {
               "text": "301 Queen: No service near Lake Shore Blvd West at Kipling Ave while we respond to a medical emergency.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-4F165906-EE84-4A96-A4F5-EB4C84BEE9CD",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "505"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "505 Dundas: Detour eastbound via",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "505 Dundas: Detour eastbound via Spadina Ave, Adelaide St W and Church St due to a collision.",
               "language": "en"
             }
           ]
@@ -702,109 +666,6 @@
           "translation": [
             {
               "text": "Cedarvale: Elevator out of service between Line 5 platform, Line 1 northbound platform/east concourse, and upper concourse due to a technical problem.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-9497AB30-A3DB-4E03-8AB3-FC7479075F71",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "161"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "63"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "363"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "94"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Ossington: Elevator 5B1L out of",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Ossington: Elevator out of service between Ossington Ave entrance and bus platform, concourse and Line 2 eastbound platform while we perform maintenance.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-E13B562C-668D-4317-A220-CE0FFF27428E",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "20"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "20 Cliffside: Detour eastbound v",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "20 Cliffside: Detour eastbound via Pharmacy Ave, Denton Ave, Victoria Park Ave, Gerrard St E and Main St due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-9B8FD58B-6D88-48B4-9857-B093BF0EE26C",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "23"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "23 Dawes: Detour northbound via",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "23 Dawes: Detour northbound via Main St, Doncaster Ave, Barrington Ave and Secord Ave due to construction.",
               "language": "en"
             }
           ]
