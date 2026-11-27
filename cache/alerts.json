@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1795781990"
+    "timestamp": "1795814880"
   },
   "entity": [
     {
@@ -96,12 +96,12 @@
       }
     },
     {
-      "id": "DevAPI-15465AB6-CD8A-4C89-9C34-33418038B74B",
+      "id": "DevAPI-6FEA4C05-BE78-4E68-AAEA-6F26EE73D579",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "305"
+            "routeId": "24"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -109,7 +109,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "305 Dundas: Detour eastbound via",
+              "text": "24 Victoria Park: Detour via Yor",
               "language": "en"
             }
           ]
@@ -117,7 +117,7 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "305 Dundas: Detour eastbound via Parliament St and Gerrard St E while we respond to a medical emergency.",
+              "text": "24 Victoria Park: Detour via Yorkland Blvd, Yorkland Rd and Don Mills Rd due to a blocked road.",
               "language": "en"
             }
           ]
@@ -147,47 +147,6 @@
           "translation": [
             {
               "text": "79 Scarlett Rd: Detour northbound via Runnymede Rd, St Clair Ave W and Castleton Ave due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-D89378EB-ACC1-4CB5-82AA-8FB3496E1051",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "320"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "82"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "97"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "19"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Rosedale: Elevator 14Y1L out of",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Rosedale: Elevator out of service between Cresent Road entrance and Line 1 sourthbound platform while we perform maintenance.",
               "language": "en"
             }
           ]
@@ -293,64 +252,6 @@
       }
     },
     {
-      "id": "DevAPI-B011932D-273A-4794-94DE-4448E4F8B224",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "301"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "301 Queen: No service near Lake",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "301 Queen: No service near Lake Shore Blvd West at Kipling Ave while we respond to a medical emergency.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-1E3CFFEA-C411-443C-BB43-07AA4BD7F6DE",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "504"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "504 King: Detour westbound via C",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "504 King: Detour westbound via Church St, Richmond St E, York St, Queen St E and Spadina Ave due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-19148489-7614-42B1-B957-DD36413F9136",
       "alert": {
         "informedEntity": [
@@ -404,12 +305,24 @@
       }
     },
     {
-      "id": "DevAPI-CCC4120B-4AA5-4F09-926D-2E77D3FCA591",
+      "id": "DevAPI-A914F8AF-EC93-44F9-91F6-0CB6B4FF424A",
       "alert": {
         "informedEntity": [
           {
             "agencyId": "1",
-            "routeId": "53"
+            "routeId": "18"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "47"
           }
         ],
         "cause": "UNKNOWN_CAUSE",
@@ -417,7 +330,7 @@
         "headerText": {
           "translation": [
             {
-              "text": "53 Steeles East: Detour via Maxo",
+              "text": "Caledonia: Elevator ELV02-B out",
               "language": "en"
             }
           ]
@@ -425,7 +338,36 @@
         "descriptionText": {
           "translation": [
             {
-              "text": "53 Steeles East: Detour via Maxome Ave, Newton Dr and Bayview Ave due to construction.",
+              "text": "Caledonia: Elevator out of service between Eglinton Avenue north side entrance and concourse due to a technical problem.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-D2BDF2A4-3977-4F2A-AE8A-C0B329877F17",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "29"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "29 Dufferin: Detour via Princess",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "29 Dufferin: Detour via Princess Margaret Blvd and Manitoba Dr due to an event.",
               "language": "en"
             }
           ]
@@ -456,6 +398,180 @@
           "translation": [
             {
               "text": "Please look both ways for cyclists before exiting.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-15465AB6-CD8A-4C89-9C34-33418038B74B",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "305"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "305 Dundas: Detour eastbound via",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "305 Dundas: Detour eastbound via Parliament St and Gerrard St E while we respond to a medical emergency.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-B011932D-273A-4794-94DE-4448E4F8B224",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "301"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "301 Queen: No service near Lake",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "301 Queen: No service near Lake Shore Blvd West at Kipling Ave while we respond to a medical emergency.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-2EFF0FC0-8D27-422F-9F83-24ABE824DC42",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "102"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "102 Markham Rd: Detour via Highw",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "102 Markham Rd: Detour via Highway 7, Wootten Way, Fincham, 16th Ave, Williamson Rd, Bur Oak Ave and Markham Rd due to an event.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-1E3CFFEA-C411-443C-BB43-07AA4BD7F6DE",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "504"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "504 King: Detour westbound via C",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "504 King: Detour westbound via Church St, Richmond St E, York St, Queen St E and Spadina Ave due to a collision.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-9F30A611-2F15-4E77-B337-0D68517C5407",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "113"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "113 Danforth: Detour eastbound v",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "113 Danforth: Detour eastbound via Kennedy Rd, St Clair Ave E and Midland Ave due to a collision.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-CCC4120B-4AA5-4F09-926D-2E77D3FCA591",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "53"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "53 Steeles East: Detour via Maxo",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "53 Steeles East: Detour via Maxome Ave, Newton Dr and Bayview Ave due to construction.",
               "language": "en"
             }
           ]
