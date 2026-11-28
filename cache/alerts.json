@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1795836453"
+    "timestamp": "1795867955"
   },
   "entity": [
     {
@@ -96,64 +96,6 @@
       }
     },
     {
-      "id": "DevAPI-6FEA4C05-BE78-4E68-AAEA-6F26EE73D579",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "24"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "24 Victoria Park: Detour via Yor",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "24 Victoria Park: Detour via Yorkland Blvd, Yorkland Rd and Don Mills Rd due to a blocked road.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-24E5D232-3994-44AE-A5AD-65651BDA8C4A",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "29"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "29 Dufferin: Detour via Dufferin",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "29 Dufferin: Detour via Dufferin St, Princess Ave and Manitoba Dr due to a blocked road.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-43495798-AC4F-433E-B08C-A15A8A7A676A",
       "alert": {
         "informedEntity": [
@@ -176,100 +118,6 @@
           "translation": [
             {
               "text": "79 Scarlett Rd: Detour northbound via Runnymede Rd, St Clair Ave W and Castleton Ave due to construction.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-7213EAA0-F5AA-4E98-BF8A-E72BB0AB0A54",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "17"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "17 Birchmount: Detour northbound",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "17 Birchmount: Detour northbound via Canadian Rd and Principal Rd due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-48E3B2E7-6721-4D57-A795-8A9ACA2CDD10",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "62"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "20"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "23"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "300"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "64"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "113"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "87"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "135"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "506"
-          },
-          {
-            "agencyId": "1",
-            "routeId": "306"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "Line 2 Bloor-Danforth: Trains ar",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "Line 2 Bloor-Danforth: Bypass at Main Street station due to a security incident. Thank you for your patience.",
               "language": "en"
             }
           ]
@@ -375,64 +223,6 @@
       }
     },
     {
-      "id": "DevAPI-153047A3-6B2F-466B-B91D-383B5F812AA1",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "506"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "506 Carlton: Detour via Dundas S",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "506 Carlton: Detour via Dundas St W and Parliament St due to a blocked track.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-51424BBD-AD19-4908-BB04-3183F85B4C1D",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "68"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "68 Warden: Detour southbound via",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "68 Warden: Detour southbound via Bertrand Ave, Thermos Rd and Eglinton Ave E due to a collision.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-19148489-7614-42B1-B957-DD36413F9136",
       "alert": {
         "informedEntity": [
@@ -527,64 +317,6 @@
       }
     },
     {
-      "id": "DevAPI-DE5B34D3-64A8-4452-BEEF-898923E1EC01",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "929"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "929 Dufferin Express: Detour via",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "929 Dufferin Express: Detour via Dufferin St, Princess Ave and Manitoba Dr due to a blocked road.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-D2BDF2A4-3977-4F2A-AE8A-C0B329877F17",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "29"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "29 Dufferin: Detour via Princess",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "29 Dufferin: Detour via Princess Margaret Blvd and Manitoba Dr due to an event.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "DevAPI-B92AA726-C18D-4D57-9DDB-7198D18222D9",
       "alert": {
         "informedEntity": [
@@ -615,6 +347,35 @@
       }
     },
     {
+      "id": "DevAPI-5691A803-4CE4-416F-88AE-6F77DAE9E625",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "75"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "75 Sherbourne: Detour northbound",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "75 Sherbourne: Detour northbound via Wellesley Ave, Jarvis St and Bloor St E due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "DevAPI-15465AB6-CD8A-4C89-9C34-33418038B74B",
       "alert": {
         "informedEntity": [
@@ -637,35 +398,6 @@
           "translation": [
             {
               "text": "305 Dundas: Detour eastbound via Parliament St and Gerrard St E while we respond to a medical emergency.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "DevAPI-AC830427-2EA8-4F8C-AD68-AF5430C1A8D7",
-      "alert": {
-        "informedEntity": [
-          {
-            "agencyId": "1",
-            "routeId": "504"
-          }
-        ],
-        "cause": "UNKNOWN_CAUSE",
-        "effect": "UNKNOWN_EFFECT",
-        "headerText": {
-          "translation": [
-            {
-              "text": "504 King: Delays between Broadvi",
-              "language": "en"
-            }
-          ]
-        },
-        "descriptionText": {
-          "translation": [
-            {
-              "text": "504 King: Delays between Broadview Station at Bay 7 and Dundas West Station at Bay 4 due to traffic congestion.",
               "language": "en"
             }
           ]
@@ -724,6 +456,196 @@
           "translation": [
             {
               "text": "504 King: Detour westbound via Church St, Richmond St E, York St, Queen St E and Spadina Ave due to a collision.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-F17F1773-3892-436A-821F-FFF68F959396",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "75"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "75 Sherbourne: Detour southbound",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "75 Sherbourne: Detour southbound via Bloor St E, Rogers Rd, Jarvis St and Wellesley Ave due to construction.",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "DevAPI-63AA1E75-42DC-4B3D-973B-BB499A131054",
+      "alert": {
+        "informedEntity": [
+          {
+            "agencyId": "1",
+            "routeId": "8"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "905"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "117"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "986"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "943"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "86"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "102"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "129"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "154"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "968"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "16"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "116"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "938"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "903"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "133"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "131"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "68"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "20"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "38"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "300"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "12"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "34"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "69"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "21"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "17"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "902"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "43"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "334"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "9"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "113"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "135"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "57"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "343"
+          },
+          {
+            "agencyId": "1",
+            "routeId": "386"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "headerText": {
+          "translation": [
+            {
+              "text": "Line 2 Bloor-Danforth: There is",
+              "language": "en"
+            }
+          ]
+        },
+        "descriptionText": {
+          "translation": [
+            {
+              "text": "There is no subway service on Line 2 Bloor-Danforth between Warden and Kennedy stations due to planned track work. Shuttle buses are running. Follow the station signs or speak to a TTC employee for help. Service will resume November 30.",
               "language": "en"
             }
           ]
